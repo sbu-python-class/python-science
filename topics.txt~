@@ -1,0 +1,41 @@
+-- introduction to python
+
+-- introduction to the numpy array library
+
+-- introduction to scipy: a library of numerical tools for scientific
+   programming
+
+-- introduction to matplotlib: a scientific visualization package
+
+-- MayaVi for 3-d visualization
+
+-- IPython notebooks
+
+-- introduction to sympy: symbolic mathematics in python
+
+-- basic numerical methods
+
+-- building applications
+
+-- filesystem operations
+
+-- nose for unit testing
+
+
+links:
+
+http://www.scientificpython.net/
+
+
+
+other courses:
+
+ -- Washington: http://www.astro.washington.edu/users/vanderplas/Astr599/
+
+ -- Berkeley: http://www.pythonbootcamp.info/
+
+ -- Bonn: http://www.astro.uni-bonn.de/~rschaaf/Python2008/
+
+ -- Illinois: http://sipapu.astro.illinois.edu/~ricker/teaching/astr596pca.html
+
+
