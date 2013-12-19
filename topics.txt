@@ -1,3 +1,8 @@
+general:
+
+   python: all a scientist needs
+   http://arxiv.org/abs/0803.1838
+
 -- introduction to python (2 lectures)
 
 -- introduction to the numpy array library (1 lecture)
@@ -13,11 +18,24 @@
 
 -- MayaVi for 3-d visualization (1 lecture)
 
+   * download Hipparcos data from: http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=multisearch2
+
+     (select search by parallax and limit between 20 and 100)
+
+     fields are described here: http://www.rssd.esa.int/SA/HIPPARCOS/docs/vol1_all.pdf
+
+     make a plot in 3-d with the stars close to the Sun and show how you
+     can rotate around it.
+
 -- introduction to sympy: symbolic mathematics in python (1 lecture)
 
 -- building applications (1 lecture)
 
 -- f2py and C extensions (1 lecture)
+
+   use ctypes:
+   http://stackoverflow.com/questions/145270/calling-c-c-from-python
+
 
 -- filesystem operations (0.5 lecture)
 
