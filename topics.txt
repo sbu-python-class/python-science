@@ -3,6 +3,8 @@ general:
    python: all a scientist needs
    http://arxiv.org/abs/0803.1838
 
+http://python4astronomers.github.io/
+
 -- introduction to python (2 lectures)
 
 -- introduction to the numpy array library (1 lecture)
