@@ -41,6 +41,8 @@ general:
 
 -- nose for unit testing (0.5 lecture)
 
+-- GUIs?
+
 
 links:
 
