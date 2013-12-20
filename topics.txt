@@ -63,3 +63,22 @@ other courses:
  -- Illinois: http://sipapu.astro.illinois.edu/~ricker/teaching/astr596pca.html
 
 
+examples:
+
+  -- Hipparcos data reading and plotting
+
+  -- ODEs w/ SciPy: Lorenz attractor
+
+  -- something with fitting/regression (incl. non-linear model)
+
+  -- something biological (sequencing? -- look at that python biology paper)
+
+  -- image processing w/ FFTs (filters, signal processing)
+
+  -- CSV
+
+  -- QM tunnelling program showing matplotlab
+
+  -- animations
+
+
