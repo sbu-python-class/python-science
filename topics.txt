@@ -3,6 +3,8 @@ general:
    python: all a scientist needs
    http://arxiv.org/abs/0803.1838
 
+http://python4astronomers.github.io/
+
 -- introduction to python (2 lectures)
 
      -- data structures and control statements
@@ -62,5 +64,24 @@ other courses:
  -- Bonn: http://www.astro.uni-bonn.de/~rschaaf/Python2008/
 
  -- Illinois: http://sipapu.astro.illinois.edu/~ricker/teaching/astr596pca.html
+
+
+examples:
+
+  -- Hipparcos data reading and plotting
+
+  -- ODEs w/ SciPy: Lorenz attractor
+
+  -- something with fitting/regression (incl. non-linear model)
+
+  -- something biological (sequencing? -- look at that python biology paper)
+
+  -- image processing w/ FFTs (filters, signal processing)
+
+  -- CSV
+
+  -- QM tunnelling program showing matplotlab
+
+  -- animations
 
 
