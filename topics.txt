@@ -5,6 +5,9 @@ general:
 
 -- introduction to python (2 lectures)
 
+     -- data structures and control statements
+     -- functions, classes, popular modules
+
 -- introduction to the numpy array library (1 lecture)
 
 -- IPython notebooks (1 lecture)
