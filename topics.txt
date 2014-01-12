@@ -9,6 +9,7 @@ http://python4astronomers.github.io/
 
      -- data structures and control statements
      -- functions, classes, popular modules
+     -- decorators http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
 
 -- introduction to the numpy array library (1 lecture)
 
