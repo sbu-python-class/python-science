@@ -1,0 +1,12 @@
+need to install python-matplotlib-qt4
+
+then
+
+ipython --pylab
+
+also can do
+
+ipython notebook
+
+fun bits in the notebook -- keep hitting `tab' to learn more
+
