@@ -7,6 +7,10 @@ http://python4astronomers.github.io/
 
 -- introduction to python (2 lectures)
 
+     -- data structures and control statements
+     -- functions, classes, popular modules
+     -- decorators http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
+
 -- introduction to the numpy array library (1 lecture)
 
 -- IPython notebooks (1 lecture)
@@ -45,7 +49,9 @@ http://python4astronomers.github.io/
 
 -- GUIs?
 
+  o need to install Tkinter and python-matplotlib-qt4
 
+  o the "Programming Python" book by Lutz has a lot about tkinter
 links:
 
 http://www.scientificpython.net/

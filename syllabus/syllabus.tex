@@ -1,13 +1,32 @@
 \documentclass[11pt]{article}
 
-\usepackage[margin=1in,tmargin=0.5in]{geometry}
+\usepackage[margin=0.75in,tmargin=0.5in]{geometry}
 \usepackage{mathpazo}
+
+\usepackage{inconsolata}
+\usepackage[T1]{fontenc}
+
+\usepackage{hyperref}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyfoot[LO,LE]{Python for Scientific Computing/Spring 2014}
+\fancyfoot[RO,RE]{revision 1.01 (2014-01-17)}
+\fancyfoot[CO,CE]{\thepage}
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+
+
 
 \begin{document}
 
 \begin{center}
 {\Large \bf PHY 683: Python for Scientific Computing} \\[0.25em]
-{\em instructor}\/: Michael Zingale \\
+{\em instructor}\/: Michael Zingale, ESS 452, michael.zingale@stonybrook.edu \\
 {\em date/location}\/: Mondays, 3:00--3:53~pm in ESS 450
 \end{center}
 
@@ -16,12 +35,157 @@ The learning goal of this course is to enhance scholarship in an area
 of active research
 
 \ \\
+\noindent {\bf Contacting the Instructor:}  \\
+{\em e-mail:} michael.zingale@stonybrook.edu ({add ``PHY 683'' to the
+ start of the subject line of any e-mail}). 
+%
+\begin{tabbing}
+\noindent {\em office hours:} \= Mon.\ \=10:00~am \=to \=11:30~am \\
+                              \> Thurs.\ \>\phantom{0}1:00~pm \>to \>\phantom{0}2:30~pm 
+\end{tabbing}
+Generally, I am in my office every day this semester, except for Wednesdays.
+
+\ \\
+\noindent {\bf Webpage:} \\
+The webpage for this class is \url{http://bender.astro.sunysb.edu/python_science} \, .
+
+\ \\
+\noindent {\bf Texts:} \\
+There are no textbooks for this class.  There is a large amount of 
+information available online---links will be provided on the class webpage.
+
+\ \\
 \noindent {\bf Lecture Topics:} \\
+We will (try to) discuss the following topics in the course:
+\begin{itemize}
+\item {\em Introduction to Python} (3 lectures) \\
+     data structures and control statements, functions, classes, popular modules,
+     decorators (?)
+
+\item {\em Introduction to the NumPy array library} (1 lecture)
+
+\item {\em matplotlib for visualization} (1 lecture)
+
+\item {\em IPython} (1 lecture)
+
+\item {\em SciPy and numerical methods} (2--3 lectures)
+
+\item {\em MayaVi for 3-d visualization} (0.5 lectures)
+
+\item {\em Introduction to SymPy} (1 lecture)
+
+\item {\em Building applications} (1 lecture)
+
+\item {\em f2py and C extensions} (1 lecture)
+
+\item {\em System operations} (0.5 lecture)
+
+\item {\em GUIs} (1 lecture)
+
+\end{itemize}
+
+\noindent The actual course topics and time spent on each topic will depend on the
+interest and the participation level of the class.
 
 \ \\
 \noindent {\bf Evaluation:} \\
+Students are expected to attend the class and to contribute
+to the discussions (by asking questions, proposing examples, or
+providing demonstrations of their own).  As we meet only one hour per
+week, students show plan on spending time outside of class reviewing
+and practicing the material we discussed. 
 
-\ \\
+An `A' student will be present at each class with questions about the 
+material and, eventually, provide some basic examples from their own field
+to the class.
+
+
+\clearpage
 \noindent {\bf Required Syllabus Statements:} \\
+
+\noindent
+{\em Americans with Disabilities Act: } 
+%
+If you have a physical, psychological, medical or learning disability
+that may impact your course work, please contact Disability Support
+Services, ECC (Educational Communications Center) Building, Room 128,
+(631) 632-6748. They will determine with you what accommodations, if
+any, are necessary and appropriate. All information and documentation
+is confidential.
+
+
+\ \\[-1.5mm]
+\noindent
+{\em Academic Integrity: }
+%
+Each student must pursue his or her academic goals honestly and be
+personally accountable for all submitted work.  Representing another
+person's work as your own is always wrong.  Faculty are required to
+report any suspected instances of academic dishonesty to the Academic
+Judiciary. Faculty in the Health Sciences Center (School of Health
+Technology \& Management, Nursing, Social Welfare, Dental Medicine) and
+School of Medicine are required to follow their school-specific
+procedures. For more comprehensive information on academic integrity,
+including categories of academic dishonesty, please refer to the
+academic judiciary website at
+\url{http://www.stonybrook.edu/uaa/academicjudiciary/}
+
+\ \\[-1.5mm]
+\noindent
+{\em Critical Incident Management: }
+%
+Stony Brook University expects students to respect the rights,
+privileges, and property of other people. Faculty are required to
+report to the Office of Judicial Affairs any disruptive behavior that
+interrupts their ability to teach, compromises the safety of the
+learning environment, or inhibits students' ability to learn.  Faculty
+in the HSC Schools and the School of Medicine are required to follow
+their school-specific procedures.
+
+\ \\[-1.5mm]
+{\em Electronic Communication: }
+%
+Email to your University email account is an important way of
+communicating with you for this course.  For most students the email
+address is:\\[0.25em] `firstname.lastname@stonybrook.edu'\\[0.25em]
+and the account can be
+accessed here.
+{\em It is your responsibility to read your email received at this
+  account.}
+For instructions about how to verify your University email address see
+this: \\[0.25em]
+\url{http://it.stonybrook.edu/help/kb/checking-or-changing-your-mail-forwarding-address-in-the-epo} \\[0.25em]
+%
+You can set up email forwarding using instructions here: \\[0.25em]
+\url{http://it.stonybrook.edu/help/kb/setting-up-mail-forwarding-in-google-mail}
+\\[0.25em]
+%
+If you choose to forward your University email to another account, we
+are not responsible for any undeliverable messages.
+
+\ \\[-1.5mm]
+\noindent 
+{\em Religious Observances: }
+%
+See the policy statement regarding religious holidays at \\[0.25em]
+{\footnotesize \url{http://www.stonybrook.edu/commcms/provost/pdfs/Policy\%20Statement\%20Regarding\%20Religious\%20Holidays\%20revised.docx}}
+\\[0.25em]
+%
+Students are expected to notify the course professors by email of
+their intention to take time out for religious observance.  This
+should be done as soon as possible but definitely before the end of
+the `add/drop' period.  At that time they can discuss with the
+instructor(s) how they will be able to make up the work covered.
+
+
+
+
+
+
+\ \\[3 mm]
+\noindent
+(information on the above required syllabus statements can be found at \\
+\url{http://www.stonybrook.edu/commcms/provost/category/faculty/policies.html}\,)
+
 
 \end{document}
