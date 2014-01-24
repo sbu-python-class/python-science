@@ -1,0 +1,10 @@
+need to install python-matplotlib-qt4
+
+then
+
+ipython --pylab
+
+also can do
+
+ipython notebook
+
