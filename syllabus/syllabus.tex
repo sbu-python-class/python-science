@@ -14,11 +14,20 @@
 
 \fancyhead{}
 \fancyfoot[LO,LE]{Python for Scientific Computing/Spring 2014}
-\fancyfoot[RO,RE]{revision 1.02 (2014-01-24)}
+\fancyfoot[RO,RE]{revision 1.03 (2014-01-27)}
 \fancyfoot[CO,CE]{\thepage}
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.0pt}
 
+
+\newenvironment{squishlist}
+  {\begin{itemize}
+    % set spacing between items
+    \addtolength{\itemsep}{-0.33\baselineskip}
+    % set spacing between lines
+    %\addtolength{\baselineskip}{-0.25\baselineskip}
+   }
+  { \end{itemize} }
 
 
 
@@ -32,7 +41,12 @@
 
 \noindent {\bf Learning Goals:} \\
 The learning goal of this course is to enhance scholarship in an area
-of active research
+of active research.
+
+\ \\
+\noindent {\bf Credit:} \\
+This is a 1-credit course.
+
 
 \ \\
 \noindent {\bf Contacting the Instructor:}  \\
@@ -57,7 +71,7 @@ information available online---links will be provided on the class webpage.
 \ \\
 \noindent {\bf Lecture Topics:} \\
 We will (try to) discuss the following topics in the course:
-\begin{itemize}
+\begin{squishlist}
 \item {\em Basics of Computing} (0.5 lectures) 
 
 \item {\em Introduction to Python} (3 lectures) \\
@@ -83,7 +97,7 @@ We will (try to) discuss the following topics in the course:
 
 \item {\em GUIs} (1 lecture)
 
-\end{itemize}
+\end{squishlist}
 
 \noindent The actual course topics and time spent on each topic will depend on the
 interest and the participation level of the class.

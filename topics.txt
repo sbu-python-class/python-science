@@ -42,6 +42,12 @@ http://python4astronomers.github.io/
    use ctypes:
    http://stackoverflow.com/questions/145270/calling-c-c-from-python
 
+   Cython: get performance from your python code:
+   http://en.wikipedia.org/wiki/Cython
+
+   weave
+
+   f2py
 
 -- filesystem operations (0.5 lecture)
 
