@@ -33,6 +33,8 @@ http://python4astronomers.github.io/
      make a plot in 3-d with the stars close to the Sun and show how you
      can rotate around it.
 
+-- VPython for simple 3-d figures
+
 -- introduction to sympy: symbolic mathematics in python (1 lecture)
 
 -- building applications (1 lecture)
