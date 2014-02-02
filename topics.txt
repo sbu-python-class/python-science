@@ -5,26 +5,44 @@ general:
 
 http://python4astronomers.github.io/
 
+use IPython notebooks
+
+
 -- introduction to python (2 lectures)
 
      -- data structures and control statements
      -- functions, classes, popular modules
      -- decorators http://simeonfranklin.com/blog/2012/jul/1/python-decorators-in-12-steps/
 
+
 -- introduction to the numpy array library (1 lecture)
+
+   o show the radial average code in pyro
+
 
 -- IPython notebooks (1 lecture)
 
+
 -- basic numerical methods (1 lecture)
+
 
 -- introduction to scipy: a library of numerical tools for scientific
    programming (2 lectures)
 
+   o reading in different data:
+
+     - CSV
+     - loadfile from NumPy
+     - HDF5?
+
+
 -- introduction to matplotlib: a scientific visualization package (2 lectures)
+
 
 -- MayaVi for 3-d visualization (1 lecture)
 
-   * download Hipparcos data from: http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=multisearch2
+   o download Hipparcos data from: 
+     http://www.rssd.esa.int/index.php?project=HIPPARCOS&page=multisearch2
 
      (select search by parallax and limit between 20 and 100)
 
@@ -37,7 +55,15 @@ http://python4astronomers.github.io/
 
 -- introduction to sympy: symbolic mathematics in python (1 lecture)
 
+
 -- building applications (1 lecture)
+
+    o show pyro
+
+    o commandline switches
+
+    o inputs file
+
 
 -- f2py and C extensions (1 lecture)
 
@@ -53,14 +79,22 @@ http://python4astronomers.github.io/
 
 -- filesystem operations (0.5 lecture)
 
+   o backup script example
+
+   o test suite example
+ 
+   o regular expressions (show the Fortran dependency code)
+
+
 -- nose for unit testing (0.5 lecture)
+
 
 -- GUIs?
 
-  o need to install Tkinter and python-matplotlib-qt4
+   o need to install Tkinter and python-matplotlib-qt4
 
-  o the "Programming Python" book by Lutz has a lot about tkinter
-links:
+   o the "Programming Python" book by Lutz has a lot about tkinter
+     links:
 
 http://www.scientificpython.net/
 
