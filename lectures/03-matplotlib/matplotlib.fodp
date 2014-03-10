@@ -10,7 +10,7 @@
    <config:config-item config:name="VisibleAreaHeight" config:type="int">21662</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
-     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
      <config:config-item config:name="GridIsVisible" config:type="boolean">true</config:config-item>
      <config:config-item config:name="GridIsFront" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsSnapToGrid" config:type="boolean">true</config:config-item>
@@ -29,7 +29,7 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">5</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">6</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
@@ -37,10 +37,10 @@
      <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-336</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-7728</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">43468</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">21630</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-762</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-441</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">29185</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">22771</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">254</config:config-item>
@@ -51,7 +51,6 @@
      <config:config-item config:name="GridSnapWidthYDenominator" config:type="int">1</config:config-item>
      <config:config-item config:name="IsAngleSnapEnabled" config:type="boolean">false</config:config-item>
      <config:config-item config:name="SnapAngle" config:type="int">1500</config:config-item>
-     <config:config-item config:name="ZoomOnPage" config:type="boolean">true</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
   </config:config-item-set>
@@ -110,6 +109,7 @@
   </office:script>
  </office:scripts>
  <office:font-face-decls>
+  <style:font-face style:name="Inconsolata" svg:font-family="Inconsolata" style:font-pitch="fixed"/>
   <style:font-face style:name="Courier New1" svg:font-family="&apos;Courier New&apos;" style:font-family-generic="modern" style:font-pitch="fixed"/>
   <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-family-generic="modern" style:font-pitch="variable"/>
   <style:font-face style:name="Courier New" svg:font-family="&apos;Courier New&apos;" style:font-family-generic="modern" style:font-pitch="variable"/>
@@ -736,7 +736,13 @@
    <style:text-properties fo:color="#0000ff"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
+   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
    <style:text-properties fo:color="#ff0000"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties style:font-name="Inconsolata"/>
   </style:style>
   <text:list-style style:name="L1">
    <text:list-level-style-bullet text:level="1" text:bullet-char="●">
@@ -1102,7 +1108,7 @@
         <text:p>Matplotlib is the standard plotting library for scientific python</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T3">Design objectives</text:span> (from the matplotlib documentation):</text:p>
+          <text:p><text:span text:style-name="T3">Design objectives</text:span> <text:span text:style-name="T4">(from the matplotlib documentation)</text:span>:</text:p>
           <text:list>
            <text:list-item>
             <text:p>Plots should look great - publication quality. <text:s/>One important requirement for me is that the text looks good (antialiased, etc.)</text:p>
@@ -1130,7 +1136,7 @@
         <text:p>Active development with lots of new features</text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T4">Best way to figure out how to do something: look at the gallery</text:span></text:p>
+        <text:p><text:span text:style-name="T5">Best way to figure out how to do something: look at the gallery</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -1149,14 +1155,42 @@
       <text:p>Importing</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="13.564cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="16.002cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
         <text:p>There are several interfaces to matplotlib that provide varying amounts of access to its underlying functionality</text:p>
         <text:list>
          <text:list-item>
-          <text:p>See http://matplotlib.org/faq/usage_faq.html</text:p>
+          <text:p>See <text:a xlink:href="http://matplotlib.org/faq/usage_faq.html" xlink:type="simple">http://matplotlib.org/faq/usage_faq.html</text:a></text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">matplotlib</text:span> is the entire package</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">matplotlib.pyplot</text:span> is a module within <text:span text:style-name="T6">matplotlib</text:span> that provides easy access to the core plotting routines</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">pylab</text:span> combines <text:span text:style-name="T6">pyplot</text:span> and <text:span text:style-name="T6">numpy</text:span> into a single namespace to give a MatLab like interface</text:p>
+          <text:list>
+           <text:list-item>
+            <text:p>This is best for interactive work</text:p>
+           </text:list-item>
+          </text:list>
+         </text:list-item>
+        </text:list>
+       </text:list-item>
+       <text:list-item>
+        <text:p>A number of toolkits extend the functionality</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">basemap</text:span> and <text:span text:style-name="T6">cartopy</text:span>: mapping (e.g. projecting onto a globe, geographical boundaries)</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">mplot3d</text:span>: basic 3-d plotting</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">AxesGrid</text:span>: high-level methods for arranging multiple plots together in a figure</text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -1182,7 +1216,12 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>Figures are the highest level object and can include multiple axes (see http://matplotlib.org/users/pyplot_tutorial.html)</text:p>
+        <text:p>Figures are the highest level object and can include multiple axes (see <text:a xlink:href="http://matplotlib.org/users/pyplot_tutorial.html" xlink:type="simple">http://matplotlib.org/users/pyplot_tutorial.html</text:a>)</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p>There are many matplotlib routines to subdivide a figure into multiple subplots</text:p>
+         </text:list-item>
+        </text:list>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -1202,8 +1241,43 @@
       <text:p>Backends</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="13.564cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
-     <draw:text-box/>
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="15.748cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>matplotlib can output to a number of different devices—the backends provide this functionality</text:p>
+       </text:list-item>
+       <text:list-item>
+        <text:p>Interactive backends:</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p>pygtk, wxpython, tkinter, q3, macosx</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>These allow for plotting to the screen, and updates with each command (if desired)</text:p>
+         </text:list-item>
+        </text:list>
+       </text:list-item>
+       <text:list-item>
+        <text:p>Hardcopy backends:</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p>PNG, SVG, PDF, PS</text:p>
+         </text:list-item>
+        </text:list>
+       </text:list-item>
+       <text:list-item>
+        <text:p>To select a backend:</text:p>
+        <text:list>
+         <text:list-header>
+          <text:p><text:span text:style-name="T6">import matplotlib</text:span></text:p>
+          <text:p><text:span text:style-name="T6">matplotlib.use(&apos;PS&apos;)</text:span></text:p>
+          <text:p><text:span text:style-name="T6">import matplotlib.pyplot</text:span></text:p>
+         </text:list-header>
+        </text:list>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
      <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
@@ -1220,8 +1294,22 @@
       <text:p>IPython and matplotlib</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="13.564cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
-     <draw:text-box/>
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="13.564cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>IPython supports matplotlib:</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">Ipython --pylab</text:span> will pop up a window in interactive mode</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T6">%pylab inline</text:span> magic in notebooks</text:p>
+         </text:list-item>
+        </text:list>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
      <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
@@ -1238,8 +1326,14 @@
       <text:p>Some Examples</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="13.564cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
-     <draw:text-box/>
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="13.564cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>There are far more examples than we can cover—we&apos;ll see more as the class goes on.</text:p>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
      <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
