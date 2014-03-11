@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
+ <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2014-01-24T15:13:37.372298707</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>PT15H1M57S</meta:editing-duration><meta:editing-cycles>50</meta:editing-cycles><meta:generator>LibreOffice/4.2.1.1$Linux_X86_64 LibreOffice_project/26a1723cf76a13083d95d000339db660a19140b7</meta:generator><meta:document-statistic meta:object-count="50"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">1306</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">615</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item config:name="GridIsVisible" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridIsFront" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToPageMargins" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToSnapLines" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToObjectFrame" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToObjectPoints" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsPlusHandlesAlwaysVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsFrameDragSingles" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="EliminatePolyPointLimitAngle" config:type="int">1500</config:config-item>
+     <config:config-item config:name="IsEliminatePolyPoints" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="VisibleLayers" config:type="base64Binary">//////////////////////////////////////////8=</config:config-item>
+     <config:config-item config:name="PrintableLayers" config:type="base64Binary">//////////////////////////////////////////8=</config:config-item>
+     <config:config-item config:name="LockedLayers" config:type="base64Binary"/>
+     <config:config-item config:name="NoAttribs" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">3</config:config-item>
+     <config:config-item config:name="IsLayerMode" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
+     <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
+     <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
+     <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-326</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-692</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">29634</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">21819</config:config-item>
+     <config:config-item config:name="GridCoarseWidth" config:type="int">2540</config:config-item>
+     <config:config-item config:name="GridCoarseHeight" config:type="int">2540</config:config-item>
+     <config:config-item config:name="GridFineWidth" config:type="int">254</config:config-item>
+     <config:config-item config:name="GridFineHeight" config:type="int">254</config:config-item>
+     <config:config-item config:name="GridSnapWidthXNumerator" config:type="int">254</config:config-item>
+     <config:config-item config:name="GridSnapWidthXDenominator" config:type="int">1</config:config-item>
+     <config:config-item config:name="GridSnapWidthYNumerator" config:type="int">254</config:config-item>
+     <config:config-item config:name="GridSnapWidthYDenominator" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsAngleSnapEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="SnapAngle" config:type="int">1500</config:config-item>
+     <config:config-item config:name="ZoomOnPage" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="BitmapTableURL" config:type="string">$(user)/config/standard.sob</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="ColorTableURL" config:type="string">$(user)/config/standard.soc</config:config-item>
+   <config:config-item config:name="DashTableURL" config:type="string">$(user)/config/standard.sod</config:config-item>
+   <config:config-item config:name="DefaultTabStop" config:type="int">1270</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">en</config:config-item>
+     <config:config-item config:name="Country" config:type="string">US</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+   <config:config-item config:name="GradientTableURL" config:type="string">$(user)/config/standard.sog</config:config-item>
+   <config:config-item config:name="HandoutsHorizontal" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HatchTableURL" config:type="string">$(user)/config/standard.soh</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintBooklet" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintBookletBack" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintBookletFront" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintDate" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintDrawing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintFitPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintHandout" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintHiddenPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintNotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintOutline" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintPageName" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintTilePage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintTime" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LineEndTableURL" config:type="string">$(user)/config/standard.soe</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PageNumberFormat" config:type="int">4</config:config-item>
+   <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">hp</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">kgH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAuAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpQYWdlU2l6ZTpMZXR0ZXIASW5wdXRTbG90OkF1dG8ARHVwbGV4Ok5vbmUAABIAQ09NUEFUX0RVUExFWF9NT0RFCgBEVVBMRVhfT0ZG</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Inconsolata" svg:font-family="Inconsolata" style:font-pitch="fixed"/>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Times New Roman1" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Lohit Devanagari" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Tahoma" svg:font-family="Tahoma" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="WenQuanYi Zen Hei Sharp" svg:font-family="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <draw:marker draw:name="Arrow" svg:viewBox="0 0 20 30" svg:d="M10 0l-10 30h20z"/>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#808080" draw:fill-color="#cfe7f5" fo:wrap-option="no-wrap"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Times New Roman" fo:font-size="24pt" fo:language="en" fo:country="US" style:font-name-asian="DejaVu Sans" style:font-size-asian="24pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Tahoma" style:font-size-complex="24pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:style style:name="standard" style:family="graphic">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#808080" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:marker-end-width="0.2cm" draw:marker-end-center="false" draw:fill="solid" draw:fill-color="#cfe7f5" draw:textarea-horizontal-align="justify" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080">
+    <text:list-style style:name="standard">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="objectwitharrow" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.15cm" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.7cm" draw:marker-start-center="true" draw:marker-end-width="0.3cm"/>
+  </style:style>
+  <style:style style:name="objectwithshadow" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+  </style:style>
+  <style:style style:name="objectwithoutfill" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties svg:stroke-color="#000000" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="Object_20_with_20_no_20_fill_20_and_20_no_20_line" style:display-name="Object with no fill and no line" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="text" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="textbody" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:text-properties fo:font-size="16pt"/>
+  </style:style>
+  <style:style style:name="textbodyjustfied" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:text-align="justify"/>
+  </style:style>
+  <style:style style:name="textbodyindent" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0.6cm"/>
+  </style:style>
+  <style:style style:name="title" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:text-properties fo:font-size="44pt"/>
+  </style:style>
+  <style:style style:name="title1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#008080" draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="24pt"/>
+  </style:style>
+  <style:style style:name="title2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties svg:stroke-width="0.05cm" draw:fill-color="#ffcc99" draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0.2cm" fo:margin-top="0.1cm" fo:margin-bottom="0.1cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="36pt"/>
+  </style:style>
+  <style:style style:name="headline" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="24pt"/>
+  </style:style>
+  <style:style style:name="headline1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="18pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="headline2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="measure" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.2cm" draw:marker-end="Arrow" draw:marker-end-width="0.2cm" draw:fill="none" draw:show-unit="true"/>
+   <style:text-properties fo:font-size="12pt"/>
+  </style:style>
+  <style:style style:name="Default-background" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:text-properties style:letter-kerning="true"/>
+  </style:style>
+  <style:style style:name="Default-backgroundobjects" style:family="presentation">
+   <style:graphic-properties draw:textarea-horizontal-align="justify" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:text-properties style:letter-kerning="true"/>
+  </style:style>
+  <style:style style:name="Default-notes" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Default-outline1" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+    <text:list-style style:name="Default-outline1">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="–">
+      <style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="–">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.5cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="26pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="26pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="26pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Default-outline2" style:family="presentation" style:parent-style-name="Default-outline1">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.4cm"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="Default-outline3" style:family="presentation" style:parent-style-name="Default-outline2">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.3cm"/>
+   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+  </style:style>
+  <style:style style:name="Default-outline4" style:family="presentation" style:parent-style-name="Default-outline3">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.2cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Default-outline5" style:family="presentation" style:parent-style-name="Default-outline4">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Default-outline6" style:family="presentation" style:parent-style-name="Default-outline5">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Default-outline7" style:family="presentation" style:parent-style-name="Default-outline6">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Default-outline8" style:family="presentation" style:parent-style-name="Default-outline7">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Default-outline9" style:family="presentation" style:parent-style-name="Default-outline8">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Default-subtitle" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="Default-subtitle">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Default-title" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="Default-title">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-background" style:display-name="11.02x8.27%20title%20standard-background" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#c0c0c0" draw:fill-image-width="0cm" draw:fill-image-height="0cm"/>
+   <style:text-properties style:letter-kerning="true"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-backgroundobjects" style:display-name="11.02x8.27%20title%20standard-backgroundobjects" style:family="presentation">
+   <style:graphic-properties draw:textarea-horizontal-align="justify" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:text-properties style:letter-kerning="true"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-notes" style:display-name="11.02x8.27%20title%20standard-notes" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="26.3999996185303pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="26.3999996185303pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="26.3999996185303pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline1" style:display-name="11.02x8.27%20title%20standard-outline1" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+    <text:list-style style:name="_31_1.02x8.27_25_20title_25_20standard-outline1" style:display-name="11.02x8.27%20title%20standard-outline1">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="–">
+      <style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="–">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.5cm" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="26pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="26pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="26pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline2" style:display-name="11.02x8.27%20title%20standard-outline2" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline1">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.4cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline3" style:display-name="11.02x8.27%20title%20standard-outline3" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline2">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.3cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline4" style:display-name="11.02x8.27%20title%20standard-outline4" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline3">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.2cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline5" style:display-name="11.02x8.27%20title%20standard-outline5" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline4">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline6" style:display-name="11.02x8.27%20title%20standard-outline6" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline5">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline7" style:display-name="11.02x8.27%20title%20standard-outline7" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline6">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline8" style:display-name="11.02x8.27%20title%20standard-outline8" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline7">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-outline9" style:display-name="11.02x8.27%20title%20standard-outline9" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-outline8">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-subtitle" style:display-name="11.02x8.27%20title%20standard-subtitle" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="_31_1.02x8.27_25_20title_25_20standard-subtitle" style:display-name="11.02x8.27%20title%20standard-subtitle">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="_31_1.02x8.27_25_20title_25_20standard-title" style:display-name="11.02x8.27%20title%20standard-title" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#ff3366" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="_31_1.02x8.27_25_20title_25_20standard-title" style:display-name="11.02x8.27%20title%20standard-title">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="48pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="48pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="48pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:presentation-page-layout style:name="AL0T26">
+   <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="3.612cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="3.612cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+  </style:presentation-page-layout>
+  <style:presentation-page-layout style:name="AL1T1">
+   <presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
+   <presentation:placeholder presentation:object="outline" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
+  </style:presentation-page-layout>
+ </office:styles>
+ <office:automatic-styles>
+  <style:page-layout style:name="PM0">
+   <style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="21.59cm" fo:page-height="27.94cm" style:print-orientation="portrait"/>
+  </style:page-layout>
+  <style:page-layout style:name="PM1">
+   <style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="28cm" fo:page-height="21cm" style:print-orientation="landscape"/>
+  </style:page-layout>
+  <style:page-layout style:name="PM2">
+   <style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="21.59cm" fo:page-height="27.94cm" style:print-orientation="landscape"/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="border" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="dp2" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="border" draw:fill="solid" draw:fill-color="#c0c0c0" draw:fill-image-width="0cm" draw:fill-image-height="0cm"/>
+  </style:style>
+  <style:style style:name="dp3" style:family="drawing-page">
+   <style:drawing-page-properties presentation:display-header="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+  </style:style>
+  <style:style style:name="dp4" style:family="drawing-page">
+   <style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+  </style:style>
+  <style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+  </style:style>
+  <style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+  </style:style>
+  <style:style style:name="gr3" style:family="graphic">
+   <style:graphic-properties style:protect="size"/>
+  </style:style>
+  <style:style style:name="gr4" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:image-opacity="100%" style:mirror="none"/>
+  </style:style>
+  <style:style style:name="gr5" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="0cm"/>
+  </style:style>
+  <style:style style:name="pr1" style:family="presentation" style:parent-style-name="Default-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill-color="#ff3366" draw:textarea-vertical-align="middle" draw:auto-grow-height="false"/>
+  </style:style>
+  <style:style style:name="pr2" style:family="presentation" style:parent-style-name="Default-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.449cm"/>
+  </style:style>
+  <style:style style:name="pr3" style:family="presentation" style:parent-style-name="Default-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+  </style:style>
+  <style:style style:name="pr4" style:family="presentation" style:parent-style-name="Default-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+  </style:style>
+  <style:style style:name="pr5" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.449cm"/>
+  </style:style>
+  <style:style style:name="pr6" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+  </style:style>
+  <style:style style:name="pr7" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+  </style:style>
+  <style:style style:name="pr8" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-title">
+   <style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm"/>
+  </style:style>
+  <style:style style:name="pr9" style:family="presentation" style:parent-style-name="_31_1.02x8.27_25_20title_25_20standard-notes">
+   <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="12.572cm"/>
+  </style:style>
+  <style:style style:name="pr10" style:family="presentation" style:parent-style-name="Default-title">
+   <style:graphic-properties draw:auto-grow-height="true" fo:min-height="1.957cm"/>
+  </style:style>
+  <style:style style:name="pr11" style:family="presentation" style:parent-style-name="Default-outline1">
+   <style:graphic-properties fo:min-height="16.006cm"/>
+  </style:style>
+  <style:style style:name="pr12" style:family="presentation" style:parent-style-name="Default-notes">
+   <style:graphic-properties draw:fill-color="#ffffff" fo:min-height="12.572cm"/>
+  </style:style>
+  <style:style style:name="pr13" style:family="presentation" style:parent-style-name="Default-title">
+   <style:graphic-properties fo:min-height="1.957cm"/>
+  </style:style>
+  <style:style style:name="pr14" style:family="presentation" style:parent-style-name="Default-outline1">
+   <style:graphic-properties fo:min-height="11.93cm"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph">
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:color="#808080" style:font-name="Arial1" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph">
+   <style:text-properties fo:font-size="20pt"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph">
+   <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:color="#808080" style:font-name="Arial1" fo:font-size="11pt" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties style:font-name="Inconsolata"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties style:font-name="Arial1"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L3">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L4">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="–">
+    <style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="–">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <draw:layer-set>
+   <draw:layer draw:name="layout"/>
+   <draw:layer draw:name="background"/>
+   <draw:layer draw:name="backgroundobjects"/>
+   <draw:layer draw:name="controls"/>
+   <draw:layer draw:name="measurelines"/>
+  </draw:layer-set>
+  <style:handout-master presentation:presentation-page-layout-name="AL0T26" style:page-layout-name="PM0" draw:style-name="dp3">
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="1cm" svg:y="2.435cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="1cm" svg:y="10.483cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="1cm" svg:y="18.531cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="11.295cm" svg:y="2.435cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="11.295cm" svg:y="10.483cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="11.295cm" svg:y="18.531cm"/>
+   <draw:frame draw:style-name="gr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame draw:style-name="gr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+  </style:handout-master>
+  <style:master-page style:name="Default" style:page-layout-name="PM1" draw:style-name="dp1">
+   <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+   <draw:custom-shape presentation:style-name="pr1" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="28cm" svg:height="2.794cm" svg:x="0cm" svg:y="0cm">
+    <text:p/>
+    <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+   </draw:custom-shape>
+   <draw:frame presentation:style-name="Default-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="26.924cm" svg:height="12.18cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="1.4cm" svg:y="19.812cm" presentation:class="date-time">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="0.767cm" svg:x="9.576cm" svg:y="20.212cm" presentation:class="footer">
+    <draw:text-box>
+     <text:p text:style-name="P4"><text:span text:style-name="T2">PHY 688: Numerical Methods for (Astro)Physics</text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="20.076cm" svg:y="20.112cm" presentation:class="page-number">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <presentation:notes style:page-layout-name="PM0">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:page-thumbnail presentation:style-name="Default-title" draw:layer="backgroundobjects" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" presentation:class="page"/>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr3" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
+     <draw:text-box>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr4" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr4" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
+     <draw:text-box>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+   </presentation:notes>
+  </style:master-page>
+  <style:master-page style:name="_31_1.02x8.27_25_20title_25_20standard" style:display-name="11.02x8.27%20title%20standard" style:page-layout-name="PM1" draw:style-name="dp2">
+   <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+   <draw:frame presentation:style-name="_31_1.02x8.27_25_20title_25_20standard-title" draw:layer="backgroundobjects" svg:width="28cm" svg:height="3.506cm" svg:x="0cm" svg:y="7.437cm" presentation:class="title" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="_31_1.02x8.27_25_20title_25_20standard-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="7.366cm" svg:x="1.4cm" svg:y="11.43cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr5" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr5" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
+    <draw:text-box>
+     <text:p text:style-name="P5"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr5" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.076cm" svg:y="19.131cm" presentation:class="page-number">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <presentation:notes style:page-layout-name="PM2">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:page-thumbnail presentation:style-name="_31_1.02x8.27_25_20title_25_20standard-title" draw:layer="backgroundobjects" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" presentation:class="page"/>
+    <draw:frame presentation:style-name="_31_1.02x8.27_25_20title_25_20standard-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr6" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr6" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
+     <draw:text-box>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr7" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr7" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
+     <draw:text-box>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     </draw:text-box>
+    </draw:frame>
+   </presentation:notes>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:presentation>
+   <draw:page draw:name="page1" draw:style-name="dp4" draw:master-page-name="_31_1.02x8.27_25_20title_25_20standard" presentation:presentation-page-layout-name="AL1T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:frame presentation:style-name="pr8" draw:layer="layout" svg:width="28cm" svg:height="3.506cm" svg:x="0cm" svg:y="7.437cm" presentation:class="title" presentation:user-transformed="true">
+     <draw:text-box>
+      <text:p>SciPy</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <presentation:notes draw:style-name="dp3">
+     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="1" presentation:class="page"/>
+     <draw:frame presentation:style-name="pr9" draw:text-style-name="P6" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+      <draw:text-box/>
+     </draw:frame>
+    </presentation:notes>
+   </draw:page>
+   <draw:page draw:name="page2" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title">
+     <draw:text-box>
+      <text:p>Intro to SciPy</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="26.924cm" svg:height="16.256cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>SciPy is a collection of numerical algorithms that is used with NumPy </text:p>
+       </text:list-item>
+       <text:list-item>
+        <text:p>We&apos;ll use a few for convenience </text:p>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr4" draw:text-style-name="P3" draw:layer="layout" svg:width="14.093cm" svg:height="10.988cm" svg:x="6.858cm" svg:y="8.128cm">
+     <draw:image xlink:href="">
+      <office:binary-data>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
+      </office:binary-data>
+      <text:p/>
+     </draw:image>
+    </draw:frame>
+    <draw:frame draw:style-name="gr5" draw:text-style-name="P7" draw:layer="layout" svg:width="3.81cm" svg:height="0.725cm" svg:x="16.764cm" svg:y="19.116cm">
+     <draw:text-box>
+      <text:p><text:span text:style-name="T3">(docs.scipy.org)</text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <presentation:notes draw:style-name="dp3">
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="2" presentation:class="page"/>
+     <draw:frame presentation:style-name="pr12" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+      <draw:text-box/>
+     </draw:frame>
+    </presentation:notes>
+   </draw:page>
+   <draw:page draw:name="page3" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title">
+     <draw:text-box>
+      <text:p>Conventions</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="12.18cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>The SciPy docs recommend loading the various modules as:</text:p>
+        <text:list>
+         <text:list-header>
+          <text:p><text:span text:style-name="T4">import numpy as np</text:span></text:p>
+          <text:p><text:span text:style-name="T4">import scipy as sp</text:span></text:p>
+          <text:p><text:span text:style-name="T4">import matplotlib as mpl</text:span></text:p>
+          <text:p><text:span text:style-name="T4">import matplotlib.pyplot as plt</text:span></text:p>
+         </text:list-header>
+        </text:list>
+       </text:list-item>
+       <text:list-item>
+        <text:p><text:span text:style-name="T5">Each subpackage must be imported separately:</text:span></text:p>
+        <text:list>
+         <text:list-header>
+          <text:p><text:span text:style-name="T4">from scipy import linalg, optimize</text:span></text:p>
+         </text:list-header>
+         <text:list-item>
+          <text:p><text:span text:style-name="T5">Note that some popular functions are available in the main scipy namespace</text:span></text:p>
+         </text:list-item>
+        </text:list>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
+    </draw:frame>
+    <presentation:notes draw:style-name="dp3">
+     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="3" presentation:class="page"/>
+     <draw:frame presentation:style-name="pr12" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+      <draw:text-box/>
+     </draw:frame>
+    </presentation:notes>
+   </draw:page>
+   <draw:page draw:name="page4" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title">
+     <draw:text-box>
+      <text:p>Getting Help</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="12.18cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>In addition to the <text:span text:style-name="T4">help()</text:span>, there is a <text:span text:style-name="T4">sp.info()</text:span> function that outputs things without a pager</text:p>
+       </text:list-item>
+       <text:list-item>
+        <text:p>Python also has a <text:span text:style-name="T4">dir()</text:span> function that lists the names a module defines</text:p>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
+    </draw:frame>
+    <presentation:notes draw:style-name="dp3">
+     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="4" presentation:class="page"/>
+     <draw:frame presentation:style-name="pr12" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+      <draw:text-box/>
+     </draw:frame>
+    </presentation:notes>
+   </draw:page>
+   <presentation:settings presentation:mouse-visible="false"/>
+  </office:presentation>
+ </office:body>
+</office:document>
