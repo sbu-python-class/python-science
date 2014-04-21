@@ -1,3 +1,7 @@
 There seems to be a bug with Mayavi on Fedora for now...
 
 https://bugzilla.redhat.com/show_bug.cgi?id=1081494
+
+Mayavi bug:
+
+https://github.com/enthought/mayavi/issues/74
