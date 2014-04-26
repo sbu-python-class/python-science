@@ -1,0 +1,9 @@
+compiling:
+
+gcc -c -fPIC cfunc.c -o cfunc.o
+gcc -shared -o cfunc.so cfunc.o
+
+based on:
+
+http://stackoverflow.com/questions/145270/calling-c-c-from-python
+http://wiki.scipy.org/Cookbook/Ctypes
