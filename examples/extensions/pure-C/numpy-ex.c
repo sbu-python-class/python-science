@@ -7,6 +7,7 @@
 #include <numpy/arrayobject.h>
 #include <math.h>
 
+
 /* a static function in C limits its scope to this file -- the linker
    won't complain about clashes */
 static PyObject* ex_function(PyObject* self, PyObject* args)
