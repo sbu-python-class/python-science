@@ -103,13 +103,14 @@ static PyObject* ex_function(PyObject* self, PyObject* args)
      
 /* this is the table for function names that Python will see */ 
 static PyMethodDef numpy_in_cMethods[] = {
-  {"example", ex_function, METH_VARARGS},
+  {"example", ex_function, METH_VARARGS, 
+   "a simple example: square the elements of an array"},
   {NULL, NULL}
 };
 
 /* this tells python what to do when it first imports this module --
    the name follows directly from the table name above */
-void initnumpy_in_c() {
+PyMODINIT_FUNC initnumpy_in_c(void) {
   (void) Py_InitModule("numpy_in_c", numpy_in_cMethods);
   import_array();  // this deals with the NumPy stuff
 }
