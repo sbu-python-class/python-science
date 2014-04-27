@@ -4,13 +4,13 @@
  <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2013-09-18T17:29:34.092726914</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>PT23H10M59S</meta:editing-duration><meta:editing-cycles>96</meta:editing-cycles><meta:generator>LibreOffice/4.2.3.3$Linux_X86_64 LibreOffice_project/420$Build-3</meta:generator><meta:document-statistic meta:object-count="107"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">-1963</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">-512</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">29061</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">25093</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">1004</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">733</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
-     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
      <config:config-item config:name="GridIsVisible" config:type="boolean">true</config:config-item>
      <config:config-item config:name="GridIsFront" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsSnapToGrid" config:type="boolean">true</config:config-item>
@@ -51,7 +51,6 @@
      <config:config-item config:name="GridSnapWidthYDenominator" config:type="int">1</config:config-item>
      <config:config-item config:name="IsAngleSnapEnabled" config:type="boolean">false</config:config-item>
      <config:config-item config:name="SnapAngle" config:type="int">1500</config:config-item>
-     <config:config-item config:name="ZoomOnPage" config:type="boolean">true</config:config-item>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
   </config:config-item-set>
