@@ -28,3 +28,7 @@ to run:
  [ 225.  256.  289.  324.  361.]]
 
 
+
+
+Note that directly accessing the fields in the PyArrayObject struct is
+deprecated, and there will be a warning issued.
