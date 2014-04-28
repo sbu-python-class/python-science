@@ -2,7 +2,7 @@ import numpy as np
 import ctypes as C
 from numpy.ctypeslib import ndpointer
 
-# a second way to call this function
+# the NumPy way to call this function
 
 _cfunc = np.ctypeslib.load_library('cfunc_multid', '.')
 _cfunc.my_subroutine.restype = C.c_int
