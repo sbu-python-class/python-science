@@ -10,6 +10,9 @@ from laplace_cython import cy_update
 
 from laplace_fortran import f90_update
 
+import ctypes as C
+from numpy.ctypeslib import ndpointer
+
 
 dx = 0.1
 dy = 0.1
@@ -30,6 +33,16 @@ def num_update(u):
                     (u[1:-1,2:] + u[1:-1,:-2])*dx2) / (2*(dx2+dy2))
 
 
+
+# ctypes wrapper 
+def ctypes_update(u):
+    _cfunc = np.ctypeslib.load_library('laplace_C', '.')
+    _cfunc.C_update.restype = C.c_int
+    _cfunc.C_update.argtypes = [ndpointer(C.c_double, flags="C_CONTIGUOUS"),
+                                C.c_int, C.c_int,
+                                C.c_double, C.c_double]
+    return _cfunc.C_update(u, C.c_int(u.shape[0]), C.c_int(u.shape[1]),
+                           dx2, dy2)
 
 
 # our driver that will run things with a given implementation of the 
@@ -71,15 +84,23 @@ res_f90 = calc(N,  Niter=1000, func=f90_update,
 print "f2py: {} s".format(time.time()-start)
 
 
+# ctypes
+start = time.time()
+res_ctypes = calc(N,  Niter=1000, func=ctypes_update)
+print "ctypes: {} s".format(time.time()-start)
+
+
 # C-API
 
 
 
-# ctypes
+
 
 
 
 # check the answers
+print " "
 print "max diff NumPy: {}".format(np.max(abs(res_py-res_np)[1:-1,1:-1]))
 print "max diff Cython: {}".format(np.max(abs(res_py-res_cy)[1:-1,1:-1]))
 print "max diff F90: {}".format(np.max(abs(res_py-res_f90)[1:-1,1:-1]))
+print "max diff ctypes: {}".format(np.max(abs(res_py-res_ctypes)[1:-1,1:-1]))
