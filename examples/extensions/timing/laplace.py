@@ -8,12 +8,21 @@ import pyximport
 pyximport.install(setup_args={'include_dirs':[np.get_include()]})
 from laplace_cython import cy_update
 
+# f2py version
 from laplace_fortran import f90_update
 
+# ctypes version
 import ctypes as C
 from numpy.ctypeslib import ndpointer
+_cfunc = np.ctypeslib.load_library('laplace_C', '.')
+_cfunc.C_update.restype = C.c_int
+_cfunc.C_update.argtypes = [ndpointer(C.c_double, flags="C_CONTIGUOUS"),
+                            C.c_int, C.c_int,
+                            C.c_double, C.c_double]
 
+# C-API version
 from laplace_CAPI import CAPI_update
+
 
 dx = 0.1
 dy = 0.1
@@ -38,11 +47,6 @@ def num_update(u):
 
 # ctypes wrapper 
 def ctypes_update(u):
-    _cfunc = np.ctypeslib.load_library('laplace_C', '.')
-    _cfunc.C_update.restype = C.c_int
-    _cfunc.C_update.argtypes = [ndpointer(C.c_double, flags="C_CONTIGUOUS"),
-                                C.c_int, C.c_int,
-                                C.c_double, C.c_double]
     return _cfunc.C_update(u, C.c_int(u.shape[0]), C.c_int(u.shape[1]),
                            dx2, dy2)
 
