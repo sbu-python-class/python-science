@@ -58,8 +58,8 @@ def calc(N, Niter=100, func=py_update, args=(), order="C"):
 
 
 
-N = 6
-iters = 10
+N = 64
+iters = 1000
 
 # pure python
 start = time.time()
@@ -112,5 +112,4 @@ print "max diff F90: {}".format(np.max(abs(res_py-res_f90)[1:-1,1:-1]))
 print "max diff ctypes: {}".format(np.max(abs(res_py-res_ctypes)[1:-1,1:-1]))
 print "max diff C-API: {}".format(np.max(abs(res_py-res_CAPI)[1:-1,1:-1]))
 
-print res_py
-print res_np
+
