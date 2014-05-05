@@ -13,6 +13,7 @@ from laplace_fortran import f90_update
 import ctypes as C
 from numpy.ctypeslib import ndpointer
 
+from laplace_CAPI import CAPI_update
 
 dx = 0.1
 dy = 0.1
@@ -91,6 +92,9 @@ print "ctypes: {} s".format(time.time()-start)
 
 
 # C-API
+start = time.time()
+res_CAPI = calc(N,  Niter=1000, func=CAPI_update, args=(dx2, dy2))
+print "C-API: {} s".format(time.time()-start)
 
 
 
@@ -104,3 +108,4 @@ print "max diff NumPy: {}".format(np.max(abs(res_py-res_np)[1:-1,1:-1]))
 print "max diff Cython: {}".format(np.max(abs(res_py-res_cy)[1:-1,1:-1]))
 print "max diff F90: {}".format(np.max(abs(res_py-res_f90)[1:-1,1:-1]))
 print "max diff ctypes: {}".format(np.max(abs(res_py-res_ctypes)[1:-1,1:-1]))
+print "max diff C-API: {}".format(np.max(abs(res_py-res_CAPI)[1:-1,1:-1]))
