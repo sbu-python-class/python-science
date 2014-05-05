@@ -9,3 +9,10 @@ laplace_C.so: laplace_C.c
 
 laplace_CAPI.so: laplace_CAPI.c
 	python setup.py build_ext --inplace
+
+
+.PHONY: clean
+
+clean: 
+	rm -f laplace_fortran.so laplace_C.so laplace_CAPI.so
+	rm -rf build

@@ -28,7 +28,8 @@ def py_update(u):
             u[i,j] = ((u[i+1, j] + u[i-1, j]) * dy2 +
                       (u[i, j+1] + u[i, j-1]) * dx2) / (2*(dx2+dy2))
 
-# numpy method
+# numpy method -- note that this is actually a Jacobi iteration, not G-S.
+# the operation count should be the same, but the convergence will be worse.
 def num_update(u):
     u[1:-1,1:-1] = ((u[2:,1:-1]+u[:-2,1:-1])*dy2 + 
                     (u[1:-1,2:] + u[1:-1,:-2])*dx2) / (2*(dx2+dy2))
@@ -57,43 +58,44 @@ def calc(N, Niter=100, func=py_update, args=(), order="C"):
 
 
 
-N = 64
+N = 6
+iters = 10
 
 # pure python
 start = time.time()
-res_py = calc(N, Niter=1000)
+res_py = calc(N, Niter=iters)
 print "pure python: {} s".format(time.time()-start)
 
 
 # NumPy
 start = time.time()
-res_np = calc(N,  Niter=1000, func=num_update)
+res_np = calc(N, Niter=iters, func=num_update)
 print "NumPy: {} s".format(time.time()-start)
 
 
 # Cython
 start = time.time()
-res_cy = calc(N,  Niter=1000, func=cy_update, args=(dx2, dy2))
+res_cy = calc(N, Niter=iters, func=cy_update, args=(dx2, dy2))
 print "Cython: {} s".format(time.time()-start)
 
 
 # f2py -- here we need to initialize the array in Fortran order so
 # we can use the "inout" argument type in Fortran
 start = time.time()
-res_f90 = calc(N,  Niter=1000, func=f90_update, 
+res_f90 = calc(N, Niter=iters, func=f90_update, 
               args=(N, N, dx2, dy2), order="F")
 print "f2py: {} s".format(time.time()-start)
 
 
 # ctypes
 start = time.time()
-res_ctypes = calc(N,  Niter=1000, func=ctypes_update)
+res_ctypes = calc(N, Niter=iters, func=ctypes_update)
 print "ctypes: {} s".format(time.time()-start)
 
 
 # C-API
 start = time.time()
-res_CAPI = calc(N,  Niter=1000, func=CAPI_update, args=(dx2, dy2))
+res_CAPI = calc(N, Niter=iters, func=CAPI_update, args=(dx2, dy2))
 print "C-API: {} s".format(time.time()-start)
 
 
@@ -109,3 +111,6 @@ print "max diff Cython: {}".format(np.max(abs(res_py-res_cy)[1:-1,1:-1]))
 print "max diff F90: {}".format(np.max(abs(res_py-res_f90)[1:-1,1:-1]))
 print "max diff ctypes: {}".format(np.max(abs(res_py-res_ctypes)[1:-1,1:-1]))
 print "max diff C-API: {}".format(np.max(abs(res_py-res_CAPI)[1:-1,1:-1]))
+
+print res_py
+print res_np
