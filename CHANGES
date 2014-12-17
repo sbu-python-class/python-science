@@ -24,7 +24,13 @@
 
 -- nbdiff
 
--- have a lecture at the start on "mananging projects with git, github, pull requests, ..."
+-- mpld3 -- interactive matplotlib in ipython notebook
+
+-- "seven ways to think like the web"
+
+-- have a lecture at the start on "mananging projects with git, github, pull 
+   requests
+
 
 
 references:
@@ -33,4 +39,28 @@ references:
 
  -- Computing 4 Physics: https://github.com/Computing4Physics/C4P
 
+
+
+grading:
+
+ -- grading is based on discussion.  Here's a loose metric:
+
+    by posting, I don't mean a "me to" type post, but something
+    either demonstrating a problem you don't understand (giving code),
+    asking for some detail from the lecture to be explained,
+    sharing a neat trick you found
+
+     A: 12 postings to the discussion board (essentially once a week)
+
+        +
+ 
+        a small example showing how you can apply what we've discussed
+        in class to your field.
+
+     
+     A-:  8 postings to the discussion board
+
+     B+:  5 postings to the discussion board
+
+     B:   2 postings to the discussion board
 
