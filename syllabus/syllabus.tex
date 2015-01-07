@@ -13,8 +13,8 @@
 \pagestyle{fancy}
 
 \fancyhead{}
-\fancyfoot[LO,LE]{Python for Scientific Computing/Spring 2014}
-\fancyfoot[RO,RE]{revision 1.03 (2014-01-27)}
+\fancyfoot[LO,LE]{Python for Scientific Computing/Spring 2015}
+\fancyfoot[RO,RE]{revision 1.01 (2015-01-07)}
 \fancyfoot[CO,CE]{\thepage}
 \renewcommand{\headrulewidth}{0.0pt}
 \renewcommand{\footrulewidth}{0.0pt}
@@ -30,54 +30,57 @@
   { \end{itemize} }
 
 
-
 \begin{document}
 
 \begin{center}
 {\Large \bf PHY 683: Python for Scientific Computing} \\[0.25em]
 {\em instructor}\/: Michael Zingale, ESS 452, michael.zingale@stonybrook.edu \\
-{\em date/location}\/: Mondays, 3:00--3:53~pm in ESS 450
+{\em date/location}\/: Mondays, 3:00--3:53~pm in Physics P112
 \end{center}
 
 \noindent {\bf Learning Goals:} \\
 The learning goal of this course is to enhance scholarship in an area
-of active research.
+of active research, by learning how to apply python to problems
+in your field.
 
-\ \\
+\ \\[-2mm]
 \noindent {\bf Credit:} \\
 This is a 1-credit course.
 
 
-\ \\
+\ \\[-2mm]
 \noindent {\bf Contacting the Instructor:}  \\
 {\em e-mail:} michael.zingale@stonybrook.edu ({add ``PHY 683'' to the
- start of the subject line of any e-mail}). 
+ start of the subject line of any e-mail}).
 %
 \begin{tabbing}
-\noindent {\em office hours:} \= Mon.\ \=10:00~am \=to \=11:30~am \\
-                              \> Thurs.\ \>\phantom{0}1:00~pm \>to \>\phantom{0}2:30~pm 
+\noindent {\em office hours:} \= Tues.~~  \=1:00~pm \=to \=2:30~pm \\
+                              \> Thurs.\ \>1:00~pm \>to \>2:30~pm
 \end{tabbing}
 Generally, I am in my office every day this semester, except for Wednesdays.
 
-\ \\
+\ \\[-2mm]
 \noindent {\bf Webpage:} \\
-The webpage for this class is \url{http://bender.astro.sunysb.edu/python_science} \, .
+The webpage for this class is \url{http://bender.astro.sunysb.edu/python_science} .
 
-\ \\
+\ \\[-2mm]
 \noindent {\bf Texts:} \\
-There are no textbooks for this class.  There is a large amount of 
-information available online---links will be provided on the class webpage.
+There are no textbooks for this class.  Online information
+will be linked to from the course webpage.
 
-\ \\
+\ \\[-2mm]
 \noindent {\bf Lecture Topics:} \\
 We will (try to) discuss the following topics in the course:
+%
 \begin{squishlist}
-\item {\em Basics of Computing} (0.5 lectures) 
+\item {\em Basics of computing} (0.5 lectures)
 
-\item {\em Introduction to Python} (3 lectures) \\
-     data structures and control statements, functions, classes, popular modules
+\item {\em Introduction to python} (3.5 lectures) \\
+  data structures and control statements, functions, classes, popular modules \\
+  IPython and notebooks
 
-\item {\em IPython} (1 lecture)
+\item {\em Software engineering practices} (1 lecture) \\
+  including {\tt git} and github
 
 \item {\em Introduction to the NumPy array library} (1 lecture)
 
@@ -85,41 +88,80 @@ We will (try to) discuss the following topics in the course:
 
 \item {\em SciPy and numerical methods} (3 lectures)
 
+\item {\em Introduction to SymPy} (1 lecture)
+
 \item {\em MayaVi for 3-d visualization} (0.5 lectures)
 
-\item {\em Introduction to SymPy} (0.5 lectures)
+\item {\em f2py and C extensions} (1.5 lectures)
 
-\item {\em Building applications} (1 lecture)
-
-\item {\em f2py and C extensions} (1 lecture)
-
-\item {\em System operations} (0.5 lecture)
-
-\item {\em GUIs} (1 lecture)
-
+\item {\em Building applications / packaging} (1 lecture)
 \end{squishlist}
 
+\noindent Time-permitting, we will also discuss:
+\begin{squishlist}
+\item {\em GUIs} (1 lecture)
+
+\item {\em Unit testing}
+
+\item {\em Interacting with forms on a webpage}
+
+\item {\em Julia}
+\end{squishlist}
+%
 \noindent The actual course topics and time spent on each topic will depend on the
 interest and the participation level of the class.
 
-\ \\
+\ \\[-2mm]
+\noindent {\bf Computers:} \\
+%
+As we all use different systems for our research, we are not meeting
+in a computer lab.  Instead, you should bring your own laptop to
+class.  Information on how to install Linux on Windows, Mac OSX, and
+Linux will be posted on the class webpage. 
+
+\noindent
+If you don't have access to a computer that can run python, see me,
+and I can try to arrange something for the semester.
+
+\ \\[-2mm]
 \noindent {\bf Evaluation:} \\
+%
 Students are expected to attend the class and to contribute
 to the discussions (by asking questions, proposing examples, or
 providing demonstrations of their own).  As we meet only one hour per
 week, students show plan on spending time outside of class reviewing
-and practicing the material we discussed. 
+and practicing the material we discussed. \\
 
-An `A' student will be present at each class with questions about the 
-material and, eventually, provide some basic examples from their own field
-to the class.
+\noindent {\bf The primary place for participation is the online forum
+  on the class blackboard page}.  This is the place to interact with
+me and your classmates---ask anything, share examples, etc. \\
 
+\noindent Letter grades will be based on the online participation.  A
+rough guide is presented below:
+\begin{itemize}
+\item {\sf A\phantom{+}}: 10 postings to the discussion board
+  {\bf plus} a small example showing how you can apply what
+  we've discussed in class to your field.
 
-\clearpage
+\item {\sf A$-$}: 8 postings to the discussion board
+
+\item {\sf B$+$}: 5 postings to the discussion board
+
+\item {\sf B\phantom{+}}:  2 postings to the discussion board
+\end{itemize}
+A post does not mean a ``me to''-type post, but something either
+demonstrating a problem you don't understand (giving code), asking for
+some detail from the lecture to be explained, sharing a neat trick you
+found, answering a classmate's question, etc.  Note that asking
+questions about the content counts just as much as providing
+answers---the idea is to have a discussion outside of class on the
+material.
+
+\ \\[2mm]
 \noindent {\bf Required Syllabus Statements:} \\
 
 \noindent
-{\em Americans with Disabilities Act: } 
+{\em Americans with Disabilities Act: }
 %
 If you have a physical, psychological, medical or learning disability
 that may impact your course work, please contact Disability Support
@@ -129,7 +171,7 @@ any, are necessary and appropriate. All information and documentation
 is confidential.
 
 
-\ \\[-1.5mm]
+\ \\[-2mm]
 \noindent
 {\em Academic Integrity: }
 %
@@ -145,7 +187,7 @@ including categories of academic dishonesty, please refer to the
 academic judiciary website at
 \url{http://www.stonybrook.edu/uaa/academicjudiciary/}
 
-\ \\[-1.5mm]
+\ \\[-2mm]
 \noindent
 {\em Critical Incident Management: }
 %
@@ -157,7 +199,7 @@ learning environment, or inhibits students' ability to learn.  Faculty
 in the HSC Schools and the School of Medicine are required to follow
 their school-specific procedures.
 
-\ \\[-1.5mm]
+\ \\[-2mm]
 {\em Electronic Communication: }
 %
 Email to your University email account is an important way of
@@ -178,8 +220,8 @@ You can set up email forwarding using instructions here: \\[0.25em]
 If you choose to forward your University email to another account, we
 are not responsible for any undeliverable messages.
 
-\ \\[-1.5mm]
-\noindent 
+\ \\[-2mm]
+\noindent
 {\em Religious Observances: }
 %
 See the policy statement regarding religious holidays at \\[0.25em]
