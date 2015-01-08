@@ -1,0 +1,17 @@
+Course Name: Python for Scientific Computing
+
+Credits: 0-1
+
+Description:
+
+Python has seen wide adoption in the scientific community for data
+analysis, simulation, prototyping, and visualization. It provides a
+simple, yet powerful means to build applications.  This seminar
+introduces python and its use in scientific computing.  Students will
+learn the standard python libraries for array manipulation,
+visualization, numerical analysis, and symbolic mathematics, as well
+as how to interface python with other languages, build applications,
+and good software engineering practices (including version control and
+testing).  Students are encouraged to share examples from their
+discipline.
+
