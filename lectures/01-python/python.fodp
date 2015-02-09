@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2015-02-02T08:34:56.657839472</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>P2DT4H10M25S</meta:editing-duration><meta:editing-cycles>98</meta:editing-cycles><meta:generator>LibreOffice/4.3.5.2.0$Linux_X86_64 LibreOffice_project/430$Build-2</meta:generator><meta:document-statistic meta:object-count="337"/></office:meta>
+ <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2015-02-09T12:25:28.917281701</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>P2DT4H39M58S</meta:editing-duration><meta:editing-cycles>102</meta:editing-cycles><meta:generator>LibreOffice/4.3.5.2.0$Linux_X86_64 LibreOffice_project/430$Build-2</meta:generator><meta:document-statistic meta:object-count="339"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-315</config:config-item>
@@ -29,7 +29,7 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">61</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">52</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
@@ -96,7 +96,7 @@
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string">hp</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">oAH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAxgAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhCkR1cGxleDpOb25lAElucHV0U2xvdDpBdXRvAFBhZ2VTaXplOkxldHRlcgAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">oAH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAxgAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgBJbnB1dFNsb3Q6QXV0bwBEdXBsZXg6Tm9uZQAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
@@ -119,6 +119,7 @@
   <style:font-face style:name="Cumberland AMT1" svg:font-family="&apos;Cumberland AMT&apos;, Cumberland, &apos;Courier New&apos;, &apos;Liberation Mono&apos;, &apos;Nimbus Mono L&apos;, &apos;DejaVu Sans Mono&apos;, Courier, &apos;Lucida Sans Typewriter&apos;, &apos;Lucida Typewriter&apos;, Monaco, Monospaced" style:font-family-generic="modern" style:font-pitch="fixed"/>
   <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-pitch="variable"/>
   <style:font-face style:name="Cantarell" svg:font-family="Cantarell" style:font-pitch="variable"/>
+  <style:font-face style:name="Carlito2" svg:font-family="Carlito" style:font-pitch="variable"/>
   <style:font-face style:name="Inconsolata" svg:font-family="Inconsolata" style:font-pitch="variable"/>
   <style:font-face style:name="Lohit Devanagari1" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-pitch="variable"/>
   <style:font-face style:name="WenQuanYi Zen Hei Sharp1" svg:font-family="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-pitch="variable"/>
@@ -128,10 +129,11 @@
   <style:font-face style:name="Lohit Devanagari3" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="modern" style:font-pitch="variable"/>
   <style:font-face style:name="WenQuanYi Zen Hei Sharp3" svg:font-family="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic="modern" style:font-pitch="variable"/>
   <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Carlito" svg:font-family="Carlito" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Carlito" svg:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Carlito1" svg:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Lohit Devanagari2" svg:font-family="&apos;Lohit Devanagari&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Times New Roman1" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="WenQuanYi Zen Hei Sharp2" svg:font-family="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
@@ -318,31 +320,31 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.5cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="26pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="26pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="26pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="26pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="WenQuanYi Zen Hei Sharp" style:font-family-asian="&apos;WenQuanYi Zen Hei Sharp&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="26pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Lohit Devanagari" style:font-family-complex="&apos;Lohit Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="26pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="Default-outline2" style:family="presentation" style:parent-style-name="Default-outline1">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.4cm"/>
-   <style:text-properties style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="Default-outline3" style:family="presentation" style:parent-style-name="Default-outline2">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.3cm"/>
-   <style:text-properties style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="Default-outline4" style:family="presentation" style:parent-style-name="Default-outline3">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.2cm"/>
-   <style:text-properties style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="Default-outline5" style:family="presentation" style:parent-style-name="Default-outline4">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
-   <style:text-properties style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="Default-outline6" style:family="presentation" style:parent-style-name="Default-outline5">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
-   <style:text-properties style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="Default-outline7" style:family="presentation" style:parent-style-name="Default-outline6">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
-   <style:text-properties style:font-name="Carlito" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="Default-outline8" style:family="presentation" style:parent-style-name="Default-outline7">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
@@ -720,8 +722,8 @@
   <style:style style:name="gr16" style:family="graphic" style:parent-style-name="standard">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:max-height="0cm" fo:min-height="8.196cm"/>
   </style:style>
-  <style:style style:name="gr17" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties OOoLatexArgs="24§display§\mathit{relative~roundoff~error}~ = \frac{|\mathrm{true~number} - \mathrm{computer~number}|}{|\mathrm{true~number}|} \le \epsilon" draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:image-opacity="100%" style:mirror="none"/>
+  <style:style style:name="gr17" style:family="graphic" style:parent-style-name="Object_20_with_20_no_20_fill_20_and_20_no_20_line">
+   <style:graphic-properties draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:image-opacity="100%" style:mirror="none"/>
   </style:style>
   <style:style style:name="gr18" style:family="graphic" style:parent-style-name="standard">
    <style:graphic-properties OOoLatexArgs="26§display§\sqrt{x+1} - \sqrt{x}" draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:image-opacity="100%" style:mirror="none"/>
@@ -859,46 +861,43 @@
    <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="P9" style:family="paragraph">
-   <style:text-properties style:font-name="Carlito"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Carlito1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="P10" style:family="paragraph">
-   <style:text-properties fo:color="#ff0000" style:font-name="Carlito" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
-  </style:style>
-  <style:style style:name="P11" style:family="paragraph">
    <style:text-properties style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
-  <style:style style:name="P12" style:family="paragraph">
+  <style:style style:name="P11" style:family="paragraph">
    <style:text-properties style:font-name="Courier New1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
-  <style:style style:name="P13" style:family="paragraph">
-   <style:text-properties fo:color="#ff3333" style:font-name="Carlito"/>
+  <style:style style:name="P12" style:family="paragraph">
+   <style:text-properties fo:color="#ff3333" style:font-name="Carlito1"/>
   </style:style>
-  <style:style style:name="P14" style:family="paragraph">
+  <style:style style:name="P13" style:family="paragraph">
    <style:text-properties style:font-name="Inconsolata1" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
-  <style:style style:name="P15" style:family="paragraph">
-   <style:text-properties style:font-name="Carlito" fo:font-size="18pt"/>
+  <style:style style:name="P14" style:family="paragraph">
+   <style:text-properties style:font-name="Carlito1" fo:font-size="18pt"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph">
+  <style:style style:name="P15" style:family="paragraph">
    <style:text-properties style:font-name="Inconsolata1" fo:font-size="18pt"/>
   </style:style>
-  <style:style style:name="P17" style:family="paragraph">
+  <style:style style:name="P16" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0.034cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
   </style:style>
+  <style:style style:name="P17" style:family="paragraph">
+   <style:text-properties style:font-name="Carlito1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+  </style:style>
   <style:style style:name="P18" style:family="paragraph">
-   <style:text-properties style:font-name="Carlito" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="P19" style:family="paragraph">
-   <style:text-properties fo:font-size="18pt"/>
+   <style:paragraph-properties fo:text-align="start"/>
   </style:style>
   <style:style style:name="P20" style:family="paragraph">
    <style:paragraph-properties fo:text-align="start"/>
-  </style:style>
-  <style:style style:name="P21" style:family="paragraph">
-   <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties style:font-name="Courier New1" fo:font-size="16pt" style:font-name-asian="Cumberland AMT1" style:font-size-asian="16pt" style:font-name-complex="Cumberland AMT1" style:font-size-complex="16pt"/>
   </style:style>
-  <style:style style:name="P22" style:family="paragraph">
+  <style:style style:name="P21" style:family="paragraph">
    <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties style:font-name="Cumberland AMT1" fo:font-size="10pt" style:font-name-asian="Cumberland AMT1" style:font-size-asian="10pt" style:font-name-complex="Cumberland AMT1" style:font-size-complex="10pt"/>
   </style:style>
@@ -921,121 +920,121 @@
    <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties style:font-name="Carlito1"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties style:text-position="super 58%" style:font-weight-asian="normal"/>
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Carlito" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties style:text-position="super 58%" style:font-weight-asian="normal"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Carlito1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+   <style:text-properties style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Inconsolata1" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+   <style:text-properties style:font-name="Inconsolata1" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties style:font-name="Courier New1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Inconsolata1" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties fo:color="#ff3333" style:font-name="Carlito"/>
+   <style:text-properties style:font-name="Courier New1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties fo:color="#ff3333" style:font-name="Carlito1"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties style:font-name="Inconsolata1" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties style:text-position="super 58%" style:font-name="Inconsolata1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties style:font-name="Inconsolata1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties style:text-position="33% 58%" style:font-name="Inconsolata1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties style:text-position="super 58%" style:font-name="Inconsolata1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties style:text-position="33% 58%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties style:text-position="33% 58%" style:font-name="Inconsolata1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties style:text-position="0% 100%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties style:text-position="33% 58%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:text-position="0% 100%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties style:text-position="0% 100%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties style:text-position="super 58%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
+   <style:text-properties fo:color="#0000ff" style:text-position="0% 100%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties style:font-name="Carlito" fo:font-size="18pt"/>
+   <style:text-properties style:text-position="super 58%" style:font-name="Arial1" style:font-name-asian="Cantarell2" style:font-name-complex="Cantarell2"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties style:font-name="Arial5" style:font-name-asian="Arial5" style:font-name-complex="Arial5"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties style:font-name="Carlito" style:font-name-asian="Arial5" style:font-name-complex="Arial5"/>
+   <style:text-properties style:font-name="Arial5" style:font-name-asian="Arial5" style:font-name-complex="Arial5"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" style:font-name-asian="Arial5" style:font-name-complex="Arial5"/>
+   <style:text-properties style:font-name="Carlito1" style:font-name-asian="Arial5" style:font-name-complex="Arial5"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" fo:font-size="18pt"/>
+   <style:text-properties style:font-name="Inconsolata1" style:font-name-asian="Arial5" style:font-name-complex="Arial5"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:font-size="26pt" style:font-size-asian="26pt" style:font-size-complex="26pt"/>
+   <style:text-properties style:font-name="Inconsolata1" fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties fo:color="#0000ff" fo:font-size="26pt" style:font-size-asian="26pt" style:font-size-complex="26pt"/>
+   <style:text-properties fo:font-size="26pt" style:font-size-asian="26pt" style:font-size-complex="26pt"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties fo:font-size="40pt" style:font-size-asian="40pt" style:font-size-complex="40pt"/>
+   <style:text-properties fo:color="#0000ff" fo:font-size="26pt" style:font-size-asian="26pt" style:font-size-complex="26pt"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties style:font-name="Carlito" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-size="40pt" style:font-size-asian="40pt" style:font-size-complex="40pt"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:color="#000000" style:font-name="Inconsolata1"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:color="#000000" style:text-position="super 58%" style:font-name="Inconsolata1"/>
+   <style:text-properties fo:color="#000000" style:font-name="Inconsolata1"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:color="#000000"/>
+   <style:text-properties fo:color="#000000" style:text-position="super 58%" style:font-name="Inconsolata1"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#000000"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:color="#0000ff" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:font-size="18pt"/>
+   <style:text-properties fo:color="#0000ff" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties fo:color="#0000ff" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties fo:color="#ff0000" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:color="#0000ff" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties style:font-name="Arial1"/>
+   <style:text-properties fo:color="#ff0000" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties style:font-name="Arial1" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Arial1"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Arial1"/>
+   <style:text-properties style:font-name="Arial1" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties style:font-name="Carlito"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Arial1"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
    <style:text-properties fo:font-size="16pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
@@ -1232,27 +1231,26 @@
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="11.295cm" svg:y="18.531cm"/>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
   </style:handout-master>
   <style:master-page style:name="Default" style:page-layout-name="PM1" draw:style-name="dp1">
-   <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
    <draw:custom-shape presentation:style-name="pr1" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="28cm" svg:height="2.794cm" svg:x="0cm" svg:y="0cm">
     <text:p/>
     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
@@ -1269,22 +1267,25 @@
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="26.924cm" svg:height="12.18cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
    <draw:frame presentation:style-name="pr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="1.4cm" svg:y="19.812cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="0.767cm" svg:x="9.576cm" svg:y="20.212cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P4"><text:span text:style-name="T2">Python for Scientific Computing</text:span><text:span text:style-name="T2"><presentation:footer/></text:span><text:span text:style-name="T2"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P4"><text:span text:style-name="T2">Python for Scientific Computing</text:span><text:span text:style-name="T2"><presentation:footer/></text:span><text:span text:style-name="T2"><presentation:footer/></text:span><text:span text:style-name="T2"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="20.076cm" svg:y="20.112cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1301,30 +1302,32 @@
     <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
   </style:master-page>
   <style:master-page style:name="_31_1.02x8.27_25_20title_25_20standard" style:display-name="11.02x8.27%20title%20standard" style:page-layout-name="PM1" draw:style-name="dp2">
-   <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
    <draw:frame presentation:style-name="_31_1.02x8.27_25_20title_25_20standard-title" draw:layer="backgroundobjects" svg:width="28cm" svg:height="3.506cm" svg:x="0cm" svg:y="7.437cm" presentation:class="title" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
@@ -1333,17 +1336,17 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr5" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr5" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P5"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P5"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr5" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.076cm" svg:y="19.131cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1353,22 +1356,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr6" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr6" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr7" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr7" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -3274,6 +3277,10 @@
           <text:p>Our hello world program is simply:</text:p>
           <text:p><text:span text:style-name="T3">print “Hello, World!”</text:span></text:p>
          </text:list-item>
+         <text:list-item>
+          <text:p><text:span text:style-name="T7">Or, in python 3.x (more on this later...):</text:span></text:p>
+          <text:p><text:span text:style-name="T3">print(“Hello World”)</text:span></text:p>
+         </text:list-item>
         </text:list>
        </text:list-item>
       </text:list>
@@ -3365,7 +3372,7 @@
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>Python for IDL users: <text:span text:style-name="T7"><text:a xlink:href="https://www.cfa.harvard.edu/~jbattat/computer/python/science/idl-numpy.html" xlink:type="simple">https://www.cfa.harvard.edu/~jbattat/computer/python/science/idl-numpy.html</text:a></text:span></text:p>
+        <text:p>Python for IDL users: <text:span text:style-name="T8"><text:a xlink:href="https://www.cfa.harvard.edu/~jbattat/computer/python/science/idl-numpy.html" xlink:type="simple">https://www.cfa.harvard.edu/~jbattat/computer/python/science/idl-numpy.html</text:a></text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p>Astropython: <text:a xlink:href="http://www.astropython.org/" xlink:type="simple">http://www.astropython.org/</text:a></text:p>
@@ -3414,7 +3421,7 @@
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>See <text:span text:style-name="T8">Python—All a Scientist Needs</text:span> by J. B. Lucks (arxiv:0803.1838)</text:p>
+        <text:p>See <text:span text:style-name="T9">Python—All a Scientist Needs</text:span> by J. B. Lucks (arxiv:0803.1838)</text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -4652,7 +4659,7 @@
         <text:p>Great floating point reference</text:p>
         <text:list>
          <text:list-item>
-          <text:p>“What Every Computer Scientist Should Know About Floating-Point Arithmetic” by D. Goldberg</text:p>
+          <text:p><text:span text:style-name="T9">What Every Computer Scientist Should Know About Floating-Point Arithmetic</text:span> by D. Goldberg</text:p>
           <text:p/>
          </text:list-item>
         </text:list>
@@ -4701,7 +4708,7 @@
           <text:p><text:span text:style-name="T4">Integers</text:span>: </text:p>
           <text:list>
            <text:list-item>
-            <text:p>Standard in many languages is 4-bytes. <text:s/>This allows for 2<text:span text:style-name="T9">32</text:span>-1 distinct values.</text:p>
+            <text:p>Standard in many languages is 4-bytes. <text:s/>This allows for 2<text:span text:style-name="T10">32</text:span>-1 distinct values.</text:p>
             <text:list>
              <text:list-item>
               <text:p>This can store: -2,147,483,648 to 2,147,483,647 (signed)</text:p>
@@ -4757,7 +4764,7 @@
           <text:p>Integers (continued): </text:p>
           <text:list>
            <text:list-item>
-            <text:p>Sometimes 2-bytes. <text:s/>This allows for 2<text:span text:style-name="T9">16</text:span>-1 distinct values.</text:p>
+            <text:p>Sometimes 2-bytes. <text:s/>This allows for 2<text:span text:style-name="T10">16</text:span>-1 distinct values.</text:p>
             <text:list>
              <text:list-item>
               <text:p>This can store: -32,768 to 32,767 (signed)</text:p>
@@ -5462,9 +5469,9 @@
       <text:p><text:span text:style-name="T6">(xkcd)</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr8" draw:text-style-name="P10" draw:layer="layout" svg:width="16.51cm" svg:height="1.119cm" svg:x="2.45cm" svg:y="16.51cm">
+    <draw:frame draw:style-name="gr8" draw:text-style-name="P9" draw:layer="layout" svg:width="16.51cm" svg:height="1.119cm" svg:x="2.45cm" svg:y="16.51cm">
      <draw:text-box>
-      <text:p text:style-name="P9"><text:span text:style-name="T10">Overflow example...</text:span></text:p>
+      <text:p><text:span text:style-name="T11">Overflow example...</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -5520,10 +5527,10 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Python allows for the date size of the integer to scale with the size of the number: https://www.python.org/dev/peps/pep-0237/</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Python allows for the date size of the integer to scale with the size of the number: https://www.python.org/dev/peps/pep-0237/</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T11">Initially, it is the largest value supported in hardware on a machine (64-bits on a 64-bit machine—see </text:span><text:span text:style-name="T12">sys.maxint</text:span></text:p>
+          <text:p><text:span text:style-name="T12">Initially, it is the largest value supported in hardware on a machine (64-bits on a 64-bit machine—see </text:span><text:span text:style-name="T13">sys.maxint</text:span></text:p>
          </text:list-item>
         </text:list>
         <text:p/>
@@ -5534,35 +5541,35 @@
         <text:p/>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">This prints:</text:span></text:p>
+        <text:p><text:span text:style-name="T12">This prints:</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr9" draw:text-style-name="P11" draw:layer="layout" svg:width="21.336cm" svg:height="7.701cm" svg:x="2.54cm" svg:y="7.958cm">
+    <draw:frame draw:style-name="gr9" draw:text-style-name="P10" draw:layer="layout" svg:width="21.336cm" svg:height="7.701cm" svg:x="2.54cm" svg:y="7.958cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T13">def fac(x):</text:span></text:p>
-      <text:p><text:span text:style-name="T13"><text:s text:c="4"/></text:span><text:span text:style-name="T13">if (x == 0):</text:span></text:p>
-      <text:p><text:span text:style-name="T13"><text:s text:c="8"/></text:span><text:span text:style-name="T13">return 1</text:span></text:p>
-      <text:p><text:span text:style-name="T13"><text:s text:c="4"/></text:span><text:span text:style-name="T13">else:</text:span></text:p>
-      <text:p><text:span text:style-name="T13"><text:s text:c="8"/></text:span><text:span text:style-name="T13">return x*fac(x-1)</text:span></text:p>
-      <text:p><text:span text:style-name="T13"/></text:p>
-      <text:p><text:span text:style-name="T13"/></text:p>
-      <text:p><text:span text:style-name="T13">a = fac(52)</text:span></text:p>
-      <text:p><text:span text:style-name="T13">print a</text:span></text:p>
-      <text:p><text:span text:style-name="T13">print a.bit_length()</text:span></text:p>
+      <text:p><text:span text:style-name="T14">def fac(x):</text:span></text:p>
+      <text:p><text:span text:style-name="T14"><text:s text:c="4"/></text:span><text:span text:style-name="T14">if (x == 0):</text:span></text:p>
+      <text:p><text:span text:style-name="T14"><text:s text:c="8"/></text:span><text:span text:style-name="T14">return 1</text:span></text:p>
+      <text:p><text:span text:style-name="T14"><text:s text:c="4"/></text:span><text:span text:style-name="T14">else:</text:span></text:p>
+      <text:p><text:span text:style-name="T14"><text:s text:c="8"/></text:span><text:span text:style-name="T14">return x*fac(x-1)</text:span></text:p>
+      <text:p><text:span text:style-name="T14"/></text:p>
+      <text:p><text:span text:style-name="T14"/></text:p>
+      <text:p><text:span text:style-name="T14">a = fac(52)</text:span></text:p>
+      <text:p><text:span text:style-name="T14">print a</text:span></text:p>
+      <text:p><text:span text:style-name="T14">print a.bit_length()</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr10" draw:text-style-name="P12" draw:layer="layout" svg:width="26.416cm" svg:height="2.617cm" svg:x="1.27cm" svg:y="17.259cm">
+    <draw:frame draw:style-name="gr10" draw:text-style-name="P11" draw:layer="layout" svg:width="26.416cm" svg:height="2.617cm" svg:x="1.27cm" svg:y="17.259cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T13">80658175170943878571660636856403766975289505440883277824000000000000</text:span></text:p>
-      <text:p><text:span text:style-name="T14">226</text:span></text:p>
-      <text:p><text:span text:style-name="T15"/></text:p>
+      <text:p><text:span text:style-name="T14">80658175170943878571660636856403766975289505440883277824000000000000</text:span></text:p>
+      <text:p><text:span text:style-name="T15">226</text:span></text:p>
+      <text:p><text:span text:style-name="T16"/></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr11" draw:text-style-name="P13" draw:layer="layout" svg:width="22.036cm" svg:height="1.673cm" svg:x="5.842cm" svg:y="19.004cm">
+    <draw:frame draw:style-name="gr11" draw:text-style-name="P12" draw:layer="layout" svg:width="22.036cm" svg:height="1.673cm" svg:x="5.842cm" svg:y="19.004cm">
      <draw:text-box>
-      <text:p text:style-name="P13"><text:span text:style-name="T16">Note: python 3.x does away with the distinction between int and long altogether.</text:span></text:p>
+      <text:p><text:span text:style-name="T17">Note: python 3.x does away with the distinction between int and long altogether.</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -5637,14 +5644,17 @@
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr12" draw:text-style-name="P14" draw:layer="layout" svg:width="22.86cm" svg:height="5.207cm" svg:x="2.54cm" svg:y="5.08cm">
+    <draw:frame draw:style-name="gr12" draw:text-style-name="P13" draw:layer="layout" svg:width="22.86cm" svg:height="7.685cm" svg:x="2.54cm" svg:y="5.08cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T17">&gt;&gt;&gt; b = 0.1</text:span></text:p>
-      <text:p><text:span text:style-name="T17">&gt;&gt;&gt; print type(b)</text:span></text:p>
-      <text:p><text:span text:style-name="T17">&lt;type &apos;float&apos;&gt;</text:span></text:p>
-      <text:p><text:span text:style-name="T17">&gt;&gt;&gt; print &quot;%30.20g&quot; % (b)</text:span></text:p>
-      <text:p><text:span text:style-name="T17"><text:s text:c="8"/></text:span><text:span text:style-name="T17">0.10000000000000000555</text:span></text:p>
-      <text:p><text:span text:style-name="T17"/></text:p>
+      <text:p><text:span text:style-name="T18">&gt;&gt;&gt; b = 0.1</text:span></text:p>
+      <text:p><text:span text:style-name="T18">&gt;&gt;&gt; print type(b)</text:span></text:p>
+      <text:p><text:span text:style-name="T18">&lt;type &apos;float&apos;&gt;</text:span></text:p>
+      <text:p><text:span text:style-name="T18">&gt;&gt;&gt; print &quot;{:30.20}”.format(b)</text:span></text:p>
+      <text:p><text:span text:style-name="T18"><text:s text:c="8"/></text:span><text:span text:style-name="T18">0.10000000000000000555</text:span></text:p>
+      <text:p><text:span text:style-name="T18"/></text:p>
+      <text:p><text:span text:style-name="T18">&gt;&gt;&gt; import sys</text:span></text:p>
+      <text:p><text:span text:style-name="T18">&gt;&gt;&gt; print sys.float_info</text:span></text:p>
+      <text:p><text:span text:style-name="T18"/></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -5671,38 +5681,38 @@
           <text:p>Base 2 is used (since we are using bits)</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T3">0.1 ~ (1 + 1</text:span><text:span text:style-name="T18">·2</text:span><text:span text:style-name="T19">-1</text:span><text:span text:style-name="T18"> + 0·2</text:span><text:span text:style-name="T20">-2</text:span><text:span text:style-name="T18"> + 0·2</text:span><text:span text:style-name="T20">-3</text:span><text:span text:style-name="T18"> + 1·2</text:span><text:span text:style-name="T20">-4</text:span><text:span text:style-name="T18"> + 1·2</text:span><text:span text:style-name="T20">-5</text:span><text:span text:style-name="T18"> + ...) · 2</text:span><text:span text:style-name="T20">-4</text:span></text:p>
-          <text:p><text:span text:style-name="T21"/></text:p>
-          <text:p><text:span text:style-name="T21"/></text:p>
+          <text:p><text:span text:style-name="T3">0.1 ~ (1 + 1</text:span><text:span text:style-name="T19">·2</text:span><text:span text:style-name="T20">-1</text:span><text:span text:style-name="T19"> + 0·2</text:span><text:span text:style-name="T21">-2</text:span><text:span text:style-name="T19"> + 0·2</text:span><text:span text:style-name="T21">-3</text:span><text:span text:style-name="T19"> + 1·2</text:span><text:span text:style-name="T21">-4</text:span><text:span text:style-name="T19"> + 1·2</text:span><text:span text:style-name="T21">-5</text:span><text:span text:style-name="T19"> + ...) · 2</text:span><text:span text:style-name="T21">-4</text:span></text:p>
+          <text:p><text:span text:style-name="T22"/></text:p>
+          <text:p><text:span text:style-name="T22"/></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T22">All significand&apos;s will start with 1, so it is not stored</text:span></text:p>
+          <text:p><text:span text:style-name="T23">All significand&apos;s will start with 1, so it is not stored</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T23">Single precision:</text:span></text:p>
+          <text:p><text:span text:style-name="T24">Single precision:</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T22">Sign: 1 bit; exponent: 8 bits; significand: 24 bits (23 stored) = 32 bits</text:span></text:p>
+            <text:p><text:span text:style-name="T23">Sign: 1 bit; exponent: 8 bits; significand: 24 bits (23 stored) = 32 bits</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T22">Range: 2</text:span><text:span text:style-name="T24">7</text:span><text:span text:style-name="T22">-1 in exponent (because of sign) = 2</text:span><text:span text:style-name="T24">127 </text:span><text:span text:style-name="T22">multiplier ~ 10</text:span><text:span text:style-name="T24">38</text:span></text:p>
+            <text:p><text:span text:style-name="T23">Range: 2</text:span><text:span text:style-name="T25">7</text:span><text:span text:style-name="T23">-1 in exponent (because of sign) = 2</text:span><text:span text:style-name="T25">127 </text:span><text:span text:style-name="T23">multiplier ~ 10</text:span><text:span text:style-name="T25">38</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T22">Decimal precision: ~6 significant digits</text:span></text:p>
+            <text:p><text:span text:style-name="T23">Decimal precision: ~6 significant digits</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T23">Double precision:</text:span></text:p>
+          <text:p><text:span text:style-name="T24">Double precision:</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T22">Sign: 1 bit; exponent: 11 bits; significand: 53 bits (52 stored) = 64 bits</text:span></text:p>
+            <text:p><text:span text:style-name="T23">Sign: 1 bit; exponent: 11 bits; significand: 53 bits (52 stored) = 64 bits</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T22">Range: 2</text:span><text:span text:style-name="T24">10</text:span><text:span text:style-name="T22">-1 in exponent = 2</text:span><text:span text:style-name="T24">1023</text:span><text:span text:style-name="T22"> multiplier ~ 10</text:span><text:span text:style-name="T24">308</text:span></text:p>
+            <text:p><text:span text:style-name="T23">Range: 2</text:span><text:span text:style-name="T25">10</text:span><text:span text:style-name="T23">-1 in exponent = 2</text:span><text:span text:style-name="T25">1023</text:span><text:span text:style-name="T23"> multiplier ~ 10</text:span><text:span text:style-name="T25">308</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T22">Decimal precision: ~15 significant digits</text:span></text:p>
+            <text:p><text:span text:style-name="T23">Decimal precision: ~15 significant digits</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -5729,9 +5739,9 @@
       <draw:handle draw:handle-position="left $1" draw:handle-range-y-minimum="0" draw:handle-range-y-maximum="21600"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:frame draw:style-name="gr14" draw:text-style-name="P15" draw:layer="layout" svg:width="4.572cm" svg:height="0.962cm" svg:x="13.254cm" svg:y="8.852cm">
+    <draw:frame draw:style-name="gr14" draw:text-style-name="P14" draw:layer="layout" svg:width="4.572cm" svg:height="0.962cm" svg:x="13.254cm" svg:y="8.852cm">
      <draw:text-box>
-      <text:p text:style-name="P9"><text:span text:style-name="T25">significand</text:span></text:p>
+      <text:p><text:span text:style-name="T26">significand</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -5843,38 +5853,38 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>Finite number of bits used to represent #s means there is a finite precision, the <text:span text:style-name="T4">machine epsilon</text:span>, <text:span text:style-name="T26">ε</text:span></text:p>
+        <text:p>Finite number of bits used to represent #s means there is a finite precision, the <text:span text:style-name="T4">machine epsilon</text:span>, <text:span text:style-name="T27">ε</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T27">One way to find this is to ask when</text:span><text:span text:style-name="T26"> 1 + ε = 1</text:span></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
+          <text:p><text:span text:style-name="T28">One way to find this is to ask when</text:span><text:span text:style-name="T27"> 1 + ε = 1</text:span></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T27">This gives</text:span><text:span text:style-name="T26"> </text:span><text:span text:style-name="T28">2.22044604925e-16</text:span></text:p>
+          <text:p><text:span text:style-name="T28">This gives</text:span><text:span text:style-name="T27"> </text:span><text:span text:style-name="T29">2.22044604925e-16</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr16" draw:text-style-name="P16" draw:layer="layout" svg:width="23.622cm" svg:height="8.446cm" svg:x="3.048cm" svg:y="7.336cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P15" draw:layer="layout" svg:width="23.622cm" svg:height="8.446cm" svg:x="3.048cm" svg:y="7.336cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T29">x = 1.0</text:span></text:p>
-      <text:p><text:span text:style-name="T29"/></text:p>
-      <text:p><text:span text:style-name="T29">eps = 1.0</text:span></text:p>
-      <text:p><text:span text:style-name="T29"/></text:p>
-      <text:p><text:span text:style-name="T29">while (not x + eps == x):</text:span></text:p>
-      <text:p><text:span text:style-name="T29"><text:s text:c="4"/></text:span><text:span text:style-name="T29">eps = eps/2.0</text:span></text:p>
-      <text:p><text:span text:style-name="T29"/></text:p>
-      <text:p><text:span text:style-name="T29"># machine precision is 2*eps, since that was the last </text:span></text:p>
-      <text:p><text:span text:style-name="T29"># value for which 1 + eps was not 1</text:span></text:p>
-      <text:p><text:span text:style-name="T29">print 2*eps</text:span></text:p>
-      <text:p><text:span text:style-name="T29"/></text:p>
+      <text:p><text:span text:style-name="T30">x = 1.0</text:span></text:p>
+      <text:p><text:span text:style-name="T30"/></text:p>
+      <text:p><text:span text:style-name="T30">eps = 1.0</text:span></text:p>
+      <text:p><text:span text:style-name="T30"/></text:p>
+      <text:p><text:span text:style-name="T30">while (not x + eps == x):</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="4"/></text:span><text:span text:style-name="T30">eps = eps/2.0</text:span></text:p>
+      <text:p><text:span text:style-name="T30"/></text:p>
+      <text:p><text:span text:style-name="T30"># machine precision is 2*eps, since that was the last </text:span></text:p>
+      <text:p><text:span text:style-name="T30"># value for which 1 + eps was not 1</text:span></text:p>
+      <text:p><text:span text:style-name="T30">print 2*eps</text:span></text:p>
+      <text:p><text:span text:style-name="T30"/></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -5895,443 +5905,312 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p text:style-name="P17"><text:span text:style-name="T30">This means that </text:span><text:span text:style-name="T31">most real numbers do not have an exact representation on a computer</text:span><text:span text:style-name="T30">.</text:span></text:p>
+        <text:p text:style-name="P16"><text:span text:style-name="T31">This means that </text:span><text:span text:style-name="T32">most real numbers do not have an exact representation on a computer</text:span><text:span text:style-name="T31">.</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T27">Spacing between numbers varies with the size of numbers</text:span></text:p>
+          <text:p><text:span text:style-name="T28">Spacing between numbers varies with the size of numbers</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T27">Relative spacing is constant</text:span></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
-          <text:p><text:span text:style-name="T26"/></text:p>
+          <text:p><text:span text:style-name="T28">Relative spacing is constant</text:span></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
+          <text:p><text:span text:style-name="T27"/></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr17" draw:text-style-name="P3" draw:layer="layout" svg:width="24.383cm" svg:height="2.202cm" svg:x="2.03cm" svg:y="10.26cm">
+    <draw:frame draw:style-name="gr17" draw:text-style-name="P3" draw:layer="layout" svg:width="23.678cm" svg:height="1.985cm" svg:x="2.03cm" svg:y="10.261cm">
      <draw:image xlink:href="">
-      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAACWAAAADZCAYAAACkEAsAAAAACXBIWXMAAFxGAABcVgFeVlEQ
-       AABWc0lEQVR4nO3djXXbuNYwXI3W28B8JcwtIVNCUkJSQlJCUkJcQlzCpIRxCdcl3LSQDvR8
-       OjaQ0DRI8VcCpb3X8nJiSyBEgqDMc3Tw/w6Hww4AAAAAAAAAAIDx/t+lOwAAAAAAAAAAALBV
-       ErAAAAAAAAAAAAAmkoAFAAAAAAAAAAAwkQQsAAAAAAAAAACAiSRgAQAAAAAAAAAATCQBCwAA
-       AAAAAAAAYCIJWAAAAAAAAAAAABNJwAIAAAAAAAAAAJhIAhYAAAAAAAAAAMBEErAAAAAAAAAA
-       AAAmkoAFAAAAAAAAAAAwkQQsAAAAuID9fv/1+O3z8ev74XD4cOn+AAAAAMBa3Avj2knAAgAA
-       gMv4nL6/v2gvAAAAAGB97oVx1SRgAQAAAAAAAAAATCQBCwAAAAAAAAAAYCIJWAAAAADAzdnv
-       92+O3/5M/43vb/LvDofDl4t0CgAAbpj36MCWScACAAAAAK7Wfr//unsO3LwI4JwguAMAACvx
-       Hh24RhKwAAAAAIBrFgGdt5fuBAAA8Iv36MDVkYAFAAAAAFytw+HwLv87LWny1/Hr407ABwAA
-       LsJ7dOAaScACAAAAAG7C4XB4PH6Lr+/7/f6f4/f3F+4SAADcNO/RgWshAQsAAAAAuEX3O8Ed
-       AACoiffowGZJwAIAAAAAbtHjpTsAAAC84D06sFkSsAAAAOAK7ff7+MRolO6Pcv5/XLg7ANU5
-       zo0/j3PlpbsBAJvg7wvgHLxHB7ZMAhYAAABcpzeX7gAAAHA1/H0BANBDAhYAAAAAAAAAAMBE
-       ErAAAAAAAAAAAAAmkoAFAAAA18kSIQAAwFL8fQEA0EMCFgAAAFwnARIAAGAp/r4AAOghAQsA
-       AACuzH6/j+DIn5fuBwAAsH3+vgAAOE0CFgAAAFyft5fuAAAAcDX8fQEAcIIELAAAALg+7y/d
-       AQAA4Gr4+wIA4AQJWAAAAHBF9vv9X8dvby7dDwAAYPv8fQEAMIwELAAAALguny/dAQAA4Gr4
-       +wIAYAAJWAAAAHAl9vv92+O3j5fuBwAAsH3+vgAAGE4CFgAAAFyB/X7/5/Hbt0v3AwAA2D5/
-       XwAAjCMBCwAAADYuBUf+PX79dem+sI50jN+k/0Ylgsfj18/4OhwOjxfrGFAt8wZb0hqv+fvT
-       mL3UeG30KX//eek+wbls5e8L1zpga8xbcN0kYAEAAMCG7ff7WBLk6+45OHjJfrxt/DcHK7Mf
-       h8PhvvCcCOhE/9/uXgZbH45fd8fn/BzZh+Z2mzc1n/p0bO/dmPbO1faJbb5PX53Br+Pj4lvs
-       s+/xNXa/1WDO/k1jL4+h5jj8kb5iTH1f8mb2VsdaOufyWBq7n/P5+mb3+hyP8dfc12PP3Wg7
-       xvnb1L/meJ/V9pJSsCT6+abxla023sa45LxRw3WAbek4/qXHxbcYqw+lcbRwn6IvzfnoZJ92
-       K81N5uzitpvzTHvbu+P2vnQ8rzl3N9vISXVP887x+Q9L9rex/U29b6jl74surnXn4z362do2
-       38/gPfrJbd/UvAWXJgELAAAANiTdCMs3FXtv3jWe838jN/Nw4ibv16HbTu462vhceGx+bR+P
-       j3nXdYM03cCMNt6Wfj/Hmm0P3H5s93Nh+82bx/nGfPOTs/H19fj8+64AZA2W2r89+ynLQYKn
-       xx0fn28WjwqubnmsHduPyhXtm+xj24h9GPv5Y8/Dmv1/GoO7ATfm12x7SSmok+e9rn3ZHm9x
-       rt6tnSzS6ONZ540argNsV894bSbDhGb1qaegZRo3cW69GlMz+/Qx9ak9ppvn0F+pP7nfOZC6
-       yNxkzn61vbHzzKvre89xzfLxbM7d36f2OW1zc+8bavj7YgjXunV5j36etlP75vsFeI9e3N5N
-       zVtQIwlYAAAAsC05kHRJcdNt8nIk+/3+2+75dcTN2bjx+fRJ1NaNvqdlT44/+0/HTdxmAHRp
-       a7bdKd1A/rx7fXw7gxKNT6Y299vndKP3U6U3RWfv39ZYyZ8Qfsyvt/Fp7c+73zfjn25kH3/3
-       ZWTgfstjbe5+blbAiABBnK+PeSymMZurxbxPT8vjOPZ15xhstR3neK4k85DP+VSxJNrPwZ9B
-       bS+pUAUk97M53poB/NzXGIPfjr+L/n5asarKpeaNGq4DbEzPeO0Nhhbmmq9pvH6YOzY6gux5
-       XEbQ80fH86IfuTJEfl3v0zXm+8TumLNfmjzPpNf6z+73Pn3c/a6i1nyv0Kx4tkvbm3sst/i+
-       oYa/Lzq51p2N9+jnaXs3t+0rnO9H8x69063NW1AdCVgAAADAKM1Pr6fAZbM8fa904y4eGzcP
-       P+TAZroB2r45mT/R+qnQh7hh+Uej3V/VC0a+nFeabacbp7kaQN8ngGdJN1v/2b1egqk3EJH2
-       35f0yfF4fr4BHe38W+MnU+fu38ZN4XhdX0o3r9N+uUufxM6fMM8icL8bGuDZ8lg7tl/qd7R9
-       8tP2KagR+/ppjJUSI9IN96flMRqPz+K1/HP8+d/tG/PpfP+a/hvP/1S6eZ8C39H249C2l9QY
-       a7mfX0rJGK39EOMqf/I8xLkd5+Ld0pXpLjlv1HAdYFt6xmvMLV/6zuXWOfYUON09j7U8XqdW
-       Kiots9Y5J7X6lPvzPvUn2nh6jVPPd3P2q/aa80yu0NQMohelOSmu/TkxoRhgT3PPU6Jd6ziG
-       fCwjCW/U/LPl9w01cq07H+/Ry217j+49+oT+mbfghknAAgAAgA1JNweLNwj3HUuBNG/wrtCf
-       vFRQ3NSMm4Tvux67/11+Px7fDph23cyO9k7e1Es3yR/ipv1uwU/wpz7mtn8u2XbWChQ2fRq6
-       NEK8/mM7H1I7Wf5kanVJWFlr/8aPTgVVP6bHDAqIRvvxafrdy/0SIsDzWAoMDWhzk2Ot0e9o
-       +2vfYxuB6EGJCKn9+/3v5UqynCjxodF2TnjY7QaO8Z62Y86ZtZxRl9anvz8NrYKSAhUfWgGs
-       EJ9e/3NsIL+nf9XMG7VcB6hXz3gdW+0kn2PvGufoizlmRJ9Ky+sMPn8a/Ylx/yP1IwdaZ5/v
-       5uxXbealmr73XSNbY+1kcl+j/Xwc2+P0Y2pzcqLfFt431Pb3RWPbrnUX4j36i3a9Rx/ftvfo
-       5i24WRKwAAAAgKXEDcXOm3q7lzd02zeLu8rkn/wUcEvcwF5rCZXvS7edblh3BaXHBoEf0id7
-       m32Mdr/NqRByRrF/O4M76WZ23HAfVY0i7ZcYF+1P/cZ+mrPkxKbGWqvtzuBOo7rM6KofRzH+
-       2p/ej2Wc3qbjkI9hGJvoUGo7ljn5OPZcGeB+9zuwMymBMZJK9r+XHsk+psoOswIVlc8bNVwH
-       qEjPeL0fm3yV2stLV+Vkp19zzIg2Fkm+yg7PS/PEed18nYuc7ztzdknXNfIpOJ2+T6lcFcfx
-       3e71eG1WHpnzXmqr7xsuwrWuKt6j/+Y9+rC2vUd/ybwFN0QCFgAAALCUzhugKWAaN3bvOm6U
-       xidSSzf2Xi0lMLUPc6XA3GLtpRu/zaUFsocpQemkdAM89nvcuF10aYWlpZvMfQ+Jm8IPE2+M
-       l4I7ERh4M6M62GbGWqvtHyfa/rWkyYS2o5pBKUgX539eSiPcTwhCdLUdY3vp4M6swE4WFUVS
-       IKYZ7JgV4NnAvFHDdYBK9IzXSXNMGkP/FH6V55ghbcRYbwfPv88NEjeSsJr9i/P952HG0kbm
-       7GLbXdfInJT3feocm9rOy1S125671NIm3zdcgmtdXbxH/8179FFte4/+zLwFN0YCFgAAALCI
-       dPO169f5ZmnXzce4gVgKqg5aUmBgH2rTrODRNPUGbX7997vXweVYWuE+Lb2wOWlJhNhX/5nY
-       RNcN5/c9v+u1sbE2SNrP8fX3jCofpf35Pi3tFDfuo92pyQgRIGoHd/6aGaTr0hWAGCuCOLFP
-       20taPQxdMqWl6nmjhusAVekcrxPnmK6qI+3gfVGrwkfTIsvnHJ6XsWsnE3xOy2ktPo7N2UXR
-       71nHM1VHyfu2KebuH1MD6df4vmFFrnUb4T36eZjvX/Ae3bwFVZOABQAAAKwtbmrGzc37rhvG
-       KWj5Yff8Cep8A/h+TtWImqWb6KVA8sOYZZQ6lG7ShrixutX9+fQJ6hkBh66b06Wb5Lcs7+c5
-       QY3Svo45IAdl5hzHrudNDtJ1eJzxSfUXegIn31KAZ/C+2Pi84TpwY1KyU2lM/ZhRbaprzu5a
-       GqetlHw1Z04qibmjnbgz+nwfyJz9WmnppClKxzFE0Pv7VhPat8C1bnO8Rz8P8/0z79F/M29B
-       pSRgAQAAAGvLpf17A67pk6a38inKrioes19/Wr6itExAHIet3iSNm8Ifpj55wJIePIv9PLWC
-       wZOeZWryeJzzKfBTbS9lbqCkLV5z+5yPYMfY5ay2PG+4Dtye9hJu2ZzliCLg117aZ5Dj+I7+
-       lAL6iy6PlOap9rkUfV5jKWBzdmGbS7UTlct2r8dMPpaLVE2jyLVuW7xHPw/z/TPv0X8zb0Gl
-       JGABAAAAa4ubmD9XXG5mUzqWtcmWuqnctQzE26WCk2f2fYXKIWHQslU35HHlqh5rHcdJCRnn
-       kj5h316WLMQyJ3dD9vkVzBuuAzckVb/qGq9zgnfx3PYYDb3j89ifZoWPph8rjcnoZzsYm8/3
-       JedAc/a6Ihhdqpo2eO5mHNe6TfIe/TzM9yvwHv3JLc5bsCoJWAAAAMA5bDHpZy2lIHD4seCN
-       9a524ubwFo+FG8LnsfbYWOs4rlZNZUHx2kvBmaHLh1zDvLHFuYdpusbr3AByVKqISg3tgO6p
-       pK7Sc8JaY7Jrmaelq2CZs9cV46qUgBW2vKxzzVzrtsd79PMw36/He/Tbm7dgVRKwAAAAgHNQ
-       JWD3qwrH+45fL3nju6utLdwELxHcOQ/BnfV0vfaTy4dc0bzhOnA7usbrrDkmLcPzbve8NFAE
-       HaNax/3x56eWEewKjq5R7SN0jfWllwI2Z68oVUYpLUMYtrysc5Vc6zbLe/TzMN+vx3v025u3
-       YFUSsAAAAIBz8KnKZ33LaSx547OrraqXgejhpvB5rL2fbzlI15XoEcuHvDmx7Me1zBuuAzcg
-       LcXTNWZmJzylc+XdiP5EcLKUQBPOWQErDDnfl9jOUm55zs5ijJTGz9LHEte6rfIe/TzM9+vx
-       Hv325i1YlQQsAAAAgPPpCgIvKlUJKf2q7yZxtRZcvoEea+/nqCayZvs1O772h45zMsR52Rfc
-       MW+wJX3j5RIB3q7KFKvpOZfCqfN91HaWaKen/Zudsxv69nGMrVtOWliaa90GeY9+Hub79XiP
-       DixNAhYAAACwurixeek+VKLvJq19BLfpVPDmKuaNLV0H9vv9f3dnCqqt7OG43wdXi1pIbfut
-       b3meSyTP1LZ/6NeX9LCFpbW2xLUOqI336MBoErAAAAAAzqcvWPdvz6dvget1avkQ88b5XUuS
-       zCUqI3SO5wsF+DrPnwtV/NjqUsC3qi8By7FclmsdUBvv0YHRJGABAAAAnM+lqyXcXXj7wGun
-       kmTMG+f36fj1dbftBItIHLnEsastea225Xlq6w89BiwnyXJc64DaeI8OjCYBCwAAAKACh8Ph
-       j0v3AdgW88Y6jvv1/vjt/tL9AMC1Dtge8xbcLglYAAAAAMCWXWIZMQCmMWcD3AbzPXBzJGAB
-       AAAAAFv2eOkOADCYORvgNpjvgZsjAQsAAADgfB6OX29Lv9jv928Oh4Ob1HB7Tp335g22JMbj
-       m9IvjuP1z+N4PXc1jM7+XMiPS3eA4Y5j9q+eX5t7l+VaB9TGe3RgNAlYAAAAwAv7/f7/4vvh
-       cPjj0n25Qn2B1z/P1gvgrCLxpOfXpxJSzBtsSd94jkSoh3N1JOnsz/G8fHt8r3Pu/kjA2pa+
-       BCxLa40w4O8L1zrg7LxHB5YmAQsAAADgfPpu0vYF+YBt66vAc+rT8eYNtiTGc7EaxO4ywci+
-       /lyCahjbMmfuZhzXOuASvEcHFiUBCwAAAOB8vh+/vnb8zk1auE2nKvCYN9iSGM+fO34XQc7v
-       Z+xLONWfxStgRWWtE/1hO/rmWMdyWa51QG28RwdGk4AFAAAAMMB+v+/7dOwgh8Phx7Gd+CRt
-       qa3Z7XMdlhhrVKcrIePHqSXQzBtsSYzn43iNJXtK1a7OHoxM/fnRse21+tNV6evnBZY8ZJ7J
-       c/c5XcP7Btc6tuAazjVe8R4dWJQELAAAAIBhllo66f749a3w87f7/f7Pw+Hwc6Ht/HJs9/3u
-       uQLIw7H9L0u3z+IusUzXli1+zqygK9FjaDUg8wZbEuP6Y+HnqywFmMZqbO/LcayWlguK/pSq
-       YK21NGFX0PXc1b9qtYU5O8ZVzNtz5+5zuZb3Da511O5azrVz2cJ87z06sCgJWAAAAADDLBWo
-       zUsVlG7gx83U+4W20xQ3aCMgHDeY3aSt31pJAdfqx6U7MEDXMR16vps32JK7XTkB688IGh4O
-       h6WTV+LciHEa47WUgBXnRykB669IsokKFgv3p+t8v1t4O1u1hTk7lMZwtsacO8e1vG9wraN2
-       13KuncsW5nvv0YFFScACAACA61Fc8mfMJy/jsY22tiqWCljj5vgibcaxOO7nCMJ+Lfx68Zu0
-       aamMXI2jtooNW1f1WKMO6RwsBWXuhiZ+mDfYkrQkT4zJripYi42pNFZz9YriUkGpP3H+lJKw
-       4vxZLDEqVU0qVcC6XyHRi3V1JWANnrsLtvi+4Wx/X7jWsaAtnmucmffowBokYAEAAMD1iKoP
-       pZvCcYOuGJTseGxua6vWKPPfFVCd5HA43KWlA9ptxlIFb4+/H3q8hmgGEFXfWFb1Y41Jlg6u
-       lYL4MXZGnY/mDTYmxk2M13Zg82MEKhdMRspj9eFEm7k/7aWGPu6WHeNd57sKFRtyHKNd1UxG
-       z92F5y/qDO8bzvr3hWsdC9niucZp3qObt6B6ErAAAADgekjAelYMwI75pH5BqWrGXJ+OX//u
-       Xgf4Iuj39xIbiBu+u983aZcMePNsK2ONcd4stUxaCtaVgjsfJo4R8wabkKpORdLRt8KvY577
-       NHcbqQrEr7F6oj9RoSKfP02xDOHnCJ4u0J+u8/3LjGsCIxyPwcfjvp5VbSRVa+qqfvVp5rHc
-       4vuGS/x94VrHXFs81zjNe3TzFlRPAhYAAABcj7gRWboxPOaTuu8bbW1V334Y/enTRoD3R/pa
-       ainCx47gdNxY/nr8/axqGSmAmNuOfvuE7PI2MdYYJS+19O14PB4XCGyUkk++TP0kvHmDLYlE
-       mFaSVBZVsL4vUBEij9VBbcVjUhJW+/z5fPx5VNCam3xeqpp0PzchiFG+pmM5Z+6O8dG1JNXc
-       98dbfN9w9r8vXOtYwBbPNfp5j27egk2QgAUAAABXIt30ixuG7RvC7+MTnqduUjaWVfgxJQiZ
-       bkx3/W7Op41HSfsh+v9qCYDdyBvurRudcdO0WBEhXvuUfZaC07tdORj8Y2rQNvU7PoEbxzT2
-       +9RP8p5NGn+dv5tzk72v7Tm2NNYaz+/bz7Pazm30/G7WPNDX9oLinIt9FMHif47bfDe1z8fn
-       xvFsz8f3cyvt1Dxv1HIdoB7HY/4pja33rV/l82vSnJPOrxhvMaYGV9NK50/052vjxzmgO/d8
-       b7/GON9nVfoyZ48W/Z08d3ccx3A/N3getvi+4VJ/X7jW1cN7dO/R57S9IO/RzVuwCRKwAAAA
-       4LrETcPSJ3Ij0PjhxHPzjcLRNx7TDb2vPQ+Jm6Rxw3GJT6sOETfH28sMRcWNu6E3FxsB2nht
-       UV3jeyxt0/HwuBE86aZ440Ztu3LGt3QzdNTxSDfv/9n9DkxPDnCfS+pz6VPI2ed07EaPndR2
-       59hMN+DnLOGwmbGW9kXf8ikx5j7NSIg4NQ9EZZJJS3GdaPtj+iT83MokzU+T54Dxv2P3STqe
-       cQ625+K7JQL4ocZ5o8LrAJU4Hu8Paa5tzmtPwcQpSViNtvJYHTWnxPlxbCOe07zu5PP9w9jx
-       WXhtYankK3P2OPFe97+732NrcN87jmOYfSxbNvO+oeEif1+41l2e9+jeo89s23v038xbcCMk
-       YAEANy/98RV/eMUfI/FHTbvUfPzhEX/YjC5jn/5Ier97+Yddbu+7T5cAsLS0vE7cPGzfYItP
-       qX/s+tRl41OgD6c+mXl87L+78csuvM3PSTckm94tsAzRC2k/xM3N5o3sZrC39xqcblLm6hpx
-       3T4VePuc3lPEzeUfY98zpBu1j41tZnEzPPbbpwEVBmL78XojKBD/rjL5Kr2edjDklHhNH0+N
-       nYXbHnQjvuaxdnzc/53qf0v04b+FfRHzwrtW21PmgdK+XqLtp2BKod9xfP4Y0c6vgFwcu93z
-       WMr75K75+5LCOZg9VehZOtngkvPGFq4D1CVVworxVZor74YEJNO4zoHwWde4xvkTQc1cdeTX
-       +T6hP1n068uUKhfm7NFzdun5UfUmLzP5vxSc7517Gwkm7dcw+Vie6GO17xtO9HnVvy96tu1a
-       dybeo7/kPXpV87336OYt2AwJWBeSJtgsB3zj62/ZpQAsqeea8+HW3zynfRPJUV2fXCo9J/bZ
-       lwF/7ORPSPW1/XXojV0AGCNVdoh/toMk39KN5Pt8LTv+P18L47oYf4+e+hT7ZsSN+bQfmjfd
-       4/X/L33CM67rj42bufnTtLEv8jU8bsZ+Gpg0/TE/r3HjcvCnadMx+fv43PweIt8cfpv6/D31
-       +VdSeKvP7xvPedgNuLHLMrY21ih6ERyO45ACPJ+bX+k8fNy9rHAQxzF/8KIt2pxUUWAI8wZb
-       kubKGJPNgOTT386posjTeC0E7fN4zfc3ngLhcxOMU7LO37vf53ixP7uX83e+p9L+oNVu5xyq
-       Qqv6SAT+43jkyh5PY6vxQbzmdbgpjv2XtY7lFt83XPLvC9c6ptriucYr3qObt2BTJGCt7DhZ
-       xsQfE2VMkkPWwI3HLvqJCgBuQ3ozH9eaMdecm0zAanyCpF3aOf6IyX/8NOWbcvkPoP+mT1F2
-       fcIvHtf8FO3TpyZT+7m9/IdX3Nj967BsOXsAyEGSuKbFe4RmgLDrk8Tx2A8Tb0D+2P2+zo0x
-       9pOZo6Wb7vHa8t/n4cV7gdIncnfP1++LJEqnPudPa8eN1/ye4n366upziBu9d0t/indlY8bP
-       X7vf+2OIOI5DA/Rj235hI2Nt6Pv/oX9TTGk7jD334xgOnZumziuv9n+aD9vH9dd52COeF38r
-       3J8rUFLBvFHtdYC6NAKSOUid55q8/NLnnrH6tATRkhWJGud5+/z51Z94XE+fQvTn+wofcjNn
-       T5SSsPL74Pfp+6njGNY6lq9s5H3DC2f++6K0fde68/Ie3Xv0U7xHP8G8BbdHAtb6+tZULbnJ
-       QDgAi+hbJ77kJq85+5frpmfxR8innhts+ROS79NzQ3zC70f7OSn5Kkr95k+olMoD5xLY/909
-       /9EVN6keNhYoBWAD0vXnXbr+5SBn8wZ2XKfypy4HBzPbSxHULl2vH/a/lwbO+yAnr2e/lh3e
-       dS8VnPdZ1rzGN29u/pxTmSPfVN4931jOlTbax6+5zXwcq1pusCQdj1lLDF2i7RHbr2asjVza
-       Y5Q154FzzjFD9lHjuDbPxRwAy8fiZ/r+0PN3xarOOW9s7TpAfdL7jvvGfJnHans5v1zN4nHN
-       v5lb50/zQ1jt8+dFn3bP59BSySXm7AWl4PqH1vvg5vV4tWM5oo9VvW8Y2OdV/r4YsX3XupV4
-       j/7Ee/QLtV3Ylvfo5i3YJAlY6/u1NmqjrG0EyEsZyj+UD1xXqg6T31wp+wlcmxfrcacbhnEj
-       pPjJj0v9wXFJ6VocyVHNP2wGfRov7c92YvXHXeMP7tR+JGg1/3B/tVxhautbqx95eQMAWFz6
-       W/Pm//5J+2HWJ5iPbZx9icb0XqL6xCp+2+pYo9+WzsUt9ZXbtsR8ubQc0L10P1jGFt4Hb/F9
-       Qw371bWOsbZ4rnHaluaCLfUVmEYC1sqawe0U2P2+3+9jYv1f4eH+qFvRcb9HQLyZhPBUzloS
-       FnAt2glV8f90zSklYN3qNae5LGCI/TMk+SpXtWpr79vPrfZ/tj/t19OWsr4AAAAAAACwQRKw
-       LqMryCvjdSWNyldtUW1EAhZwtSKxqGMN8Zu75hz3Q14PvuluYHn5k8s7phLW7ceVKlqNXSoS
-       AAAAAAAAFtNY+SXiW1/WWD741kjAuozS8oPhpqqRHE/oSIjKJ/Sg5Z9mKC6/tXu5RBTA1UnV
-       lkpu7ZoT83078SmW/h265F/XdaT5/I+F35f285C2AAAAAAAAYFEp8apdtCDyNiRgzSQB6zJK
-       Swz9SGsP34SUEPBP40f5JF+rGtVfHT+/qQQE4CYVl7VrL1d4AyI5qp10Oybh6Wfh+fGz5nVr
-       aALWkLYAAAAAAABgEfv9PuJYkZNRyp24mVyVNUnAuoxSNZJbDIS3dSVJLSGW2mrvd8Fu4Ba4
-       5jwrXXfGLMP4afe7amNcPyJ560uu3JiqOraTqh47KjuW2rq7pURsAAAAAAAA1jcg8ep+p/rV
-       IiRgXUapGsmYIPA1KC2/tOY+iGD358Z2c+BcsBu4djd/zUlVF1+9qRyx/GB+bN/jBye6DWgL
-       AAAAAAAAJtnv91E0IPIjSivEhMiTiOIAEq8WJAHrzNJ6miU3U40kBcJLJ/lq++A4cUSywYe1
-       2geo0SXm20qVkn6X3gelbUjyBQAAAAAA4CwGJF5FfOy7xKt1SMA6v1IC1o8bq8RU2gc/U5IU
-       AMspJv0e59tbS8AqVada7JqT3syWyrbe2n4GAAAAAADgzPb7fcSpcuJVScSs7m4wRnhWErDO
-       b/ASRVfMPgA4D/Pts7WXYexKLL6l5GoAAAAAAADOaEDiVVS6+i7x6jwkYJ3f2kHgLbAPAM7j
-       5ufbnqV/l9wPq1bYAgAAAOBZCjJ2/e7Pw+Hw85z9AQC4hBT/isSrrjhYJF7dKRZwXhKwzqgn
-       CHwz2YbHfRBB6q61RgFYiPn2l1Jy1NJL/0rAAgAAAFhZo8JDl8/Hx9xJwgIArtWJxKt4D/R9
-       J/HqYiRgnVfpJFg6CFy7rn0gUA2wrGLS7w2WGC19KnLpa07x2rbwNgAAAABuxn6//3fXXdGh
-       SwQjIwnrxQ8Ph8MfS/ULAOASju9vYonBeK9TintF4lWueCUR/YIkYJ1XqULGrQXC7QOA8zDf
-       PitWwFqq8VRprEQCFgAAAAAAAJNJvNoWCVjnVfq0xq1VfrIPAM7DfPts7US0YgLWDVYaAwAA
-       AFhTBBWH3tv6a1cOUgIAVG+/3/+5e066iuSrPwsPiSIAkXR1f9aOcZIErDNJa3GW3EyANlUJ
-       KU0QN7MPAM7BfPus59q7ZCLaOZY4BAAAALgph8Ph3aX7AABwThKvtk8C1vmUgsA/jifHLS1R
-       ZB8AnEcx8egGqzIVlx9cuAzrqkscAgAAAAAAcL32+3182D8Sr97vugss3B8Oh+9n7RijScA6
-       n7WXQNoC+wDgPEpVmW5xvi3th6WTo4rJxQtvAwAAAAAAgCvSSLz62PGQiO3d3WCBhc1aLAGr
-       kJUX1SVyJt7JAZGWS4rnxvdmMPOx8fV9qaoVx+3lbeWvnEn4I23rYeHSbaUA7apLFKUSdXGy
-       5teYA9FP+3L3fGyWrAJyyur7IC039TFta/Q4vNQ20vj/mtqMffLp2NZq4+MC4/+iNjg/NbfX
-       PD4/G9u7X6N63DnOoaXMPa6pjT/T8+P1RnvNRNFoY7V9PdSJuTy/8WqPvbNfc7JLjt+CUuLv
-       YvshjcGSqs6VWp3jWlTT/F9TX4a4xLm8tX0EC4nxWPpUGwAAAABcG/fCdi/ise87HhKxke+1
-       xWY5bZEErBTs+Hf38mTJQe33x99H0ORTx3Mj0PJt17Fc0u530Cd8TW19mdjPU6Xbwl/pK/od
-       g352Ikw6gUpWOWFSsD6SeboyJfM+/Xh87If268v9HZHAEPsrjn9XILrPt+Pzv/X8PiaWDwP6
-       EK/5n93rcTRoHA6x1jYa+y+Pyafz6fjz/ywZILzU+L+0Dc1POckmvrrOpT9TX+Lrc2zv+P3L
-       EuPkHOdQ2k60FfNTvMYI2r+bEryfc1zT8/M82Xc+NPf13a6c6LSakXP5u3yupnF71gpYlxq/
-       aRz807PNktj256nbHCjm8K7fxeudPFds3TmvRTXN/zX1pc8lr0Vb2UewgjiHYl68u3RHAAAA
-       AGBlN30vLOVhxOvvupcd++fukoUhti7FOWL/NgtbdMU7omjRpyXjv7MTsFrBkl+Ve1Jw82t6
-       WASHd+2gSQqqfd39DrTEgHrIa1c2dk7OAIz/R6DnryFJOY3tdJVu+9HYZg5c50/Ox+NzIsy7
-       mUkoxeWJVqpeE/2Or2bw6sWaoCkB4tXrS/v73/TzeFy85ncDBly0NyX5aoiurM9fWv2OvsaE
-       /VTd6/i7GF850B7j8OeUgNuJbbTH+thttI/XLv3/426Bi08F4/9itjA/dWwr/Nz9zm4uHZ9d
-       2u77ucfoHOdQ2k4OkOfXmcfm2KTFycc1Pf99qx8xR8ZxfWzs67eprRywf3ozlPb16klYc+by
-       XcebtrWy5C88fte8/qwl9lOpMtdVO/e1qKb5v6a+nNhnFzuXt7KPYA3pfZWEQAAAAACu3q3e
-       C0v3sfNqN21xHz7uZ0u8miHt44gDnMwvaYjHPsUUlurHEhWwcsAjVzJ5Ckwfv981AjQhgiaP
-       eSmZtANy5aPikmupre8pESgCdzmoHEGer0OSAFrJA1m0+6W0rE3qQwR8fux+B+ijusZ/Tm2r
-       R+lEWjQQ3lEpJV7npxyAytL/Y79+S4//5/jvv3e/A53NfudB1+dht165wN4EpFbiSBy7D62J
-       KZ7fPP4RcHsYk4gwYBuxf742/h/b+D4iCNk1CcR4n5WAVcn4v6Ta56euqlPFakuN4xPj99/0
-       42jjvynwPXpemXgOjRnfTTnw3TQleWbMcX1ozoGtcyJew5fSfoufxT49/vO/jT6+Sc9d7Y3h
-       xLk8jl+MoafKebszXHMafb3o+N09H8OtlavNCS0340LXoprm/5r68kol53LV+wgAAAAAAMZK
-       97AjPlKKh+Z40VlX4Lk2J/bxKXdLF7CYlYDVyCILpaVH2hl68cLvU2WRHCzpXbZkX16OJEQg
-       pm+pl65g0qAyYhHYSdt+WoIlXmspSDhQqRrJYhWF2pWrknh9pyoRfEl966pKEU4GtdM2/r8T
-       ffzf7vWgj+M+t8JTThrLCQovxlyq4NN+ToydMSfSlG08LZk0sP2+5c8mqWz8X0TN81PPc4ec
-       tzk5KNpvJv79M7H6yNrju6mUGDQqk3vCcY19lKug5KTTcHI5xfTaSwmW92tkoM+Yy6OCS8yx
-       OXlr1WtOqGX85iS0jj6Wkn4icePvMdvoc9xGJOi1x/WdhI5nl7oW1TT/19SXEc8967lc+z4C
-       AAAAAIChUmwk7mN3reIi8WoBjRhBaR9HXOFp9aPd88p0Z1vta24FrBzIfmxX5ujwV9oR/6T/
-       P5wKgO/Ky7M9tdX1hJ4gy8mAe0u8pvwah1SCKvWlK4lmkUy6GQH7nFwQCVA5KaG0n2f3c/+8
-       7FDpeM1qe/97jdRwN+LEGZzYdI5t7J73w+Rkq7aaxv+FVTk/hVbFjmzQeZulqiAfG9vKyTfv
-       hjw/9eMc4/vU88Ze8KYc11w9ZXDyVUNpnop2Fg3YLzSXtytnNS2WvV3L+B2gdB4u/QZrdlLh
-       tbrwtaim+b+mvrxQ0blc7T4CAAAAAIAhGolXXXkXET+621rRkxp1FGEIEQ9dvKrVGJMTsFJg
-       LQcexwySvFRJDLAPAx7ftTzb2E+4fx8Z8Muf7M//XTLh4McS1VM6Avbhy4jAWVQQ6Cx7t1A2
-       YGkfLNF2Pql+dFXS6kiAGxNsO8c2ot1FErAqHP8XUev8FJYIeDdEoLp5cXk7slrZOcZ3Xzth
-       zHKgU49rzjJ/et6YcyGOSaECWCnpZrIl5vLd66VQX1jqjUZl4/eUVZOjesb02bLoa3XJa1FN
-       839NfWmr5VyueR8BAAAAAMApKc4XMbq4Dy3xakU9K6+EJVZfm21OBaxmIKPr0+p9QfqTS8+c
-       8GqA9gT8YlBPWS5rCaUA8FIZd18L7X+fcPJGf0pVU5bq5+L7IAW+84nVdyJNTpQ4xzZCCi5H
-       +6+WyhrTTqXj/1Kqm5/C8RhFv9oB77y9KUkbped87Np+qy9nGd8NSySjTj2u+XmPY5M/Oiya
-       gLVbYC5PVbBin5SSDJZKvqpm/J6S3oCtXQGrOA7OWca0RhVci2qa/2vqyy+VnctV7qNr1bFs
-       6jVYdHlZAAAAAIARSkUWQsTn7geu/MAJPQUtpn64fBVLJGB97wl8dAVM7kdU4ygtzxY770XC
-       QNrhEUwqZRVOCs6kpfPmWmLJrVdS5YJ20lS8xinLYnUlQCw1SNfYB/m1/zyRpFCa7IZu+xzb
-       eHJs/0sKiDbH3OAxW/H4v5Sq5qeQkhJKAe+7GRfe0jh7E8duQGLT2cZ3TztjE4PmHNd4/JAq
-       KUOUzrNJtjKXVzh+T+lKjlqy5OjiS+tuXSXXoprm/5r68qTCc7m6fXTlrjH5Kmz5PSsAAAAA
-       sG1dK7JcdCm8a7KV5KswKQErBW/yje6+QVMabGMDy1EtIQJFETSJgRrBobtCkOZbx/bGBGfa
-       moGa0QdtiSW3OtqNfV9aaup+YtC667XNnhBSXxcNUqc2fy0n1vO4P3cTq8EM3UayVMWZCAI2
-       g6Jjxlx14/9SapyfepISni6+I7b3QpzvheXxwvu+di80vmclYs48ruFuyvy4ZiLiCnN57Jeu
-       9Y4nq238DlSsuDazzbalkhOvyUWvRTXN/zX1JavtXK5xH92A2A9x3VkskbgCs8YvAAAAAMBM
-       pfuuce/73/1+H/e+JWLNV1pNKHypKfkqTK2A1QzIFwdLT/LR/ZhgRwpCv+t7TKocVEoSCHNu
-       yJ98nScsseRWSVd1iamvtZRg8HOhwVraB3PbHrJcTftxTUstiZPH3tRttMV2mglYg8ZJxeP/
-       Uqqan5JIiildFNYK/p6qcHHW8b1QMuqc4/o4Y83f4vw4sa22pefytao+1TZ+h1h7+cHQ9YmG
-       m1TJtaim+b+mvmS1ncs17qOrlipe3tSyiwAAAAAAa4r7rvv9PuKtcQ8+Vr1pxv7iHvfb4+8j
-       RnV/YlUiCo77Lu/Xtu817s+pCVg5oNKXTNQVMFn0E8qNT/OXTK0ikg9k8zVMOXhLLLn1QgpE
-       lfbtqEBUS6m9pRJuFt8HjTZPJXIVK+4MHBP5uWtu44U4fmny/XV+nXpO5eP/UqqZn0I6Z0tV
-       iX6seFE4VbVpzjn0MGFcLZGMOue4TlnOr6/NJZb0W2MuX+uaU9v4HWLV5Ki+ZL+ltrElFV2L
-       apr/a+pLredyVfsIAAAAAACmSLG9L/v9Pu5dx734+ABy8x553A//luIedzUmDtUoxZ9KsY0w
-       J/67mqkJWDkYMna5kDmB5S6xw7uW0eirjtTpeCAjg665LNSkpat26wTuuwKcc4LsqyQYrNh2
-       rpjQV7mna/nBoZNZ7vea2yj5dX4MrFpT8/i/lJrmp1BaYi7MDh6nMVgytOrIlPE9ZVwtkRg0
-       9bg+zKwAtVYlpa3M5TWO3yHtLrr0bUFXtbGbTMDa1XMtqmn+r6kvocZzubZ9BAAAAAAAk+VE
-       rN1zMlbEOSJ+0oxZxb9zIlbET9ZaoeJatJd2zCZ/+H9tUxOw4sXEC+0Lqq1ZVampVG4s/Bgb
-       dD8O9BjwcRCbSQdx8EZnzy205Fa7zXamZBZVbKYGOCOwVRq0s49V2p9rBMGHjL+ucTF0Pw3Z
-       xvtded9NOhYtQ4P4VY7/C6tmfkoX1q4A9BLjZGqiyrnH9xKJQVOP69z9vHglpa3M5RWP36nt
-       Lpkctcp1c8NquRZVM//X1JeKz+Vq9hEAAAAAACwpVbm6T/fo2/fpIxbytLTe8ffxOIlYLSle
-       1BV/qraC2KQErOPB/0/f79dIPurYTnsNzabBAaUUDI8+tw/g3YzkkyWW3GrrGmBLV0w5tSzZ
-       Rds+Nf6SYuWeoRPXwG0Ukz1mTo45KePkPqp8/F9MLfNT0nlRWOgi2nX8e51zfC+1vy9xXFdM
-       Ij3nXD6nzSrH7wBd198l37iWEk5usvpVTdeimub/mvqyq/RcrmwfweKOY/j/Lt0HAAAAANi6
-       w+Hwx6X7MEcjESvueUfSVfPed15iLydiVVvZ6QL6PvxfbUxuagWsU4rVTlZc3qXkVXCmUSEk
-       B9XfdLQRz72bGbheYsmtX1IiwBqBqEX7eca2O6V9Vdr2ElUe8jaWXJ6taXAC1q7u8V+zs8xP
-       6SLaVRVkzXNstoXH9xrJqEO38zhzO6V9MKvvW5nLtzx+d+WkuXOMt1t9Q7yla9G53p8O4Vp0
-       Wk3HCwAAAAAAJkvxjod03z6Si5pxyJyI9blREetW405ZKU4b/prx4dc4Bh/WjDOslYC1euJN
-       T4JA9u/xMWOajISX6ONSWYVLLLnV1JXhF5YO2i+VMbj0PhiqtK8mL+3VoTT2Zm2jVemh95hu
-       YPzX7FyJgX3HZ6ntlRJNwtzzbMnxfa79vcZ21mhzrbl86fl2y+N31epUKYGopNps+7Vs8Fp0
-       kcTwDq5Fp9V0vAAAAAAAYLZGItavZQhbD3lasjAlYn2/4qIpnVIsriv2MEeuQrbaKmBnrYB1
-       hm0MkQdoBPZ+pv8v+mn6lZZM6WpzcjWWFZfXWrXtAUrBxqXXAS0uz7ZQm0OOabXjfwPOlRjY
-       FfSeu0xlU1ciyNz2lxzf59rfa2yndAzntrnGXJ4rCrXNmW83OX5TQlDp2rPkmCv2u+Zypyva
-       2rXoUonhJa5Fp9V0vAAAAAAAYDEpLvhpv9/f7foTsa599aqSvg+Xz7VqnGHxBKyVko9K+pY7
-       +XIcgHcLb2+MRZfc6llSLyyd1PVzoSDymm13SuOvFHw/x/KDc8d47veQdmoe/9U61/yUtlNK
-       iAmLnAM9iSaztrHk+D7z/l50O8c2O5MWZrS5ibl8y+N3171/l7z2XCq5uEabuRad8f3pSa5F
-       g9qt5njBVMc58I9L9wEAAAAAqFsjESuqMuVErOa9/bhf/jYlYt0vvOpXrbriDhH//P/O2pOR
-       1qiAVfy0+gpVDfqCfpcOziy9ZEpfhYmlA9VL7btLLRtTrFizcOLX4ssPJvk4z03AuvT4r9m5
-       5qe+c3ap47PWvFBMPJo4vhdNRh25nbnHtVgFbIU2s5rm8i2P39K++LnwmFt1icON2dK16Fzz
-       /xCuRdPavbWKnQAAAAAA3Ih0//tLqyJWKRErYl5REWvpFcBq0vXh8tpiT6+skYB1rsSbrp2+
-       epWlAZZeMqVvfcvFg1sz2jtX20U9lXuWzgJdfPnBVpWKIedLzeO/ZueanzrP2QWPz1qJD6V2
-       p47vc+3vNbazZpW7kprm8i2P37WXHwzFxMKFt7EVW7oWXSoxvMS1aFq71f9hBQAAAAAAc+RE
-       rN1zMlYkYUUyVvN+f/z72/F38fNI1ppbQKJGXR/+rj4ed7YKWCtsZ41lnGZbacmUzuDWjCWm
-       4sRcZRmlY9tv1mr7hEiYKAWDl87+XGOM5zaHTpBVjv8NONf8dI6s3K65Zu5FtlhFbmJb59rf
-       i24nLT9YOoZzkznXmMujzVJf54y1LY/fVatTpf1dUluy0bls6Vp09sTwHq5F09q91fMMAAAA
-       AIAblKpc3fclYh2/vh5/H4+7u8JErLbq4wSLJmCtlHw01qWz3tZYcmuNAFqpn0tVrFiz7T4f
-       Cz9bNOOzJ9lhbmJGTnqZe65cevxX68zzU9e2FjkHUgLl4okPS47vc+3vlbazxvKDYStz+SbH
-       b7L28oDFfldY7enSqroWVfL+9Ilr0aB2qzleAAAAAABwaY1ErMgpiJyI5n30iD8+LVl4A4lY
-       1b+upStgFT+tfuYDfOngzBpLpqxRcWPNpV3OvmxMTxDwHMsPzhrjrYphc/t76fFfsxrmp6WS
-       EjrLLs5c77d0Dk1NIF0jGXXodiYf156lTJc4t7Y2l7dVPX57kjaWHHOXqO64RbXtkxrm/6yG
-       vlR9Lne0e6njdVWO8+R/d/3LRm5VJEl/uHQnAAAAAADWdDgcIpfge4qJRdJVKRHrcyMRq6oP
-       zM91fD21xZ9eWToB6+yJNxUavGRKCvR/S//9NCGwdLalXY59/bp7Pr5fBlT6mLVsTGNbdyNO
-       olL1q59pEjq1nSGvKVsj+J77fi+4uKoa5qe1g95rLJE3NTlo1P6eeN6P3s4Ao5cfTGssxzG5
-       75tzetQ6l7dtcfwuXZ1q7QpbrKOG+T+roS9bPJdv7e+JtVxj8lUoJU4DAAAAAFylFEt9SIVe
-       Pu5e50o8/WzDiVjR31JeRvXOUgFr4W1kxZ1+yay3CUumvN/9Dhjc7cbvq0n7NlWLGpxIlE7c
-       z+m/f/Vtt2cJs0HHpbWth6HP25UDL53VF9I+yNuJ4zYnAWvyhNWqtjMmYFnd+N+Ac85PXWZf
-       3NLYLY33SOK5m9n8kuN7bDLq58ZjxozjpY9rqb1TyZHR9z/TdqckHkydy0fNt6359c2E7W5x
-       /C49JxarxC28jS3ZyrWohvk/q6EvtZ/LNeyjaxXH5vPJR21LjLkvl+4EAAAAAMC5pSIEn/b7
-       fb7325WIFXGbsUUwLkkC1oTko7lq3Oljl9zKj/85sULH1KoppX729aEZYJtS/WrM62tOCoMS
-       GdLYK42FvuVvmv0ckzBRPMYjnt8Wr/cpcWPkhFfj+K/WBeanGO+vEjUWyi4uVXsLXxaooLZI
-       1ZEJ+/vtgMcssZ1T7Y1efjD1ISdBTU0QuMRc3rePrmn8Lpa0kRJOSglvErAqdoH5v5Nr0Wk1
-       Ha9rdDw2kagkWQkAAAAA4Iqk+/45EStXxGrGtOLe+9sNJWJFfKMrXlC1JStgdSUfrbWk2tl2
-       eqoa8u/uOajUl9QzNnnh7YDHhK4A2tTA8qgEg8a2+5LJ2o8d2vYvreSH+xEBwlIQ8OHE8/O+
-       H/KaTpkT4P+1/OCEbdY2/mt27vlpzaUki+fvQsemlFwy5bWMTUZtzhtjzqdilZQZx3X0Uqa7
-       ccljS8/lpde/xFy+1fG7dnWqriUOa3+TuqYtXIvOPf/3cS06rabjBQAAAAAAm5Hif19aFbFK
-       iVgR37mvOPYfsbdXqzlErGhGXPUslkzAWqRyygidS1ktGaRJSUER8MvJQX2DsFQFoqufzaWj
-       Tg2SOFGKgd+xUmWBsUu7DE0UC4P3QUFexisMrX7VtQRO5/NnLPtXNHW8HfsRE170/8eEya3G
-       8V+zS8xPiyclHI9HnCPtcyyO96elt5VNvIiNTQzK5+PY5Kmlj+uUCkq/5pIBfd/KXL658dtT
-       NWfJN2GrVtjaqC1ci849//dxLTqtpuMFAAAAAACbk2I0X1oVsZr39eNe/Ld0v/+utkSsKH5w
-       7FtpFZb4f9WxubUrYK324qMiyXGnx8BpV2yJwbJIoKYV8AunBl4p+WiJJbdiP5aSjKb42rON
-       V477YOiSVdmkAHXa17n6zMOIiiKvMh93zxVr+o5Vs8rN2MmkNOZGS683H4u7sc+vdPzX7Kzz
-       0+45sa+UlfvX1IprKdmwNN6/LLSc1CLSuBk8D6TXlefOsQmRSx/XUe2l+XFM37cyl29x/HZV
-       p5KAtaKNXIvOPf/3cS06rabjBQAAAAAAm5USsSIX4S4Vh2l/wDr+HYlYEXesbTWsUozjzW6B
-       AjtrWiQBq6fyxNqfWI+d214yapGgXyPglwOudyeWoSrqCUblYPiPAQHi2G5XsH2wdOKMXUJp
-       TKJY0cBkqmb1qzEVFEZVv0qaiV5jg4VLVZPIr3fOcj3Vj/8aXGJ+inO6Iys39ufUAPW33esk
-       h6UzkmOfzB3fpcB8ODUXhsFjbKXjWkqu7Juf8/n3Y+D5sYm5fKPjd071xaHWXuJwq6q9Fl3w
-       /ekrrkWn1XS8AAAAAADgmqT7+PcpESu+mnGvuO8f9/9rSsDK1buaMYn4/5fLdGeYpSpglQIm
-       P85QlSXv9KbZyzul5QG/NdqK9S8XO5CpekBu+2QgMfZjWofzxWuLQNXQSlGNjMYx/Wwu1Xe/
-       5HJCre3E+Ml9uxs5bkYlTDSW/Xva1ojtNNt+Md7HHIf8+N3z6527XM8mx/8FXHJ++tb62aSs
-       3OMxiXbar2ON4/Jqn4yplJLGTntMPuk5R/LjH0cek2KVlBXmqWKfWksADppLNjaXb238rlqd
-       Kl23xybo3Yqar0WXmv9LXItOq+l4AQAAAADA1WkkYuWchfj+tGThRTvWEvHMtIRis7jFnxEr
-       raxS1wtLJWCVAm2rf1o9BbNjpzeD0e9nLq0SQermp/vvRgSWhlaPmbIE3v3udQCtVPHjlRSw
-       z8+NduI1NgPJfZVp8uOGBupGVdBJiQG5b48Tgnilyg7FsZe2lcfK9zFJUw2lUndvu7ZZ6EOc
-       K/+k/45NNnuhwvFfq0vNTzmDuLn9j3HMxiQJpYB3O7khAt5zkve6PBS2NahSSuNcHrxEZ7qw
-       5/N37IVyjeP6aim1ngqF+bx7HHmR38RcvsHxu3Z1qrEVx25G5deii8z/HVyLTqvpeAEAjJaq
-       Fcf74rjn9OHS/QGAa+EaCwDLSzGuqu/BH/t4l/IrmisqfT3+7PucohwpbvI4YKW60dasgHWu
-       qhB3afvNoE0Eid6NaSRVt2h+sv+pOtHIZddOJh+lJIXRS+ClANr7Vvvx/97AfytgHwPx0/Fn
-       u93LIFpX8D8HUx9GBJkHJ2A1lhaK7cf+nvLG+VXCSM8+/drY1qSkorScT/s1DgpkNpKv4nVH
-       0HJKBa62msZ/rS45P0VgOsZ4TiLISYAnx186P2LMtgPeXxYaO6/E8S4sVxX7r3cctJYJe9wN
-       X2ovzzE/T22jYI3jGud2aVnTF9If/Hn7o+aSDc3lYRPjN82tJUu+aVy1wtYVqPVadMn5v821
-       6LSajhcAwBT5b6+Tf1cCAKO4xgLA7YoYR3OFuae49H6/fzc2CatV9SviiKPiWEPMTsBKgeSS
-       s2TLpdJjkbjz393vwNLb+KT+kE/lN5bMagaWou+fJlRuiAD650Y/ngJXrQPfrOgwNgkoXk/7
-       dRaXrmpUo2kuO5X3x6vlgtr9TAkGU5bqK+2DV1UwWksLxXbfTayUEUHZ3teSftas3DDl2DbF
-       ePvf7mUgM/ZX53hrVfNYrGJEZeO/OhXMT5GwF+d5s+LR50hy6qualCb/GFPNZIanJMUzVNzJ
-       gfosEgzvuzKAO87ln63lPl8ts5d+/2sJv5GVWNY6ricTsFpLAN5NPB5bmMu3NH67qlMtmbgh
-       AatHjdeiS8//TZfuyxbO5UvvIwAAAAAAoD4pBhWJUlHoJseWI27x3+PPPw2JVxTiUBF7WmUV
-       sCUqYBWX/Tln8kZa/iZ2ek4CCB9TJYUILD3kgHTauTlD7v3uZcWQ6POgg9TRj5+FANfX9LNc
-       bSAHmO7GBocbr7NZxeCf1P73tP38uj7uOpbuSe186ujnLvVzUoJB6kO0/U/jxxHk+9LqX7Py
-       zbupgfLoW2Hpo6+N7eV9kU/G2VWdGid58zh8TK8t+vKQHhO/e5++8vYXX3qrlvFfqRrmp/tU
-       VSpXPwvf0ti8z+MxHa8YJ+3qSCHG1agkpRn9fSjMD/+25pk/Ux/jK1+o4hxuZhq3E7nivPyQ
-       xmucr7lC1sOEKirFZJi5+6dUnSrOmZS8ENtszuH3U5fn3MJc3tjGFsZvqfLX0vOYBKwTKrwW
-       XXz+b7h4XzZwLl98HwEAAAAAAPVJcYl3jWWJQ8Qz/k2rl0WM49fqcymWHXGHHM9uxiBWjVsu
-       kYBVCoyssjxWnxQgj8Bf7PAcsM47dJeWauoSB+R+icSTFOCKf+aAeLuiw243L3Afr/Pv3e8l
-       enJ1lG+F1xiv50spuWnNfqZlzCIp4Gvq31Pbhf7Ffv+0QNLEl9R2PtlK21t0Sb10HP6ze7ks
-       T15isDTenrIo11rSr5bxX6Fa5qeHwnh5Oj49xyYvy3d37gB0mh9i+7l6Ut88E497NVek1/xh
-       97vyW5wf/2s9P+amKUuPlvZH7xJ+I0R/8nKK4b+F1zx76a0tzOWNbdQ+fldNjkoJKX8WfnWN
-       c+YslV2Lqpj/kyr6Uvm5XMU+AgAAYLvSB76aq1b8umc0594YAAB1SHkheUW2F3GO+MeJWEc8
-       737tuOXsBKwU/I3gZLzIHIhfKhA+ti+x/S+pIlL+5H6uspD9SF+P6ethbgJQoR/3KdMurx+Z
-       t79IcDENindpaZj8OvM28uv6fmo7Pf18SM+ffBwbbX/cvaxu8ZjaX3Rwp5MtLx/W3h/x88Wz
-       GFN7nwrjLf+R9zNt++Ec50Qt478mFc5PzfHyZvf6+MR4ycfn+yWPTUoW/N5YKrDZ1+hX81wu
-       9jMlYzbnmHzT43E341i0juuPOW0V2o7X8neq0pWP0y5tJ8/hi8xdK8zl7fl29lze2EbN47dd
-       pScsmexaal9lng61XIsqm/9r6kuV53JN+wgAAIC6pcoH+T586YN5JRKwAACuQIrPfUorAuU4
-       R17dI8ux7KevtYrklCxRASt/eqCaN7ApUHS/W64iypQ+PB34lbfxlNwzs43V+pnaPtvYWGJ/
-       TNxuvM67XSWVGmoY/zWpcH7K42UTUgB8TjLmUzLGcj361e6qxzVVuDrLcVpwLl99rNc2flPy
-       WtvPUrWwGc6xxOHVqeFaVNP8X1NfQm3ncqhtHwEAAFCtvJwMAAA3qhGHqsoiCVgAABdQ+pTj
-       0slRpRt6ErAAAAAALuBwOLzL/07LDsaH53IVfwAAuBgJWADAVq1anWq/35dK2f88Z6lSAAAA
-       AMpSFfT4+r7f7//ZPS9DAwAAFyEBCwDYqtInG5dMjlq7fQAAAACWEUvQSMACAOBiJGABAJuz
-       3++j+lW7Atb3tObzUiRgAQAAAGzD46U7AADAbZOABQBsUXtpwLDY8oNJOwHr8XA4LL0NAACA
-       k/b7fVR1ieW1YsmtPy7cHYDqxIfyjnPlpbsBAMANk4AFAFRjv9//efz2dfdcMj7+HRWnPhUq
-       W7UTsH4eH3NfaC+3FdWyHlNbJz8ReXzem93rCluv2gcAADiT0odQAAAAgEpIwAIAqpCSr/63
-       e068ynIi1rvWw9+3/v8iOSq19e/uZZAi/v210FZJu/0fpQQvAAAAAAAAbtN+v/98/BZff556
-       bMV+HL/uxMHmk4AFANQikqNKb1BfLAV4fDMblalOVaeKN7ulT4i3lxV8JSVvfWz9+Mup5wEA
-       AAAAAHBTvl66AwuImNu3nZVgZpOABQDUois56seJx90fDof2Y9oVrLL2UoYl7USwaP/7gOcB
-       AACsxRKEAAAA9XncXcffa+JgC5CABQDUol3VKmu/6WsmV0VCVak61dC2Xtjv91H5qln96rGj
-       fQAAgHO6hhv6AAAAV+VwOPx96T5QDwlYAEAtIpmqvQRhVJ/6lQC13++j+lWzAlasSV2qahUV
-       sdpJWL3JVCn56lvr8e862gcAADiL498qkXxVWq4dAAAAqIQELACgFlGdKlefeti1lv7b7/cR
-       cGiupf39+Pu7nrY+N/4fj+tK1oq2v7YeH9v/IPkKAACoQNdy7QAAAEAlJGABALWIJKlYXjAS
-       rV4sr5E+8f2t8fOoTvXpRFtvG4+Pdn8e23k4HA6Pqc2/0mMi8apZLeuuWXULAADgwt6ffggA
-       AABwSRKwAIAqHA6HH/v9/t3xn//snhOi/jn+v/TQ++PXl77qVPG71Nbn3e8Eq6fqWR1thofU
-       7uPkFwEAALCg9MGRNycfCAAAAFyUBCwAoBqR/LTf7//ePS9F+Hb3e6mNSLaKZQVj2cGHgW3F
-       c74c27tL7b1JX81qV9HWY2pX4hUAAFCbz6cfAgAAAFyaBCwAoCopceoufS3ZHgAAwGbs9/v4
-       QMrHS/cDAAAAOE0CFgAAAABARfb7/Z/Hb98u3Q8AAABgGAlYAAAAAACVSMlX/+5eLp/OFUnH
-       +E36b1Q6ezx+RfXmn4fD4fFiHQOqZd4AAKifBCwAAAAAgArs9/tYcvDr8evPC/fjbeO/EfBv
-       9ufH4XC4LzwnEsai/293v5MEIing4fh1l5aHH9OH5nabiQdPfTq2925Me+dq+8Q236evzuS6
-       4+PiW+yz7/E1dr/VYM7+TWMvj6HmOPyRvmJMfV8y4WSrYy2dc3ksjd3P+Xx9s3t9jsf4a+7r
-       sedutB3j/G3qX3O8z2p7SSmhKfr5pvGVrTbexrjkvFHDdQAAYGskYAEAAAAAXEAKVufAf2+A
-       vfGc/xu5mYcTiRhfh247ueto43Phsfm1fTw+5l1XEkNKMog23pZ+P8eabQ/cfmz3c2H7zQSP
-       nDzTrG4TX1+Pz78/7rcvZ+ruaEvt3579lOVEnqfHHR+fEzoeRm5ns2Pt2H5UxmsnwoxtI/Zh
-       7OePPQ9r9v9pDO4GJM+s2faSUuJVnve69mV7vMW5eldKOlqpj2edN2q4DgAAXAMJWAAAAAAA
-       lxGJCqWA9TlFYHzycof7/f7b7vl1RAJFJCc8VYtpBeOfllU8/uw/HYkW8fu1EqTWbLtTSvL4
-       vHt9fDsThxrVY5r77XNKxvhUaeLC7P3bGiu5is9jfr2Nikqfd78TZp6STY6/+3J83KtkkDX7
-       e6G2d3PbblXYiySeOF8f81hMYza2kSsu7dJjnxKBjr/vHIOttuMcj2MY7T7kc/74mFwVKydo
-       DWp7SYUqg7mfzfGW90OzrzEGvx1/F/39NDbxb0T/LjVv1HAdAADYPAlYAAAAAAA3qlkdK1Xw
-       aS4h1SsF1+OxEeD/cGzrR/p5KYEgV535VOhDJBX80Wg3Jz/MTk5rtp2SG3K1sb4qPbOkhIh/
-       di+XNAu9yUJp/31J1Z3i+TlJJNr5t8bqMXP3byNxI17Xl1KCSdovd6laUq4ClUW1n93QJKwt
-       j7Vj+6V+R9snK2KlxKPY109jrFTJKSXFPC1h13h8Fq/ln+PP/24nz6Tz/Wv6bzz/UynB5viz
-       3Pbj0LaX1BhruZ9f8pzV6mdzP8S4ytWhQpzbcS7eLV2Z7pLzRg3XAQCAayABCwAAAADgAlIA
-       vxjE71pqsJmEsUJ/IoAeX5F4EIH8912PbSyRFY9/10qc6Eo4ifZOBt5TIstDJNbsFqwQlvqY
-       2/65ZNtZSl6IJKF2UsynocuXxes/tvMhtZPl6jHVJWFlrf0bP+pNPEpJPvEVy6UNGRc/o+LV
-       7uV+CZGE9VhK3hrQ5ibHWqPf0fbXvsemylORfNSZHFVo/76xpGD2V2rnQ6PtXFFqtxs4xnva
-       jjmnc7nUOVoVmj6lZLCTUjLRh1aSWYgKU38OGbcD+1fNvFHLdQAAYIskYAEAAAAA0BZB/87A
-       ++5l0kU7oaNrKauTlXpaIslkrSUavy/ddkoqKSVRFCsO9UnJFFH1ptnHaPdbSqaofQmv2L+d
-       CVgp4SSSYgYlX2Vpv8S4aFfmif00Z1m4TY21VtudCVhpTI7ez0mMv3aFrfeRdJOOQz6GYXCi
-       UE/bsRThx7HnygD3u9/JV5MSGKMCVWN5wOxjqr42K5mo8nmjhusAAMBmSMACAAAAAKCtM0kh
-       VdSJ5Iu7jmSGqBpTCr6/Wu5rah/min6nqkeLSMkZzeW/soehy+MVlJJUYr9HcsWiy58tLSWC
-       9D0kEjceJiavlBKwInnnzYzqYJsZa622f5xo+9eygxPajopjpUS6OP/zcnfhfkKiUFfbMbaX
-       TsCalXyVRcXClCzVTEialYS1gXmjhusAAMBmSMACAAAAAOCFlCDR9euc0NCVIBBB/n8KPx+0
-       7NfAPtQmkhveFH4+NYkiv/773evqSbH82X1aHm1z0rJlsa/+M7GJrqSQ9z2/67WxsTZI2s/x
-       9feMimml/RlVsHJyTbQ7NRkwkrjaCVh/zUyk69KVJDRWJFrFPm0mN0US1sPQZQ1bqp43argO
-       AABsiQQsAAAAAACGisSDSEC470rqiESE/X7/Yfdc5SgnacTjq67aNFVKdCktMRdJGXOWxQul
-       RIoQyQ9b3Z9PVY5mJAV1JZCUElluWd7PcxKPSvs65oCcODXnOHY9b3IiXYfHGdWkXuhJbvqW
-       krAG74uNzxuuAwAABRKwAAAAAAAYKi+/1btMWKoGcyuVTkqJDmH2609LzJWW8orjsNVEhkjc
-       +DD1yQOW3eNZ7OepVcae9CwlmcfjnEpNp9peytxkprZ4ze1zPhKSItFozFKEW543XAcAAAok
-       YAEAAAAAMFQkGvxcYYmwTWos81ayVOJH11JtbxeolHMJ32dUTerTdRxu1ePKy1SudRz/PP2Q
-       y0lVsOK8a4+3WIrwbsg+v4J5w3UAAKBAAhYAAAAAAGNsMelnLe0Eh+zHgskvXe1EAscWj4Wk
-       jfNYe2ysdRyXroC1hnjtpQSqoUv8XcO8scW5BwBgVRKwAAAAAAAYY82qOpux3++jCsz7jl8v
-       mZzS1dYWElVKJGCdhwSs9XS99pNL/F3RvOE6AADQIgELAAAAAIAxVD551rfk3ZLJCV1tVb1U
-       Ww+JG+ex9n6+5US6rqUXY4m/NyeW5ruWecN1AACgRQIWAAAAAACM9+YcG4klyfb7felXfYkc
-       1VpwiTV6rL2fj+13JSFdveNrf+g4J0Ocl30JWOYNAIArJQELAAAAAIDBIvng0n2oRF8ihX0E
-       t+lUgtVVzBuuAwAAr0nAAgAAAACA8f7q+d2/PRVygOt1aok/8wYAwJWSgAUAAAAAAOP1JVKc
-       w92Ftw+8dmqJP/MGAMCVkoAFAAAAAAALOhwOf1y6D8C2mDcAALZNAhYAAAAAAAA1+HnpDgAA
-       wBQSsAAAAAAAAKjB46U7AAAAU0jAAgAAAACA8R6OX29Lv9jv928Oh4NEErg9p8578wYAwJWS
-       gAUAAAAAcKX2+/3/xffD4fDHpftyhX70/O7Ps/UCOKvjvNp3fp9aQtG8AQBwpSRgAQAAAADA
-       eH2JFH+drRfAub3p+d2pClbmDQCAKyUBCwAAAAAAxvt+/Pra8TuJFHCbHk783rwBAHClJGAB
-       AAAAAHBT9vt9XwWbQQ6Hw49jO1HtptTW7Pa5DkuMNarztuPnP47zQm8ClnkDAOB6ScACAAAA
-       AODW/LlQO/fHr2+Fn7/d7/d/Hg6Hnwtt55dju++P3z4fvx6O7X9Zun0Wt9RYuxWLnzMr6KpU
-       9X3g880bAABXSAIWAAAAAAC3pquCzVh5ObFSkk0kPNwvtJ2mSKKISjmRBCKRon5LjbVb8ePS
-       HRig65gOPd/NGwAAV0gCFgAAAABAfaICyqvg/JjqKPHYRltbFct5rZHAskibcSyO+/lu95xM
-       0bZ4IkVazi4vUza02g7DVD3WqEM6B0uJU3exvOCQNswbAADXSQIWAAAAAEB9HnflxI0Ioj8M
-       bCMH3B8X6dFlrLEUV1SAeXPygQMdDoe7tLxXu81YTuzt8fdDj9cQHxv/vluwXTYw1phk6QS4
-       j4WfxdgZdT6aNwAAro8ELAAAAACA+kjAelasKDOmEljB5xn96fLp+PXv7nVlnKhw8/cSG4ik
-       jN3vRIrB1XYYbCtjjXHeRKLT8RjOrvyUEupKCVgfJo4R8wYAwBWRgAUAAAAAUJ9IFiglb4yp
-       pvO+0dZW9e2H0RVi0lJckYzwI30ttRTh47HtL8d/fmv9KpI/vh5//2VO+2k5ydx29FsVm+Vt
-       YqwxSl7K9dvxeDwukHzUPr/Dl6nVqswbAADXRQIWAAAAAEBlUmA+gvrtpI33UYXlVCJBY+mz
-       H9HW2O2n5JGu382pCDRK2g/R/1fLdO1GJsW0khEisaFUyebptU/ZZ8fn3B+fu9u9Tqb4fPx5
-       HIf7sW2m/kS/o0pOHNPY71Or7ZxNGn+dv5uTCNPX9hxbGmuN5/ft51lt5zZ6fjdrHuhre0Fx
-       zsU+imTUf47bfDe1z8fnxvFsz8f3sZTgnA7WPG/Uch0AANgKCVgAAAAAAHWKwH6pak4sT/Xh
-       xHNzMH90ckAKun/teUgkMkRSwBIVZYaIBJZ/Wz/7eOzD3dAEgJSMEK8pXtv3WI7s+LNiUszu
-       OVljUuJKI5kittVcVuxbSlgYdTxSgs0/u+d+x2t9NzepZm2pz6VKQdnndOxGj53UdufYTEky
-       c5ZZ28xYS/uib4nDGHOfpo6XAfPA16jeNCUJ50TbH1O1qrmV+5oVn3JC6r9j90k6nnEOtufi
-       u7kVqrIa540KrwMAANWTgAUAAAAAUKFY1iotT9UOgkcVrI9dlVEalVoeTlVPOT723934pdHe
-       5uekpIGmd1OX4+qS9kMkIDSTTZ6quwypaJMSCWKfxPdIQvh0YpOfU9JFJID8GJtckJIpHhvb
-       zCJhJfbbpwEVzGL78XojcSf+XWXyVXo97YSlU+I1fTw1dhZue1CyTM1j7fi4/zvV/5bow38L
-       +yLmhXettqfMA6V9vUTbTwlPhX7H8fljRDu/kubi2O2ex1LeJ3fN35cUzsEsnvNpgQSxFy45
-       b2zhOgAAsAUSsAAAAAAAKhWVTxqVUZq+pWSP+xxcP/4/qulE4D2C4hGoP1UlazMieSbth2Zi
-       TLz+/6UqLBHsf2wkXOSKN7EvcvWhSJj4NLBiz8f8vEZyweCKN+mY/H187tfdywSOt6nP31Of
-       H3JSRavP7xvPedgNSL5gGVsbaxS9SD6N45CSsD43v9J5+Lh7WYUsjmNetrAt2pxU9WsI8wYA
-       wLZJwAIAAAAAqFhKwopgegTlm1VKuqr9xGM/TEwS+JG+xhpbPWW0lBgTr+1zY3u54stTskyp
-       as7uuQrM3dhlvJaQ+pwrKkVyxF/pV+/TV1efQyRj3C1daWdlY8bPX7vf+2OIOI5DK4CNbfuF
-       jYy1oRWGot9vTj5qWtth7Lkfx3Do3DR1Xnm1/9N82D6uv87DHvG8SLy6P1cyUwXzRrXXAQCA
-       mknAAgAAAACoXKqM8i5VO4nEq0ioaCaZRJJArozSu+xgq913px9Vj7Ss1UPaDzkxIVeAaS4T
-       FskDsc/i8d87ktHyPsuayT3NBISfc5b+y4kfu+fkjzep3+3j19xmPo5VLTdYko7HmGXhqmh7
-       xParGWsjl98bZc154JxzzJB91DiuzXMxJ6nlY/EzfX+41FJ655w3tnYdAAColQQsAAAAAICN
-       SBVYbn5psrQfZlUZOrZx9iUaU3JE9YlV/LbVsUa/LZ2LW+orAMAtk4AFAAAAAAAAAAAwkQQs
-       AAAAAAAAAACAiSRgAQAAAAAAAAAATCQBCwAAAAAAAAAAYCIJWAAAAAAAAAAAABNJwAIAAAAA
-       AAAAAJhIAhYAAAAAAAAAAMBEErAAAAAAAAAAAAAmkoAFAAAAAAAAAAAwkQQsAAAAAAAAAACA
-       iSRgAQAAAAAAAAAATCQBCwAAAAAAAAAAYCIJWAAAAAAAAAAAABNJwAIAAAAAAAAAAJhIAhYA
-       AAAAAAAAAMBEErAAAAAAAAAAAAAmkoAFAAAAAAAAAAAwkQQsAAAAAIB5fh6//rx0JwDgCrnG
-       AgCbIAELAAAAAGCe++PX5+PX3aU7AgBXxjUWANgECVgAAAAAADMcDocvx29fLt0PALg2rrEA
-       wFZIwAIAAAAAAAAAAJhIAhYAAAAAAAAAAMBEErAAAAAAAAAAAAAmkoAFAAAAAAAAAAAwkQQs
-       AAAAAAAAAACAiSRgAQAAAAAAAAAATCQBCwAAAAAAAAAAYCIJWAAAAAAAAAAAABP9/3J0CjOi
-       POcwAAAAAElFTkSuQmCC
+      <office:binary-data>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
+       RU5ErkJggg==
       </office:binary-data>
       <text:p/>
      </draw:image>
+     <svg:title>TexMaths</svg:title>
+     <svg:desc>24§display§\mathrm{relative~roundoff~error}~ = \frac{|\mathrm{true~number} - \mathrm{computer~number}|}{|\mathrm{true~number}|} \le \epsilon§png§600§FALSE§</svg:desc>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
      <draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="23" presentation:class="page"/>
@@ -6399,7 +6278,7 @@
        </text:list-item>
        <text:list-item>
         <text:p>Instead, consider:</text:p>
-        <text:p><text:span text:style-name="T32"/></text:p>
+        <text:p><text:span text:style-name="T33"/></text:p>
        </text:list-item>
        <text:list-item>
         <text:p>Then</text:p>
@@ -7364,7 +7243,7 @@
       <text:list text:style-name="L4">
        <text:list-item>
         <text:p>Consider computing <text:span text:style-name="T3">exp(-24)</text:span> via a truncated Taylor series</text:p>
-        <text:p><text:span text:style-name="T32"/></text:p>
+        <text:p><text:span text:style-name="T33"/></text:p>
        </text:list-item>
        <text:list-item>
         <text:p>The error in this approximation is less than</text:p>
@@ -9240,9 +9119,9 @@
       <text:p/>
      </draw:image>
     </draw:frame>
-    <draw:frame draw:style-name="gr8" draw:text-style-name="P18" draw:layer="layout" svg:width="26.67cm" svg:height="1.119cm" svg:x="1.524cm" svg:y="16.51cm">
+    <draw:frame draw:style-name="gr8" draw:text-style-name="P17" draw:layer="layout" svg:width="26.67cm" svg:height="1.119cm" svg:x="1.524cm" svg:y="16.51cm">
      <draw:text-box>
-      <text:p text:style-name="P9"><text:span text:style-name="T33">Look at the terms—we are relying on cancellation to get our result</text:span></text:p>
+      <text:p><text:span text:style-name="T34">Look at the terms—we are relying on cancellation to get our result</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -9264,19 +9143,19 @@
       <text:list text:style-name="L4">
        <text:list-item>
         <text:p>Instead recognize:</text:p>
-        <text:p><text:span text:style-name="T32"/></text:p>
+        <text:p><text:span text:style-name="T33"/></text:p>
        </text:list-item>
        <text:list-item>
         <text:p><text:span text:style-name="T3">S(-1)</text:span> is well behaved, since each term is smaller in absolute magnitude than the previous.</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T34">S(-1) = 0.36787944117144245</text:span></text:p>
+          <text:p><text:span text:style-name="T35">S(-1) = 0.36787944117144245</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T34">S(-1)</text:span><text:span text:style-name="T35">24</text:span><text:span text:style-name="T34"> = 3.77513454427912681E-011</text:span></text:p>
+          <text:p><text:span text:style-name="T35">S(-1)</text:span><text:span text:style-name="T36">24</text:span><text:span text:style-name="T35"> = 3.77513454427912681E-011</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T34">exp(-24) = 3.77513454427909773E-011</text:span></text:p>
+          <text:p><text:span text:style-name="T35">exp(-24) = 3.77513454427909773E-011</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -9509,7 +9388,7 @@
         <text:p/>
         <text:list>
          <text:list-item>
-          <text:p>This <text:span text:style-name="T4">relies on the cancellation of two very big numbers</text:span><text:span text:style-name="T36">.</text:span></text:p>
+          <text:p>This <text:span text:style-name="T4">relies on the cancellation of two very big numbers</text:span><text:span text:style-name="T37">.</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p>Rewriting reduces round-off errors:</text:p>
@@ -10080,7 +9959,7 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page31" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page31" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr15" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
@@ -10168,50 +10047,50 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T37">You can write any algorithm in any programming language—they all provide the necessary logical constructs</text:span></text:p>
+        <text:p><text:span text:style-name="T38">You can write any algorithm in any programming language—they all provide the necessary logical constructs</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T11">However, some languages make things much easier than others</text:span></text:p>
+          <text:p><text:span text:style-name="T12">However, some languages make things much easier than others</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T38">C </text:span></text:p>
+          <text:p><text:span text:style-name="T39">C </text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Excellent low-level machine access (operating systems are written in C)</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Excellent low-level machine access (operating systems are written in C)</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Multidimensional arrays are “kludgy”</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Multidimensional arrays are “kludgy”</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T38">Fortran</text:span><text:span text:style-name="T11"> (Formula Translate)</text:span></text:p>
+          <text:p><text:span text:style-name="T39">Fortran</text:span><text:span text:style-name="T12"> (Formula Translate)</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">One of the earliest complied languages</text:span></text:p>
+            <text:p><text:span text:style-name="T8">One of the earliest complied languages</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Large code base of legacy code</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Large code base of legacy code</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Modern Fortran offers many more conveniences than old Fortran</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Modern Fortran offers many more conveniences than old Fortran</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Great support for arrays</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Great support for arrays</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T38">Python</text:span></text:p>
+          <text:p><text:span text:style-name="T39">Python</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Offers many high-level data-structures (lists, dictionaries, arrays)</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Offers many high-level data-structures (lists, dictionaries, arrays)</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Great for quick prototyping, analysis, experimentation</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Great for quick prototyping, analysis, experimentation</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Increasingly popular in scientific computing</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Increasingly popular in scientific computing</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -10240,27 +10119,27 @@
        <text:list-item>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T38">IDL</text:span><text:span text:style-name="T11"> </text:span></text:p>
+          <text:p><text:span text:style-name="T39">IDL</text:span><text:span text:style-name="T12"> </text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Proprietary</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Proprietary</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Great array language</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Great array language</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Modern (like object-oriented programming) features break the “clean-ness” of the language</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Modern (like object-oriented programming) features break the “clean-ness” of the language</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">C++</text:span></text:p>
+          <text:p><text:span text:style-name="T8">C++</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Others</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Others</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T7">Ruby, Perl, shell scripts, ...</text:span></text:p>
+            <text:p><text:span text:style-name="T8">Ruby, Perl, shell scripts, ...</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -12683,14 +12562,14 @@
     <draw:polyline draw:style-name="gr31" draw:text-style-name="P3" draw:layer="layout" svg:width="3.047cm" svg:height="1.523cm" svg:x="23.018cm" svg:y="13.156cm" svg:viewBox="0 0 3048 1524" draw:points="0,0 0,1524 1524,254 1524,1270 3048,0 3048,1270">
      <text:p/>
     </draw:polyline>
-    <draw:frame draw:style-name="gr14" draw:text-style-name="P15" draw:layer="layout" svg:width="4.064cm" svg:height="0.962cm" svg:x="22.566cm" svg:y="10.642cm">
+    <draw:frame draw:style-name="gr14" draw:text-style-name="P14" draw:layer="layout" svg:width="4.064cm" svg:height="0.962cm" svg:x="22.566cm" svg:y="10.642cm">
      <draw:text-box>
-      <text:p text:style-name="P9"><text:span text:style-name="T25">Row major</text:span></text:p>
+      <text:p><text:span text:style-name="T26">Row major</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr14" draw:text-style-name="P15" draw:layer="layout" svg:width="4.574cm" svg:height="0.962cm" svg:x="22.256cm" svg:y="15.442cm">
+    <draw:frame draw:style-name="gr14" draw:text-style-name="P14" draw:layer="layout" svg:width="4.574cm" svg:height="0.962cm" svg:x="22.256cm" svg:y="15.442cm">
      <draw:text-box>
-      <text:p text:style-name="P9"><text:span text:style-name="T25">Column major</text:span></text:p>
+      <text:p><text:span text:style-name="T26">Column major</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -13483,14 +13362,14 @@
     <draw:line draw:style-name="gr34" draw:text-style-name="P3" draw:layer="layout" svg:x1="15.032cm" svg:y1="4.064cm" svg:x2="15.032cm" svg:y2="17.78cm">
      <text:p/>
     </draw:line>
-    <draw:frame draw:style-name="gr11" draw:text-style-name="P19" draw:layer="layout" svg:width="5.08cm" svg:height="1.673cm" svg:x="16.002cm" svg:y="7.366cm">
+    <draw:frame draw:style-name="gr11" draw:text-style-name="P18" draw:layer="layout" svg:width="5.08cm" svg:height="1.673cm" svg:x="16.002cm" svg:y="7.366cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T39">Truncation error dominates</text:span></text:p>
+      <text:p><text:span text:style-name="T40">Truncation error dominates</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr11" draw:text-style-name="P19" draw:layer="layout" svg:width="5.08cm" svg:height="1.673cm" svg:x="9.502cm" svg:y="7.367cm">
+    <draw:frame draw:style-name="gr11" draw:text-style-name="P18" draw:layer="layout" svg:width="5.08cm" svg:height="1.673cm" svg:x="9.502cm" svg:y="7.367cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T39">Roundoff error dominates</text:span></text:p>
+      <text:p><text:span text:style-name="T40">Roundoff error dominates</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
@@ -13511,45 +13390,45 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T11">General python</text:span></text:p>
+        <text:p><text:span text:style-name="T12">General python</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Advanced python / special modules</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Advanced python / special modules</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Regular expressions</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Regular expressions</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Command line/input file parsing</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Command line/input file parsing</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Filesystem operations</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Filesystem operations</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T38">NumPy</text:span></text:p>
+        <text:p><text:span text:style-name="T39">NumPy</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T38">SciPy</text:span><text:span text:style-name="T11"> and numerical methods</text:span></text:p>
+        <text:p><text:span text:style-name="T39">SciPy</text:span><text:span text:style-name="T12"> and numerical methods</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Integration</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Integration</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">ODEs</text:span></text:p>
+          <text:p><text:span text:style-name="T8">ODEs</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Curve fitting/optimization</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Curve fitting/optimization</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Interpolation</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Interpolation</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Signal processing (FFT)</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Signal processing (FFT)</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Linear algebra</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Linear algebra</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -13560,39 +13439,39 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Plotting / visualization</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Plotting / visualization</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T40">matplotlib</text:span></text:p>
+          <text:p><text:span text:style-name="T41">matplotlib</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T40">MayaVi</text:span></text:p>
+          <text:p><text:span text:style-name="T41">MayaVi</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Workflow management with </text:span><text:span text:style-name="T38">IPython</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Workflow management with </text:span><text:span text:style-name="T39">IPython</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Extending python w/ Fortran and C/C++</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Extending python w/ Fortran and C/C++</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Symbolic math with </text:span><text:span text:style-name="T38">SymPy</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Symbolic math with </text:span><text:span text:style-name="T39">SymPy</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Writing python applications</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Writing python applications</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">GUI programming</text:span></text:p>
+        <text:p><text:span text:style-name="T12">GUI programming</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Unit testing</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Unit testing</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Python and the Raspberry Pi?</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Python and the Raspberry Pi?</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T41">Others? </text:span></text:p>
+        <text:p><text:span text:style-name="T42">Others? </text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -13876,27 +13755,27 @@
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Magics (</text:span><text:span text:style-name="T3">%lsmagic</text:span><text:span text:style-name="T42"> lists all the magic functions)</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Magics (</text:span><text:span text:style-name="T3">%lsmagic</text:span><text:span text:style-name="T43"> lists all the magic functions)</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T3">%run script</text:span><text:span text:style-name="T42">: runs a script </text:span></text:p>
+            <text:p><text:span text:style-name="T3">%run script</text:span><text:span text:style-name="T43">: runs a script </text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T3">%timeit</text:span><text:span text:style-name="T42">: times a command</text:span></text:p>
+            <text:p><text:span text:style-name="T3">%timeit</text:span><text:span text:style-name="T43">: times a command</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T42">Lots of magics to deal with command history (including </text:span><text:span text:style-name="T3">%history</text:span><text:span text:style-name="T42">)</text:span></text:p>
+            <text:p><text:span text:style-name="T43">Lots of magics to deal with command history (including </text:span><text:span text:style-name="T3">%history</text:span><text:span text:style-name="T43">)</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Tab completion</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Tab completion</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Run system commands (prefix with a </text:span><text:span text:style-name="T3">!</text:span><text:span text:style-name="T42">)</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Run system commands (prefix with a </text:span><text:span text:style-name="T3">!</text:span><text:span text:style-name="T43">)</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Last 3 </text:span><text:span text:style-name="T43">output</text:span><text:span text:style-name="T42"> objects are referred to via </text:span><text:span text:style-name="T3">_</text:span><text:span text:style-name="T42">, </text:span><text:span text:style-name="T3">__</text:span><text:span text:style-name="T42">, </text:span><text:span text:style-name="T3">___</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Last 3 </text:span><text:span text:style-name="T44">output</text:span><text:span text:style-name="T43"> objects are referred to via </text:span><text:span text:style-name="T3">_</text:span><text:span text:style-name="T43">, </text:span><text:span text:style-name="T3">__</text:span><text:span text:style-name="T43">, </text:span><text:span text:style-name="T3">___</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -13924,13 +13803,13 @@
         <text:p>A web-based environment that combines code and output, plots, plain text/stylized headings, LaTeX (later versions), ...</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Notebooks can be saved and shared</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Notebooks can be saved and shared</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Viewable on the web via: </text:span><text:span text:style-name="T3">http://nbviewer.ipython.org/</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Viewable on the web via: </text:span><text:span text:style-name="T3">http://nbviewer.ipython.org/</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T42">Provides a complete view of your entire workflow</text:span></text:p>
+          <text:p><text:span text:style-name="T43">Provides a complete view of your entire workflow</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -13938,7 +13817,7 @@
         <text:p>Start with <text:span text:style-name="T3">ipython notebook</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T44">I&apos;ll provide notebooks for a lot of the lectures to follow so you can play along on your own</text:span></text:p>
+        <text:p><text:span text:style-name="T45">I&apos;ll provide notebooks for a lot of the lectures to follow so you can play along on your own</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -13969,12 +13848,12 @@
          <text:list-item>
           <text:p>Can be executable by adding:</text:p>
           <text:p><text:span text:style-name="T3">#!/usr/bin/env python</text:span></text:p>
-          <text:p><text:span text:style-name="T42">as the first line and setting the executable bit for the file</text:span></text:p>
+          <text:p><text:span text:style-name="T43">as the first line and setting the executable bit for the file</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T45">This is also the way that you write python modules that can be </text:span><text:span text:style-name="T3">import</text:span><text:span text:style-name="T45">-ed into other python code (more on that later...)</text:span></text:p>
+        <text:p><text:span text:style-name="T7">This is also the way that you write python modules that can be </text:span><text:span text:style-name="T3">import</text:span><text:span text:style-name="T7">-ed into other python code (more on that later...)</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -14023,7 +13902,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page54" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr15" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Lists vs. Arrays</text:p>
@@ -14033,7 +13911,7 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>Lists (note that python lists are not implemented as a simple linked-list: <text:s/>see <text:span text:style-name="T7"><text:a xlink:href="http://docs.python.org/2/faq/design.html#how-are-lists-implemented" xlink:type="simple">http://docs.python.org/2/faq/design.html#how-are-lists-implemented</text:a></text:span> )</text:p>
+        <text:p>Lists (note that python lists are not implemented as a simple linked-list: <text:s/>see <text:span text:style-name="T8"><text:a xlink:href="http://docs.python.org/2/faq/design.html#how-are-lists-implemented" xlink:type="simple">http://docs.python.org/2/faq/design.html#how-are-lists-implemented</text:a></text:span> )</text:p>
         <text:list>
          <text:list-item>
           <text:p>Implemented as a variable-length array</text:p>
@@ -14074,7 +13952,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page55" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: Control Flow</text:p>
@@ -14108,7 +13985,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page56" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: Functions</text:p>
@@ -14145,7 +14021,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page57" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: Classes</text:p>
@@ -14188,7 +14063,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page58" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: Modules</text:p>
@@ -14236,7 +14110,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page59" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: Modules</text:p>
@@ -14263,12 +14136,12 @@
         <text:p>Note that this module can also be run on its own</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T3">if __name__ == &quot;__main__&quot;: </text:span><text:span text:style-name="T42">clause at the end</text:span></text:p>
+          <text:p><text:span text:style-name="T3">if __name__ == &quot;__main__&quot;: </text:span><text:span text:style-name="T43">clause at the end</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T44">Let&apos;s look at an example of using this module in a notebook</text:span></text:p>
+        <text:p><text:span text:style-name="T45">Let&apos;s look at an example of using this module in a notebook</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -14281,7 +14154,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page60" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: Exceptions</text:p>
@@ -14323,7 +14195,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page61" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr15" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Intro to Python: I/O</text:p>
@@ -14355,7 +14226,6 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page62" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Caveats</text:p>
@@ -14365,56 +14235,56 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Slicing (we&apos;ll look at this with arrays soon)</text:span></text:p>
+        <text:p><text:span text:style-name="T12">Slicing (we&apos;ll look at this with arrays soon)</text:span></text:p>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T11">Function defaults: default values are only evaluated once. <text:s/></text:span></text:p>
+        <text:p><text:span text:style-name="T12">Function defaults: default values are only evaluated once. <text:s/></text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">From python tutorial:</text:span></text:p>
+          <text:p><text:span text:style-name="T8">From python tutorial:</text:span></text:p>
           <text:p><text:span text:style-name="T46"/></text:p>
           <text:p/>
           <text:p/>
           <text:p/>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Prints:</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Prints:</text:span></text:p>
           <text:p><text:span text:style-name="T47"/></text:p>
           <text:p><text:span text:style-name="T46"/></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T7">Correct way:</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Correct way:</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr35" draw:text-style-name="P21" draw:layer="layout" svg:width="10.59cm" svg:height="4.724cm" svg:x="3.54cm" svg:y="6.974cm">
+    <draw:frame draw:style-name="gr35" draw:text-style-name="P20" draw:layer="layout" svg:width="10.59cm" svg:height="4.724cm" svg:x="3.54cm" svg:y="6.974cm">
      <draw:text-box>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">def f(a, L=[]):</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">L.append(a)</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">return L</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"/></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">print f(1)</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">print f(2)</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">print f(3)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">def f(a, L=[]):</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">L.append(a)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">return L</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"/></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">print f(1)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">print f(2)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">print f(3)</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr36" draw:text-style-name="P21" draw:layer="layout" svg:width="4.439cm" svg:height="2.168cm" svg:x="3.589cm" svg:y="12.817cm">
+    <draw:frame draw:style-name="gr36" draw:text-style-name="P20" draw:layer="layout" svg:width="4.439cm" svg:height="2.168cm" svg:x="3.589cm" svg:y="12.817cm">
      <draw:text-box>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">[1]</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">[1, 2]</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">[1, 2, 3]</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">[1]</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">[1, 2]</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">[1, 2, 3]</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr37" draw:text-style-name="P22" draw:layer="layout" svg:width="8.793cm" svg:height="3.446cm" svg:x="3.656cm" svg:y="16.048cm">
+    <draw:frame draw:style-name="gr37" draw:text-style-name="P21" draw:layer="layout" svg:width="8.793cm" svg:height="3.446cm" svg:x="3.656cm" svg:y="16.048cm">
      <draw:text-box>
-      <text:p text:style-name="P20"><text:span text:style-name="T48">def f(a, L=None):</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">if L is None:</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"><text:s text:c="8"/></text:span><text:span text:style-name="T48">L = []</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">L.append(a)</text:span></text:p>
-      <text:p text:style-name="P20"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">return L</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48">def f(a, L=None):</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">if L is None:</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"><text:s text:c="8"/></text:span><text:span text:style-name="T48">L = []</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">L.append(a)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T48"><text:s text:c="4"/></text:span><text:span text:style-name="T48">return L</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
