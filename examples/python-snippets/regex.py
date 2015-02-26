@@ -1,10 +1,11 @@
 import re
 
 strings = [r"<a>this is my string</a>",
-           r"<b>this is a different string</b>"]
+           r"<b>this is a different string</b>",
+           r"<tag>multicharacter tag</tag>"]
 
 # this is the pattern that we will match -- it has 3 groups
-re_test = r"<(\w)>(.*)</(\w)>"
+re_test = r"<(\w*)>(.*)</(\w*)>"
 
 
 for s in strings:

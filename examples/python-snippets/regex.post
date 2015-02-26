@@ -1,0 +1,43 @@
+One topic we won't have time to dive deeply in is regular expressions.
+This is a shorthand syntax for pattern matching in strings.  In
+python, the "re" module provides support for regular expressions.
+Here's an example:
+
+
+import re
+strings = [r"<a>this is my string</a>",
+           r"<b>this is a different string</b>"]
+
+# this is the pattern that we will match -- it has 3 groups
+re_test = r"<(\w*)>(.*)</(\w*)>"
+
+for s in strings:
+    a = re.search(re_test, s)
+    if not a == None:
+        if a.group(1) == a.group(3):
+            # we found a match
+            print "string in '{}' tags is: {}".format(a.group(1), a.group(2))
+
+
+This will find XML-like tags, <tag>this is text in the tag</tag> and
+extra the text associated with each tag.
+
+If you remove the "*" after the "\w", it will restrict itself to
+single-character tags.
+
+
+This webpage:
+
+http://txt2re.com/
+
+will help you design a regular expression for whatever type of
+operation you want to do.
+
+
+Games are even devised around finding complex regexs:
+
+http://xkcd.com/1313/
+
+(note the hover text there has a regular expression that supposedly
+will correctly match all the winners of all US Presidental elections,
+but not the losers) -- anyone what to try it?
