@@ -1,0 +1,13 @@
+We say the "in" operator in class to loop over members of a list, e.g.:
+
+for a in [0, 1, 2, 3]:
+    ...
+
+but in can also be used to test if a string contains a substring:
+
+
+>>> mystring = "this is my string"
+>>> "this" in mystring
+True
+>>> "that" in mystring
+False

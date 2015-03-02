@@ -1,0 +1,25 @@
+Python functions are objects too.  Here's an example of passing a
+function to a function.  There's a other things to note here:
+
+1. we use sys.exit() to abort if no function is supplied to execute()
+
+2. we can use the "{}" syntax we saw with print in normal strings too.
+
+
+import sys
+
+def execute(x, function=None):
+    if function == None:
+            sys.exit("ERROR: no function supplied")
+
+    return function(x)
+
+
+def test_function(x):
+    a = "you passed in {}".format(x)
+        return a
+
+
+print execute("test", function=test_function)
+
+
