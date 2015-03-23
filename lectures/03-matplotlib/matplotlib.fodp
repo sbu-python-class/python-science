@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2015-03-22T18:31:30.677361553</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>PT15H3M18S</meta:editing-duration><meta:editing-cycles>53</meta:editing-cycles><meta:generator>LibreOffice/4.3.6.2$Linux_X86_64 LibreOffice_project/430$Build-2</meta:generator><meta:document-statistic meta:object-count="72"/></office:meta>
+ <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2015-03-22T20:16:33.328161648</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>PT16H48M19S</meta:editing-duration><meta:editing-cycles>55</meta:editing-cycles><meta:generator>LibreOffice/4.3.6.2$Linux_X86_64 LibreOffice_project/430$Build-2</meta:generator><meta:document-statistic meta:object-count="76"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-331</config:config-item>
@@ -37,10 +37,10 @@
      <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
      <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-323</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-4485</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">37172</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">21748</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-2685</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-434</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">29145</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">26617</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">254</config:config-item>
@@ -952,6 +952,7 @@
    </draw:frame>
   </style:handout-master>
   <style:master-page style:name="Default" style:page-layout-name="PM1" draw:style-name="dp1">
+   <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
    <draw:custom-shape presentation:style-name="pr1" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="28cm" svg:height="2.794cm" svg:x="0cm" svg:y="0cm">
     <text:p/>
     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
@@ -996,6 +997,7 @@
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM2">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:page-thumbnail presentation:style-name="Default-title" draw:layer="backgroundobjects" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" presentation:class="page"/>
     <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
@@ -1329,6 +1331,62 @@
    </draw:page>
    <draw:page draw:name="page7" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title">
+     <draw:text-box>
+      <text:p>Successors</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="26.924cm" svg:height="15.748cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
+     <draw:text-box>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p>There are a lot of new projects, some built upon matplotlib, others independent.</text:p>
+       </text:list-item>
+       <text:list-item>
+        <text:p>A common goal for a lot of these is to allow for interactive data exploration in the web browser. <text:s/>Many use the javascript library d3.js to do this</text:p>
+       </text:list-item>
+       <text:list-item>
+        <text:p>Examples:</text:p>
+        <text:list>
+         <text:list-item>
+          <text:p>mpld3: <text:a xlink:href="http://mpld3.github.io/" xlink:type="simple">http://mpld3.github.io/</text:a> (see his blog post here: <text:a xlink:href="http://jakevdp.github.io/blog/2014/01/10/d3-plugins-truly-interactive/" xlink:type="simple">http://jakevdp.github.io/blog/2014/01/10/d3-plugins-truly-interactive/</text:a>)</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>Bokeh: <text:a xlink:href="http://bokeh.pydata.org/en/latest/" xlink:type="simple">http://bokeh.pydata.org/en/latest/</text:a></text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>plot.ly: <text:a xlink:href="https://plot.ly/" xlink:type="simple">https://plot.ly/</text:a></text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>Glue: <text:a xlink:href="http://www.glueviz.org/en/stable/" xlink:type="simple">http://www.glueviz.org/en/stable/</text:a></text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>D3PO: <text:a xlink:href="http://d3po.org/" xlink:type="simple">http://d3po.org/</text:a></text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>d3py: <text:a xlink:href="https://github.com/mikedewar/d3py" xlink:type="simple">https://github.com/mikedewar/d3py</text:a> </text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>Seaborn: <text:a xlink:href="http://web.stanford.edu/~mwaskom/software/seaborn/" xlink:type="simple">http://web.stanford.edu/~mwaskom/software/seaborn/</text:a></text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>ggplot: <text:a xlink:href="https://github.com/yhat/ggplot/" xlink:type="simple">https://github.com/yhat/ggplot/</text:a> (for you R users)</text:p>
+         </text:list-item>
+        </text:list>
+       </text:list-item>
+      </text:list>
+     </draw:text-box>
+    </draw:frame>
+    <presentation:notes draw:style-name="dp3">
+     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="7" presentation:class="page"/>
+     <draw:frame presentation:style-name="pr12" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+      <draw:text-box/>
+     </draw:frame>
+    </presentation:notes>
+   </draw:page>
+   <draw:page draw:name="page8" draw:style-name="dp4" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Some Examples</text:p>
@@ -1344,7 +1402,7 @@
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp3">
-     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="7" presentation:class="page"/>
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="8" presentation:class="page"/>
      <draw:frame presentation:style-name="pr12" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
       <draw:text-box/>
      </draw:frame>
