@@ -1,0 +1,15 @@
+Basic intro:
+http://sebsauvage.net/python/gui/
+
+Nice example of a phonelist app:
+http://www.openbookproject.net/py4fun/gui/tkPhone.html
+
+
+
+sympy evaluate:
+
+from sympy.parsing.sympy_parser import parse_expr
+a = sympy.parse_expr("1+x", evaluate=0)
+from sympy.abc import x
+print a.evalf(subs={x:1})
+
