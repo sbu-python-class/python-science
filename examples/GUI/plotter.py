@@ -67,7 +67,7 @@ def _quit():
                     # Fatal Python Error: PyEval_RestoreThread: NULL tstate
 
 frame2 = Tk.Frame(root)
-frame2.pack()
+frame2.pack(fill=Tk.BOTH, expand=1)
 
 plot_button = Tk.Button(frame2, text='Plot', command=_plot)
 plot_button.pack(side=Tk.BOTTOM)
@@ -75,7 +75,7 @@ plot_button.pack(side=Tk.BOTTOM)
 quit_button = Tk.Button(frame2, text='Quit', command=_quit)
 quit_button.pack(side=Tk.BOTTOM)
 
-plot_button.pack(side=Tk.LEFT)
+plot_button.pack(side=Tk.LEFT, padx=5, pady=5)
 quit_button.pack(side=Tk.RIGHT)
 
 
