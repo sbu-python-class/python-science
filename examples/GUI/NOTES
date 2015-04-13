@@ -15,3 +15,8 @@ a = sympy.parse_expr("1+x", evaluate=0)
 from sympy.abc import x
 print a.evalf(subs={x:1})
 
+
+
+-- doing everything as a class:
+
+   http://programmers.stackexchange.com/questions/213935/why-use-classes-when-programming-a-tkinter-gui-in-python
