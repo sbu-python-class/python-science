@@ -6,6 +6,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
 from matplotlib.figure import Figure
+import matplotlib.pyplot as plt
 
 import numpy as np
 
@@ -41,6 +42,15 @@ def _plot():
     a.set_xlim([xm, xM])
     canvas.show()
 
+
+def _clear():
+    print "here"
+    #f.clf(keep_observers=False)
+    a.clear()
+    canvas.draw()
+    #canvas.get_tk_widget().destroy()
+    #help(canvas)
+    
     
 def _quit():
     print func.get()
@@ -101,10 +111,14 @@ frame2.pack(fill=Tk.BOTH, expand=1)
 plot_button = Tk.Button(frame2, text='Plot', command=_plot, font=myfont)
 plot_button.pack(side=Tk.BOTTOM)
 
+clear_button = Tk.Button(frame2, text='Clear', command=_clear, font=myfont)
+clear_button.pack(side=Tk.BOTTOM)
+
 quit_button = Tk.Button(frame2, text='Quit', command=_quit, font=myfont)
 quit_button.pack(side=Tk.BOTTOM)
 
 plot_button.pack(side=Tk.LEFT, padx=5, pady=5)
+clear_button.pack(side=Tk.LEFT, padx=5, pady=5)
 quit_button.pack(side=Tk.RIGHT)
 
 
