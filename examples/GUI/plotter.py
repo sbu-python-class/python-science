@@ -28,101 +28,110 @@ def str_to_f(str):
     return f
 
 
-def _plot():
-    f_str = func.get()
-    f = str_to_f(f_str)
+class PlotterGUI:
+    def __init__(self, parent):
 
-    xm = float(xmin.get())
-    xM = float(xmax.get())
+        self.parent = parent
+        
+        myfont = tkFont.Font(size=14)
+
+        self.frame_function = Tk.Frame(self.parent)
+        self.frame_function.pack(fill=Tk.BOTH, expand=1)
+
+        self.label = Tk.Label(self.frame_function, text="f(x) = ", font=myfont)
+        self.label.grid(row=0, column=0, sticky=Tk.W)
+        self.v = Tk.StringVar()
+        self.func = Tk.Entry(self.frame_function, textvariable=self.v,
+                             font=myfont)
+        self.func.grid(row=0, column=1, sticky=Tk.W)
+
+        self.frame_extrema = Tk.Frame(self.parent)
+        self.frame_extrema.pack(fill=Tk.BOTH, expand=1)
+
+        self.xmin_label = Tk.Label(self.frame_extrema, text="xmin: ",
+                                   font=myfont)
+        self.xmin_label.grid(row=0, column=0, sticky=Tk.W)
+        self.xmin_v = Tk.StringVar()
+        self.xmin = Tk.Entry(self.frame_extrema, textvariable=self.xmin_v,
+                             font=myfont)
+        self.xmin_v.set("0.0")
+        self.xmin.grid(row=0, column=1, sticky=Tk.W)
+
+        self.xmax_label = Tk.Label(self.frame_extrema, text="xmax: ",
+                                   font=myfont)
+        self.xmax_label.grid(row=0, column=2, sticky=Tk.W)
+        self.xmax_v = Tk.StringVar()
+        self.xmax = Tk.Entry(self.frame_extrema, textvariable=self.xmax_v,
+                             font=myfont)
+        self.xmax_v.set("1.0")
+        self.xmax.grid(row=0, column=3, sticky=Tk.W)
+
+
+        # a tk.DrawingArea
+        self.f = Figure(figsize=(6,5), dpi=100)
+        self.a = self.f.add_subplot(111)
+        self.canvas = FigureCanvasTkAgg(self.f, master=self.parent)
+        self.canvas.show()
+        self.canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
+
+        #toolbar = NavigationToolbar2TkAgg( canvas, root )
+        #toolbar.update()
+        #canvas._tkcanvas.pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
+
+        self.frame_buttons = Tk.Frame(root)
+        self.frame_buttons.pack(fill=Tk.BOTH, expand=1)
+
+        self.plot_button = Tk.Button(self.frame_buttons, text='Plot',
+                                     command=self._plot, font=myfont)
+        self.plot_button.pack(side=Tk.BOTTOM)
+
+        self.clear_button = Tk.Button(self.frame_buttons, text='Clear',
+                                      command=self._clear, font=myfont)
+        self.clear_button.pack(side=Tk.BOTTOM)
+
+        self.quit_button = Tk.Button(self.frame_buttons, text='Quit',
+                                     command=self._quit, font=myfont)
+        self.quit_button.pack(side=Tk.BOTTOM)
+
+        self.plot_button.pack(side=Tk.LEFT, padx=5, pady=5)
+        self.clear_button.pack(side=Tk.LEFT, padx=5, pady=5)
+        self.quit_button.pack(side=Tk.RIGHT)
+
+        
+    def _plot(self):
+        f_str = self.func.get()
+        f = str_to_f(f_str)
+
+        xm = float(self.xmin.get())
+        xM = float(self.xmax.get())
     
-    xv = np.linspace(xm, xM, 1000)
-    fv = f(xv)
+        xv = np.linspace(xm, xM, 1000)
+        fv = f(xv)
 
-    a.plot(xv, fv)
-    a.set_xlim([xm, xM])
-    canvas.show()
+        self.a.plot(xv, fv)
+        self.a.set_xlim([xm, xM])
+        self.canvas.show()
 
 
-def _clear():
-    print "here"
-    #f.clf(keep_observers=False)
-    a.clear()
-    canvas.draw()
-    #canvas.get_tk_widget().destroy()
-    #help(canvas)
+    def _clear(self):
+        self.a.clear()
+        self.canvas.draw()
     
     
-def _quit():
-    print func.get()
-    root.quit()     # stops mainloop
-    root.destroy()  # this is necessary on Windows to prevent
-                    # Fatal Python Error: PyEval_RestoreThread: NULL tstate
+    def _quit(self):
+        self.parent.quit()     # stops mainloop
+
+        # this is necessary on Windows to prevent Fatal Python Error:
+        # PyEval_RestoreThread: NULL tstate
+        self.parent.destroy()  
 
     
 root = Tk.Tk()
 root.wm_title("plotter")
 
+plotter_gui = PlotterGUI(root)
 
-myfont = tkFont.Font(size=14)
-
-frame1 = Tk.Frame(root)
-frame1.pack(fill=Tk.BOTH, expand=1)
-
-label = Tk.Label(frame1, text="f(x) = ", font=myfont)
-label.grid(row=0, column=0, sticky=Tk.W)
-v = Tk.StringVar()
-func = Tk.Entry(frame1, textvariable=v, font=myfont)
-func.grid(row=0, column=1, sticky=Tk.W)
-
-
-
-frame_extrema = Tk.Frame(root)
-frame_extrema.pack(fill=Tk.BOTH, expand=1)
-
-xmin_label = Tk.Label(frame_extrema, text="xmin: ", font=myfont)
-xmin_label.grid(row=0, column=0, sticky=Tk.W)
-xmin_v = Tk.StringVar()
-xmin = Tk.Entry(frame_extrema, textvariable=xmin_v, font=myfont)
-xmin_v.set("0.0")
-xmin.grid(row=0, column=1, sticky=Tk.W)
-
-xmax_label = Tk.Label(frame_extrema, text="xmax: ", font=myfont)
-xmax_label.grid(row=0, column=2, sticky=Tk.W)
-xmax_v = Tk.StringVar()
-xmax = Tk.Entry(frame_extrema, textvariable=xmax_v, font=myfont)
-xmax_v.set("1.0")
-xmax.grid(row=0, column=3, sticky=Tk.W)
-
-
-# a tk.DrawingArea
-f = Figure(figsize=(6,5), dpi=100)
-a = f.add_subplot(111)
-canvas = FigureCanvasTkAgg(f, master=root)
-canvas.show()
-canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
-
-#toolbar = NavigationToolbar2TkAgg( canvas, root )
-#toolbar.update()
-#canvas._tkcanvas.pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
-
-frame2 = Tk.Frame(root)
-frame2.pack(fill=Tk.BOTH, expand=1)
-
-plot_button = Tk.Button(frame2, text='Plot', command=_plot, font=myfont)
-plot_button.pack(side=Tk.BOTTOM)
-
-clear_button = Tk.Button(frame2, text='Clear', command=_clear, font=myfont)
-clear_button.pack(side=Tk.BOTTOM)
-
-quit_button = Tk.Button(frame2, text='Quit', command=_quit, font=myfont)
-quit_button.pack(side=Tk.BOTTOM)
-
-plot_button.pack(side=Tk.LEFT, padx=5, pady=5)
-clear_button.pack(side=Tk.LEFT, padx=5, pady=5)
-quit_button.pack(side=Tk.RIGHT)
-
-
-Tk.mainloop()
+root.mainloop()
 # If you put root.destroy() here, it will cause an error if
 # the window is closed with the window manager.
 
