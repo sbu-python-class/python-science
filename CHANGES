@@ -3,6 +3,7 @@
     https://github.com/pyhpc/pyhpc-tutorial
 
 
+-- decorators: http://thecodeship.com/patterns/guide-to-python-function-decorators/
 
 -- use project Euler for in-class code projects
 
@@ -69,4 +70,5 @@ grading:
      B+:  5 postings to the discussion board
 
      B:   2 postings to the discussion board
+
 
