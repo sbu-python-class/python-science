@@ -31,7 +31,7 @@ class FitterGUI:
 
         self.parent = parent
         
-        myfont = tkFont.Font(size=14)
+        myfont = tkFont.Font() #size=14)
 
         # data file
         
