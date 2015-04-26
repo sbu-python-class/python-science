@@ -83,7 +83,7 @@ class PlotterGUI:
         self.frame_buttons.pack(fill=Tk.BOTH, expand=1)
 
         self.plot_button = Tk.Button(self.frame_buttons, text='Plot',
-                                     command=self._plot, font=myfont)
+                                     command=self._plot, font=myfont) 
         self.plot_button.pack(side=Tk.BOTTOM)
 
         self.clear_button = Tk.Button(self.frame_buttons, text='Clear',
@@ -98,28 +98,15 @@ class PlotterGUI:
         self.clear_button.pack(side=Tk.LEFT, padx=5, pady=5)
         self.quit_button.pack(side=Tk.RIGHT)
 
-        def _plot1(event=None):      # define plot function inside this class so
-            f_str = self.func.get()  # self.func.bind can call it
-            f = str_to_f(f_str)
 
-            xm = float(self.xmin.get())
-            xM = float(self.xmax.get())
-
-            xv = np.linspace(xm, xM, 1000)
-            fv = f(xv)
-
-            self.a.plot(xv, fv)
-            self.a.set_xlim([xm, xM])
-            self.canvas.show()
-
-        self.func.bind('<Return>', _plot1)
-        self.xmin.bind('<Return>', _plot1)
-        self.xmax.bind('<Return>', _plot1)
+        self.func.bind('<Return>', self._plot)
+        self.xmin.bind('<Return>', self._plot)
+        self.xmax.bind('<Return>', self._plot)
         # this allows the use of the enter key to plot the function as well 
         # while the cursor is in any one of the three text-entry fields
 
         
-    def _plot(self):
+    def _plot(self, event=None):
         f_str = self.func.get()
         f = str_to_f(f_str)
 
