@@ -28,6 +28,7 @@ def str_to_f(str):
     return f
 
 
+
 class PlotterGUI:
     def __init__(self, parent):
 
@@ -82,7 +83,7 @@ class PlotterGUI:
         self.frame_buttons.pack(fill=Tk.BOTH, expand=1)
 
         self.plot_button = Tk.Button(self.frame_buttons, text='Plot',
-                                     command=self._plot, font=myfont)
+                                     command=self._plot, font=myfont) 
         self.plot_button.pack(side=Tk.BOTTOM)
 
         self.clear_button = Tk.Button(self.frame_buttons, text='Clear',
@@ -97,8 +98,15 @@ class PlotterGUI:
         self.clear_button.pack(side=Tk.LEFT, padx=5, pady=5)
         self.quit_button.pack(side=Tk.RIGHT)
 
+
+        self.func.bind('<Return>', self._plot)
+        self.xmin.bind('<Return>', self._plot)
+        self.xmax.bind('<Return>', self._plot)
+        # this allows the use of the enter key to plot the function as well 
+        # while the cursor is in any one of the three text-entry fields
+
         
-    def _plot(self):
+    def _plot(self, event=None):
         f_str = self.func.get()
         f = str_to_f(f_str)
 
