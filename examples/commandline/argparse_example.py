@@ -14,7 +14,7 @@ parser.add_argument("-a", help="the -a option", action="store_true")
 parser.add_argument("-b", help="-b takes a number", type=int, default=0)
 parser.add_argument("-c", help="-c takes a string", type=str, default=None)
 parser.add_argument("--darg", help="the --darg option", action="store_true")
-parser.add_argument("--earg", help="--earg takes a string", type=str,
+parser.add_argument("--earg", help="--earg takes a string", type=str, metavar="test",
                     default="example string")
 
 # extra arguments (positional)
