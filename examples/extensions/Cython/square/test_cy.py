@@ -22,6 +22,11 @@ for i in range(A.shape[0]):
 
 print "pure python: ", time.time() - start
 
+start = time.time()
+B = A**2
+print "numpy: ", time.time() - start
+
+
 # using our Cython routine
 start = time.time()
 
