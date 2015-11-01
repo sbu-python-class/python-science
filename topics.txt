@@ -1,3 +1,5 @@
+pycharm edu? https://www.jetbrains.com/pycharm-edu/
+
 general:
 
    python: all a scientist needs
