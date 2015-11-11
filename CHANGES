@@ -52,6 +52,19 @@
    requests
 
 
+-- debugger: from Nathan on yt:
+
+   "The easiest way to debug issues like this is to use a python
+   debugger. I prefer ipdb, which has nice integration with IPython,
+   including tab completions. Others like pudb. There's also pdb,
+   which is part of the python standard library.  All of these
+   debuggers have a gdb-like command-line interface, allowing printing
+   out backtraces, inspecting variables, and stepping through
+   code. Both ipdb and pudb can be installed via pip."
+
+
+
+ 
 
 references:
 
