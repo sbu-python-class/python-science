@@ -34,6 +34,7 @@
 
 """
   
+from __future__ import print_function
 
 import time 
 
@@ -83,7 +84,7 @@ def timeReport():
 
     spacing = '   '
     for key in timerOrder:
-        print timerNesting[key]*spacing + key + ': ', timers[key]
+        print(timerNesting[key]*spacing + key + ': ', timers[key])
 
 
 
