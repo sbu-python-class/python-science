@@ -1,0 +1,6 @@
+Be careful when looping over items in a list and deleting them.  You
+need to make a copy first:
+
+a_tmp = a[:]
+for a in a_tmp:
+   ...

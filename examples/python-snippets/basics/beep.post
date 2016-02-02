@@ -1,0 +1,3 @@
+To get your code to beep, do:
+
+print("\a")

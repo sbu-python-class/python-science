@@ -1,0 +1,26 @@
+ The following lines will send an e-mail:
+
+
+import smtplib
+from email.mime.text import MIMEText
+
+sender = "your e-mail address here"
+receiver = "your e-mail address here"
+
+subject = "python e-mail"
+
+body = """
+your e-mail body goes here
+"""
+
+msg = MIMEText(body)
+msg['Subject'] = subject
+msg['From'] = sender
+msg['To'] = receiver
+
+try:
+    smtpObj = smtplib.SMTP('localhost')
+    smtpObj.sendmail(sender, receiver, msg.as_string())
+except SMTPException:
+    sys.exit("ERROR sending mail")
+

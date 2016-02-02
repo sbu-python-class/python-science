@@ -1,0 +1,25 @@
+We briefly discussed shallow copies in class:
+
+>>> a = [1, 2, [3,4], 5]
+>>> b = a[:]
+>>> print id(a)
+140022054383056
+>>> print id(b)
+140022054485312
+>>> 
+>>> print a[2]
+[3, 4]
+>>> print id(a[2])
+140022054381760
+>>> print id(b[2])
+140022054381760
+>>> 
+>>> 
+>>> a[2][0] = "changed"
+>>> print a
+[1, 2, ['changed', 4], 5]
+>>> print b
+[1, 2, ['changed', 4], 5]
+
+notice that the list in the list is not a copy, but they both point to
+the same list, so this is shallow in that sense.
