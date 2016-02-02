@@ -1,0 +1,4 @@
+Common Python Mistakes:
+
+http://www.toptal.com/python/top-10-mistakes-that-python-programmers-make
+
