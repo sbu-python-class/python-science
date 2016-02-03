@@ -1,0 +1,24 @@
+Strings in python are immutable -- that means that they cannot be
+changed.  You can perform an operation on a string and produce a new
+string as a result.
+
+Remember, that the id() function can tell you about where a quantity
+exists in memory.
+
+Consider the following:
+
+In [1]: a = "this is my string"
+
+In [2]: print(id(a))
+139676110774200
+
+In [3]: a = a.replace("this", "that")
+
+In [4]: print(id(a))
+139676095173496
+
+Here we see that even though we stored the result of a.replace() back
+into a, id() shows us that it is pointing to a different location in
+memory.  That means that our new string "that is my string" is in a
+different place in memory from our old string.
+
