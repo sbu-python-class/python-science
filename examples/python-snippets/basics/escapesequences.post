@@ -1,0 +1,10 @@
+In class, we saw the escape sequence "\n" that generated a new line
+when printed.  There are many other escape sequences.  You can find
+a list here:
+
+https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals
+
+Here's a fun one -- to get your code to beep, do:
+
+print("\a")
+
