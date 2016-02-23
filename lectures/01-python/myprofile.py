@@ -12,7 +12,7 @@
 
   # start timing the 'my timer' block of code
   a.begin()
-  
+
   ... do stuff here ...
 
   # end the timing of the 'my timer' block of code
@@ -33,25 +33,25 @@
   At present, no enforcement is done to ensure proper nesting.
 
 """
-  
+
 from __future__ import print_function
 
-import time 
+import time
 
 timers = {}
 
 # keep basic count of how nested we are in the timers, so we can do some
 # pretty printing.
-stackCount = 0
+stack_count = 0
 
-timerNesting = {}
-timerOrder = []
+timer_nesting = {}
+timer_order = []
 
-class timer:
+class Timer(object):
 
     def __init__ (self, name):
-        global timers, stackCount, timerNesting, timerOrder
-        
+        global timers, stack_count, timer_nesting, timer_order
+
         self.name = name
 
         keys = timers.keys()
@@ -59,52 +59,51 @@ class timer:
         if name not in keys:
             timers[name] = 0.0
             self.startTime = 0.0
-            timerOrder.append(name)
-            timerNesting[name] = stackCount
-            
+            timer_order.append(name)
+            timer_nesting[name] = stack_count
+
 
     def begin(self):
-        global stackCount
-        
-        self.startTime = time.time()
-        stackCount += 1
+        global stack_count
 
-        
+        self.startTime = time.time()
+        stack_count += 1
+
+
     def end(self):
-        global timers, stackCount
+        global timers, stack_count
 
         elapsedTime = time.time() - self.startTime
         timers[self.name] += elapsedTime
-        
-        stackCount -= 1
-        
 
-def timeReport():
-    global timers, timerOrder, timerNesting
+        stack_count -= 1
+
+
+def time_report():
+    global timers, timer_order, timer_nesting
 
     spacing = '   '
-    for key in timerOrder:
-        print(timerNesting[key]*spacing + key + ': ', timers[key])
+    for key in timer_order:
+        print(timer_nesting[key]*spacing + key + ': ', timers[key])
 
 
 
-if __name__ == "__main__":    
-    a = timer('1')
+if __name__ == "__main__":
+    a = Timer('1')
     a.begin()
     time.sleep(10.)
     a.end()
-    
-    b = timer('2')
+
+    b = Timer('2')
     b.begin()
     time.sleep(5.)
-    
-    c = timer('3')
+
+    c = Timer('3')
     c.begin()
-    
+
     time.sleep(20.)
-    
+
     b.end()
     c.end()
-    
-    timeReport()
 
+    time_report()
