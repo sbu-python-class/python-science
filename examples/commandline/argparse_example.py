@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
 # to get usage: use -h
+from __future__ import print_function
+
 import sys
 import argparse
 
@@ -24,14 +26,15 @@ parser.add_argument("extras", metavar="extra", type=str, nargs="*",
 args = parser.parse_args()
 
 
-if args.a: print "-a set"
-print "-b = {}".format(args.b)
-print "-c = {}".format(args.c)
-if args.darg: print "--dargs set"
-print "--earg value = {}".format(args.earg)
+if args.a: print("-a set")
+print("-b = {}".format(args.b))
+print("-c = {}".format(args.c))
+if args.darg: print("--dargs set")
+print("--earg value = {}".format(args.earg))
 
-print " "
-print "extra positional arguments: "
+print(" ")
+print("extra positional arguments: ")
 if len(args.extras) > 0:
     for e in args.extras:
-        print e
+        print(e)
+
