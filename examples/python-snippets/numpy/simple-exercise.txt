@@ -1,0 +1,21 @@
+Here's a simple exercise to play around with some numpy concepts.
+
+1. create a function that takes a 1-d array of floating point values,
+x, and returns some mathematical operation on them (e.g. sin(x), or
+something like that)
+
+2. in your main program, create x as evenly spaced numbers between
+some xmin and xmax
+
+3. call your function on your vector x
+
+4. compute the derivative of your function by differencing.  Remember
+from calculus that f' = (f(x+h) - f(x))/h -- you can difference
+adjancent function values
+
+5. compare the numerical derivative you computed with the analytic
+derivative (so you'll need to create an fprime(x) function too that
+has the analytic derivative of your original function).
+
+
+If you do this, post your code here.
