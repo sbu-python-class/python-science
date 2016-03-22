@@ -1,0 +1,89 @@
+I've created a git repository on our course github page for us to experiment
+with.  It is at:
+
+https://github.com/sbu-python-class/test-repo
+
+Here I'll describe some ways to interact with it.
+
+By default, anyone in the world has "read-access" to this repo, but I
+am the only one with "write-access".  This means that if you want to
+contribute changes to the repo, you need to ask me to pull your
+changes into the class repo, github calls this "pull requests".
+
+1. To operate with github, you should first create a github account --
+   it's free.  You can do this by going to
+
+   https://github.com/
+
+2. Next, you want to "fork" our project.  A fork is a clone of the git
+   repository (essentially what you would get if you did 'git clone'
+   on the commandline).  When you fork the project, it will appear
+   under your account's profile.  The important thing about your fork
+   is that you have write access to it, since you own it.
+
+   Go to the test repo page:
+
+   https://github.com/sbu-python-class/test-repo
+
+   and click on the "fork" button in the upper right.  Follow the
+   prompts and it will create a copy in your profile.
+
+3. Now you are ready to work with it.  At a command prompt on your
+   computer (assuming you are running linux or OSX), do:
+
+   git clone https://github.com/your-username/test-repo.git
+
+   where "your-username" is your github account name.  Note that this
+   URL is what appears on the page of your forked repo.
+
+   This will create a directory on your machine called test-repo/
+
+4. Make any additions you wish.
+
+   If you add a new file, like test.py, then to make git aware of it,
+   you'll do:
+
+   git add test.py
+   git commit test.py
+
+   (you can also do 'git commit .' -- the '.' means the present directory)
+
+   If you just edit the README, then you do:
+
+   git commit README
+
+   You'll be prompted to enter a log message when you commit.
+
+5. Push your changes back to your forked repo by typing:
+
+   git push
+
+   Note that your forked repo is not kept in sync with the main
+   class repo, so if you want to get changes that others in the class
+   may have made, you'll need to do:
+
+   git pull https://github.com/sbu-python-class/test-repo
+
+   That will tell git to pull from the original repo you forked.  Any
+   changes made there will be merged with your local changes.  You can
+   then share these changes with your fork by doing
+
+   git push
+
+6. Share your changes with the rest of the class:
+
+   Go to your github page and click on your fork of test-repo.  Now,
+   click on the green "New pull request" button.  This will identify
+   all of the differences between your version of the code and the
+   class version at sbu-python-class.  You can then click on "Create
+   pull request" and notification will be sent to the main project
+   that you wish for your changes to be merged.
+
+   That's where I come in -- I'll look over your changes, potentially
+   make suggestions via the commenting facilities on the page, and
+   then merge your changes in.  At that point, everyone in the class
+   can see them.
+
+
+Feel free to experiment with this repo -- you can't hurt anything, and
+by playing around with it, you'll get a better idea of how git works.
