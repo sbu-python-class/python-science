@@ -17,10 +17,11 @@ from sympy.parsing.sympy_parser import parse_expr
 import sys
 if sys.version_info[0] < 3:
     import Tkinter as Tk
+    import tkFont
 else:
     import tkinter as Tk
+    import tkinter.font as tkFont
 
-import tkFont
 
 def str_to_f(str):
     a = parse_expr(str, evaluate=0)
