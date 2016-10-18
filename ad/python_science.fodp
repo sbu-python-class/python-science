@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><dc:title>python for scientific computing</dc:title><meta:initial-creator>Presentation Magazine</meta:initial-creator><meta:creation-date>2007-05-29T09:52:18</meta:creation-date><dc:date>2016-10-04T16:10:54.104086073</dc:date><meta:editing-cycles>23</meta:editing-cycles><meta:editing-duration>PT1H44M50S</meta:editing-duration><meta:generator>LibreOffice/5.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:object-count="49"/></office:meta>
+ <office:meta><dc:title>python for scientific computing</dc:title><meta:initial-creator>Presentation Magazine</meta:initial-creator><meta:creation-date>2007-05-29T09:52:18</meta:creation-date><dc:date>2016-10-18T09:58:40.402299682</dc:date><meta:editing-cycles>25</meta:editing-cycles><meta:editing-duration>PT1H51M48S</meta:editing-duration><meta:generator>LibreOffice/5.1.6.1.0$Linux_X86_64 LibreOffice_project/10$Build-1</meta:generator><meta:document-statistic meta:object-count="52"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-274</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">-3589</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">32905</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">19797</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">32904</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">19796</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -35,10 +35,10 @@
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-274</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-3589</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">32907</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">19799</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-279</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-9553</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">44590</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">19636</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">254</config:config-item>
@@ -101,7 +101,7 @@
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string">hp</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">sgH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMA0wAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhCkR1cGxleDpEdXBsZXhOb1R1bWJsZQBJbnB1dFNsb3Q6RGVmYXVsdABQYWdlU2l6ZTpMZXR0ZXIAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEVVBMRVhfTE9OR0VER0U=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">sgH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMA0wAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgBJbnB1dFNsb3Q6RGVmYXVsdABEdXBsZXg6RHVwbGV4Tm9UdW1ibGUAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEVVBMRVhfTE9OR0VER0U=</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
@@ -1197,7 +1197,7 @@
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:fit-to-size="shrink-to-fit" fo:min-height="10.02cm" fo:min-width="0cm" fo:padding-top="0.13cm" fo:padding-bottom="0.13cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap" draw:shadow-color="#004080"/>
   </style:style>
   <style:style style:name="pr10" style:family="presentation" style:parent-style-name="Default-title">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="1.44cm"/>
+   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="2.201cm"/>
   </style:style>
   <style:style style:name="pr11" style:family="presentation" style:parent-style-name="Default-outline1">
    <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="0.764cm"/>
@@ -1274,14 +1274,16 @@
    <style:text-properties style:font-name="Carlito"/>
   </style:style>
   <style:style style:name="P19" style:family="paragraph">
-   <loext:graphic-properties draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+   <style:text-properties style:font-name="Carlito"/>
   </style:style>
   <style:style style:name="P20" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+   <style:text-properties style:font-name="Carlito"/>
   </style:style>
   <style:style style:name="P21" style:family="paragraph">
-   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <loext:graphic-properties draw:fill="none"/>
   </style:style>
   <style:style style:name="P22" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
@@ -1316,21 +1318,24 @@
    <style:text-properties fo:color="#ffffff" style:font-name="Carlito" fo:font-size="16pt" fo:language="en" fo:country="GB" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:color="#ff9900" style:font-name="Carlito" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="bold" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:color="#ffffff" style:font-name="Carlito" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-style="italic" style:font-size-asian="16pt" style:font-style-asian="italic" style:font-size-complex="16pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties fo:color="#ffffff" style:text-position="0% 100%" style:font-name="Carlito" fo:font-size="16pt" fo:language="en" fo:country="GB" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+   <style:text-properties fo:color="#ff9900" style:font-name="Carlito" fo:font-size="16pt" fo:language="en" fo:country="GB" fo:font-weight="bold" style:font-size-asian="16pt" style:font-weight-asian="bold" style:font-size-complex="16pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:color="#ffff00" style:font-name="URW Palladio L" fo:font-size="18pt" fo:language="en" fo:country="GB" fo:font-style="italic" style:font-size-asian="18pt" style:font-style-asian="italic" style:font-size-complex="18pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:color="#ffffff" style:font-name="Carlito" fo:font-size="18pt" fo:language="en" fo:country="GB" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties fo:color="#ffffff" fo:font-size="18pt" fo:language="en" fo:country="GB" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+   <style:text-properties fo:color="#ffffff" style:text-position="0% 100%" style:font-name="Carlito" fo:font-size="16pt" fo:language="en" fo:country="GB" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:color="#ffffff" style:font-name="Carlito" fo:font-size="12pt" fo:language="en" fo:country="GB" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+   <style:text-properties fo:color="#ffff00" style:font-name="Carlito" fo:font-size="18pt" fo:language="en" fo:country="GB" fo:font-style="italic" style:font-size-asian="18pt" style:font-style-asian="italic" style:font-size-complex="18pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
+   <style:text-properties fo:color="#ffffff" style:font-name="Carlito" fo:font-size="12pt" fo:language="en" fo:country="GB" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
    <style:text-properties fo:color="#ffff00" style:font-name="Carlito" fo:font-size="20pt" fo:language="en" fo:country="GB" fo:font-weight="bold" style:font-size-asian="20pt" style:font-weight-asian="bold" style:font-size-complex="20pt" style:font-weight-complex="bold"/>
   </style:style>
   <text:list-style style:name="L1">
@@ -1560,7 +1565,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+       <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/><presentation:header/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -1569,7 +1574,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p text:style-name="P4"><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/><presentation:date-time/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -1578,7 +1583,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+       <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/><presentation:footer/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -1587,7 +1592,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number><text:page-number>&lt;number&gt;</text:page-number></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2599,6 +2604,9 @@
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="22.859cm" svg:height="11.048cm" svg:x="1.27cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="22.859cm" svg:height="11.048cm" svg:x="1.27cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="22.86cm" svg:height="10.279cm" svg:x="1.27cm" svg:y="4.444cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
@@ -2606,7 +2614,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p><text:span text:style-name="T2"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+       <text:p><text:span text:style-name="T2"><presentation:date-time/></text:span><presentation:date-time/><presentation:date-time/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2615,7 +2623,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p><text:span text:style-name="T2"><presentation:footer/></text:span><presentation:footer/></text:p>
+       <text:p><text:span text:style-name="T2"><presentation:footer/></text:span><presentation:footer/><presentation:footer/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2624,7 +2632,7 @@
     <draw:text-box>
      <text:list text:style-name="L1">
       <text:list-header>
-       <text:p><text:span text:style-name="T2"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+       <text:p><text:span text:style-name="T2"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number><text:page-number>&lt;number&gt;</text:page-number></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2637,10 +2645,14 @@
      <draw:text-box>
       <text:list text:style-name="L1">
        <text:list-header>
-        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:header/></text:span><presentation:header/></text:p>
+        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:header/></text:span><presentation:header/><presentation:header/></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
+    </draw:frame>
+    <draw:page-thumbnail presentation:style-name="Default-title" draw:layer="backgroundobjects" svg:width="12.699cm" svg:height="9.524cm" svg:x="3.175cm" svg:y="1.93cm" presentation:class="page"/>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="15.239cm" svg:height="11.429cm" svg:x="1.905cm" svg:y="12.065cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
     </draw:frame>
     <draw:page-thumbnail presentation:style-name="Default-title" draw:layer="backgroundobjects" svg:width="12.699cm" svg:height="9.524cm" svg:x="3.175cm" svg:y="1.93cm" presentation:class="page"/>
     <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="15.239cm" svg:height="11.429cm" svg:x="1.905cm" svg:y="12.065cm" presentation:class="notes" presentation:placeholder="true">
@@ -2650,7 +2662,7 @@
      <draw:text-box>
       <text:list text:style-name="L1">
        <text:list-header>
-        <text:p text:style-name="P4"><text:span text:style-name="T3"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+        <text:p text:style-name="P4"><text:span text:style-name="T3"><presentation:date-time/></text:span><presentation:date-time/><presentation:date-time/></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2663,7 +2675,7 @@
      <draw:text-box>
       <text:list text:style-name="L1">
        <text:list-header>
-        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:footer/></text:span><presentation:footer/></text:p>
+        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:footer/></text:span><presentation:footer/><presentation:footer/></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2672,7 +2684,7 @@
      <draw:text-box>
       <text:list text:style-name="L1">
        <text:list-header>
-        <text:p text:style-name="P4"><text:span text:style-name="T3"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+        <text:p text:style-name="P4"><text:span text:style-name="T3"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number><text:page-number>&lt;number&gt;</text:page-number></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2695,7 +2707,7 @@
     <draw:text-box>
      <text:list text:style-name="L2">
       <text:list-header>
-       <text:p text:style-name="P2"><text:span text:style-name="T4"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+       <text:p text:style-name="P2"><text:span text:style-name="T4"><presentation:date-time/></text:span><presentation:date-time/><presentation:date-time/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2704,7 +2716,7 @@
     <draw:text-box>
      <text:list text:style-name="L2">
       <text:list-header>
-       <text:p text:style-name="P9"><text:span text:style-name="T4"><presentation:footer/></text:span><presentation:footer/></text:p>
+       <text:p text:style-name="P9"><text:span text:style-name="T4"><presentation:footer/></text:span><presentation:footer/><presentation:footer/></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2713,7 +2725,7 @@
     <draw:text-box>
      <text:list text:style-name="L2">
       <text:list-header>
-       <text:p text:style-name="P4"><text:span text:style-name="T4"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T4"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number><text:page-number>&lt;number&gt;</text:page-number></text:p>
       </text:list-header>
      </text:list>
     </draw:text-box>
@@ -2729,7 +2741,7 @@
      <draw:text-box>
       <text:list text:style-name="L2">
        <text:list-header>
-        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:header/></text:span><presentation:header/></text:p>
+        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:header/></text:span><presentation:header/><presentation:header/></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2738,7 +2750,7 @@
      <draw:text-box>
       <text:list text:style-name="L2">
        <text:list-header>
-        <text:p text:style-name="P4"><text:span text:style-name="T3"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+        <text:p text:style-name="P4"><text:span text:style-name="T3"><presentation:date-time/></text:span><presentation:date-time/><presentation:date-time/></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2751,7 +2763,7 @@
      <draw:text-box>
       <text:list text:style-name="L2">
        <text:list-header>
-        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:footer/></text:span><presentation:footer/></text:p>
+        <text:p text:style-name="P2"><text:span text:style-name="T3"><presentation:footer/></text:span><presentation:footer/><presentation:footer/></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2760,7 +2772,7 @@
      <draw:text-box>
       <text:list text:style-name="L2">
        <text:list-header>
-        <text:p text:style-name="P4"><text:span text:style-name="T3"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+        <text:p text:style-name="P4"><text:span text:style-name="T3"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number><text:page-number>&lt;number&gt;</text:page-number></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2780,7 +2792,7 @@
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr8" draw:text-style-name="P15" draw:layer="layout" svg:width="12.065cm" svg:height="11.405cm" svg:x="0.33cm" svg:y="3.429cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr8" draw:text-style-name="P15" draw:layer="layout" svg:width="12.065cm" svg:height="15.365cm" svg:x="0.33cm" svg:y="3.429cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:p text:style-name="P14"><text:span text:style-name="T7">Python has seen wide adoption in the scientific community for data analysis, simulation, prototyping, and visualization. It provides a simple, yet powerful means to build applications. <text:s/>This seminar introduces python and its use in scientific computing.</text:span></text:p>
       <text:list text:style-name="L4">
@@ -2792,13 +2804,13 @@
        <text:list-item>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">We’ll work through interactive notebooks outside of class</text:span></text:p>
+          <text:p><text:span text:style-name="T8">We’ll work through interactive notebooks </text:span><text:span text:style-name="T9">outside of class</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p><text:span text:style-name="T8">Class time will be used for exercises that we discuss together</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Use </text:span><text:span text:style-name="T9">slack</text:span><text:span text:style-name="T8"> for out-of-class communication (and learn how to integrate </text:span><text:span text:style-name="T9">github</text:span><text:span text:style-name="T8"> + python + slack)</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Use </text:span><text:span text:style-name="T10">slack</text:span><text:span text:style-name="T8"> for out-of-class communication (and learn how to integrate </text:span><text:span text:style-name="T10">github</text:span><text:span text:style-name="T8"> + python + slack)</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -2825,6 +2837,20 @@
         </text:list>
        </text:list-item>
       </text:list>
+      <text:list text:style-name="L4">
+       <text:list-item>
+        <text:p><text:span text:style-name="T11">Advanced undergrads welcomed</text:span></text:p>
+       </text:list-item>
+      </text:list>
+      <text:list text:style-name="L5">
+       <text:list-item>
+        <text:list>
+         <text:list-header>
+          <text:p><text:span text:style-name="T8"/></text:p>
+         </text:list-header>
+        </text:list>
+       </text:list-item>
+      </text:list>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr9" draw:text-style-name="P18" draw:layer="layout" svg:width="12.065cm" svg:height="14.097cm" svg:x="13.03cm" svg:y="3.429cm" presentation:class="outline" presentation:user-transformed="true">
@@ -2838,10 +2864,10 @@
        <text:list-item>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Python</text:span></text:p>
+          <text:p><text:span text:style-name="T10">Python</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Version control with git/github</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Version control with </text:span><text:span text:style-name="T10">git</text:span><text:span text:style-name="T8">/</text:span><text:span text:style-name="T10">github</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -2850,7 +2876,7 @@
        <text:list-item>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Jupyter notebooks /workflow management</text:span></text:p>
+          <text:p><text:span text:style-name="T10">Jupyter</text:span><text:span text:style-name="T8"> notebooks /workflow management</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -2859,25 +2885,25 @@
        <text:list-item>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">The NumPy array package</text:span></text:p>
+          <text:p><text:span text:style-name="T8">The </text:span><text:span text:style-name="T10">NumPy</text:span><text:span text:style-name="T8"> array package</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">The SciPy tools and basics of numerical methods</text:span></text:p>
+          <text:p><text:span text:style-name="T8">The </text:span><text:span text:style-name="T10">SciPy</text:span><text:span text:style-name="T8"> tools and basics of numerical methods</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Matplotlib and Plot.ly for visualization</text:span></text:p>
+          <text:p><text:span text:style-name="T10">Matplotlib</text:span><text:span text:style-name="T8"> and </text:span><text:span text:style-name="T10">Plot.ly</text:span><text:span text:style-name="T8"> for visualization</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">SymPy for symbolic mathematics</text:span></text:p>
+          <text:p><text:span text:style-name="T10">SymPy</text:span><text:span text:style-name="T8"> for symbolic mathematics</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Pandas and the dataframe</text:span></text:p>
+          <text:p><text:span text:style-name="T10">Pandas</text:span><text:span text:style-name="T8"> and the dataframe</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p><text:span text:style-name="T8">Building applications</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">Interfacing with Fortran/C</text:span></text:p>
+          <text:p><text:span text:style-name="T8">Interfacing with Fortran/C/C++</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -2887,7 +2913,7 @@
         <text:p><text:span text:style-name="T7">Details:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">PHY 546</text:span><text:span text:style-name="T10">, Spring 2017</text:span></text:p>
+          <text:p><text:span text:style-name="T8">PHY 546</text:span><text:span text:style-name="T12">, Spring 2017</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p text:style-name="P17"><text:span text:style-name="T8">Mondays, 3:00-3:53pm</text:span></text:p>
@@ -2897,16 +2923,16 @@
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr10" draw:text-style-name="P19" draw:layer="layout" svg:width="17.952cm" svg:height="1.7cm" svg:x="3.747cm" svg:y="1.564cm">
+    <draw:frame presentation:style-name="pr10" draw:text-style-name="P20" draw:layer="layout" svg:width="19.413cm" svg:height="2.461cm" svg:x="2.994cm" svg:y="1.184cm">
      <draw:text-box>
       <text:list text:style-name="L3">
        <text:list-header>
-        <text:p text:style-name="P12"><text:span text:style-name="T11">a weekly graduate seminar on techniques for scientific programming</text:span><text:span text:style-name="T12"><text:line-break/></text:span><text:span text:style-name="T8">instructor: Michael Zingale </text:span><text:span text:style-name="T13">(michael.zingale@stonybrook.edu)</text:span></text:p>
+        <text:p text:style-name="P19"><text:span text:style-name="T13">a weekly graduate seminar on techniques for scientific programming</text:span><text:span text:style-name="T11"><text:line-break/></text:span><text:span text:style-name="T8">instructor: Michael Zingale </text:span><text:span text:style-name="T14">(michael.zingale@stonybrook.edu)</text:span></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr8" draw:text-style-name="P20" draw:layer="layout" svg:width="3.175cm" svg:height="3.175cm" svg:x="21.974cm" svg:y="15.586cm">
+    <draw:frame draw:style-name="gr8" draw:text-style-name="P21" draw:layer="layout" svg:width="3.175cm" svg:height="3.175cm" svg:x="21.974cm" svg:y="15.586cm">
      <draw:image xlink:href="">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAemklEQVR4Xu3d4WIbyQ0DYOf9
        HzpNW/t6l8bSN1osNSuhf0uDAEjCIyVNf/z89Z+P/qcO1IE6cAEHfjSwLjClUqwDdeA/DjSw
@@ -3059,9 +3085,9 @@
       <text:p/>
      </draw:image>
     </draw:frame>
-    <draw:frame presentation:style-name="pr11" draw:text-style-name="P22" draw:layer="layout" svg:width="20.322cm" svg:height="1.268cm" svg:x="0.506cm" svg:y="17.526cm">
+    <draw:frame presentation:style-name="pr11" draw:text-style-name="P22" draw:layer="layout" svg:width="20.322cm" svg:height="1.268cm" svg:x="0.506cm" svg:y="17.726cm">
      <draw:text-box>
-      <text:p text:style-name="P21"><text:span text:style-name="T14">Flipped format this year—students need to bring laptops to class</text:span></text:p>
+      <text:p><text:span text:style-name="T15">Flipped format this year—students need to bring laptops to class</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
