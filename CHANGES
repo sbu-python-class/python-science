@@ -3,6 +3,11 @@
    https://nbdime.readthedocs.io/en/latest/
 
 
+-- snakify:
+
+    https://snakify.org/
+
+
 -- visualize python code execution line-by-line:
 
     https://github.com/lgpage/nbtutor
