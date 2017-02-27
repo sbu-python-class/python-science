@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2016-03-21T12:34:17.079854682</dc:date><dc:creator>Michael Zingale</dc:creator><meta:editing-duration>P1DT43M13S</meta:editing-duration><meta:editing-cycles>111</meta:editing-cycles><meta:generator>LibreOffice/5.0.5.2$Linux_X86_64 LibreOffice_project/00$Build-2</meta:generator><meta:document-statistic meta:object-count="290"/></office:meta>
+ <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2017-02-14T14:45:46.155930719</dc:date><meta:editing-duration>P1DT50M35S</meta:editing-duration><meta:editing-cycles>112</meta:editing-cycles><meta:generator>LibreOffice/5.1.6.2.0$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator><meta:document-statistic meta:object-count="292"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">373</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">-410</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">28937</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">25884</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">28936</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">25883</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -34,13 +34,11 @@
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
-     <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
-     <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
-     <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-307</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-2799</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">33745</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">21705</config:config-item>
+     <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-301</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-4630</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">37554</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">21799</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">254</config:config-item>
@@ -57,10 +55,10 @@
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="BitmapTableURL" config:type="string">$(user)/config/standard.sob</config:config-item>
+   <config:config-item config:name="BitmapTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.sob</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="ColorTableURL" config:type="string">$(user)/config/standard.soc</config:config-item>
-   <config:config-item config:name="DashTableURL" config:type="string">$(user)/config/standard.sod</config:config-item>
+   <config:config-item config:name="ColorTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.soc</config:config-item>
+   <config:config-item config:name="DashTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.sod</config:config-item>
    <config:config-item config:name="DefaultTabStop" config:type="int">1270</config:config-item>
    <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="ForbiddenCharacters">
@@ -72,9 +70,9 @@
      <config:config-item config:name="EndLine" config:type="string"/>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
-   <config:config-item config:name="GradientTableURL" config:type="string">$(user)/config/standard.sog</config:config-item>
+   <config:config-item config:name="GradientTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.sog</config:config-item>
    <config:config-item config:name="HandoutsHorizontal" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="HatchTableURL" config:type="string">$(user)/config/standard.soh</config:config-item>
+   <config:config-item config:name="HatchTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.soh</config:config-item>
    <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintBooklet" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintBookletBack" config:type="boolean">true</config:config-item>
@@ -89,14 +87,14 @@
    <config:config-item config:name="IsPrintPageName" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintTilePage" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintTime" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LineEndTableURL" config:type="string">$(user)/config/standard.soe</config:config-item>
+   <config:config-item config:name="LineEndTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.soe</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PageNumberFormat" config:type="int">4</config:config-item>
    <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string">hp</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">owH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAyQAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgBJbnB1dFNsb3Q6RGVmYXVsdABEdXBsZXg6Tm9uZQAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">owH+/2hwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpocAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAyQAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9aHAKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhCkR1cGxleDpOb25lAElucHV0U2xvdDpEZWZhdWx0AFBhZ2VTaXplOkxldHRlcgAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
@@ -1154,10 +1152,10 @@
    <style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
   </style:style>
   <style:style style:name="dp6" style:family="drawing-page">
-   <style:drawing-page-properties presentation:background-visible="false" presentation:background-objects-visible="false" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+   <style:drawing-page-properties presentation:visibility="hidden" presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
   </style:style>
   <style:style style:name="dp7" style:family="drawing-page">
-   <style:drawing-page-properties presentation:visibility="hidden" presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+   <style:drawing-page-properties presentation:background-visible="false" presentation:background-objects-visible="false" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
   </style:style>
   <style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
@@ -1423,7 +1421,6 @@
   </style:style>
   <style:style style:name="P27" style:family="paragraph">
    <style:paragraph-properties fo:text-align="center"/>
-   <style:text-properties fo:font-size="14pt"/>
   </style:style>
   <style:style style:name="P28" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#cfe7f5"/>
@@ -1431,65 +1428,55 @@
    <style:text-properties style:font-name="Carlito1" fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
   <style:style style:name="P29" style:family="paragraph">
-   <style:paragraph-properties fo:text-align="center"/>
-   <style:text-properties fo:font-size="12pt"/>
-  </style:style>
-  <style:style style:name="P30" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:text-align="center"/>
    <style:text-properties style:font-name="Carlito1" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P31" style:family="paragraph">
+  <style:style style:name="P30" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties fo:color="#ff3333" style:font-name="Carlito1"/>
   </style:style>
-  <style:style style:name="P32" style:family="paragraph">
+  <style:style style:name="P31" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties style:font-name="Carlito1"/>
   </style:style>
-  <style:style style:name="P33" style:family="paragraph">
-   <style:paragraph-properties fo:text-align="center"/>
-  </style:style>
-  <style:style style:name="P34" style:family="paragraph">
+  <style:style style:name="P32" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#f0f0f0"/>
    <style:paragraph-properties fo:text-align="center"/>
    <style:text-properties fo:color="#ff0000" style:font-name="Carlito1"/>
   </style:style>
-  <style:style style:name="P35" style:family="paragraph">
-   <style:text-properties fo:font-size="18pt"/>
-  </style:style>
-  <style:style style:name="P36" style:family="paragraph">
+  <style:style style:name="P33" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties style:font-name="Carlito1" fo:font-size="18pt"/>
   </style:style>
-  <style:style style:name="P37" style:family="paragraph">
+  <style:style style:name="P34" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties style:font-name="Carlito1" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
-  <style:style style:name="P38" style:family="paragraph">
+  <style:style style:name="P35" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.254cm" fo:text-indent="0cm"/>
   </style:style>
-  <style:style style:name="P39" style:family="paragraph">
+  <style:style style:name="P36" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties style:font-name="Inconsolata1"/>
   </style:style>
-  <style:style style:name="P40" style:family="paragraph">
+  <style:style style:name="P37" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="5.08cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.254cm" fo:text-indent="0cm"/>
   </style:style>
-  <style:style style:name="P41" style:family="paragraph">
+  <style:style style:name="P38" style:family="paragraph">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.254cm"/>
   </style:style>
-  <style:style style:name="P42" style:family="paragraph">
+  <style:style style:name="P39" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.508cm" fo:text-indent="0cm"/>
   </style:style>
-  <style:style style:name="P43" style:family="paragraph">
+  <style:style style:name="P40" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
-  <style:style style:name="P44" style:family="paragraph">
+  <style:style style:name="P41" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
   </style:style>
-  <style:style style:name="P45" style:family="paragraph">
+  <style:style style:name="P42" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -1526,52 +1513,52 @@
    <style:text-properties fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties fo:color="#ff0000"/>
+   <style:text-properties style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:font-size="36pt" style:font-size-asian="36pt" style:font-size-complex="36pt"/>
+   <style:text-properties fo:color="#ff0000"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties fo:color="#0000ff" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-size="36pt" style:font-size-asian="36pt" style:font-size-complex="36pt"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:color="#0000ff" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Carlito1" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties style:font-name="Carlito1" fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Carlito1" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties style:font-name="Carlito1" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties fo:color="#ff3333" style:font-name="Carlito1"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Carlito1"/>
+   <style:text-properties fo:color="#ff3333" style:font-name="Carlito1"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties style:font-name="Carlito1" fo:font-size="18pt"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Carlito1"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="22pt" fo:font-style="italic" style:font-size-asian="22pt" style:font-style-asian="italic" style:font-size-complex="22pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties style:font-name="Inconsolata1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="22pt" fo:font-style="italic" style:font-size-asian="22pt" style:font-style-asian="italic" style:font-size-complex="22pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
    <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
@@ -1580,7 +1567,7 @@
    <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties style:font-name="Arial2" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties style:font-name="Carlito1" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
    <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata1" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
@@ -1828,22 +1815,22 @@
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="9.294cm" svg:height="6.97cm" svg:x="11.295cm" svg:y="18.531cm"/>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
   </style:handout-master>
@@ -1888,22 +1875,25 @@
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
+   <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
    <draw:frame presentation:style-name="Default-outline1" draw:layer="backgroundobjects" svg:width="26.924cm" svg:height="12.18cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
    <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="1.4cm" svg:y="19.812cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr3" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="0.767cm" svg:x="9.576cm" svg:y="20.212cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="20.076cm" svg:y="20.112cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1944,24 +1934,27 @@
     <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
+    <draw:frame presentation:style-name="Default-notes" draw:layer="backgroundobjects" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr5" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1979,17 +1972,17 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr7" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="1.399cm" svg:y="19.811cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr8" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="0.767cm" svg:x="9.575cm" svg:y="20.211cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr7" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="20.075cm" svg:y="20.111cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr3" draw:text-style-name="P9" draw:layer="backgroundobjects" svg:width="5.08cm" svg:height="0.889cm" svg:x="0.099cm" svg:y="20.077cm">
@@ -2337,22 +2330,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr9" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr9" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr10" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr10" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -2366,17 +2359,17 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr11" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.399cm" svg:y="19.13cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr11" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.575cm" svg:y="19.13cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr11" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.13cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -2386,22 +2379,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr12" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr12" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr13" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr13" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -2415,17 +2408,17 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr14" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr14" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame presentation:style-name="pr14" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.076cm" svg:y="19.131cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -2435,22 +2428,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr15" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr15" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr16" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="0cm" svg:y="26.543cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr16" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -2462,7 +2455,7 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr17" draw:text-style-name="P10" draw:layer="layout" svg:width="27.991cm" svg:height="3.505cm" svg:x="0.001cm" svg:y="7.035cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T2">Software Engineering </text:span><text:span text:style-name="T2"><text:line-break/></text:span><text:span text:style-name="T2">Practices for Python</text:span></text:p>
+      <text:p><text:span text:style-name="T2">So</text:span><text:span text:style-name="T2">ftw</text:span><text:span text:style-name="T2">are </text:span><text:span text:style-name="T2">En</text:span><text:span text:style-name="T2">gin</text:span><text:span text:style-name="T2">eer</text:span><text:span text:style-name="T2">ing </text:span><text:span text:style-name="T2"><text:line-break/></text:span><text:span text:style-name="T2">Pr</text:span><text:span text:style-name="T2">act</text:span><text:span text:style-name="T2">ice</text:span><text:span text:style-name="T2">s </text:span><text:span text:style-name="T2">for </text:span><text:span text:style-name="T2">Pyt</text:span><text:span text:style-name="T2">ho</text:span><text:span text:style-name="T2">n</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -3581,7 +3574,7 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:text-style-name="P14" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T8">with</text:span></text:p>
+      <text:p><text:span text:style-name="T8">wi</text:span><text:span text:style-name="T8">th</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr20" draw:layer="layout" svg:width="26.924cm" svg:height="12.18cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -3614,7 +3607,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr25" draw:text-style-name="P17" draw:layer="layout" svg:width="21.197cm" svg:height="0.769cm" svg:x="0.616cm" svg:y="19.95cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T11">http://effbot.org/zone/python-with-statement.htm</text:span></text:p>
+      <text:p><text:span text:style-name="T11">http://effbo</text:span><text:span text:style-name="T11">t.org/zone/</text:span><text:span text:style-name="T11">python-</text:span><text:span text:style-name="T11">with-</text:span><text:span text:style-name="T11">statement.ht</text:span><text:span text:style-name="T11">m</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -3624,11 +3617,11 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page8" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page8" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T8">try</text:span>/<text:span text:style-name="T8">except</text:span></text:p>
+      <text:p><text:span text:style-name="T8">tr</text:span><text:span text:style-name="T8">y</text:span>/<text:span text:style-name="T8">ex</text:span><text:span text:style-name="T8">ce</text:span><text:span text:style-name="T8">pt</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr26" draw:layer="layout" svg:width="26.924cm" svg:height="12.167cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -3667,7 +3660,7 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:text-style-name="P14" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T8">pickle</text:span></text:p>
+      <text:p><text:span text:style-name="T8">pi</text:span><text:span text:style-name="T8">ck</text:span><text:span text:style-name="T8">le</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr26" draw:layer="layout" svg:width="26.924cm" svg:height="15.748cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -3683,13 +3676,13 @@
         <text:p>Ex:</text:p>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">pF = open(filename + &quot;.pyro&quot;, &quot;wb&quot;)</text:span></text:p>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">pickle.dump(self, pF, pickle.HIGHEST_PROTOCOL)</text:span></text:p>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">pF.close()</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T12">pf = open(filename + &quot;.pyro&quot;, &quot;wb&quot;)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T12">pickle.dump(my_object, pf, pickle.HIGHEST_PROTOCOL)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T12">pf.close()</text:span></text:p>
       <text:p text:style-name="P20"><text:span text:style-name="T9"/></text:p>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">pF = open(filename, &quot;rb&quot;)</text:span></text:p>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">data = pickle.load(pF)</text:span></text:p>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">pF.close()</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T12">pf = open(filename, &quot;rb&quot;)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T12">data = pickle.load(pf)</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T12">pf.close()</text:span></text:p>
       <text:p text:style-name="P20"><text:span text:style-name="T8"/></text:p>
      </draw:text-box>
     </draw:frame>
@@ -3817,7 +3810,7 @@
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T12">Can also use it for papers and proposals—all the authors can work on the same LaTeX source and share chages</text:span></text:p>
+        <text:p><text:span text:style-name="T13">Can also use it for papers and proposals—all the authors can work on the same LaTeX source and share chages</text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p>All of these slides are stored in version control—let&apos;s me work on them from anywhere easily</text:p>
@@ -3841,40 +3834,40 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:text-style-name="P22" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.399cm" svg:y="0.536cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p><text:span text:style-name="T13">Centralized vs. Distributed Version Control</text:span></text:p>
+      <text:p><text:span text:style-name="T14">Ce</text:span><text:span text:style-name="T14">ntr</text:span><text:span text:style-name="T14">aliz</text:span><text:span text:style-name="T14">ed </text:span><text:span text:style-name="T14">vs. </text:span><text:span text:style-name="T14">Dis</text:span><text:span text:style-name="T14">trib</text:span><text:span text:style-name="T14">ute</text:span><text:span text:style-name="T14">d </text:span><text:span text:style-name="T14">Ver</text:span><text:span text:style-name="T14">sio</text:span><text:span text:style-name="T14">n </text:span><text:span text:style-name="T14">Co</text:span><text:span text:style-name="T14">ntr</text:span><text:span text:style-name="T14">ol</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr27" draw:text-style-name="P23" draw:layer="layout" svg:width="13.138cm" svg:height="13.971cm" svg:x="0.507cm" svg:y="3.555cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T14">Centralized</text:span><text:span text:style-name="T15"> (e.g. CVS, subversion)</text:span></text:p>
+        <text:p><text:span text:style-name="T15">Centralized</text:span><text:span text:style-name="T16"> (e.g. CVS, subversion)</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">Server holds the master copy of the source, stores history, changes</text:span></text:p>
+          <text:p><text:span text:style-name="T17">Server holds the master copy of the source, stores history, changes</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">User communicates with server</text:span></text:p>
+          <text:p><text:span text:style-name="T17">User communicates with server</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T16">Checkout source</text:span></text:p>
+            <text:p><text:span text:style-name="T17">Checkout source</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T16">Commit changes back to the source</text:span></text:p>
+            <text:p><text:span text:style-name="T17">Commit changes back to the source</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T16">Request the log (history) of a file from the server</text:span></text:p>
+            <text:p><text:span text:style-name="T17">Request the log (history) of a file from the server</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T16">Diff your local version with the version in the server</text:span></text:p>
+            <text:p><text:span text:style-name="T17">Diff your local version with the version in the server</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">Doesn&apos;t scale well for very large projects</text:span></text:p>
+          <text:p><text:span text:style-name="T17">Doesn&apos;t scale well for very large projects</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">“</text:span><text:span text:style-name="T16">Older” style of version control</text:span></text:p>
+          <text:p><text:span text:style-name="T17">“</text:span><text:span text:style-name="T17">Older” style of version control</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -3885,25 +3878,25 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T14">Distributed</text:span><text:span text:style-name="T15"> (e.g. git, mercurial)</text:span></text:p>
+        <text:p><text:span text:style-name="T15">Distributed</text:span><text:span text:style-name="T16"> (e.g. git, mercurial)</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">Everyone has a full-fledged repository</text:span></text:p>
+          <text:p><text:span text:style-name="T17">Everyone has a full-fledged repository</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">You clone another person&apos;s repo</text:span></text:p>
+          <text:p><text:span text:style-name="T17">You clone another person&apos;s repo</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">Commits, history, diff, logs are all local operations (these operations are faster)</text:span></text:p>
+          <text:p><text:span text:style-name="T17">Commits, history, diff, logs are all local operations (these operations are faster)</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">You push your changes back to others.</text:span></text:p>
+          <text:p><text:span text:style-name="T17">You push your changes back to others.</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">Each copy is a backup of the whole history of the project</text:span></text:p>
+          <text:p><text:span text:style-name="T17">Each copy is a backup of the whole history of the project</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T16">Easier to fork—just clone and go</text:span></text:p>
+          <text:p><text:span text:style-name="T17">Easier to fork—just clone and go</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -3912,7 +3905,7 @@
     </draw:frame>
     <draw:frame draw:style-name="gr6" draw:text-style-name="P25" draw:layer="layout" svg:width="12.192cm" svg:height="2.139cm" svg:x="14.986cm" svg:y="17.78cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T17">Any version control system is better than none!</text:span></text:p>
+      <text:p><text:span text:style-name="T18">Any </text:span><text:span text:style-name="T18">versio</text:span><text:span text:style-name="T18">n </text:span><text:span text:style-name="T18">contr</text:span><text:span text:style-name="T18">ol </text:span><text:span text:style-name="T18">syste</text:span><text:span text:style-name="T18">m is </text:span><text:span text:style-name="T18">bette</text:span><text:span text:style-name="T18">r </text:span><text:span text:style-name="T18">than </text:span><text:span text:style-name="T18">none!</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -4069,7 +4062,7 @@
     </draw:frame>
     <draw:frame draw:style-name="gr8" draw:text-style-name="P28" draw:layer="layout" svg:width="2.54cm" svg:height="1.361cm" svg:x="1.64cm" svg:y="5.78cm">
      <draw:text-box>
-      <text:p text:style-name="P27"><text:span text:style-name="T18">Working copy</text:span></text:p>
+      <text:p text:style-name="P27"><text:span text:style-name="T19">Working </text:span><text:span text:style-name="T19">copy</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="4.572cm" svg:y1="6.188cm" svg:x2="6.858cm" svg:y2="6.188cm">
@@ -4078,16 +4071,16 @@
     <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="6.858cm" svg:y1="6.688cm" svg:x2="4.572cm" svg:y2="6.688cm">
      <text:p/>
     </draw:line>
-    <draw:frame draw:style-name="gr10" draw:text-style-name="P30" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.072cm" svg:y="4.835cm">
+    <draw:frame draw:style-name="gr10" draw:text-style-name="P29" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.072cm" svg:y="4.835cm">
      <draw:text-box>
-      <text:p text:style-name="P29"><text:span text:style-name="T19">Add, </text:span></text:p>
-      <text:p text:style-name="P29"><text:span text:style-name="T19">commit</text:span></text:p>
+      <text:p text:style-name="P27"><text:span text:style-name="T20">Add, </text:span></text:p>
+      <text:p text:style-name="P27"><text:span text:style-name="T20">commit</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr10" draw:text-style-name="P30" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.272cm" svg:y="6.836cm">
+    <draw:frame draw:style-name="gr10" draw:text-style-name="P29" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.272cm" svg:y="6.836cm">
      <draw:text-box>
-      <text:p text:style-name="P29"><text:span text:style-name="T19">checkout,</text:span></text:p>
-      <text:p text:style-name="P29"><text:span text:style-name="T19">log</text:span></text:p>
+      <text:p text:style-name="P27"><text:span text:style-name="T20">checkout,</text:span></text:p>
+      <text:p text:style-name="P27"><text:span text:style-name="T20">log</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:g xml:id="id1" draw:id="id1">
@@ -4226,10 +4219,10 @@
        <text:p/>
       </draw:image>
      </draw:frame>
-     <draw:frame draw:style-name="gr11" draw:text-style-name="P31" draw:layer="layout" svg:width="3.81cm" svg:height="1.673cm" svg:x="12.892cm" svg:y="13.97cm">
+     <draw:frame draw:style-name="gr11" draw:text-style-name="P30" draw:layer="layout" svg:width="3.81cm" svg:height="1.673cm" svg:x="12.892cm" svg:y="13.97cm">
       <draw:text-box>
-       <text:p><text:span text:style-name="T20">group server</text:span></text:p>
-       <text:p><text:span text:style-name="T20">or github</text:span></text:p>
+       <text:p><text:span text:style-name="T21">group </text:span><text:span text:style-name="T21">server</text:span></text:p>
+       <text:p><text:span text:style-name="T21">or </text:span><text:span text:style-name="T21">github</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="8.89cm" svg:y1="6.858cm" svg:x2="12.446cm" svg:y2="10.16cm">
@@ -4238,21 +4231,21 @@
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="12.646cm" svg:y1="11.295cm" svg:x2="8.779cm" svg:y2="7.731cm">
       <text:p/>
      </draw:line>
-     <draw:frame draw:style-name="gr12" draw:text-style-name="P32" draw:layer="layout" svg:width="2.032cm" svg:height="0.962cm" draw:transform="rotate (-0.785398163397448) translate (10.952cm 7.334cm)">
+     <draw:frame draw:style-name="gr12" draw:text-style-name="P31" draw:layer="layout" svg:width="2.032cm" svg:height="0.962cm" draw:transform="rotate (-0.785398163397448) translate (10.952cm 7.334cm)">
       <draw:text-box>
        <text:p><text:span text:style-name="T10">push</text:span></text:p>
       </draw:text-box>
      </draw:frame>
-     <draw:frame draw:style-name="gr12" draw:text-style-name="P32" draw:layer="layout" svg:width="2.032cm" svg:height="0.962cm" draw:transform="rotate (-0.785398163397448) translate (10.353cm 8.935cm)">
+     <draw:frame draw:style-name="gr12" draw:text-style-name="P31" draw:layer="layout" svg:width="2.032cm" svg:height="0.962cm" draw:transform="rotate (-0.785398163397448) translate (10.353cm 8.935cm)">
       <draw:text-box>
        <text:p><text:span text:style-name="T10">pull</text:span></text:p>
       </draw:text-box>
      </draw:frame>
     </draw:g>
     <draw:g xml:id="id2" draw:id="id2">
-     <draw:frame draw:style-name="gr13" draw:text-style-name="P34" draw:layer="layout" svg:width="8.128cm" svg:height="5.788cm" svg:x="18.816cm" svg:y="3.302cm">
+     <draw:frame draw:style-name="gr13" draw:text-style-name="P32" draw:layer="layout" svg:width="8.128cm" svg:height="5.788cm" svg:x="18.816cm" svg:y="3.302cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T21">group member</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T22">group </text:span><text:span text:style-name="T22">membe</text:span><text:span text:style-name="T22">r</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:frame draw:style-name="gr5" draw:text-style-name="P9" draw:layer="layout" svg:width="1.421cm" svg:height="3.113cm" svg:x="24.858cm" svg:y="4.918cm">
@@ -4392,7 +4385,7 @@
      </draw:frame>
      <draw:frame draw:style-name="gr14" draw:text-style-name="P28" draw:layer="layout" svg:width="2.54cm" svg:height="1.361cm" svg:x="19.44cm" svg:y="5.78cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T18">Working copy</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T19">Working </text:span><text:span text:style-name="T19">copy</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="22.372cm" svg:y1="6.188cm" svg:x2="24.658cm" svg:y2="6.188cm">
@@ -4401,16 +4394,16 @@
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="24.658cm" svg:y1="6.688cm" svg:x2="22.372cm" svg:y2="6.688cm">
       <text:p/>
      </draw:line>
-     <draw:frame draw:style-name="gr15" draw:text-style-name="P30" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="21.872cm" svg:y="4.835cm">
+     <draw:frame draw:style-name="gr15" draw:text-style-name="P29" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="21.872cm" svg:y="4.835cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">Add, </text:span></text:p>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">commit</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">Add, </text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">commit</text:span></text:p>
       </draw:text-box>
      </draw:frame>
-     <draw:frame draw:style-name="gr15" draw:text-style-name="P30" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="22.072cm" svg:y="6.836cm">
+     <draw:frame draw:style-name="gr15" draw:text-style-name="P29" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="22.072cm" svg:y="6.836cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">checkout,</text:span></text:p>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">log</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">checkout,</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">log</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="24.592cm" svg:y1="8.082cm" svg:x2="15.702cm" svg:y2="11.638cm">
@@ -4419,22 +4412,22 @@
      <draw:line draw:style-name="gr16" draw:text-style-name="P9" draw:layer="layout" svg:x1="25.707cm" svg:y1="8.236cm" svg:x2="15.702cm" svg:y2="12.238cm">
       <text:p/>
      </draw:line>
-     <draw:frame draw:style-name="gr12" draw:text-style-name="P32" draw:layer="layout" svg:width="3.048cm" svg:height="0.962cm" draw:transform="rotate (0.38467056713955) translate (19.197cm 10.745cm)">
+     <draw:frame draw:style-name="gr12" draw:text-style-name="P31" draw:layer="layout" svg:width="3.048cm" svg:height="0.962cm" draw:transform="rotate (0.38467056713955) translate (19.197cm 10.745cm)">
       <draw:text-box>
        <text:p><text:span text:style-name="T10">pull</text:span></text:p>
       </draw:text-box>
      </draw:frame>
-     <draw:frame draw:style-name="gr12" draw:text-style-name="P32" draw:layer="layout" svg:width="3.048cm" svg:height="0.962cm" draw:transform="rotate (0.38467056713955) translate (18.497cm 9.445cm)">
+     <draw:frame draw:style-name="gr12" draw:text-style-name="P31" draw:layer="layout" svg:width="3.048cm" svg:height="0.962cm" draw:transform="rotate (0.38467056713955) translate (18.497cm 9.445cm)">
       <draw:text-box>
        <text:p><text:span text:style-name="T10">push</text:span></text:p>
       </draw:text-box>
      </draw:frame>
     </draw:g>
     <draw:g xml:id="id5" draw:id="id5">
-     <draw:frame draw:style-name="gr13" draw:text-style-name="P34" draw:layer="layout" svg:width="8.128cm" svg:height="5.788cm" svg:x="1.016cm" svg:y="13.802cm">
+     <draw:frame draw:style-name="gr13" draw:text-style-name="P32" draw:layer="layout" svg:width="8.128cm" svg:height="5.788cm" svg:x="1.016cm" svg:y="13.802cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T21">external </text:span></text:p>
-       <text:p text:style-name="P33"><text:span text:style-name="T21">collaborator</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T22">externa</text:span><text:span text:style-name="T22">l </text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T22">collabo</text:span><text:span text:style-name="T22">rator</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:frame draw:style-name="gr5" draw:text-style-name="P9" draw:layer="layout" svg:width="1.421cm" svg:height="3.113cm" svg:x="7.058cm" svg:y="15.418cm">
@@ -4574,7 +4567,7 @@
      </draw:frame>
      <draw:frame draw:style-name="gr14" draw:text-style-name="P28" draw:layer="layout" svg:width="2.54cm" svg:height="1.361cm" svg:x="1.64cm" svg:y="16.28cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T18">Working copy</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T19">Working </text:span><text:span text:style-name="T19">copy</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="4.572cm" svg:y1="16.688cm" svg:x2="6.858cm" svg:y2="16.688cm">
@@ -4583,22 +4576,22 @@
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="6.858cm" svg:y1="17.188cm" svg:x2="4.572cm" svg:y2="17.188cm">
       <text:p/>
      </draw:line>
-     <draw:frame draw:style-name="gr15" draw:text-style-name="P30" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.072cm" svg:y="15.335cm">
+     <draw:frame draw:style-name="gr15" draw:text-style-name="P29" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.072cm" svg:y="15.335cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">Add, </text:span></text:p>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">commit</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">Add, </text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">commit</text:span></text:p>
       </draw:text-box>
      </draw:frame>
-     <draw:frame draw:style-name="gr15" draw:text-style-name="P30" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.272cm" svg:y="17.336cm">
+     <draw:frame draw:style-name="gr15" draw:text-style-name="P29" draw:layer="layout" svg:width="3.048cm" svg:height="1.199cm" svg:x="4.272cm" svg:y="17.336cm">
       <draw:text-box>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">checkout,</text:span></text:p>
-       <text:p text:style-name="P33"><text:span text:style-name="T19">log</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">checkout,</text:span></text:p>
+       <text:p text:style-name="P27"><text:span text:style-name="T20">log</text:span></text:p>
       </draw:text-box>
      </draw:frame>
      <draw:line draw:style-name="gr9" draw:text-style-name="P9" draw:layer="layout" svg:x1="7.874cm" svg:y1="8.382cm" svg:x2="7.874cm" svg:y2="14.986cm">
       <text:p/>
      </draw:line>
-     <draw:frame draw:style-name="gr12" draw:text-style-name="P32" draw:layer="layout" svg:width="3.556cm" svg:height="0.962cm" draw:transform="rotate (-1.5707963267949) translate (8.89cm 11.43cm)">
+     <draw:frame draw:style-name="gr12" draw:text-style-name="P31" draw:layer="layout" svg:width="3.556cm" svg:height="0.962cm" draw:transform="rotate (-1.5707963267949) translate (8.89cm 11.43cm)">
       <draw:text-box>
        <text:p><text:span text:style-name="T10">pull</text:span></text:p>
       </draw:text-box>
@@ -4607,9 +4600,9 @@
     <draw:line draw:style-name="gr9" draw:text-style-name="P9" xml:id="id3" draw:id="id3" draw:layer="layout" svg:x1="19.05cm" svg:y1="6.35cm" svg:x2="9.652cm" svg:y2="6.35cm">
      <text:p/>
     </draw:line>
-    <draw:frame draw:style-name="gr17" draw:text-style-name="P36" xml:id="id4" draw:id="id4" draw:layer="layout" svg:width="2.032cm" svg:height="0.962cm" svg:x="13.716cm" svg:y="5.588cm">
+    <draw:frame draw:style-name="gr17" draw:text-style-name="P33" xml:id="id4" draw:id="id4" draw:layer="layout" svg:width="2.032cm" svg:height="0.962cm" svg:x="13.716cm" svg:y="5.588cm">
      <draw:text-box>
-      <text:p text:style-name="P35"><text:span text:style-name="T22">pull</text:span></text:p>
+      <text:p><text:span text:style-name="T23">pull</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <anim:par presentation:node-type="timing-root">
@@ -4648,7 +4641,6 @@
      </anim:seq>
     </anim:par>
     <presentation:notes draw:style-name="dp4">
-     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
      <draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="13.968cm" svg:height="10.476cm" svg:x="3.81cm" svg:y="2.123cm" draw:page-number="14" presentation:class="page"/>
      <draw:frame presentation:style-name="pr21" draw:text-style-name="P11" draw:layer="layout" svg:width="17.271cm" svg:height="12.572cm" svg:x="2.159cm" svg:y="13.271cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
       <draw:text-box/>
@@ -4674,7 +4666,7 @@
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>Github/bitbucket provide a centralized repo built around <text:span text:style-name="T23">pull requests</text:span></text:p>
+        <text:p>Github/bitbucket provide a centralized repo built around <text:span text:style-name="T24">pull requests</text:span></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -5651,9 +5643,9 @@
       <text:p/>
      </draw:image>
     </draw:frame>
-    <draw:frame draw:style-name="gr18" draw:text-style-name="P37" draw:layer="layout" svg:width="3.81cm" svg:height="0.675cm" svg:x="16.256cm" svg:y="19.304cm">
+    <draw:frame draw:style-name="gr18" draw:text-style-name="P34" draw:layer="layout" svg:width="3.81cm" svg:height="0.675cm" svg:x="16.256cm" svg:y="19.304cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T19">(xkcd)</text:span></text:p>
+      <text:p><text:span text:style-name="T20">(xkcd)</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -5691,14 +5683,14 @@
         <text:p>Creating a master bare repo:</text:p>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P38"><text:span text:style-name="T24">git init --bare --shared myproject.git</text:span></text:p>
-      <text:p text:style-name="P19"><text:span text:style-name="T24">chgrp -R groupname myrepo.git</text:span></text:p>
-      <text:p><text:span text:style-name="T25"/></text:p>
+      <text:p text:style-name="P35"><text:span text:style-name="T25">git init --bare --shared myproject.git</text:span></text:p>
+      <text:p text:style-name="P19"><text:span text:style-name="T25">chgrp -R groupname myrepo.git</text:span></text:p>
+      <text:p><text:span text:style-name="T26"/></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr19" draw:text-style-name="P39" draw:layer="layout" svg:width="14.478cm" svg:height="1.741cm" svg:x="11.938cm" svg:y="17.018cm">
+    <draw:frame draw:style-name="gr19" draw:text-style-name="P36" draw:layer="layout" svg:width="14.478cm" svg:height="1.741cm" svg:x="11.938cm" svg:y="17.018cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T8">Note the permissions set the sticky bit for the group</text:span></text:p>
+      <text:p><text:span text:style-name="T8">Note </text:span><text:span text:style-name="T8">the </text:span><text:span text:style-name="T8">permi</text:span><text:span text:style-name="T8">ssion</text:span><text:span text:style-name="T8">s set </text:span><text:span text:style-name="T8">the </text:span><text:span text:style-name="T8">stick</text:span><text:span text:style-name="T8">y bit </text:span><text:span text:style-name="T8">for </text:span><text:span text:style-name="T8">the </text:span><text:span text:style-name="T8">group</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -5730,7 +5722,7 @@
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P40"><text:span text:style-name="T24">git clone </text:span><text:span text:style-name="T26">/path/to/</text:span><text:span text:style-name="T24">myrepo.git</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T25">git clone </text:span><text:span text:style-name="T27">/path/to/</text:span><text:span text:style-name="T25">myrepo.git</text:span></text:p>
       <text:list text:continue-numbering="true" text:style-name="L4">
        <text:list-item>
         <text:list>
@@ -5740,10 +5732,10 @@
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P40"><text:span text:style-name="T15">Create a file (</text:span><text:span text:style-name="T27">README</text:span><text:span text:style-name="T15">)</text:span></text:p>
-      <text:p text:style-name="P40"><text:span text:style-name="T15">Add it to your repo: </text:span><text:span text:style-name="T28">git add README</text:span></text:p>
-      <text:p text:style-name="P40"><text:span text:style-name="T15">Commit it to your repo: </text:span><text:span text:style-name="T28">git commit README</text:span></text:p>
-      <text:p text:style-name="P40"><text:span text:style-name="T15">Push it back to the bare repo: </text:span><text:span text:style-name="T28">git push</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T16">Create a file (</text:span><text:span text:style-name="T12">README</text:span><text:span text:style-name="T16">)</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T16">Add it to your repo: </text:span><text:span text:style-name="T28">git add README</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T16">Commit it to your repo: </text:span><text:span text:style-name="T28">git commit README</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T16">Push it back to the bare repo: </text:span><text:span text:style-name="T28">git push</text:span></text:p>
       <text:list text:continue-numbering="true" text:style-name="L4">
        <text:list-item>
         <text:list>
@@ -5754,8 +5746,8 @@
        </text:list-item>
       </text:list>
       <text:p><text:span text:style-name="T29">* older versions of git won&apos;t know where push to. <text:s/>Instead of this, you can tell git to use the proposed new (git 2.0) behavior by doing:</text:span></text:p>
-      <text:p text:style-name="P41"><text:span text:style-name="T28">git config --global push.default simple</text:span></text:p>
-      <text:p text:style-name="P41"><text:span text:style-name="T28">git push</text:span></text:p>
+      <text:p text:style-name="P38"><text:span text:style-name="T28">git config --global push.default simple</text:span></text:p>
+      <text:p text:style-name="P38"><text:span text:style-name="T28">git push</text:span></text:p>
       <text:p text:style-name="P18"><text:span text:style-name="T9"/></text:p>
       <text:p><text:span text:style-name="T9"/></text:p>
      </draw:text-box>
@@ -5786,7 +5778,7 @@
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P40"><text:span text:style-name="T24">git clone </text:span><text:span text:style-name="T26">/path/to/</text:span><text:span text:style-name="T24">myrepo.git</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T25">git clone </text:span><text:span text:style-name="T27">/path/to/</text:span><text:span text:style-name="T25">myrepo.git</text:span></text:p>
       <text:list text:continue-numbering="true" text:style-name="L4">
        <text:list-item>
         <text:list>
@@ -5796,12 +5788,12 @@
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P40"><text:span text:style-name="T30">Edit </text:span><text:span text:style-name="T27">README</text:span></text:p>
-      <text:p text:style-name="P40"><text:span text:style-name="T15">Commit you changes locally: </text:span><text:span text:style-name="T31">git commit README</text:span></text:p>
-      <text:p text:style-name="P40"><text:span text:style-name="T15">Push it back to the bare repo: </text:span><text:span text:style-name="T31">git push</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T30">Edit </text:span><text:span text:style-name="T12">README</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T16">Commit you changes locally: </text:span><text:span text:style-name="T31">git commit README</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T16">Push it back to the bare repo: </text:span><text:span text:style-name="T31">git push</text:span></text:p>
       <text:list text:continue-numbering="true" text:style-name="L4">
        <text:list-item>
-        <text:p>Now user A can get this changes by doing: <text:span text:style-name="T25">git pull</text:span></text:p>
+        <text:p>Now user A can get this changes by doing: <text:span text:style-name="T26">git pull</text:span></text:p>
         <text:list>
          <text:list-item>
           <text:p><text:span text:style-name="T32">Note that I did this on my laptop for demonstration, but the different users can be on completely different machines (and in different countries), as long as they have access to the same server</text:span></text:p>
@@ -5832,39 +5824,39 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>You can easily look at the history by doing: <text:span text:style-name="T25">git log</text:span></text:p>
+        <text:p>You can easily look at the history by doing: <text:span text:style-name="T26">git log</text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p>You can checkout an old version using the hash:</text:p>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P38"><text:span text:style-name="T24">git checkout </text:span><text:span text:style-name="T26">hash</text:span></text:p>
-      <text:p text:style-name="P38"><text:span text:style-name="T34">Make changes, use this older version</text:span></text:p>
-      <text:p text:style-name="P38"><text:span text:style-name="T34">Look at the list of branches: </text:span><text:span text:style-name="T24">git branch</text:span></text:p>
-      <text:p text:style-name="P42"><text:span text:style-name="T34">Switch back to the tip: </text:span><text:span text:style-name="T24">git checkout master</text:span></text:p>
+      <text:p text:style-name="P35"><text:span text:style-name="T25">git checkout </text:span><text:span text:style-name="T27">hash</text:span></text:p>
+      <text:p text:style-name="P35"><text:span text:style-name="T34">Make changes, use this older version</text:span></text:p>
+      <text:p text:style-name="P35"><text:span text:style-name="T34">Look at the list of branches: </text:span><text:span text:style-name="T25">git branch</text:span></text:p>
+      <text:p text:style-name="P39"><text:span text:style-name="T34">Switch back to the tip: </text:span><text:span text:style-name="T25">git checkout master</text:span></text:p>
       <text:list text:continue-numbering="true" text:style-name="L4">
        <text:list-item>
         <text:p>Other useful commands:</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T24">git diff</text:span></text:p>
+          <text:p><text:span text:style-name="T25">git diff</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T24">git status</text:span></text:p>
+          <text:p><text:span text:style-name="T25">git status</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p><text:span text:style-name="T32">Branching</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T24">git branch experiment</text:span></text:p>
+            <text:p><text:span text:style-name="T25">git branch experiment</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T24">git checkout experiment</text:span></text:p>
+            <text:p><text:span text:style-name="T25">git checkout experiment</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T24">git blame</text:span></text:p>
+          <text:p><text:span text:style-name="T25">git blame</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -5889,9 +5881,9 @@
       <draw:handle draw:handle-position="right $1" draw:handle-range-y-minimum="0" draw:handle-range-y-maximum="21600"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:frame draw:style-name="gr21" draw:text-style-name="P43" draw:layer="layout" svg:width="12.252cm" svg:height="2.071cm" svg:x="15.748cm" svg:y="17.272cm">
+    <draw:frame draw:style-name="gr21" draw:text-style-name="P40" draw:layer="layout" svg:width="12.252cm" svg:height="2.071cm" svg:x="15.748cm" svg:y="17.272cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T31">git checkout -b experiment</text:span></text:p>
+      <text:p><text:span text:style-name="T31">git </text:span><text:span text:style-name="T31">chec</text:span><text:span text:style-name="T31">kout </text:span><text:span text:style-name="T31">-b </text:span><text:span text:style-name="T31">expe</text:span><text:span text:style-name="T31">rime</text:span><text:span text:style-name="T31">nt</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -5915,7 +5907,7 @@
         <text:p>You can also put a link to your bare repo on the web and people can clone it remotely</text:p>
         <text:list>
          <text:list-item>
-          <text:p>Note you need to do <text:span text:style-name="T24">git update-server-info -f</text:span> after each change to the repo</text:p>
+          <text:p>Note you need to do <text:span text:style-name="T25">git update-server-info -f</text:span> after each change to the repo</text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -5977,7 +5969,7 @@
             <text:p>Push back to your fork</text:p>
            </text:list-item>
            <text:list-item>
-            <text:p>Issue a <text:span text:style-name="T23">pull-request</text:span> asking for your changes to be incorporated</text:p>
+            <text:p>Issue a <text:span text:style-name="T24">pull-request</text:span> asking for your changes to be incorporated</text:p>
            </text:list-item>
            <text:list-item>
             <text:p>Feel free to try this out with the class repo!</text:p>
@@ -7525,7 +7517,7 @@
       <text:p/>
      </draw:image>
     </draw:frame>
-    <draw:frame draw:style-name="gr22" draw:text-style-name="P44" draw:layer="layout" svg:width="10.922cm" svg:height="3.497cm" svg:x="1.016cm" svg:y="15.753cm">
+    <draw:frame draw:style-name="gr22" draw:text-style-name="P41" draw:layer="layout" svg:width="10.922cm" svg:height="3.497cm" svg:x="1.016cm" svg:y="15.753cm">
      <draw:text-box>
       <text:p>Test of particle advection in our low Mach hydro code, Maestro</text:p>
      </draw:text-box>
@@ -9672,10 +9664,10 @@
       <text:p/>
      </draw:image>
     </draw:frame>
-    <draw:frame draw:style-name="gr23" draw:text-style-name="P44" draw:layer="layout" svg:width="11.938cm" svg:height="2.208cm" svg:x="15.016cm" svg:y="18.542cm">
+    <draw:frame draw:style-name="gr23" draw:text-style-name="P41" draw:layer="layout" svg:width="11.938cm" svg:height="2.208cm" svg:x="15.016cm" svg:y="18.542cm">
      <draw:text-box>
       <text:p>Test of diffusion in our low Mach hydro code, Maestro</text:p>
-      <text:p><text:span text:style-name="T11">(Malone et al. 2011)</text:span></text:p>
+      <text:p><text:span text:style-name="T11">(Malone et </text:span><text:span text:style-name="T11">al. 2011)</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -13204,7 +13196,7 @@
           <text:p>Already saw the example of the git hash in the makefile examples</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T12">Maestro example...</text:span></text:p>
+          <text:p><text:span text:style-name="T13">Maestro example...</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -13218,54 +13210,54 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page35" draw:style-name="dp6" draw:master-page-name="standard_25_20talk" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page35" draw:style-name="dp7" draw:master-page-name="standard_25_20talk" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <draw:frame draw:style-name="gr25" draw:text-style-name="P45" draw:layer="layout" svg:width="26.416cm" svg:height="19.05cm" svg:x="1.016cm" svg:y="0.254cm">
+    <draw:frame draw:style-name="gr25" draw:text-style-name="P42" draw:layer="layout" svg:width="26.416cm" svg:height="19.05cm" svg:x="1.016cm" svg:y="0.254cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Job Information</text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50">job name: <text:s text:c="3"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">inputs file: inputs_2d</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Job </text:span><text:span text:style-name="T50">Informa</text:span><text:span text:style-name="T50">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50">job </text:span><text:span text:style-name="T50">name: <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s/></text:span></text:p>
+      <text:p><text:span text:style-name="T50">inputs </text:span><text:span text:style-name="T50">file: </text:span><text:span text:style-name="T50">inputs_</text:span><text:span text:style-name="T50">2d</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">number of MPI processes <text:s text:c="5"/>1</text:span></text:p>
-      <text:p><text:span text:style-name="T50">number of threads <text:s text:c="11"/>1</text:span></text:p>
+      <text:p><text:span text:style-name="T50">number </text:span><text:span text:style-name="T50">of MPI </text:span><text:span text:style-name="T50">process</text:span><text:span text:style-name="T50">es <text:s text:c="5"/></text:span><text:span text:style-name="T50">1</text:span></text:p>
+      <text:p><text:span text:style-name="T50">number </text:span><text:span text:style-name="T50">of </text:span><text:span text:style-name="T50">threads </text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/>1</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">CPU time used since start of simulation (CPU-hours) <text:s text:c="4"/>0.1473997255E-01</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Plotfile Information</text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50">output date: <text:s text:c="13"/>2013-05-08</text:span></text:p>
-      <text:p><text:span text:style-name="T50">output time: <text:s text:c="13"/>11:39:43</text:span></text:p>
-      <text:p><text:span text:style-name="T50">output dir: <text:s text:c="14"/>/home/zingale/development/MAESTRO/Exec/TEST_PROBLEMS/test2</text:span></text:p>
-      <text:p><text:span text:style-name="T50">time to write plotfile (s) <text:s text:c="3"/>0.5483140945 <text:s text:c="3"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50">CPU </text:span><text:span text:style-name="T50">time </text:span><text:span text:style-name="T50">used </text:span><text:span text:style-name="T50">since </text:span><text:span text:style-name="T50">start </text:span><text:span text:style-name="T50">of </text:span><text:span text:style-name="T50">simulat</text:span><text:span text:style-name="T50">ion </text:span><text:span text:style-name="T50">(CPU-</text:span><text:span text:style-name="T50">hours) <text:s/></text:span><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">0.14739</text:span><text:span text:style-name="T50">97255E-</text:span><text:span text:style-name="T50">01</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Build Information</text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50">build date: <text:s text:c="3"/>2013-05-08 11:38:04.553714</text:span></text:p>
-      <text:p><text:span text:style-name="T50">build machine: Linux nan.astro.sunysb.edu 3.8.9-200.fc18.x86_64 #1 SMP Fri Apr 26 12:50:07 UTC 2013 x8</text:span></text:p>
-      <text:p><text:span text:style-name="T50">6_64 x86_64 x86_64 GNU/Linux</text:span></text:p>
-      <text:p><text:span text:style-name="T50">build dir: <text:s text:c="4"/>/home/zingale/development/MAESTRO/Exec/TEST_PROBLEMS/test2</text:span></text:p>
-      <text:p><text:span text:style-name="T50">BoxLib dir: <text:s text:c="3"/>/home/zingale/development/BoxLib/</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Plotfil</text:span><text:span text:style-name="T50">e </text:span><text:span text:style-name="T50">Informa</text:span><text:span text:style-name="T50">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50">output </text:span><text:span text:style-name="T50">date: <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">2013-</text:span><text:span text:style-name="T50">05-08</text:span></text:p>
+      <text:p><text:span text:style-name="T50">output </text:span><text:span text:style-name="T50">time: <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">11:39:4</text:span><text:span text:style-name="T50">3</text:span></text:p>
+      <text:p><text:span text:style-name="T50">output </text:span><text:span text:style-name="T50">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">/home/z</text:span><text:span text:style-name="T50">ingale/</text:span><text:span text:style-name="T50">develop</text:span><text:span text:style-name="T50">ment/MA</text:span><text:span text:style-name="T50">ESTRO/E</text:span><text:span text:style-name="T50">xec/TES</text:span><text:span text:style-name="T50">T_PROBL</text:span><text:span text:style-name="T50">EMS/tes</text:span><text:span text:style-name="T50">t2</text:span></text:p>
+      <text:p><text:span text:style-name="T50">time to </text:span><text:span text:style-name="T50">write </text:span><text:span text:style-name="T50">plotfil</text:span><text:span text:style-name="T50">e (s) <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">0.54831</text:span><text:span text:style-name="T50">40945 <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s/></text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">MAESTRO <text:s text:c="3"/>git hash: bad8ea8d66871a2172dcb276643edce53f739695</text:span></text:p>
-      <text:p><text:span text:style-name="T50">BoxLib <text:s text:c="4"/>git hash: febf34dba7cc701a78c73e16a543f062cf36d587</text:span></text:p>
-      <text:p><text:span text:style-name="T50">AstroDev <text:s text:c="2"/>git hash: 5316edb829577f80977fd2db8a113ccc4da42e02</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">modules used: <text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/model_parser</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/random</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/VODE</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/BLAS</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Build </text:span><text:span text:style-name="T50">Informa</text:span><text:span text:style-name="T50">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50">build </text:span><text:span text:style-name="T50">date: <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s/>2013-</text:span><text:span text:style-name="T50">05-08 </text:span><text:span text:style-name="T50">11:38:0</text:span><text:span text:style-name="T50">4.55371</text:span><text:span text:style-name="T50">4</text:span></text:p>
+      <text:p><text:span text:style-name="T50">build </text:span><text:span text:style-name="T50">machine</text:span><text:span text:style-name="T50">: Linux </text:span><text:span text:style-name="T50">nan.ast</text:span><text:span text:style-name="T50">ro.suny</text:span><text:span text:style-name="T50">sb.edu </text:span><text:span text:style-name="T50">3.8.9-</text:span><text:span text:style-name="T50">200.fc1</text:span><text:span text:style-name="T50">8.x86_6</text:span><text:span text:style-name="T50">4 #1 </text:span><text:span text:style-name="T50">SMP Fri </text:span><text:span text:style-name="T50">Apr 26 </text:span><text:span text:style-name="T50">12:50:0</text:span><text:span text:style-name="T50">7 UTC </text:span><text:span text:style-name="T50">2013 x8</text:span></text:p>
+      <text:p><text:span text:style-name="T50">6_64 </text:span><text:span text:style-name="T50">x86_64 </text:span><text:span text:style-name="T50">x86_64 </text:span><text:span text:style-name="T50">GNU/Lin</text:span><text:span text:style-name="T50">ux</text:span></text:p>
+      <text:p><text:span text:style-name="T50">build </text:span><text:span text:style-name="T50">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">/home/z</text:span><text:span text:style-name="T50">ingale/</text:span><text:span text:style-name="T50">develop</text:span><text:span text:style-name="T50">ment/MA</text:span><text:span text:style-name="T50">ESTRO/E</text:span><text:span text:style-name="T50">xec/TES</text:span><text:span text:style-name="T50">T_PROBL</text:span><text:span text:style-name="T50">EMS/tes</text:span><text:span text:style-name="T50">t2</text:span></text:p>
+      <text:p><text:span text:style-name="T50">BoxLib </text:span><text:span text:style-name="T50">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T50">/home/z</text:span><text:span text:style-name="T50">ingale/</text:span><text:span text:style-name="T50">develop</text:span><text:span text:style-name="T50">ment/Bo</text:span><text:span text:style-name="T50">xLib/</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50">MAESTRO </text:span><text:span text:style-name="T50"><text:s text:c="3"/>git </text:span><text:span text:style-name="T50">hash: </text:span><text:span text:style-name="T50">bad8ea8</text:span><text:span text:style-name="T50">d66871a</text:span><text:span text:style-name="T50">2172dcb</text:span><text:span text:style-name="T50">276643e</text:span><text:span text:style-name="T50">dce53f7</text:span><text:span text:style-name="T50">39695</text:span></text:p>
+      <text:p><text:span text:style-name="T50">BoxLib <text:s/></text:span><text:span text:style-name="T50"><text:s text:c="3"/>git </text:span><text:span text:style-name="T50">hash: </text:span><text:span text:style-name="T50">febf34d</text:span><text:span text:style-name="T50">ba7cc70</text:span><text:span text:style-name="T50">1a78c73</text:span><text:span text:style-name="T50">e16a543</text:span><text:span text:style-name="T50">f062cf3</text:span><text:span text:style-name="T50">6d587</text:span></text:p>
+      <text:p><text:span text:style-name="T50">AstroDe</text:span><text:span text:style-name="T50">v <text:s text:c="2"/>git </text:span><text:span text:style-name="T50">hash: </text:span><text:span text:style-name="T50">5316edb</text:span><text:span text:style-name="T50">829577f</text:span><text:span text:style-name="T50">80977fd</text:span><text:span text:style-name="T50">2db8a11</text:span><text:span text:style-name="T50">3ccc4da</text:span><text:span text:style-name="T50">42e02</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50">modules </text:span><text:span text:style-name="T50">used: <text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/mo</text:span><text:span text:style-name="T50">del_par</text:span><text:span text:style-name="T50">ser</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/ra</text:span><text:span text:style-name="T50">ndom</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/VO</text:span><text:span text:style-name="T50">DE</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Util/BL</text:span><text:span text:style-name="T50">AS</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">Source</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../../../Microphysics/EOS</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../../../Microphysics/EOS/helmeos</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../../../Microphysics/networks/ignition_simple</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../../../Microphysics/conductivity/timmes_stellar</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../..</text:span><text:span text:style-name="T50">/../Mic</text:span><text:span text:style-name="T50">rophysi</text:span><text:span text:style-name="T50">cs/EOS</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../..</text:span><text:span text:style-name="T50">/../Mic</text:span><text:span text:style-name="T50">rophysi</text:span><text:span text:style-name="T50">cs/EOS/</text:span><text:span text:style-name="T50">helmeos</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../..</text:span><text:span text:style-name="T50">/../Mic</text:span><text:span text:style-name="T50">rophysi</text:span><text:span text:style-name="T50">cs/netw</text:span><text:span text:style-name="T50">orks/ig</text:span><text:span text:style-name="T50">nition_</text:span><text:span text:style-name="T50">simple</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">../..</text:span><text:span text:style-name="T50">/../Mic</text:span><text:span text:style-name="T50">rophysi</text:span><text:span text:style-name="T50">cs/cond</text:span><text:span text:style-name="T50">uctivit</text:span><text:span text:style-name="T50">y/timme</text:span><text:span text:style-name="T50">s_stell</text:span><text:span text:style-name="T50">ar</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
       <text:p><text:span text:style-name="T50"/></text:p>
      </draw:text-box>
@@ -13277,54 +13269,54 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page36" draw:style-name="dp6" draw:master-page-name="standard_25_20talk" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page36" draw:style-name="dp7" draw:master-page-name="standard_25_20talk" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <draw:frame draw:style-name="gr25" draw:text-style-name="P45" draw:layer="layout" svg:width="26.416cm" svg:height="19.05cm" svg:x="1.016cm" svg:y="0.254cm">
+    <draw:frame draw:style-name="gr25" draw:text-style-name="P42" draw:layer="layout" svg:width="26.416cm" svg:height="19.05cm" svg:x="1.016cm" svg:y="0.254cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T50">FCOMP: <text:s text:c="11"/>gfortran</text:span></text:p>
-      <text:p><text:span text:style-name="T50">FCOMP version: <text:s text:c="3"/>gcc version 4.7.2 20121109 (Red Hat 4.7.2-8) (GCC)</text:span></text:p>
+      <text:p><text:span text:style-name="T50">FCOMP: <text:s/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">gfortra</text:span><text:span text:style-name="T50">n</text:span></text:p>
+      <text:p><text:span text:style-name="T50">FCOMP </text:span><text:span text:style-name="T50">version</text:span><text:span text:style-name="T50">: <text:s text:c="3"/></text:span><text:span text:style-name="T50">gcc </text:span><text:span text:style-name="T50">version </text:span><text:span text:style-name="T50">4.7.2 </text:span><text:span text:style-name="T50">2012110</text:span><text:span text:style-name="T50">9 (Red </text:span><text:span text:style-name="T50">Hat </text:span><text:span text:style-name="T50">4.7.2-</text:span><text:span text:style-name="T50">8) </text:span><text:span text:style-name="T50">(GCC)</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">F90 compile line: mpif90 <text:s/>-Jt/Linux.gfortran.debug.mpi/m -It/Linux.gfortran.debug.mpi/m -g -fno-range-</text:span></text:p>
-      <text:p><text:span text:style-name="T50">check -O1 -fbounds-check -fbacktrace -Wuninitialized -Wunused -ffpe-trap=invalid -finit-real=nan <text:s/>-I..</text:span></text:p>
-      <text:p><text:span text:style-name="T50">/../../Microphysics/EOS/helmeos <text:s/>-c</text:span></text:p>
+      <text:p><text:span text:style-name="T50">F90 </text:span><text:span text:style-name="T50">compile </text:span><text:span text:style-name="T50">line: </text:span><text:span text:style-name="T50">mpif90 <text:s/></text:span><text:span text:style-name="T50">-Jt/Lin</text:span><text:span text:style-name="T50">ux.gfor</text:span><text:span text:style-name="T50">tran.de</text:span><text:span text:style-name="T50">bug.mpi</text:span><text:span text:style-name="T50">/m </text:span><text:span text:style-name="T50">-It/Lin</text:span><text:span text:style-name="T50">ux.gfor</text:span><text:span text:style-name="T50">tran.de</text:span><text:span text:style-name="T50">bug.mpi</text:span><text:span text:style-name="T50">/m -g </text:span><text:span text:style-name="T50">-fno-</text:span><text:span text:style-name="T50">range-</text:span></text:p>
+      <text:p><text:span text:style-name="T50">check </text:span><text:span text:style-name="T50">-O1 </text:span><text:span text:style-name="T50">-fbound</text:span><text:span text:style-name="T50">s-check </text:span><text:span text:style-name="T50">-fbackt</text:span><text:span text:style-name="T50">race </text:span><text:span text:style-name="T50">-Wunini</text:span><text:span text:style-name="T50">tialize</text:span><text:span text:style-name="T50">d </text:span><text:span text:style-name="T50">-Wunuse</text:span><text:span text:style-name="T50">d </text:span><text:span text:style-name="T50">-ffpe-</text:span><text:span text:style-name="T50">trap=in</text:span><text:span text:style-name="T50">valid </text:span><text:span text:style-name="T50">-finit-</text:span><text:span text:style-name="T50">real=na</text:span><text:span text:style-name="T50">n <text:s/>-I..</text:span></text:p>
+      <text:p><text:span text:style-name="T50">/../../</text:span><text:span text:style-name="T50">Microph</text:span><text:span text:style-name="T50">ysics/E</text:span><text:span text:style-name="T50">OS/helm</text:span><text:span text:style-name="T50">eos <text:s/>-c</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">F77 compile line: gfortran <text:s text:c="2"/>-Jt/Linux.gfortran.debug.mpi/m -It/Linux.gfortran.debug.mpi/m -g -fno-ran</text:span></text:p>
-      <text:p><text:span text:style-name="T50">ge-check -O1 -fbounds-check -fbacktrace -Wuninitialized -Wunused -ffpe-trap=invalid -finit-real=nan <text:s/>-</text:span></text:p>
-      <text:p><text:span text:style-name="T50">I../../../Microphysics/EOS/helmeos <text:s/>-c</text:span></text:p>
+      <text:p><text:span text:style-name="T50">F77 </text:span><text:span text:style-name="T50">compile </text:span><text:span text:style-name="T50">line: </text:span><text:span text:style-name="T50">gfortra</text:span><text:span text:style-name="T50">n <text:s text:c="2"/></text:span><text:span text:style-name="T50">-Jt/Lin</text:span><text:span text:style-name="T50">ux.gfor</text:span><text:span text:style-name="T50">tran.de</text:span><text:span text:style-name="T50">bug.mpi</text:span><text:span text:style-name="T50">/m </text:span><text:span text:style-name="T50">-It/Lin</text:span><text:span text:style-name="T50">ux.gfor</text:span><text:span text:style-name="T50">tran.de</text:span><text:span text:style-name="T50">bug.mpi</text:span><text:span text:style-name="T50">/m -g </text:span><text:span text:style-name="T50">-fno-</text:span><text:span text:style-name="T50">ran</text:span></text:p>
+      <text:p><text:span text:style-name="T50">ge-</text:span><text:span text:style-name="T50">check </text:span><text:span text:style-name="T50">-O1 </text:span><text:span text:style-name="T50">-fbound</text:span><text:span text:style-name="T50">s-check </text:span><text:span text:style-name="T50">-fbackt</text:span><text:span text:style-name="T50">race </text:span><text:span text:style-name="T50">-Wunini</text:span><text:span text:style-name="T50">tialize</text:span><text:span text:style-name="T50">d </text:span><text:span text:style-name="T50">-Wunuse</text:span><text:span text:style-name="T50">d </text:span><text:span text:style-name="T50">-ffpe-</text:span><text:span text:style-name="T50">trap=in</text:span><text:span text:style-name="T50">valid </text:span><text:span text:style-name="T50">-finit-</text:span><text:span text:style-name="T50">real=na</text:span><text:span text:style-name="T50">n <text:s/>-</text:span></text:p>
+      <text:p><text:span text:style-name="T50">I../../</text:span><text:span text:style-name="T50">../Micr</text:span><text:span text:style-name="T50">ophysic</text:span><text:span text:style-name="T50">s/EOS/h</text:span><text:span text:style-name="T50">elmeos <text:s/></text:span><text:span text:style-name="T50">-c</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">C compile line: <text:s text:c="2"/>gcc <text:s/>-std=c99 -Wall -g -O1 -DBL_Linux -DBL_FORT_USE_UNDERSCORE <text:s text:c="2"/>-c</text:span></text:p>
+      <text:p><text:span text:style-name="T50">C </text:span><text:span text:style-name="T50">compile </text:span><text:span text:style-name="T50">line: <text:s text:c="2"/></text:span><text:span text:style-name="T50">gcc <text:s/></text:span><text:span text:style-name="T50">-std=c9</text:span><text:span text:style-name="T50">9 -Wall </text:span><text:span text:style-name="T50">-g -O1 </text:span><text:span text:style-name="T50">-DBL_Li</text:span><text:span text:style-name="T50">nux </text:span><text:span text:style-name="T50">-DBL_FO</text:span><text:span text:style-name="T50">RT_USE_</text:span><text:span text:style-name="T50">UNDERSC</text:span><text:span text:style-name="T50">ORE <text:s text:c="2"/></text:span><text:span text:style-name="T50">-c</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">linker line: <text:s text:c="5"/>mpif90 <text:s/>-Jt/Linux.gfortran.debug.mpi/m -It/Linux.gfortran.debug.mpi/m -g -fno-range-</text:span></text:p>
-      <text:p><text:span text:style-name="T50">check -O1 -fbounds-check -fbacktrace -Wuninitialized -Wunused -ffpe-trap=invalid -finit-real=nan <text:s/>-I..</text:span></text:p>
-      <text:p><text:span text:style-name="T50">/../../Microphysics/EOS/helmeos</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Grid Information</text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">level: <text:s text:c="11"/>1</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">number of boxes = <text:s text:c="10"/>60</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">maximum zones <text:s text:c="2"/>= <text:s text:c="9"/>384 <text:s text:c="8"/>640</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Boundary Conditions</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">-x: periodic <text:s text:c="11"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">+x: periodic <text:s text:c="11"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">-y: slip wall <text:s text:c="10"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">+y: outlet <text:s text:c="13"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50">linker </text:span><text:span text:style-name="T50">line: <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">mpif90 <text:s/></text:span><text:span text:style-name="T50">-Jt/Lin</text:span><text:span text:style-name="T50">ux.gfor</text:span><text:span text:style-name="T50">tran.de</text:span><text:span text:style-name="T50">bug.mpi</text:span><text:span text:style-name="T50">/m </text:span><text:span text:style-name="T50">-It/Lin</text:span><text:span text:style-name="T50">ux.gfor</text:span><text:span text:style-name="T50">tran.de</text:span><text:span text:style-name="T50">bug.mpi</text:span><text:span text:style-name="T50">/m -g </text:span><text:span text:style-name="T50">-fno-</text:span><text:span text:style-name="T50">range-</text:span></text:p>
+      <text:p><text:span text:style-name="T50">check </text:span><text:span text:style-name="T50">-O1 </text:span><text:span text:style-name="T50">-fbound</text:span><text:span text:style-name="T50">s-check </text:span><text:span text:style-name="T50">-fbackt</text:span><text:span text:style-name="T50">race </text:span><text:span text:style-name="T50">-Wunini</text:span><text:span text:style-name="T50">tialize</text:span><text:span text:style-name="T50">d </text:span><text:span text:style-name="T50">-Wunuse</text:span><text:span text:style-name="T50">d </text:span><text:span text:style-name="T50">-ffpe-</text:span><text:span text:style-name="T50">trap=in</text:span><text:span text:style-name="T50">valid </text:span><text:span text:style-name="T50">-finit-</text:span><text:span text:style-name="T50">real=na</text:span><text:span text:style-name="T50">n <text:s/>-I..</text:span></text:p>
+      <text:p><text:span text:style-name="T50">/../../</text:span><text:span text:style-name="T50">Microph</text:span><text:span text:style-name="T50">ysics/E</text:span><text:span text:style-name="T50">OS/helm</text:span><text:span text:style-name="T50">eos</text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
       <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Species Information</text:span></text:p>
-      <text:p><text:span text:style-name="T50">===============================================================================</text:span></text:p>
-      <text:p><text:span text:style-name="T50">index <text:s text:c="16"/>name <text:s text:c="10"/>short name <text:s text:c="7"/>A <text:s text:c="7"/>Z</text:span></text:p>
-      <text:p><text:span text:style-name="T50">-------------------------------------------------------------------------------</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">1 <text:s text:c="4"/>carbon-12 <text:s text:c="22"/>C12 <text:s text:c="5"/>12.00 <text:s text:c="4"/>6.00</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">2 <text:s text:c="4"/>oxygen-16 <text:s text:c="22"/>O16 <text:s text:c="5"/>16.00 <text:s text:c="4"/>8.00</text:span></text:p>
-      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">3 <text:s text:c="4"/>magnesium-24 <text:s text:c="19"/>Mg24 <text:s text:c="4"/>24.00 <text:s text:c="3"/>12.00</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Grid </text:span><text:span text:style-name="T50">Informa</text:span><text:span text:style-name="T50">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">level: </text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/>1</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">number </text:span><text:span text:style-name="T50">of </text:span><text:span text:style-name="T50">boxes = </text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/>60</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">maximum </text:span><text:span text:style-name="T50">zones <text:s text:c="2"/></text:span><text:span text:style-name="T50">= <text:s text:c="6"/></text:span><text:span text:style-name="T50"><text:s text:c="3"/>384 <text:s/></text:span><text:span text:style-name="T50"><text:s text:c="7"/></text:span><text:span text:style-name="T50">640</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Boundar</text:span><text:span text:style-name="T50">y </text:span><text:span text:style-name="T50">Conditi</text:span><text:span text:style-name="T50">ons</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">-x: </text:span><text:span text:style-name="T50">periodi</text:span><text:span text:style-name="T50">c <text:s text:c="6"/></text:span><text:span text:style-name="T50"><text:s text:c="5"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">+x: </text:span><text:span text:style-name="T50">periodi</text:span><text:span text:style-name="T50">c <text:s text:c="6"/></text:span><text:span text:style-name="T50"><text:s text:c="5"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">-y: </text:span><text:span text:style-name="T50">slip </text:span><text:span text:style-name="T50">wall <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s text:c="7"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">+y: </text:span><text:span text:style-name="T50">outlet <text:s/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="4"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s/></text:span><text:span text:style-name="T50">Species </text:span><text:span text:style-name="T50">Informa</text:span><text:span text:style-name="T50">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">=======</text:span><text:span text:style-name="T50">==</text:span></text:p>
+      <text:p><text:span text:style-name="T50">index <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="6"/></text:span><text:span text:style-name="T50">name <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s text:c="7"/></text:span><text:span text:style-name="T50">short </text:span><text:span text:style-name="T50">name <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s text:c="4"/>A <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="5"/>Z</text:span></text:p>
+      <text:p><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">-------</text:span><text:span text:style-name="T50">--</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">1 <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">carbon-</text:span><text:span text:style-name="T50">12 <text:s text:c="5"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s/>C12 <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/>12.00 </text:span><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">6.00</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">2 <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">oxygen-</text:span><text:span text:style-name="T50">16 <text:s text:c="5"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s/>O16 <text:s text:c="3"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/>16.00 </text:span><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">8.00</text:span></text:p>
+      <text:p><text:span text:style-name="T50"><text:s text:c="4"/></text:span><text:span text:style-name="T50">3 <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/></text:span><text:span text:style-name="T50">magnesi</text:span><text:span text:style-name="T50">um-24 <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s text:c="8"/></text:span><text:span text:style-name="T50"><text:s/>Mg24 <text:s text:c="2"/></text:span><text:span text:style-name="T50"><text:s text:c="2"/>24.00 </text:span><text:span text:style-name="T50"><text:s text:c="3"/></text:span><text:span text:style-name="T50">12.00</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr12" draw:text-style-name="P44" draw:layer="layout" svg:width="10.668cm" svg:height="0.962cm" svg:x="17.018cm" svg:y="20.066cm">
+    <draw:frame draw:style-name="gr12" draw:text-style-name="P41" draw:layer="layout" svg:width="10.668cm" svg:height="0.962cm" svg:x="17.018cm" svg:y="20.066cm">
      <draw:text-box>
       <text:p>+ values of all runtime parameters...</text:p>
      </draw:text-box>
@@ -13359,8 +13351,8 @@
         <text:p>If you just want to know how the code gets to a certain function:</text:p>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P40"><text:span text:style-name="T25">import traceback</text:span></text:p>
-      <text:p text:style-name="P40"><text:span text:style-name="T25">traceback.print_stack()</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T26">import traceback</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T26">traceback.print_stack()</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -13370,7 +13362,7 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page38" draw:style-name="dp7" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page38" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
@@ -13399,7 +13391,7 @@
           <text:p>&apos;gprof -l executable&apos; to get information on the line-by-line level</text:p>
          </text:list-item>
         </text:list>
-        <text:p><text:span text:style-name="T12"/></text:p>
+        <text:p><text:span text:style-name="T13"/></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -13501,7 +13493,7 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T3">Some basic coding practices can greatly improve the reliability of your code</text:span></text:p>
+        <text:p><text:span text:style-name="T3">Some basic coding practices can greatly improve the reliability of </text:span><text:span text:style-name="T3">your code</text:span></text:p>
         <text:list>
          <text:list-item>
           <text:p>Frees you to do science</text:p>
