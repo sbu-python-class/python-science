@@ -1,9 +1,13 @@
+This example for using the C-API with NumPy is for python 3.x only --
+the interface for python 2.x is different.  Note that this was written
+to use the latest API.
+
 reference: http://scipy-lectures.github.io/advanced/interfacing_with_c/interfacing_with_c.html
            http://wiki.scipy.org/Cookbook/C_Extensions/NumPy_arrays
 
 to build:
 
-python setup.py build_ext --inplace
+python3 setup.py build_ext --inplace
 
 to run:
 
@@ -28,7 +32,3 @@ to run:
  [ 225.  256.  289.  324.  361.]]
 
 
-
-
-Note that directly accessing the fields in the PyArrayObject struct is
-deprecated, and there will be a warning issued.
