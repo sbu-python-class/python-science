@@ -4,6 +4,8 @@
    http://stackoverflow.com/questions/24189002/seg-fault-while-using-numpy-with-python3
 */
 
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+
 #include <Python.h>
 #include <numpy/arrayobject.h>
 #include <math.h>
@@ -51,15 +53,16 @@ static PyObject* ex_function(PyObject* self, PyObject* args)
   if (NULL == iarray) return NULL;
 
   /* check to make sure we are a double type */
-  if (iarray->descr->type_num != NPY_DOUBLE ||
-      iarray->nd != 2) {
+  if (PyArray_DTYPE(iarray)->type_num != NPY_DOUBLE ||
+      PyArray_NDIM(iarray) != 2) {
     PyErr_SetString(PyExc_ValueError, "wrong input array type");
     return NULL;
   }
 
   /* get the dimensions */
-  n = dims[0] = iarray->dimensions[0];
-  m = dims[1] = iarray->dimensions[1];
+  n = dims[0] = PyArray_DIM(iarray, 0);
+  m = dims[1] = PyArray_DIM(iarray, 1);
+  
 
   /* the new C interface can create iteration "object" using NpyIter, but we
      are not going to do that here, we want to explicitly see the different
@@ -77,12 +80,12 @@ static PyObject* ex_function(PyObject* self, PyObject* args)
      array data */
   iA = (double **) malloc( (size_t) (n*sizeof(double)));
   for (i = 0; i < n; i++) {
-    iA[i] = (double *) iarray->data + i*m;
+    iA[i] = (double *) PyArray_DATA(iarray) + i*m;
   }
 
   oA = (double **) malloc( (size_t) (n*sizeof(double)));
   for (i = 0; i < n; i++) {
-    oA[i] = (double *) oarray->data + i*m;
+    oA[i] = (double *) PyArray_DATA(oarray) + i*m;
   }
   
   /* now we can do our manipulation */
