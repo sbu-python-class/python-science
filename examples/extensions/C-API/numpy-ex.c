@@ -1,7 +1,8 @@
 /* see 
-   http://wiki.scipy.org/Cookbook/C_Extensions/NumPy_arrays  and
+   http://wiki.scipy.org/Cookbook/C_Extensions/NumPy_arrays
    http://scipy-lectures.github.io/advanced/interfacing_with_c/interfacing_with_c.html 
    http://stackoverflow.com/questions/24189002/seg-fault-while-using-numpy-with-python3
+   https://docs.python.org/3/extending/extending.html
 */
 
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
