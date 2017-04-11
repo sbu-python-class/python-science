@@ -3,6 +3,8 @@
    http://scipy-lectures.github.io/advanced/interfacing_with_c/interfacing_with_c.html 
 */
 
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+
 #include <Python.h>
 #include <numpy/arrayobject.h>
 
@@ -30,15 +32,15 @@ static PyObject* CAPI_update(PyObject* self, PyObject* args)
   if (NULL == iarray) return NULL;
 
   /* check to make sure we are a double type */
-  if (iarray->descr->type_num != NPY_DOUBLE ||
-      iarray->nd != 2) {
+  if (PyArray_DTYPE(iarray)->type_num != NPY_DOUBLE ||
+      PyArray_NDIM(iarray) != 2) {
     PyErr_SetString(PyExc_ValueError, "wrong input array type");
     return NULL;
   }
 
   /* get the dimensions */
-  n = iarray->dimensions[0];
-  m = iarray->dimensions[1];
+  n = PyArray_DIM(iarray, 0);
+  m = PyArray_DIM(iarray, 1);
 
   /* change contigous arrays into C ** arrays -- we need to have a
      vector of pointers that point to the correct location in the
@@ -46,7 +48,7 @@ static PyObject* CAPI_update(PyObject* self, PyObject* args)
      array data */
   iA = (double **) malloc( (size_t) (n*sizeof(double)));
   for (i = 0; i < n; i++) {
-    iA[i] = (double *) iarray->data + i*m;
+    iA[i] = (double *) PyArray_DATA(iarray) + i*m;
   }
 
   /* now we can do our manipulation */
@@ -74,9 +76,19 @@ static PyMethodDef laplace_CAPIMethods[] = {
   {NULL, NULL, 0, NULL}
 };
 
+static struct PyModuleDef moduledef = {
+  PyModuleDef_HEAD_INIT,
+  "laplace_CAPI",  // name
+   "a simple example: square the elements of an array",  // documentation
+  -1,  // size
+  laplace_CAPIMethods,  // methods
+};
+
 /* this tells python what to do when it first imports this module --
    the name follows directly from the table name above */
-PyMODINIT_FUNC initlaplace_CAPI(void) {
-  (void) Py_InitModule("laplace_CAPI", laplace_CAPIMethods);
-  import_array();  // this deals with the NumPy stuff
+PyMODINIT_FUNC PyInit_laplace_CAPI(void) {
+  PyObject *m;
+  m = PyModule_Create(&moduledef);
+  import_array();
+  return m;
 }
