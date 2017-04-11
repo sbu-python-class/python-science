@@ -22,7 +22,7 @@ B = np.zeros_like(A)
 
 n = my_subroutine(A, B)
 
-print B
+print(B)
 
 
 

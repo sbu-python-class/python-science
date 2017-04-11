@@ -20,11 +20,11 @@ for i in range(A.shape[0]):
         B[i,j] = A[i,j]**2
 
 
-print "pure python: ", time.time() - start
+print("pure python: ", time.time() - start)
 
 start = time.time()
 B = A**2
-print "numpy: ", time.time() - start
+print("numpy: ", time.time() - start)
 
 
 # using our Cython routine
@@ -32,7 +32,7 @@ start = time.time()
 
 B_cy = square.cy_square(A)
 
-print "cython: ", time.time() - start
+print("cython: ", time.time() - start)
 
 
 
