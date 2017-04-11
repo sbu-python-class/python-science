@@ -1,6 +1,7 @@
 /* see 
    http://wiki.scipy.org/Cookbook/C_Extensions/NumPy_arrays  and
    http://scipy-lectures.github.io/advanced/interfacing_with_c/interfacing_with_c.html 
+   http://stackoverflow.com/questions/24189002/seg-fault-while-using-numpy-with-python3
 */
 
 #include <Python.h>
@@ -108,9 +109,19 @@ static PyMethodDef numpy_in_cMethods[] = {
   {NULL, NULL}
 };
 
+static struct PyModuleDef moduledef = {
+  PyModuleDef_HEAD_INIT,
+  "numpy_in_c",  // name
+   "a simple example: square the elements of an array",  // documentation
+  -1,  // size
+  numpy_in_cMethods,  // methods
+};
+
 /* this tells python what to do when it first imports this module --
    the name follows directly from the table name above */
-PyMODINIT_FUNC initnumpy_in_c(void) {
-  (void) Py_InitModule("numpy_in_c", numpy_in_cMethods);
-  import_array();  // this deals with the NumPy stuff
+PyMODINIT_FUNC PyInit_numpy_in_c(void) {
+  PyObject *m;
+  m = PyModule_Create(&moduledef);
+  import_array();
+  return m;
 }
