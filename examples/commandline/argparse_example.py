@@ -7,7 +7,7 @@ import argparse
 
 # simple example of argparse
 #
-# ./argparse_example.py -a -b # -c string --darg --earg fextra
+# ./argparse_example.py -a -b # -c string --darg --earg string extras
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-a", help="the -a option", action="store_true")
