@@ -20,3 +20,5 @@
 -- coverage
 
    http://blog.jameskyle.org/2010/10/nose-unit-testing-quick-start/
+
+   nosetests-3 -sv --with-coverage --cover-erase --cover-inclusive --cover-package=.
