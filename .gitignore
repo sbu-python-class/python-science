@@ -4,6 +4,15 @@
 *~
 
 .ipynb_checkpoints/
-Untitled0.ipynb
+Untitled*.ipynb
 
 \#*
+
+syllabus.pdf
+syllabus.out
+
+.cache
+
+*egg-info
+
+.~lock*
