@@ -1,3 +1,7 @@
+-- matplotlib state vs OO interfaces
+
+   http://pbpython.com/effective-matplotlib.html
+
 -- git diff of jupyter notebooks:
 
    https://nbdime.readthedocs.io/en/latest/
