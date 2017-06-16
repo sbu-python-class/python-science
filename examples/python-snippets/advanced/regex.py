@@ -14,7 +14,8 @@ for s in strings:
     if not a == None:
         if a.group(1) == a.group(3):
             # we found a match
-            print "string in '{}' tags is: {}".format(a.group(1), a.group(2))
+            print("string in '{}' tags is: {}".format(a.group(1), a.group(2)))
+
 
 
 
