@@ -18,10 +18,19 @@ xmax = 1
 ymin = -1.5
 ymax = 1.5
 
-#xmin = 0
-#xmax = 0.5
-#ymin = -0.75
-#ymax = -0.25
+xmin = 0
+xmax = 0.5
+ymin = -0.75
+ymax = -0.25
+
+xc = -0.7435669
+yc = 0.1314023
+dx = 0.0022878
+
+xmin = xc-dx
+xmax = xc+dx
+ymin = yc-dx
+ymax = yc+dx
 
 x = np.linspace(xmin, xmax, N, dtype=np.float)
 y = np.linspace(ymin, ymax, N, dtype=np.float)
@@ -37,6 +46,9 @@ niter[:,:] = -1
 MAX_ITER = 256
 
 for n in range(MAX_ITER):
+    # potentially faster
+    #idx = niter == -1
+    #z[idx] = z[idx]**2 + c[idx]
     z = z**2 + c
     idx = np.logical_and(abs(z) > 2, niter == -1)
     niter[idx] = n
@@ -46,9 +58,10 @@ niter[niter == -1] = MAX_ITER-1
 
 print(niter.min(), niter.max())
 
-plt.imshow(niter.T, extent=[xmin, xmax, ymin, ymax], origin="lower")
+plt.imshow(niter.T, extent=[xmin, xmax, ymin, ymax], origin="lower", cmap="magma_r")
 f = plt.gcf()
 f.set_size_inches(8.0, 8.0)
-plt.show()
+#plt.show()
+plt.savefig("mandel.png")
 
 
