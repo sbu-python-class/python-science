@@ -1,3 +1,9 @@
+-- python tutor: http://www.pythontutor.com/
+
+-- merge in the REU python stuff
+
+-- matplotlib example: mandelbrot
+
 -- matplotlib state vs OO interfaces
 
    http://pbpython.com/effective-matplotlib.html
