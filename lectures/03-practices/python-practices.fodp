@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2018-03-04T20:50:56.150001358</dc:date><meta:editing-duration>P1DT2H15M32S</meta:editing-duration><meta:editing-cycles>125</meta:editing-cycles><meta:generator>LibreOffice/5.4.5.1$Linux_X86_64 LibreOffice_project/40$Build-1</meta:generator><meta:document-statistic meta:object-count="327"/></office:meta>
+ <office:meta><meta:initial-creator>Michael Zingale</meta:initial-creator><meta:creation-date>2013-01-02T12:36:14</meta:creation-date><dc:date>2018-03-04T21:43:01.165536194</dc:date><meta:editing-duration>P1DT2H57M25S</meta:editing-duration><meta:editing-cycles>127</meta:editing-cycles><meta:generator>LibreOffice/5.4.5.1$Linux_X86_64 LibreOffice_project/40$Build-1</meta:generator><meta:document-statistic meta:object-count="326"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-322</config:config-item>
@@ -29,7 +29,7 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">true</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">18</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">30</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
@@ -1542,87 +1542,93 @@
    <style:text-properties style:font-name="Carlito" fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
-  </style:style>
-  <style:style style:name="T27" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
-  </style:style>
-  <style:style style:name="T28" style:family="text">
-   <style:text-properties style:font-name="Carlito" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
-  </style:style>
-  <style:style style:name="T29" style:family="text">
    <style:text-properties fo:color="#ed1c24"/>
   </style:style>
+  <style:style style:name="T27" style:family="text">
+   <style:text-properties fo:font-size="16pt" style:font-size-asian="16pt" style:font-size-complex="16pt"/>
+  </style:style>
+  <style:style style:name="T28" style:family="text">
+   <style:text-properties style:font-name="Inconsolata" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="T29" style:family="text">
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+  </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="22pt" fo:font-style="italic" style:font-size-asian="22pt" style:font-style-asian="italic" style:font-size-complex="22pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+   <style:text-properties style:font-name="Carlito" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="22pt" fo:font-style="italic" style:font-size-asian="22pt" style:font-style-asian="italic" style:font-size-complex="22pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties style:font-name="Carlito" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+   <style:text-properties fo:font-size="18pt" style:font-size-asian="18pt" style:font-size-complex="18pt"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:color="#000000" style:font-name="Carlito" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties style:font-name="Carlito" fo:font-size="22pt" style:font-size-asian="22pt" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Carlito" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Inconsolata" fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#000000" style:font-name="Carlito" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:color="#ff0000" style:font-name="Carlito" fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:color="#ff0000" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties style:font-name="Andale Mono"/>
+   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties style:text-position="super 58%" style:font-name="Andale Mono" fo:font-size="24pt" style:font-size-asian="24pt" style:font-weight-asian="normal" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#ff0000" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties style:text-position="super 58%" style:font-name="Andale Mono"/>
+   <style:text-properties style:font-name="Andale Mono"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties style:font-name="Carlito" style:font-name-asian="OpenSymbol" style:font-name-complex="OpenSymbol"/>
+   <style:text-properties style:text-position="super 58%" style:font-name="Andale Mono" fo:font-size="24pt" style:font-size-asian="24pt" style:font-weight-asian="normal" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties style:font-name="Carlito" style:font-name-asian="StarSymbol" style:font-name-complex="StarSymbol"/>
+   <style:text-properties style:text-position="super 58%" style:font-name="Andale Mono"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Arial" style:font-name-asian="StarSymbol" style:font-name-complex="StarSymbol"/>
+   <style:text-properties style:font-name="Carlito" style:font-name-asian="OpenSymbol" style:font-name-complex="OpenSymbol"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties style:font-name="Arial" style:font-name-asian="StarSymbol" style:font-name-complex="StarSymbol"/>
+   <style:text-properties style:font-name="Carlito" style:font-name-asian="StarSymbol" style:font-name-complex="StarSymbol"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties style:font-name="Carlito" fo:font-size="24pt" style:font-name-asian="StarSymbol" style:font-size-asian="24pt" style:font-name-complex="StarSymbol" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Arial" style:font-name-asian="StarSymbol" style:font-name-complex="StarSymbol"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Carlito" fo:font-size="22pt" style:font-name-asian="StarSymbol" style:font-size-asian="22pt" style:font-name-complex="StarSymbol" style:font-size-complex="22pt"/>
+   <style:text-properties style:font-name="Arial" style:font-name-asian="StarSymbol" style:font-name-complex="StarSymbol"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties style:font-name="Carlito" fo:font-size="22pt" style:font-name-asian="StarSymbol" style:font-size-asian="22pt" style:font-name-complex="StarSymbol" style:font-size-complex="22pt"/>
+   <style:text-properties style:font-name="Carlito" fo:font-size="24pt" style:font-name-asian="StarSymbol" style:font-size-asian="24pt" style:font-name-complex="StarSymbol" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
-   <style:text-properties fo:color="#0000ff" style:font-name="Carlito" fo:font-size="24pt" style:font-name-asian="StarSymbol" style:font-size-asian="24pt" style:font-name-complex="StarSymbol" style:font-size-complex="24pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Carlito" fo:font-size="22pt" style:font-name-asian="StarSymbol" style:font-size-asian="22pt" style:font-name-complex="StarSymbol" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T51" style:family="text">
-   <style:text-properties fo:color="#000000" style:font-name="Carlito" fo:font-size="22pt" style:font-name-asian="StarSymbol" style:font-size-asian="22pt" style:font-name-complex="StarSymbol" style:font-size-complex="22pt"/>
+   <style:text-properties style:font-name="Carlito" fo:font-size="22pt" style:font-name-asian="StarSymbol" style:font-size-asian="22pt" style:font-name-complex="StarSymbol" style:font-size-complex="22pt"/>
   </style:style>
   <style:style style:name="T52" style:family="text">
-   <style:text-properties fo:color="#ff0000" style:font-name="Inconsolata" fo:font-size="18pt" style:font-name-asian="StarSymbol" style:font-size-asian="18pt" style:font-name-complex="StarSymbol" style:font-size-complex="18pt"/>
+   <style:text-properties fo:color="#0000ff" style:font-name="Carlito" fo:font-size="24pt" style:font-name-asian="StarSymbol" style:font-size-asian="24pt" style:font-name-complex="StarSymbol" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="T53" style:family="text">
+   <style:text-properties fo:color="#000000" style:font-name="Carlito" fo:font-size="22pt" style:font-name-asian="StarSymbol" style:font-size-asian="22pt" style:font-name-complex="StarSymbol" style:font-size-complex="22pt"/>
+  </style:style>
+  <style:style style:name="T54" style:family="text">
+   <style:text-properties fo:color="#ff0000" style:font-name="Inconsolata" fo:font-size="18pt" style:font-name-asian="StarSymbol" style:font-size-asian="18pt" style:font-name-complex="StarSymbol" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="T55" style:family="text">
    <style:text-properties style:font-name="Andale Mono" fo:font-size="12pt" style:font-size-asian="12pt" style:font-size-complex="12pt"/>
   </style:style>
   <text:list-style style:name="L1">
@@ -1826,7 +1832,7 @@
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
   </style:handout-master>
@@ -1904,7 +1910,7 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr3" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="20.076cm" svg:y="20.112cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -1978,7 +1984,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr6" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -2006,7 +2012,7 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr8" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="0.767cm" svg:x="20.075cm" svg:y="20.111cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr3" draw:text-style-name="P9" draw:layer="backgroundobjects" svg:width="5.08cm" svg:height="0.889cm" svg:x="0.099cm" svg:y="20.077cm">
@@ -2369,7 +2375,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr11" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -2393,7 +2399,7 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr12" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.13cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -2418,7 +2424,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr14" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -2442,7 +2448,7 @@
    </draw:frame>
    <draw:frame presentation:style-name="pr15" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.076cm" svg:y="19.131cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM0">
@@ -2467,7 +2473,7 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr17" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.369cm" svg:height="1.396cm" svg:x="12.22cm" svg:y="26.543cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>31</text:page-number></text:span><text:page-number>31</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -5745,37 +5751,37 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>We&apos;ll look at the example of having people work with a shared remote repository—this is common with groups.</text:p>
+        <text:p><text:span text:style-name="T26">Working with your own repository</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p>Each developer will have their own clone that they interact with, develop in, branch for experimentation, etc.</text:p>
+          <text:p>Here’s a script to follow along with: <text:span text:style-name="T27"><text:a xlink:href="https://github.com/sbu-python-class/python-science/blob/master/lectures/03-practices/git-single.md" xlink:type="simple">https://github.com/sbu-python-class/python-science/blob/master/lectures/03-practices/git-single.md</text:a></text:span><text:span text:style-name="T27"><text:s/></text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p>You can push and pull to/from the remote repo to stay in sync with others</text:p>
-         </text:list-item>
-         <text:list-item>
-          <text:p>You probably want to put everyone in the same UNIX group on the server</text:p>
-         </text:list-item>
-        </text:list>
-       </text:list-item>
-       <text:list-item>
-        <text:p>We’ll start by creating a shared master bare repo:</text:p>
-        <text:list>
-         <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T26">git init --bare --shared myproject.git</text:span></text:p>
-         </text:list-item>
-         <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T26">chgrp -R groupname myrepo.git</text:span></text:p>
+          <text:p>We’ll look at the commands:</text:p>
+          <text:list>
+           <text:list-item>
+            <text:p><text:span text:style-name="T28">git init</text:span></text:p>
+           </text:list-item>
+           <text:list-item>
+            <text:p><text:span text:style-name="T28">git add</text:span></text:p>
+           </text:list-item>
+           <text:list-item>
+            <text:p><text:span text:style-name="T28">git commit</text:span></text:p>
+           </text:list-item>
+           <text:list-item>
+            <text:p><text:span text:style-name="T28">git log</text:span></text:p>
+           </text:list-item>
+           <text:list-item>
+            <text:p><text:span text:style-name="T28">git checkout</text:span></text:p>
+           </text:list-item>
+           <text:list-item>
+            <text:p><text:span text:style-name="T28">git merge</text:span></text:p>
+           </text:list-item>
+          </text:list>
          </text:list-item>
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p><text:span text:style-name="T27"/></text:p>
-     </draw:text-box>
-    </draw:frame>
-    <draw:frame draw:style-name="gr19" draw:text-style-name="P32" draw:layer="layout" svg:width="14.478cm" svg:height="1.741cm" svg:x="11.938cm" svg:y="17.018cm">
-     <draw:text-box>
-      <text:p><text:span text:style-name="T28">Note the </text:span><text:span text:style-name="T28">permissi</text:span><text:span text:style-name="T28">ons set </text:span><text:span text:style-name="T28">the </text:span><text:span text:style-name="T28">sticky bit </text:span><text:span text:style-name="T28">for the </text:span><text:span text:style-name="T28">group </text:span><text:span text:style-name="T28">(guid)</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -5786,7 +5792,7 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page20" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page20" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr24" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
@@ -5797,7 +5803,7 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T29">We&apos;ll look at the example of having people work with a shared remote repository—this is common with groups.</text:span></text:p>
+        <text:p><text:span text:style-name="T26">We&apos;ll look at the example of having people work with a shared remote repository—this is common with groups.</text:span></text:p>
         <text:list>
          <text:list-item>
           <text:p>Each developer will have their own clone that they interact with, develop in, branch for experimentation, etc.</text:p>
@@ -5814,20 +5820,20 @@
         <text:p>We’ll start by creating a shared master bare repo:</text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T26">git init --bare --shared myproject.git</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T29">git init --bare --shared myproject.git</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T26">chgrp -R groupname myrepo.git</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T29">chgrp -R groupname myrepo.git</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p><text:span text:style-name="T27"/></text:p>
+      <text:p><text:span text:style-name="T30"/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr19" draw:text-style-name="P32" draw:layer="layout" svg:width="14.478cm" svg:height="1.741cm" svg:x="11.938cm" svg:y="17.018cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T28">Note </text:span><text:span text:style-name="T28">the </text:span><text:span text:style-name="T28">permis</text:span><text:span text:style-name="T28">sions </text:span><text:span text:style-name="T28">set the </text:span><text:span text:style-name="T28">sticky </text:span><text:span text:style-name="T28">bit for </text:span><text:span text:style-name="T28">the </text:span><text:span text:style-name="T28">group </text:span><text:span text:style-name="T28">(guid)</text:span></text:p>
+      <text:p><text:span text:style-name="T31">Note </text:span><text:span text:style-name="T31">the </text:span><text:span text:style-name="T31">permis</text:span><text:span text:style-name="T31">sions </text:span><text:span text:style-name="T31">set the </text:span><text:span text:style-name="T31">sticky </text:span><text:span text:style-name="T31">bit for </text:span><text:span text:style-name="T31">the </text:span><text:span text:style-name="T31">group </text:span><text:span text:style-name="T31">(guid)</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -5838,11 +5844,11 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page21" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page21" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr24" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p>Quick git Example</text:p>
+      <text:p>Quick git Example II</text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr21" draw:layer="layout" svg:width="26.924cm" svg:height="16.51cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -5858,7 +5864,7 @@
           <text:p>In some other directory. <text:s/>User A does:</text:p>
           <text:list>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T26">git clone </text:span><text:span text:style-name="T30">/path/to/</text:span><text:span text:style-name="T26">myproject.git</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T29">git clone </text:span><text:span text:style-name="T32">/path/to/</text:span><text:span text:style-name="T29">myproject.git</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -5869,13 +5875,13 @@
             <text:p text:style-name="P36"><text:span text:style-name="T18">Create a file (</text:span><text:span text:style-name="T14">README</text:span><text:span text:style-name="T18">)</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T18">Add it to your repo: </text:span><text:span text:style-name="T31">git add README</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T18">Add it to your repo: </text:span><text:span text:style-name="T33">git add README</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T18">Commit it to your repo: </text:span><text:span text:style-name="T31">git commit README</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T18">Commit it to your repo: </text:span><text:span text:style-name="T33">git commit README</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T18">Push it back to the bare repo: </text:span><text:span text:style-name="T31">git push</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T18">Push it back to the bare repo: </text:span><text:span text:style-name="T33">git push</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -5885,9 +5891,9 @@
         </text:list>
        </text:list-item>
       </text:list>
-      <text:p><text:span text:style-name="T32">* older versions of git won&apos;t know where push to. <text:s/>Instead of this, you can tell git to use the proposed new (git 2.0) behavior by doing:</text:span></text:p>
-      <text:p text:style-name="P37"><text:span text:style-name="T31">git config --global push.default simple</text:span></text:p>
-      <text:p text:style-name="P37"><text:span text:style-name="T31">git push</text:span></text:p>
+      <text:p><text:span text:style-name="T34">* older versions of git won&apos;t know where push to. <text:s/>Instead of this, you can tell git to use the proposed new (git 2.0) behavior by doing:</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T33">git config --global push.default simple</text:span></text:p>
+      <text:p text:style-name="P37"><text:span text:style-name="T33">git push</text:span></text:p>
       <text:p text:style-name="P18"><text:span text:style-name="T11"/></text:p>
       <text:p><text:span text:style-name="T11"/></text:p>
      </draw:text-box>
@@ -5899,11 +5905,11 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page22" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page22" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr24" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p>Quick git Example</text:p>
+      <text:p>Quick git Example II</text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr21" draw:layer="layout" svg:width="26.924cm" svg:height="16.51cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -5913,7 +5919,7 @@
         <text:p>If you get confused about where the remote repo you are working with is, you can do:</text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T26">git remote -v</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T29">git remote -v</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -5929,11 +5935,11 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page23" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page23" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr24" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p>Quick git Example</text:p>
+      <text:p>Quick git Example II</text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr21" draw:layer="layout" svg:width="26.924cm" svg:height="16.51cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -5946,7 +5952,7 @@
           <text:p>In some other directory. <text:s/>User B does:</text:p>
           <text:list>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T26">git clone </text:span><text:span text:style-name="T30">/path/to/</text:span><text:span text:style-name="T26">myrepo.git</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T29">git clone </text:span><text:span text:style-name="T32">/path/to/</text:span><text:span text:style-name="T29">myrepo.git</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -5954,26 +5960,26 @@
           <text:p>Note that they already have the README file</text:p>
           <text:list>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T33">Edit </text:span><text:span text:style-name="T14">README</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T35">Edit </text:span><text:span text:style-name="T14">README</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T18">Commit you changes locally: </text:span><text:span text:style-name="T34">git commit README</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T18">Commit you changes locally: </text:span><text:span text:style-name="T36">git commit README</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p text:style-name="P36"><text:span text:style-name="T18">Push it back to the bare repo: </text:span><text:span text:style-name="T34">git push</text:span></text:p>
+            <text:p text:style-name="P36"><text:span text:style-name="T18">Push it back to the bare repo: </text:span><text:span text:style-name="T36">git push</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>Now user A can get this changes by doing: <text:span text:style-name="T27">git pull</text:span></text:p>
+        <text:p>Now user A can get this changes by doing: <text:span text:style-name="T30">git pull</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T35">Note that I did this on my laptop for demonstration, but the different users can be on completely different machines (and in different countries), as long as they have access to the same server</text:span></text:p>
+          <text:p><text:span text:style-name="T37">Note that I did this on my laptop for demonstration, but the different users can be on completely different machines (and in different countries), as long as they have access to the same server</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T36">In general, you can push to a </text:span><text:span text:style-name="T20">bare repo</text:span><text:span text:style-name="T36">, but you can pull from anyone</text:span></text:p>
+          <text:p><text:span text:style-name="T38">In general, you can push to a </text:span><text:span text:style-name="T20">bare repo</text:span><text:span text:style-name="T38">, but you can pull from anyone</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -5987,33 +5993,33 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page24" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page24" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr24" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p>Quick git Example</text:p>
+      <text:p>Quick git Example II</text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr30" draw:layer="layout" svg:width="26.924cm" svg:height="16.51cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>You can easily look at the history by doing: <text:span text:style-name="T27">git log</text:span></text:p>
+        <text:p>You can easily look at the history by doing: <text:span text:style-name="T30">git log</text:span></text:p>
        </text:list-item>
        <text:list-item>
         <text:p>You can checkout an old version using the hash:</text:p>
         <text:list>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T26">git checkout </text:span><text:span text:style-name="T30">hash</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T29">git checkout </text:span><text:span text:style-name="T32">hash</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T37">Make changes, use this older version</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T39">Make changes, use this older version</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T37">Look at the list of branches: </text:span><text:span text:style-name="T26">git branch</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T39">Look at the list of branches: </text:span><text:span text:style-name="T29">git branch</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p text:style-name="P36"><text:span text:style-name="T37">Switch back to the tip: </text:span><text:span text:style-name="T26">git checkout master</text:span></text:p>
+          <text:p text:style-name="P36"><text:span text:style-name="T39">Switch back to the tip: </text:span><text:span text:style-name="T29">git checkout master</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -6021,24 +6027,24 @@
         <text:p>Other useful commands:</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T26">git diff</text:span></text:p>
+          <text:p><text:span text:style-name="T29">git diff</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T26">git status</text:span></text:p>
+          <text:p><text:span text:style-name="T29">git status</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T35">Branching</text:span></text:p>
+          <text:p><text:span text:style-name="T37">Branching</text:span></text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T26">git branch experiment</text:span></text:p>
+            <text:p><text:span text:style-name="T29">git branch experiment</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T26">git checkout experiment</text:span></text:p>
+            <text:p><text:span text:style-name="T29">git checkout experiment</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T26">git blame</text:span></text:p>
+          <text:p><text:span text:style-name="T29">git blame</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -6065,7 +6071,7 @@
     </draw:custom-shape>
     <draw:frame draw:style-name="gr21" draw:text-style-name="P38" draw:layer="layout" svg:width="12.252cm" svg:height="2.071cm" svg:x="15.748cm" svg:y="17.272cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T34">git </text:span><text:span text:style-name="T34">chec</text:span><text:span text:style-name="T34">kout </text:span><text:span text:style-name="T34">-b </text:span><text:span text:style-name="T34">expe</text:span><text:span text:style-name="T34">rime</text:span><text:span text:style-name="T34">nt</text:span></text:p>
+      <text:p><text:span text:style-name="T36">git </text:span><text:span text:style-name="T36">chec</text:span><text:span text:style-name="T36">kout </text:span><text:span text:style-name="T36">-b </text:span><text:span text:style-name="T36">expe</text:span><text:span text:style-name="T36">rime</text:span><text:span text:style-name="T36">nt</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -6075,11 +6081,11 @@
      </draw:frame>
     </presentation:notes>
    </draw:page>
-   <draw:page draw:name="page25" draw:style-name="dp5" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
+   <draw:page draw:name="page25" draw:style-name="dp6" draw:master-page-name="Default" presentation:presentation-page-layout-name="AL1T1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr24" draw:layer="layout" svg:width="25.199cm" svg:height="1.957cm" svg:x="1.4cm" svg:y="0.537cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p>Quick git Example</text:p>
+      <text:p>Quick git Example II</text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr30" draw:layer="layout" svg:width="26.924cm" svg:height="16.51cm" svg:x="0.508cm" svg:y="3.556cm" presentation:class="outline" presentation:user-transformed="true">
@@ -6089,7 +6095,7 @@
         <text:p>You can also put a link to your bare repo on the web and people can clone it remotely</text:p>
         <text:list>
          <text:list-item>
-          <text:p>Note you need to do <text:span text:style-name="T26">git update-server-info -f</text:span> after each change to the repo</text:p>
+          <text:p>Note you need to do <text:span text:style-name="T29">git update-server-info -f</text:span> after each change to the repo</text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -6815,7 +6821,7 @@
         <text:p>These class notes are on github:</text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T31">git clone https://github.com/sbu-python-class/python-science</text:span></text:p>
+          <text:p><text:span text:style-name="T33">git clone https://github.com/sbu-python-class/python-science</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -6826,7 +6832,7 @@
           <text:p>You don’t have to give everyone write permission</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p>Normal interaction is through <text:span text:style-name="T3">pull request</text:span><text:span text:style-name="T38"> and </text:span><text:span text:style-name="T3">issues</text:span></text:p>
+          <text:p>Normal interaction is through <text:span text:style-name="T3">pull request</text:span><text:span text:style-name="T40"> and </text:span><text:span text:style-name="T3">issues</text:span></text:p>
           <text:p><text:span text:style-name="T9"/></text:p>
          </text:list-item>
         </text:list>
@@ -6852,13 +6858,13 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p>Our class test repo: <text:a xlink:href="https://github.com/sbu-python-class/test-repo" xlink:type="simple">https://github.com/sbu-python-class/test-repo</text:a><text:s/></text:p>
+        <text:p>Our class test repo: <text:span text:style-name="T39"><text:a xlink:href="https://github.com/sbu-python-class/test-repo-2018" xlink:type="simple">https://github.com/sbu-python-class/test-repo-2018</text:a></text:span><text:span text:style-name="T39"><text:s/></text:span><text:s/></text:p>
         <text:list>
          <text:list-item>
           <text:p><text:span text:style-name="T3">Fork</text:span> the project into your own account</text:p>
          </text:list-item>
          <text:list-item>
-          <text:p>Use git to clone your fork and interact with it—<text:span text:style-name="T39">you own it, so you can push changes back to your fork</text:span></text:p>
+          <text:p>Use git to clone your fork and interact with it—<text:span text:style-name="T41">you own it, so you can push changes back to your fork</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p>Issue a <text:span text:style-name="T3">pull-request</text:span> to the main (upstream) project asking for your changes to be incorporated</text:p>
@@ -6867,7 +6873,7 @@
           <text:p>Feel free to try this workflow out with the class repo!</text:p>
          </text:list-item>
         </text:list>
-        <text:p><text:span text:style-name="T31"/></text:p>
+        <text:p><text:span text:style-name="T33"/></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -6900,7 +6906,7 @@
           <text:p/>
          </text:list-item>
         </text:list>
-        <text:p><text:span text:style-name="T31"/></text:p>
+        <text:p><text:span text:style-name="T33"/></text:p>
        </text:list-item>
       </text:list>
      </draw:text-box>
@@ -6973,10 +6979,10 @@
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T4">Unit testing is the practice in which each smallest, self-contained unit of the code is tested independently of the others.</text:span></text:p>
+        <text:p><text:span text:style-name="T4">Unit testing is the practice in which each smallest, self-contained </text:span><text:span text:style-name="T4">unit of the code is tested independently of the others.</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T8">You could, for example, start by writing tests for each of the major physics units, and then worry about lower levels</text:span></text:p>
+          <text:p><text:span text:style-name="T8">You could, for example, start by writing tests for each of the major </text:span><text:span text:style-name="T8">physics units, and then worry about lower levels</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -7020,22 +7026,22 @@
         <text:p><text:span text:style-name="T4">Simple example: matrix inversion</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p>Your code have a matrix inversion routine that computes <text:span text:style-name="T40">A</text:span><text:span text:style-name="T41">-1</text:span></text:p>
+          <text:p>Your code have a matrix inversion routine that computes <text:span text:style-name="T42">A</text:span><text:span text:style-name="T43">-1</text:span></text:p>
          </text:list-item>
          <text:list-item>
           <text:p>A unit test for this routine can be:</text:p>
           <text:list>
            <text:list-item>
-            <text:p>Pick a vector <text:span text:style-name="T40">x</text:span></text:p>
+            <text:p>Pick a vector <text:span text:style-name="T42">x</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p>Compute <text:span text:style-name="T40">b = A x</text:span></text:p>
+            <text:p>Compute <text:span text:style-name="T42">b = A x</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p>Compute <text:span text:style-name="T40">x = A</text:span><text:span text:style-name="T42">-1</text:span><text:span text:style-name="T40"> b</text:span></text:p>
+            <text:p>Compute <text:span text:style-name="T42">x = A</text:span><text:span text:style-name="T44">-1</text:span><text:span text:style-name="T42"> b</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p>Does the <text:span text:style-name="T40">x</text:span> you get match (to machine tol) the original <text:span text:style-name="T40">x</text:span>?</text:p>
+            <text:p>Does the <text:span text:style-name="T42">x</text:span> you get match (to machine tol) the original <text:span text:style-name="T42">x</text:span>?</text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
@@ -10668,18 +10674,18 @@
           <text:p>If the answers differ, either:</text:p>
           <text:list>
            <text:list-item>
-            <text:p><text:span text:style-name="T12">You&apos;ve introduced a bug</text:span><text:span text:style-name="T43"> → fix it</text:span></text:p>
+            <text:p><text:span text:style-name="T12">You&apos;ve introduced a bug</text:span><text:span text:style-name="T45"> → fix it</text:span></text:p>
            </text:list-item>
            <text:list-item>
-            <text:p><text:span text:style-name="T43">You&apos;ve fixed a bug → </text:span><text:span text:style-name="T44">update your benchmark</text:span></text:p>
+            <text:p><text:span text:style-name="T45">You&apos;ve fixed a bug → </text:span><text:span text:style-name="T46">update your benchmark</text:span></text:p>
            </text:list-item>
           </text:list>
          </text:list-item>
         </text:list>
-        <text:p><text:span text:style-name="T45"/></text:p>
+        <text:p><text:span text:style-name="T47"/></text:p>
         <text:list>
          <text:list-header>
-          <text:p><text:span text:style-name="T46"/></text:p>
+          <text:p><text:span text:style-name="T48"/></text:p>
          </text:list-header>
         </text:list>
        </text:list-item>
@@ -10704,33 +10710,33 @@
      <draw:text-box>
       <text:list text:style-name="L4">
        <text:list-item>
-        <text:p><text:span text:style-name="T47">Simplest requirements:</text:span></text:p>
+        <text:p><text:span text:style-name="T49">Simplest requirements:</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T48">You just need a tool to compare the current output to benchmark</text:span></text:p>
+          <text:p><text:span text:style-name="T50">You just need a tool to compare the current output to benchmark</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T49">You can build up a more complex system from here with simple scripting</text:span></text:p>
+          <text:p><text:span text:style-name="T51">You can build up a more complex system from here with simple scripting</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T50">Big codes need a bunch of tests to exercise all possible options for the code</text:span></text:p>
+        <text:p><text:span text:style-name="T52">Big codes need a bunch of tests to exercise all possible options for the code</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T51">If you spend a lot of time hunting down a bug, once you fix it, put a test case in your suite to check that case</text:span></text:p>
+          <text:p><text:span text:style-name="T53">If you spend a lot of time hunting down a bug, once you fix it, put a test case in your suite to check that case</text:span></text:p>
          </text:list-item>
          <text:list-item>
-          <text:p><text:span text:style-name="T51">You&apos;ll never have complete coverage, but your number of tests will grow with time, experience, and code complexity</text:span></text:p>
+          <text:p><text:span text:style-name="T53">You&apos;ll never have complete coverage, but your number of tests will grow with time, experience, and code complexity</text:span></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p><text:span text:style-name="T50">Simple example with my python hydro code</text:span></text:p>
+        <text:p><text:span text:style-name="T52">Simple example with my python hydro code</text:span></text:p>
         <text:list>
          <text:list-item>
-          <text:p><text:span text:style-name="T52">./pyro.py --compare_benchmark advection smooth inputs.smooth</text:span></text:p>
-          <text:p><text:span text:style-name="T46"/></text:p>
+          <text:p><text:span text:style-name="T54">./pyro.py --compare_benchmark advection smooth inputs.smooth</text:span></text:p>
+          <text:p><text:span text:style-name="T48"/></text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -14134,52 +14140,52 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame draw:style-name="gr25" draw:text-style-name="P40" draw:layer="layout" svg:width="26.416cm" svg:height="19.05cm" svg:x="1.016cm" svg:y="0.254cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">Job </text:span><text:span text:style-name="T53">Informa</text:span><text:span text:style-name="T53">tion</text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53">job </text:span><text:span text:style-name="T53">name: <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">inputs </text:span><text:span text:style-name="T53">file: </text:span><text:span text:style-name="T53">inputs_</text:span><text:span text:style-name="T53">2d</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">number </text:span><text:span text:style-name="T53">of MPI </text:span><text:span text:style-name="T53">process</text:span><text:span text:style-name="T53">es <text:s text:c="5"/></text:span><text:span text:style-name="T53">1</text:span></text:p>
-      <text:p><text:span text:style-name="T53">number </text:span><text:span text:style-name="T53">of </text:span><text:span text:style-name="T53">threads </text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/>1</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">CPU </text:span><text:span text:style-name="T53">time </text:span><text:span text:style-name="T53">used </text:span><text:span text:style-name="T53">since </text:span><text:span text:style-name="T53">start </text:span><text:span text:style-name="T53">of </text:span><text:span text:style-name="T53">simulat</text:span><text:span text:style-name="T53">ion </text:span><text:span text:style-name="T53">(CPU-</text:span><text:span text:style-name="T53">hours) <text:s/></text:span><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">0.14739</text:span><text:span text:style-name="T53">97255E-</text:span><text:span text:style-name="T53">01</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">Plotfil</text:span><text:span text:style-name="T53">e </text:span><text:span text:style-name="T53">Informa</text:span><text:span text:style-name="T53">tion</text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53">output </text:span><text:span text:style-name="T53">date: <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">2013-</text:span><text:span text:style-name="T53">05-08</text:span></text:p>
-      <text:p><text:span text:style-name="T53">output </text:span><text:span text:style-name="T53">time: <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">11:39:4</text:span><text:span text:style-name="T53">3</text:span></text:p>
-      <text:p><text:span text:style-name="T53">output </text:span><text:span text:style-name="T53">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">/home/z</text:span><text:span text:style-name="T53">ingale/</text:span><text:span text:style-name="T53">develop</text:span><text:span text:style-name="T53">ment/MA</text:span><text:span text:style-name="T53">ESTRO/E</text:span><text:span text:style-name="T53">xec/TES</text:span><text:span text:style-name="T53">T_PROBL</text:span><text:span text:style-name="T53">EMS/tes</text:span><text:span text:style-name="T53">t2</text:span></text:p>
-      <text:p><text:span text:style-name="T53">time to </text:span><text:span text:style-name="T53">write </text:span><text:span text:style-name="T53">plotfil</text:span><text:span text:style-name="T53">e (s) <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">0.54831</text:span><text:span text:style-name="T53">40945 <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">Build </text:span><text:span text:style-name="T53">Informa</text:span><text:span text:style-name="T53">tion</text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53">build </text:span><text:span text:style-name="T53">date: <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s/>2013-</text:span><text:span text:style-name="T53">05-08 </text:span><text:span text:style-name="T53">11:38:0</text:span><text:span text:style-name="T53">4.55371</text:span><text:span text:style-name="T53">4</text:span></text:p>
-      <text:p><text:span text:style-name="T53">build </text:span><text:span text:style-name="T53">machine</text:span><text:span text:style-name="T53">: Linux </text:span><text:span text:style-name="T53">nan.ast</text:span><text:span text:style-name="T53">ro.suny</text:span><text:span text:style-name="T53">sb.edu </text:span><text:span text:style-name="T53">3.8.9-</text:span><text:span text:style-name="T53">200.fc1</text:span><text:span text:style-name="T53">8.x86_6</text:span><text:span text:style-name="T53">4 #1 </text:span><text:span text:style-name="T53">SMP Fri </text:span><text:span text:style-name="T53">Apr 26 </text:span><text:span text:style-name="T53">12:50:0</text:span><text:span text:style-name="T53">7 UTC </text:span><text:span text:style-name="T53">2013 x8</text:span></text:p>
-      <text:p><text:span text:style-name="T53">6_64 </text:span><text:span text:style-name="T53">x86_64 </text:span><text:span text:style-name="T53">x86_64 </text:span><text:span text:style-name="T53">GNU/Lin</text:span><text:span text:style-name="T53">ux</text:span></text:p>
-      <text:p><text:span text:style-name="T53">build </text:span><text:span text:style-name="T53">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">/home/z</text:span><text:span text:style-name="T53">ingale/</text:span><text:span text:style-name="T53">develop</text:span><text:span text:style-name="T53">ment/MA</text:span><text:span text:style-name="T53">ESTRO/E</text:span><text:span text:style-name="T53">xec/TES</text:span><text:span text:style-name="T53">T_PROBL</text:span><text:span text:style-name="T53">EMS/tes</text:span><text:span text:style-name="T53">t2</text:span></text:p>
-      <text:p><text:span text:style-name="T53">BoxLib </text:span><text:span text:style-name="T53">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T53">/home/z</text:span><text:span text:style-name="T53">ingale/</text:span><text:span text:style-name="T53">develop</text:span><text:span text:style-name="T53">ment/Bo</text:span><text:span text:style-name="T53">xLib/</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">MAESTRO </text:span><text:span text:style-name="T53"><text:s text:c="3"/>git </text:span><text:span text:style-name="T53">hash: </text:span><text:span text:style-name="T53">bad8ea8</text:span><text:span text:style-name="T53">d66871a</text:span><text:span text:style-name="T53">2172dcb</text:span><text:span text:style-name="T53">276643e</text:span><text:span text:style-name="T53">dce53f7</text:span><text:span text:style-name="T53">39695</text:span></text:p>
-      <text:p><text:span text:style-name="T53">BoxLib <text:s/></text:span><text:span text:style-name="T53"><text:s text:c="3"/>git </text:span><text:span text:style-name="T53">hash: </text:span><text:span text:style-name="T53">febf34d</text:span><text:span text:style-name="T53">ba7cc70</text:span><text:span text:style-name="T53">1a78c73</text:span><text:span text:style-name="T53">e16a543</text:span><text:span text:style-name="T53">f062cf3</text:span><text:span text:style-name="T53">6d587</text:span></text:p>
-      <text:p><text:span text:style-name="T53">AstroDe</text:span><text:span text:style-name="T53">v <text:s text:c="2"/>git </text:span><text:span text:style-name="T53">hash: </text:span><text:span text:style-name="T53">5316edb</text:span><text:span text:style-name="T53">829577f</text:span><text:span text:style-name="T53">80977fd</text:span><text:span text:style-name="T53">2db8a11</text:span><text:span text:style-name="T53">3ccc4da</text:span><text:span text:style-name="T53">42e02</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">modules </text:span><text:span text:style-name="T53">used: <text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">Util/mo</text:span><text:span text:style-name="T53">del_par</text:span><text:span text:style-name="T53">ser</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">Util/ra</text:span><text:span text:style-name="T53">ndom</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">Util/VO</text:span><text:span text:style-name="T53">DE</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">Util/BL</text:span><text:span text:style-name="T53">AS</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">Source</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">../..</text:span><text:span text:style-name="T53">/../Mic</text:span><text:span text:style-name="T53">rophysi</text:span><text:span text:style-name="T53">cs/EOS</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">../..</text:span><text:span text:style-name="T53">/../Mic</text:span><text:span text:style-name="T53">rophysi</text:span><text:span text:style-name="T53">cs/EOS/</text:span><text:span text:style-name="T53">helmeos</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">../..</text:span><text:span text:style-name="T53">/../Mic</text:span><text:span text:style-name="T53">rophysi</text:span><text:span text:style-name="T53">cs/netw</text:span><text:span text:style-name="T53">orks/ig</text:span><text:span text:style-name="T53">nition_</text:span><text:span text:style-name="T53">simple</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">../..</text:span><text:span text:style-name="T53">/../Mic</text:span><text:span text:style-name="T53">rophysi</text:span><text:span text:style-name="T53">cs/cond</text:span><text:span text:style-name="T53">uctivit</text:span><text:span text:style-name="T53">y/timme</text:span><text:span text:style-name="T53">s_stell</text:span><text:span text:style-name="T53">ar</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"/></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">Job </text:span><text:span text:style-name="T55">Informa</text:span><text:span text:style-name="T55">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55">job </text:span><text:span text:style-name="T55">name: <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">inputs </text:span><text:span text:style-name="T55">file: </text:span><text:span text:style-name="T55">inputs_</text:span><text:span text:style-name="T55">2d</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">number </text:span><text:span text:style-name="T55">of MPI </text:span><text:span text:style-name="T55">process</text:span><text:span text:style-name="T55">es <text:s text:c="5"/></text:span><text:span text:style-name="T55">1</text:span></text:p>
+      <text:p><text:span text:style-name="T55">number </text:span><text:span text:style-name="T55">of </text:span><text:span text:style-name="T55">threads </text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/>1</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">CPU </text:span><text:span text:style-name="T55">time </text:span><text:span text:style-name="T55">used </text:span><text:span text:style-name="T55">since </text:span><text:span text:style-name="T55">start </text:span><text:span text:style-name="T55">of </text:span><text:span text:style-name="T55">simulat</text:span><text:span text:style-name="T55">ion </text:span><text:span text:style-name="T55">(CPU-</text:span><text:span text:style-name="T55">hours) <text:s/></text:span><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">0.14739</text:span><text:span text:style-name="T55">97255E-</text:span><text:span text:style-name="T55">01</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">Plotfil</text:span><text:span text:style-name="T55">e </text:span><text:span text:style-name="T55">Informa</text:span><text:span text:style-name="T55">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55">output </text:span><text:span text:style-name="T55">date: <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">2013-</text:span><text:span text:style-name="T55">05-08</text:span></text:p>
+      <text:p><text:span text:style-name="T55">output </text:span><text:span text:style-name="T55">time: <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">11:39:4</text:span><text:span text:style-name="T55">3</text:span></text:p>
+      <text:p><text:span text:style-name="T55">output </text:span><text:span text:style-name="T55">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">/home/z</text:span><text:span text:style-name="T55">ingale/</text:span><text:span text:style-name="T55">develop</text:span><text:span text:style-name="T55">ment/MA</text:span><text:span text:style-name="T55">ESTRO/E</text:span><text:span text:style-name="T55">xec/TES</text:span><text:span text:style-name="T55">T_PROBL</text:span><text:span text:style-name="T55">EMS/tes</text:span><text:span text:style-name="T55">t2</text:span></text:p>
+      <text:p><text:span text:style-name="T55">time to </text:span><text:span text:style-name="T55">write </text:span><text:span text:style-name="T55">plotfil</text:span><text:span text:style-name="T55">e (s) <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">0.54831</text:span><text:span text:style-name="T55">40945 <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">Build </text:span><text:span text:style-name="T55">Informa</text:span><text:span text:style-name="T55">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55">build </text:span><text:span text:style-name="T55">date: <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s/>2013-</text:span><text:span text:style-name="T55">05-08 </text:span><text:span text:style-name="T55">11:38:0</text:span><text:span text:style-name="T55">4.55371</text:span><text:span text:style-name="T55">4</text:span></text:p>
+      <text:p><text:span text:style-name="T55">build </text:span><text:span text:style-name="T55">machine</text:span><text:span text:style-name="T55">: Linux </text:span><text:span text:style-name="T55">nan.ast</text:span><text:span text:style-name="T55">ro.suny</text:span><text:span text:style-name="T55">sb.edu </text:span><text:span text:style-name="T55">3.8.9-</text:span><text:span text:style-name="T55">200.fc1</text:span><text:span text:style-name="T55">8.x86_6</text:span><text:span text:style-name="T55">4 #1 </text:span><text:span text:style-name="T55">SMP Fri </text:span><text:span text:style-name="T55">Apr 26 </text:span><text:span text:style-name="T55">12:50:0</text:span><text:span text:style-name="T55">7 UTC </text:span><text:span text:style-name="T55">2013 x8</text:span></text:p>
+      <text:p><text:span text:style-name="T55">6_64 </text:span><text:span text:style-name="T55">x86_64 </text:span><text:span text:style-name="T55">x86_64 </text:span><text:span text:style-name="T55">GNU/Lin</text:span><text:span text:style-name="T55">ux</text:span></text:p>
+      <text:p><text:span text:style-name="T55">build </text:span><text:span text:style-name="T55">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">/home/z</text:span><text:span text:style-name="T55">ingale/</text:span><text:span text:style-name="T55">develop</text:span><text:span text:style-name="T55">ment/MA</text:span><text:span text:style-name="T55">ESTRO/E</text:span><text:span text:style-name="T55">xec/TES</text:span><text:span text:style-name="T55">T_PROBL</text:span><text:span text:style-name="T55">EMS/tes</text:span><text:span text:style-name="T55">t2</text:span></text:p>
+      <text:p><text:span text:style-name="T55">BoxLib </text:span><text:span text:style-name="T55">dir: <text:s text:c="3"/></text:span><text:span text:style-name="T55">/home/z</text:span><text:span text:style-name="T55">ingale/</text:span><text:span text:style-name="T55">develop</text:span><text:span text:style-name="T55">ment/Bo</text:span><text:span text:style-name="T55">xLib/</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">MAESTRO </text:span><text:span text:style-name="T55"><text:s text:c="3"/>git </text:span><text:span text:style-name="T55">hash: </text:span><text:span text:style-name="T55">bad8ea8</text:span><text:span text:style-name="T55">d66871a</text:span><text:span text:style-name="T55">2172dcb</text:span><text:span text:style-name="T55">276643e</text:span><text:span text:style-name="T55">dce53f7</text:span><text:span text:style-name="T55">39695</text:span></text:p>
+      <text:p><text:span text:style-name="T55">BoxLib <text:s/></text:span><text:span text:style-name="T55"><text:s text:c="3"/>git </text:span><text:span text:style-name="T55">hash: </text:span><text:span text:style-name="T55">febf34d</text:span><text:span text:style-name="T55">ba7cc70</text:span><text:span text:style-name="T55">1a78c73</text:span><text:span text:style-name="T55">e16a543</text:span><text:span text:style-name="T55">f062cf3</text:span><text:span text:style-name="T55">6d587</text:span></text:p>
+      <text:p><text:span text:style-name="T55">AstroDe</text:span><text:span text:style-name="T55">v <text:s text:c="2"/>git </text:span><text:span text:style-name="T55">hash: </text:span><text:span text:style-name="T55">5316edb</text:span><text:span text:style-name="T55">829577f</text:span><text:span text:style-name="T55">80977fd</text:span><text:span text:style-name="T55">2db8a11</text:span><text:span text:style-name="T55">3ccc4da</text:span><text:span text:style-name="T55">42e02</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">modules </text:span><text:span text:style-name="T55">used: <text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">Util/mo</text:span><text:span text:style-name="T55">del_par</text:span><text:span text:style-name="T55">ser</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">Util/ra</text:span><text:span text:style-name="T55">ndom</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">Util/VO</text:span><text:span text:style-name="T55">DE</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">Util/BL</text:span><text:span text:style-name="T55">AS</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">Source</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">../..</text:span><text:span text:style-name="T55">/../Mic</text:span><text:span text:style-name="T55">rophysi</text:span><text:span text:style-name="T55">cs/EOS</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">../..</text:span><text:span text:style-name="T55">/../Mic</text:span><text:span text:style-name="T55">rophysi</text:span><text:span text:style-name="T55">cs/EOS/</text:span><text:span text:style-name="T55">helmeos</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">../..</text:span><text:span text:style-name="T55">/../Mic</text:span><text:span text:style-name="T55">rophysi</text:span><text:span text:style-name="T55">cs/netw</text:span><text:span text:style-name="T55">orks/ig</text:span><text:span text:style-name="T55">nition_</text:span><text:span text:style-name="T55">simple</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">../..</text:span><text:span text:style-name="T55">/../Mic</text:span><text:span text:style-name="T55">rophysi</text:span><text:span text:style-name="T55">cs/cond</text:span><text:span text:style-name="T55">uctivit</text:span><text:span text:style-name="T55">y/timme</text:span><text:span text:style-name="T55">s_stell</text:span><text:span text:style-name="T55">ar</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"/></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
@@ -14193,47 +14199,47 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame draw:style-name="gr25" draw:text-style-name="P40" draw:layer="layout" svg:width="26.416cm" svg:height="19.05cm" svg:x="1.016cm" svg:y="0.254cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T53">FCOMP: <text:s/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">gfortra</text:span><text:span text:style-name="T53">n</text:span></text:p>
-      <text:p><text:span text:style-name="T53">FCOMP </text:span><text:span text:style-name="T53">version</text:span><text:span text:style-name="T53">: <text:s text:c="3"/></text:span><text:span text:style-name="T53">gcc </text:span><text:span text:style-name="T53">version </text:span><text:span text:style-name="T53">4.7.2 </text:span><text:span text:style-name="T53">2012110</text:span><text:span text:style-name="T53">9 (Red </text:span><text:span text:style-name="T53">Hat </text:span><text:span text:style-name="T53">4.7.2-</text:span><text:span text:style-name="T53">8) </text:span><text:span text:style-name="T53">(GCC)</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">F90 </text:span><text:span text:style-name="T53">compile </text:span><text:span text:style-name="T53">line: </text:span><text:span text:style-name="T53">mpif90 <text:s/></text:span><text:span text:style-name="T53">-Jt/Lin</text:span><text:span text:style-name="T53">ux.gfor</text:span><text:span text:style-name="T53">tran.de</text:span><text:span text:style-name="T53">bug.mpi</text:span><text:span text:style-name="T53">/m </text:span><text:span text:style-name="T53">-It/Lin</text:span><text:span text:style-name="T53">ux.gfor</text:span><text:span text:style-name="T53">tran.de</text:span><text:span text:style-name="T53">bug.mpi</text:span><text:span text:style-name="T53">/m -g </text:span><text:span text:style-name="T53">-fno-</text:span><text:span text:style-name="T53">range-</text:span></text:p>
-      <text:p><text:span text:style-name="T53">check </text:span><text:span text:style-name="T53">-O1 </text:span><text:span text:style-name="T53">-fbound</text:span><text:span text:style-name="T53">s-check </text:span><text:span text:style-name="T53">-fbackt</text:span><text:span text:style-name="T53">race </text:span><text:span text:style-name="T53">-Wunini</text:span><text:span text:style-name="T53">tialize</text:span><text:span text:style-name="T53">d </text:span><text:span text:style-name="T53">-Wunuse</text:span><text:span text:style-name="T53">d </text:span><text:span text:style-name="T53">-ffpe-</text:span><text:span text:style-name="T53">trap=in</text:span><text:span text:style-name="T53">valid </text:span><text:span text:style-name="T53">-finit-</text:span><text:span text:style-name="T53">real=na</text:span><text:span text:style-name="T53">n <text:s/>-I..</text:span></text:p>
-      <text:p><text:span text:style-name="T53">/../../</text:span><text:span text:style-name="T53">Microph</text:span><text:span text:style-name="T53">ysics/E</text:span><text:span text:style-name="T53">OS/helm</text:span><text:span text:style-name="T53">eos <text:s/>-c</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">F77 </text:span><text:span text:style-name="T53">compile </text:span><text:span text:style-name="T53">line: </text:span><text:span text:style-name="T53">gfortra</text:span><text:span text:style-name="T53">n <text:s text:c="2"/></text:span><text:span text:style-name="T53">-Jt/Lin</text:span><text:span text:style-name="T53">ux.gfor</text:span><text:span text:style-name="T53">tran.de</text:span><text:span text:style-name="T53">bug.mpi</text:span><text:span text:style-name="T53">/m </text:span><text:span text:style-name="T53">-It/Lin</text:span><text:span text:style-name="T53">ux.gfor</text:span><text:span text:style-name="T53">tran.de</text:span><text:span text:style-name="T53">bug.mpi</text:span><text:span text:style-name="T53">/m -g </text:span><text:span text:style-name="T53">-fno-</text:span><text:span text:style-name="T53">ran</text:span></text:p>
-      <text:p><text:span text:style-name="T53">ge-</text:span><text:span text:style-name="T53">check </text:span><text:span text:style-name="T53">-O1 </text:span><text:span text:style-name="T53">-fbound</text:span><text:span text:style-name="T53">s-check </text:span><text:span text:style-name="T53">-fbackt</text:span><text:span text:style-name="T53">race </text:span><text:span text:style-name="T53">-Wunini</text:span><text:span text:style-name="T53">tialize</text:span><text:span text:style-name="T53">d </text:span><text:span text:style-name="T53">-Wunuse</text:span><text:span text:style-name="T53">d </text:span><text:span text:style-name="T53">-ffpe-</text:span><text:span text:style-name="T53">trap=in</text:span><text:span text:style-name="T53">valid </text:span><text:span text:style-name="T53">-finit-</text:span><text:span text:style-name="T53">real=na</text:span><text:span text:style-name="T53">n <text:s/>-</text:span></text:p>
-      <text:p><text:span text:style-name="T53">I../../</text:span><text:span text:style-name="T53">../Micr</text:span><text:span text:style-name="T53">ophysic</text:span><text:span text:style-name="T53">s/EOS/h</text:span><text:span text:style-name="T53">elmeos <text:s/></text:span><text:span text:style-name="T53">-c</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">C </text:span><text:span text:style-name="T53">compile </text:span><text:span text:style-name="T53">line: <text:s text:c="2"/></text:span><text:span text:style-name="T53">gcc <text:s/></text:span><text:span text:style-name="T53">-std=c9</text:span><text:span text:style-name="T53">9 -Wall </text:span><text:span text:style-name="T53">-g -O1 </text:span><text:span text:style-name="T53">-DBL_Li</text:span><text:span text:style-name="T53">nux </text:span><text:span text:style-name="T53">-DBL_FO</text:span><text:span text:style-name="T53">RT_USE_</text:span><text:span text:style-name="T53">UNDERSC</text:span><text:span text:style-name="T53">ORE <text:s text:c="2"/></text:span><text:span text:style-name="T53">-c</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">linker </text:span><text:span text:style-name="T53">line: <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">mpif90 <text:s/></text:span><text:span text:style-name="T53">-Jt/Lin</text:span><text:span text:style-name="T53">ux.gfor</text:span><text:span text:style-name="T53">tran.de</text:span><text:span text:style-name="T53">bug.mpi</text:span><text:span text:style-name="T53">/m </text:span><text:span text:style-name="T53">-It/Lin</text:span><text:span text:style-name="T53">ux.gfor</text:span><text:span text:style-name="T53">tran.de</text:span><text:span text:style-name="T53">bug.mpi</text:span><text:span text:style-name="T53">/m -g </text:span><text:span text:style-name="T53">-fno-</text:span><text:span text:style-name="T53">range-</text:span></text:p>
-      <text:p><text:span text:style-name="T53">check </text:span><text:span text:style-name="T53">-O1 </text:span><text:span text:style-name="T53">-fbound</text:span><text:span text:style-name="T53">s-check </text:span><text:span text:style-name="T53">-fbackt</text:span><text:span text:style-name="T53">race </text:span><text:span text:style-name="T53">-Wunini</text:span><text:span text:style-name="T53">tialize</text:span><text:span text:style-name="T53">d </text:span><text:span text:style-name="T53">-Wunuse</text:span><text:span text:style-name="T53">d </text:span><text:span text:style-name="T53">-ffpe-</text:span><text:span text:style-name="T53">trap=in</text:span><text:span text:style-name="T53">valid </text:span><text:span text:style-name="T53">-finit-</text:span><text:span text:style-name="T53">real=na</text:span><text:span text:style-name="T53">n <text:s/>-I..</text:span></text:p>
-      <text:p><text:span text:style-name="T53">/../../</text:span><text:span text:style-name="T53">Microph</text:span><text:span text:style-name="T53">ysics/E</text:span><text:span text:style-name="T53">OS/helm</text:span><text:span text:style-name="T53">eos</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">Grid </text:span><text:span text:style-name="T53">Informa</text:span><text:span text:style-name="T53">tion</text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">level: </text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/>1</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">number </text:span><text:span text:style-name="T53">of </text:span><text:span text:style-name="T53">boxes = </text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/>60</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">maximum </text:span><text:span text:style-name="T53">zones <text:s text:c="2"/></text:span><text:span text:style-name="T53">= <text:s text:c="6"/></text:span><text:span text:style-name="T53"><text:s text:c="3"/>384 <text:s/></text:span><text:span text:style-name="T53"><text:s text:c="7"/></text:span><text:span text:style-name="T53">640</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">Boundar</text:span><text:span text:style-name="T53">y </text:span><text:span text:style-name="T53">Conditi</text:span><text:span text:style-name="T53">ons</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">-x: </text:span><text:span text:style-name="T53">periodi</text:span><text:span text:style-name="T53">c <text:s text:c="6"/></text:span><text:span text:style-name="T53"><text:s text:c="5"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">+x: </text:span><text:span text:style-name="T53">periodi</text:span><text:span text:style-name="T53">c <text:s text:c="6"/></text:span><text:span text:style-name="T53"><text:s text:c="5"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">-y: </text:span><text:span text:style-name="T53">slip </text:span><text:span text:style-name="T53">wall <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s text:c="7"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">+y: </text:span><text:span text:style-name="T53">outlet <text:s/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="4"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="2"/></text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s/></text:span><text:span text:style-name="T53">Species </text:span><text:span text:style-name="T53">Informa</text:span><text:span text:style-name="T53">tion</text:span></text:p>
-      <text:p><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">=======</text:span><text:span text:style-name="T53">==</text:span></text:p>
-      <text:p><text:span text:style-name="T53">index <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="6"/></text:span><text:span text:style-name="T53">name <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s text:c="7"/></text:span><text:span text:style-name="T53">short </text:span><text:span text:style-name="T53">name <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s text:c="4"/>A <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="5"/>Z</text:span></text:p>
-      <text:p><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">-------</text:span><text:span text:style-name="T53">--</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">1 <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">carbon-</text:span><text:span text:style-name="T53">12 <text:s text:c="5"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s/>C12 <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/>12.00 </text:span><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">6.00</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">2 <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">oxygen-</text:span><text:span text:style-name="T53">16 <text:s text:c="5"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s/>O16 <text:s text:c="3"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/>16.00 </text:span><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">8.00</text:span></text:p>
-      <text:p><text:span text:style-name="T53"><text:s text:c="4"/></text:span><text:span text:style-name="T53">3 <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/></text:span><text:span text:style-name="T53">magnesi</text:span><text:span text:style-name="T53">um-24 <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s text:c="8"/></text:span><text:span text:style-name="T53"><text:s/>Mg24 <text:s text:c="2"/></text:span><text:span text:style-name="T53"><text:s text:c="2"/>24.00 </text:span><text:span text:style-name="T53"><text:s text:c="3"/></text:span><text:span text:style-name="T53">12.00</text:span></text:p>
+      <text:p><text:span text:style-name="T55">FCOMP: <text:s/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">gfortra</text:span><text:span text:style-name="T55">n</text:span></text:p>
+      <text:p><text:span text:style-name="T55">FCOMP </text:span><text:span text:style-name="T55">version</text:span><text:span text:style-name="T55">: <text:s text:c="3"/></text:span><text:span text:style-name="T55">gcc </text:span><text:span text:style-name="T55">version </text:span><text:span text:style-name="T55">4.7.2 </text:span><text:span text:style-name="T55">2012110</text:span><text:span text:style-name="T55">9 (Red </text:span><text:span text:style-name="T55">Hat </text:span><text:span text:style-name="T55">4.7.2-</text:span><text:span text:style-name="T55">8) </text:span><text:span text:style-name="T55">(GCC)</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">F90 </text:span><text:span text:style-name="T55">compile </text:span><text:span text:style-name="T55">line: </text:span><text:span text:style-name="T55">mpif90 <text:s/></text:span><text:span text:style-name="T55">-Jt/Lin</text:span><text:span text:style-name="T55">ux.gfor</text:span><text:span text:style-name="T55">tran.de</text:span><text:span text:style-name="T55">bug.mpi</text:span><text:span text:style-name="T55">/m </text:span><text:span text:style-name="T55">-It/Lin</text:span><text:span text:style-name="T55">ux.gfor</text:span><text:span text:style-name="T55">tran.de</text:span><text:span text:style-name="T55">bug.mpi</text:span><text:span text:style-name="T55">/m -g </text:span><text:span text:style-name="T55">-fno-</text:span><text:span text:style-name="T55">range-</text:span></text:p>
+      <text:p><text:span text:style-name="T55">check </text:span><text:span text:style-name="T55">-O1 </text:span><text:span text:style-name="T55">-fbound</text:span><text:span text:style-name="T55">s-check </text:span><text:span text:style-name="T55">-fbackt</text:span><text:span text:style-name="T55">race </text:span><text:span text:style-name="T55">-Wunini</text:span><text:span text:style-name="T55">tialize</text:span><text:span text:style-name="T55">d </text:span><text:span text:style-name="T55">-Wunuse</text:span><text:span text:style-name="T55">d </text:span><text:span text:style-name="T55">-ffpe-</text:span><text:span text:style-name="T55">trap=in</text:span><text:span text:style-name="T55">valid </text:span><text:span text:style-name="T55">-finit-</text:span><text:span text:style-name="T55">real=na</text:span><text:span text:style-name="T55">n <text:s/>-I..</text:span></text:p>
+      <text:p><text:span text:style-name="T55">/../../</text:span><text:span text:style-name="T55">Microph</text:span><text:span text:style-name="T55">ysics/E</text:span><text:span text:style-name="T55">OS/helm</text:span><text:span text:style-name="T55">eos <text:s/>-c</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">F77 </text:span><text:span text:style-name="T55">compile </text:span><text:span text:style-name="T55">line: </text:span><text:span text:style-name="T55">gfortra</text:span><text:span text:style-name="T55">n <text:s text:c="2"/></text:span><text:span text:style-name="T55">-Jt/Lin</text:span><text:span text:style-name="T55">ux.gfor</text:span><text:span text:style-name="T55">tran.de</text:span><text:span text:style-name="T55">bug.mpi</text:span><text:span text:style-name="T55">/m </text:span><text:span text:style-name="T55">-It/Lin</text:span><text:span text:style-name="T55">ux.gfor</text:span><text:span text:style-name="T55">tran.de</text:span><text:span text:style-name="T55">bug.mpi</text:span><text:span text:style-name="T55">/m -g </text:span><text:span text:style-name="T55">-fno-</text:span><text:span text:style-name="T55">ran</text:span></text:p>
+      <text:p><text:span text:style-name="T55">ge-</text:span><text:span text:style-name="T55">check </text:span><text:span text:style-name="T55">-O1 </text:span><text:span text:style-name="T55">-fbound</text:span><text:span text:style-name="T55">s-check </text:span><text:span text:style-name="T55">-fbackt</text:span><text:span text:style-name="T55">race </text:span><text:span text:style-name="T55">-Wunini</text:span><text:span text:style-name="T55">tialize</text:span><text:span text:style-name="T55">d </text:span><text:span text:style-name="T55">-Wunuse</text:span><text:span text:style-name="T55">d </text:span><text:span text:style-name="T55">-ffpe-</text:span><text:span text:style-name="T55">trap=in</text:span><text:span text:style-name="T55">valid </text:span><text:span text:style-name="T55">-finit-</text:span><text:span text:style-name="T55">real=na</text:span><text:span text:style-name="T55">n <text:s/>-</text:span></text:p>
+      <text:p><text:span text:style-name="T55">I../../</text:span><text:span text:style-name="T55">../Micr</text:span><text:span text:style-name="T55">ophysic</text:span><text:span text:style-name="T55">s/EOS/h</text:span><text:span text:style-name="T55">elmeos <text:s/></text:span><text:span text:style-name="T55">-c</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">C </text:span><text:span text:style-name="T55">compile </text:span><text:span text:style-name="T55">line: <text:s text:c="2"/></text:span><text:span text:style-name="T55">gcc <text:s/></text:span><text:span text:style-name="T55">-std=c9</text:span><text:span text:style-name="T55">9 -Wall </text:span><text:span text:style-name="T55">-g -O1 </text:span><text:span text:style-name="T55">-DBL_Li</text:span><text:span text:style-name="T55">nux </text:span><text:span text:style-name="T55">-DBL_FO</text:span><text:span text:style-name="T55">RT_USE_</text:span><text:span text:style-name="T55">UNDERSC</text:span><text:span text:style-name="T55">ORE <text:s text:c="2"/></text:span><text:span text:style-name="T55">-c</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">linker </text:span><text:span text:style-name="T55">line: <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">mpif90 <text:s/></text:span><text:span text:style-name="T55">-Jt/Lin</text:span><text:span text:style-name="T55">ux.gfor</text:span><text:span text:style-name="T55">tran.de</text:span><text:span text:style-name="T55">bug.mpi</text:span><text:span text:style-name="T55">/m </text:span><text:span text:style-name="T55">-It/Lin</text:span><text:span text:style-name="T55">ux.gfor</text:span><text:span text:style-name="T55">tran.de</text:span><text:span text:style-name="T55">bug.mpi</text:span><text:span text:style-name="T55">/m -g </text:span><text:span text:style-name="T55">-fno-</text:span><text:span text:style-name="T55">range-</text:span></text:p>
+      <text:p><text:span text:style-name="T55">check </text:span><text:span text:style-name="T55">-O1 </text:span><text:span text:style-name="T55">-fbound</text:span><text:span text:style-name="T55">s-check </text:span><text:span text:style-name="T55">-fbackt</text:span><text:span text:style-name="T55">race </text:span><text:span text:style-name="T55">-Wunini</text:span><text:span text:style-name="T55">tialize</text:span><text:span text:style-name="T55">d </text:span><text:span text:style-name="T55">-Wunuse</text:span><text:span text:style-name="T55">d </text:span><text:span text:style-name="T55">-ffpe-</text:span><text:span text:style-name="T55">trap=in</text:span><text:span text:style-name="T55">valid </text:span><text:span text:style-name="T55">-finit-</text:span><text:span text:style-name="T55">real=na</text:span><text:span text:style-name="T55">n <text:s/>-I..</text:span></text:p>
+      <text:p><text:span text:style-name="T55">/../../</text:span><text:span text:style-name="T55">Microph</text:span><text:span text:style-name="T55">ysics/E</text:span><text:span text:style-name="T55">OS/helm</text:span><text:span text:style-name="T55">eos</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">Grid </text:span><text:span text:style-name="T55">Informa</text:span><text:span text:style-name="T55">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">level: </text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/>1</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">number </text:span><text:span text:style-name="T55">of </text:span><text:span text:style-name="T55">boxes = </text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/>60</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">maximum </text:span><text:span text:style-name="T55">zones <text:s text:c="2"/></text:span><text:span text:style-name="T55">= <text:s text:c="6"/></text:span><text:span text:style-name="T55"><text:s text:c="3"/>384 <text:s/></text:span><text:span text:style-name="T55"><text:s text:c="7"/></text:span><text:span text:style-name="T55">640</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">Boundar</text:span><text:span text:style-name="T55">y </text:span><text:span text:style-name="T55">Conditi</text:span><text:span text:style-name="T55">ons</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">-x: </text:span><text:span text:style-name="T55">periodi</text:span><text:span text:style-name="T55">c <text:s text:c="6"/></text:span><text:span text:style-name="T55"><text:s text:c="5"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">+x: </text:span><text:span text:style-name="T55">periodi</text:span><text:span text:style-name="T55">c <text:s text:c="6"/></text:span><text:span text:style-name="T55"><text:s text:c="5"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">-y: </text:span><text:span text:style-name="T55">slip </text:span><text:span text:style-name="T55">wall <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s text:c="7"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">+y: </text:span><text:span text:style-name="T55">outlet <text:s/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="4"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s/></text:span><text:span text:style-name="T55">Species </text:span><text:span text:style-name="T55">Informa</text:span><text:span text:style-name="T55">tion</text:span></text:p>
+      <text:p><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">=======</text:span><text:span text:style-name="T55">==</text:span></text:p>
+      <text:p><text:span text:style-name="T55">index <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="6"/></text:span><text:span text:style-name="T55">name <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s text:c="7"/></text:span><text:span text:style-name="T55">short </text:span><text:span text:style-name="T55">name <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s text:c="4"/>A <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="5"/>Z</text:span></text:p>
+      <text:p><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">-------</text:span><text:span text:style-name="T55">--</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">1 <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">carbon-</text:span><text:span text:style-name="T55">12 <text:s text:c="5"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s/>C12 <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/>12.00 </text:span><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">6.00</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">2 <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">oxygen-</text:span><text:span text:style-name="T55">16 <text:s text:c="5"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s/>O16 <text:s text:c="3"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/>16.00 </text:span><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">8.00</text:span></text:p>
+      <text:p><text:span text:style-name="T55"><text:s text:c="4"/></text:span><text:span text:style-name="T55">3 <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/></text:span><text:span text:style-name="T55">magnesi</text:span><text:span text:style-name="T55">um-24 <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s text:c="8"/></text:span><text:span text:style-name="T55"><text:s/>Mg24 <text:s text:c="2"/></text:span><text:span text:style-name="T55"><text:s text:c="2"/>24.00 </text:span><text:span text:style-name="T55"><text:s text:c="3"/></text:span><text:span text:style-name="T55">12.00</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr12" draw:text-style-name="P39" draw:layer="layout" svg:width="10.668cm" svg:height="0.962cm" svg:x="17.018cm" svg:y="20.066cm">
@@ -14271,8 +14277,8 @@
         <text:p>If you just want to know how the code gets to a certain function:</text:p>
        </text:list-item>
       </text:list>
-      <text:p text:style-name="P41"><text:span text:style-name="T27">import traceback</text:span></text:p>
-      <text:p text:style-name="P41"><text:span text:style-name="T27">traceback.print_stack()</text:span></text:p>
+      <text:p text:style-name="P41"><text:span text:style-name="T30">import traceback</text:span></text:p>
+      <text:p text:style-name="P41"><text:span text:style-name="T30">traceback.print_stack()</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp4">
