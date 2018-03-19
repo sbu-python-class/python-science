@@ -13,32 +13,37 @@ N = 1024
 
 c = np.zeros((N, N), dtype=np.complex)
 
-xmin = -2
-xmax = 1
-ymin = -1.5
-ymax = 1.5
+region = 2
 
-xmin = 0
-xmax = 0.5
-ymin = -0.75
-ymax = -0.25
+if region == 0:
+    xmin = -2
+    xmax = 1
+    ymin = -1.5
+    ymax = 1.5
 
-# nice spot
-xc = -0.7435669
-yc = 0.1314023
-dx = 0.0022878
+elif region == 1:
+    xmin = 0
+    xmax = 0.5
+    ymin = -0.75
+    ymax = -0.25
 
-xmin = xc-0.5*dx
-xmax = xc+0.5*dx
-ymin = yc-0.5*dx
-ymax = yc+0.5*dx
+elif region == 2:
+    # nice spot
+    xc = -0.7435669
+    yc = 0.1314023
+    dx = 0.004 #0.0022878
 
+    xmin = xc-0.5*dx
+    xmax = xc+0.5*dx
+    ymin = yc-0.5*dx
+    ymax = yc+0.5*dx
 
-# dagger
-#xmin = -0.8
-#xmax = -0.7
-#ymin = 0.0
-#ymax = 0.1
+elif region == 3:
+    # dagger
+    xmin = -0.8
+    xmax = -0.7
+    ymin = 0.0
+    ymax = 0.1
 
 x = np.linspace(xmin, xmax, N, dtype=np.float)
 y = np.linspace(ymin, ymax, N, dtype=np.float)
@@ -51,7 +56,7 @@ z = np.zeros((N,N), dtype=np.complex)
 niter = np.zeros((N,N), dtype=np.int)
 niter[:,:] = -1
 
-MAX_ITER = 1024
+MAX_ITER = 1024 #1024
 
 for n in range(MAX_ITER):
     # potentially faster
@@ -72,7 +77,7 @@ hist, edges = np.histogram(niter, range=(0, MAX_ITER-1), bins=256)
 centers = 0.5*(edges[1:] + edges[:-1])
 
 
-plt.imshow(niter.T, extent=[xmin, xmax, ymin, ymax], origin="lower", cmap="gnuplot2") #cmap="magma_r")
+plt.imshow(np.log10(niter.T), extent=[xmin, xmax, ymin, ymax], origin="lower", cmap="magma_r")
 f = plt.gcf()
 f.set_size_inches(8.0, 8.0)
 #plt.show()
