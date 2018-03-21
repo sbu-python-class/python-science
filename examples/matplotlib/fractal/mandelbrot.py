@@ -55,7 +55,7 @@ z = np.zeros((N,N), dtype=np.complex)
 niter = np.zeros((N,N), dtype=np.int)
 niter[:,:] = -1
 
-MAX_ITER = 1024 #1024
+MAX_ITER = 1024
 
 for n in range(MAX_ITER):
     idx = niter == -1
@@ -66,18 +66,9 @@ for n in range(MAX_ITER):
 # some things may still have not passed
 niter[niter == -1] = MAX_ITER-1
 
-print(niter.min(), niter.max())
-
-# we should do the colors based on putting equal numbers of points in
-# the plot for each color value, using a histogram
-hist, edges = np.histogram(niter, range=(0, MAX_ITER-1), bins=256)
-centers = 0.5*(edges[1:] + edges[:-1])
-
 plt.imshow(np.log10(niter.T), extent=[xmin, xmax, ymin, ymax],
            origin="lower", cmap="magma_r")
 
 f = plt.gcf()
 f.set_size_inches(8.0, 8.0)
 plt.savefig("mandel.png")
-
-
