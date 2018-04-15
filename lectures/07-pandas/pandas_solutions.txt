@@ -1,0 +1,18 @@
+Q1:
+
+all_names = top["name"].unique()
+all_names.dtype
+
+len(all_names)
+
+
+Q2:
+
+what are all the names that appear for both boys and girls?
+
+boy_names = top[top["sex"] == "M"]["name"].unique()
+girl_names = top[top["sex"] == "F"]["name"].unique()
+joint = np.intersect1d(boy_names, girl_names)
+
+
+
