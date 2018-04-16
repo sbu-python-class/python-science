@@ -1,6 +1,6 @@
 Q1:
 
-np.allclose(names.groupby(["year", "sex"]).prop.sum(), 0.9)
+np.allclose(names.groupby(["year", "sex"]).prop.sum(), 1.0)
 
 
 Q2:
