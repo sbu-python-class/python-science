@@ -1,0 +1,12 @@
+Packages to try:
+
+  -- keras
+  -- tensorflow
+  -- scikit-learn
+
+Some nice tutorials:
+
+  -- https://github.com/zotroneneis/machine_learning_basics
+
+
+https://elitedatascience.com/keras-tutorial-deep-learning-in-python
