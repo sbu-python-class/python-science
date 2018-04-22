@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 # to get usage: use -h
-import sys
 import argparse
 
 
@@ -23,10 +22,12 @@ parser.add_argument("extras", metavar="extra", type=str, nargs="*",
 
 args = parser.parse_args()
 
-if args.a: print("-a set")
+if args.a:
+    print("-a set")
 print("-b = {}".format(args.b))
 print("-c = {}".format(args.c))
-if args.darg: print("--dargs set")
+if args.darg:
+    print("--dargs set")
 print("--earg value = {}".format(args.earg))
 
 print(" ")
@@ -39,4 +40,3 @@ if len(args.extras) > 0:
 # want a dictionary view?
 dargs = vars(args)
 print(dargs)
-
