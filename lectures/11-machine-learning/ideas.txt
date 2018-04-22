@@ -10,3 +10,9 @@ Some nice tutorials:
 
 
 https://elitedatascience.com/keras-tutorial-deep-learning-in-python
+
+
+types of machine learning:
+
+https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464
+
