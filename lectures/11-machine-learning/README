@@ -1,0 +1,9 @@
+Note: on older machines, tensorflow generates an illegal instruction
+and crashes python on import.  The issue is the CPU instructions it
+was compiled with.  The solution seems to be to drop down to
+tensorflow 1.5:
+
+https://github.com/tensorflow/tensorflow/issues/17411
+
+On my system, I need to make sure I got numpy from pip (instead of the
+Fedora package manager).
