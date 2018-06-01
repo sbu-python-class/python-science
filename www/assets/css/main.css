@@ -3435,7 +3435,7 @@ input {
 .hide {
 	width: 100%;
         min-height: 0em;
-	max-height: 99em;
+	max-height: 120em;
 	opacity: 1;
 	height: auto;
 	overflow: hidden;
