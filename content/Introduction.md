@@ -1,7 +1,8 @@
 # PHY 546: Python for Scientific Computing
 
 ![xkcd](01-python/python.png)
-(from xkcd.org)
+
+(from https://xkcd.com)
 
 ## Why python?
 
