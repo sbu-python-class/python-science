@@ -1,8 +1,9 @@
 # PHY 546: Python for Scientific Computing
 
 ![xkcd](01-python/python.png)
+(from xkcd.org)
 
-## Why python
+## Why python?
 
 * Python is a very high-level language
 
@@ -30,6 +31,8 @@
 
 * Python is cross-platform and Free
 
+## Language Features
+
 Some of the language features are:
 
 * Dynamical typing
@@ -42,7 +45,10 @@ Some of the language features are:
 
 * Ease of readability (whitespace matters)
 
-But perhaps most importantly, and why we are here:
+
+## Scientific python
+
+Perhaps most importantly, and why we are here:
 
 > Python has been widely adopted in the scientific community.
 

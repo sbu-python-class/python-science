@@ -23,6 +23,14 @@ material will work automatically in the cloud, either on
 [binder](https://mybinder.org/) or [google
 colab](https://research.google.com/colaboratory/).
 
+If you have python successfully installed, you should be able to start
+the python interpreter at the command line as: `python`.  A shell will
+come up, and you can try out your first program:
+
+```
+print("hello, world")
+```
+
 
 ## Following along in class
 
