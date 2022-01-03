@@ -1,10 +1,10 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: REU Tutorial on Python
+title: PHY 546: Python for Scientific Computing
 author: <a href="https://zingale.github.io">Michael Zingale</a>
 #logo: logo.png
-copyright: "2021"
+copyright: "2022"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -29,7 +29,7 @@ html:
   use_repository_button: true
   extra_footer: |
     <p>
-    &copy; 2021; CC-BY-NC-SA 4.0
+    &copy; 2022; CC-BY-NC-SA 4.0
     <p>
 
 sphinx:
