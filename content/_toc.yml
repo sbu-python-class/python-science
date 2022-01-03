@@ -1,19 +1,27 @@
 format: jb-book
 root: Introduction
-chapters:
-  - file: 01-python/python
-    sections:
+parts:
+  - caption: Getting Started:
+    chapters:
     - file: 01-python/w1-jupyter.ipynb
-    - file: 01-python/w1-python-datatypes.ipynb
-    - file: 01-python/w2-python-advanced-datatypes.ipynb
-    - file: 01-python/w2-python-control-flow.ipynb
-    - file: 01-python/w2-python-exercises.ipynb
-    - file: 01-python/w3-python-functions.ipynb
-    - file: 01-python/w3-python-exceptions.ipynb
-    - file: 01-python/w3-python-exercises.ipynb
-    - file: 01-python/w4-python-classes.ipynb
-    - file: 01-python/w4-python-modules.ipynb
-    - file: 01-python/w4-python-exercises.ipynb
-    - file: 01-python/w5-python-more-examples.ipynb
-    - file: 01-python/python-io.ipynb
-    - file: 01-python/projectile-motion.ipynb
+
+  - caption: Python Basics
+    chapters:
+    - file: 01-python/datatypes
+      sections:
+      - file: 01-python/w1-python-datatypes.ipynb
+      - file: 01-python/w2-python-advanced-datatypes.ipynb
+      - file: 01-python/w2-python-control-flow.ipynb
+      - file: 01-python/w2-python-exercises.ipynb
+    - file: 01-python/functions-classes
+      sections:
+      - file: 01-python/w3-python-functions.ipynb
+      - file: 01-python/w3-python-exercises.ipynb
+      - file: 01-python/w4-python-classes.ipynb
+      - file: 01-python/w4-python-modules.ipynb
+      - file: 01-python/w4-python-exercises.ipynb
+    - file: 01-python/misc
+      sections:
+      - file: 01-python/w3-python-exceptions.ipynb
+      - file: 01-python/python-io.ipynb
+      - file: 01-python/w5-python-more-examples.ipynb
