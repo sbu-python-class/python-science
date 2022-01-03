@@ -1,7 +1,7 @@
 format: jb-book
 root: Introduction
 parts:
-  - caption: Getting Started:
+  - caption: Getting Started
     chapters:
     - file: 01-python/w1-jupyter.ipynb
 
