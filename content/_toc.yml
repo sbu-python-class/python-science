@@ -26,3 +26,28 @@ parts:
       - file: 01-python/w3-python-exceptions.ipynb
       - file: 01-python/python-io.ipynb
       - file: 01-python/w5-python-more-examples.ipynb
+
+  - caption: Arrays
+    chapters:
+    - file: 02-numpy/numpy
+      sections:
+      - file: 02-numpy/numpy-basics.ipynb
+      - file: 02-numpy/numpy-exercises.ipynb
+
+  - caption: Programming Practices
+
+  - caption: Scientific Python
+    chapters:
+    - file: 04-matplotlib/matplotlib
+      sections:
+      - file: 04-matplotlib/matplotlib-basics.ipynb
+      - file: 04-matplotlib/matplotlib-exercises.ipynb
+    - file: 05-scipy/scipy
+      sections:
+      - file: 05-scipy/scipy-basics.ipynb
+      - file: 05-scipy/scipy-exercises.ipynb
+      - file: 05-scipy/scipy-exercises-2.ipynb
+    - file: 06-sympy/sympy
+      sections:
+      - file: 06-sympy/sympy-examples.ipynb
+      - file: 06-sympy/sympy-exercises.ipynb
