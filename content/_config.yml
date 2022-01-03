@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: PHY 546: Python for Scientific Computing
+title: "PHY 546: Python for Scientific Computing"
 author: <a href="https://zingale.github.io">Michael Zingale</a>
 #logo: logo.png
 copyright: "2022"
