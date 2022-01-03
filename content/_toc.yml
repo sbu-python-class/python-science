@@ -3,11 +3,12 @@ root: Introduction
 parts:
   - caption: Getting Started
     chapters:
+    - file: 01-python/installing
     - file: 01-python/w1-jupyter.ipynb
 
   - caption: Python Basics
     chapters:
-    - file: 01-python/datatypes
+    - file: 01-python/basics
       sections:
       - file: 01-python/w1-python-datatypes.ipynb
       - file: 01-python/w2-python-advanced-datatypes.ipynb
