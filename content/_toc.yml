@@ -34,8 +34,6 @@ parts:
       - file: 02-numpy/numpy-basics.ipynb
       - file: 02-numpy/numpy-exercises.ipynb
 
-  - caption: Programming Practices
-
   - caption: Scientific Python
     chapters:
     - file: 04-matplotlib/matplotlib
