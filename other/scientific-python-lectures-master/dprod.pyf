@@ -1,0 +1,9 @@
+python module dprod ! in 
+    interface  ! in :dprod
+        subroutine dprod(x,y,n) ! in :dprod:dprod.f
+            double precision dimension(n), intent(in) :: x
+            double precision, intent(out) :: y
+            integer, optional,check(len(x)>=n),depend(x),intent(in) :: n=len(x)
+        end subroutine dprod
+    end interface 
+end python module dprod
