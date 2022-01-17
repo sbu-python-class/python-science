@@ -1,5 +1,7 @@
 \documentclass[11pt]{article}
 
+\usepackage[tagged]{accessibility}
+
 %\usepackage[cm]{fullpage}
 \usepackage[lmargin=0.75in,rmargin=0.75in,
             tmargin=0.5in,bmargin=0.75in]{geometry}
@@ -11,25 +13,9 @@
 \usepackage{palatino}
 
 % URLs (special font for monospace)
-\usepackage{inconsolata}
-\usepackage[T1]{fontenc}
-
 \usepackage[defaultsans]{cantarell}
 \usepackage[T1]{fontenc}
 
-\usepackage[small,compact]{titlesec}
-\titlespacing{\subsection}{0pt}{*1}{-0.5\parskip}
-\titleformat*{\subsection}{\sffamily\bfseries}
-
-\usepackage{fancyhdr}
-
-\pagestyle{fancy}
-
-\fancyhead{}
-\fancyfoot[LO,LE]{\sffamily \footnotesize PHY 546/Spring 2018---revision 1.01 (2017-11-02)}
-\fancyfoot[CO,CE]{\thepage}
-\renewcommand{\headrulewidth}{0.0pt}
-\renewcommand{\footrulewidth}{0.0pt}
 
 \newenvironment{itemsquish}
   { \begin{itemize}
@@ -39,15 +25,18 @@
     \addtolength{\baselineskip}{-0.25\baselineskip} }
   { \end{itemize} }
 
-
+\hypersetup{
+  pdftitle={PHY 546: Python for Scientific Computing (Spring 2022)},
+  pdflang={en-US}
+}
 
 \begin{document}
 
 \begin{center}
 {\LARGE \sffamily \bfseries PHY 546: Python for Scientific Computing} \\[3mm]
 {\em Instructor}\/: Michael Zingale, ESS 452, michael.zingale@stonybrook.edu \\
-{\em Date/Location}\/: Mondays, 3:00--3:53~pm in ESS 131 \\
-{\em Web:}\/ \url{http://bender.astro.sunysb.edu/classes/python-science/}
+{\em Date/Location}\/: Mondays, 4:25--5:20~pm in Humanities 3017 \\
+{\em Web:}\/ {\small \url{https://sbu-python-class.github.io/python-science/Introduction.html}}
 \end{center}
 
 \subsection*{Learning Goals:}
@@ -59,10 +48,9 @@ in your field.
 
 \subsection*{Format:}
 
-The first few lectures will be delivered in a traditional format: the
-instructor demonstrating some concepts via slides / interactive
-examples.  After that, we will operated in a ``flipped'' manner.
-Students will be expected to read and work through some basic
+The class will be interactive throughout, with students working
+through Jupyter notebooks together with the instructor during the
+class.  Students will be expected to read and work through some basic
 notebooks on their own before class, and then, in class, we will work
 on projects together, sharing what we learn.
 
@@ -108,9 +96,9 @@ We will (try to) discuss the following topics in the course:
   notebooks
 
 \item {\em Software engineering practices} (1 lecture) \\
-  including {\tt git} and github, and unit testing (with nose)
+  including {\tt git} and github, and unit testing (with {\tt pytest})
 
-\item {\em Introduction to the NumPy array library} (1 lecture)
+\item {\em Introduction to the NumPy array library} (2 lecture)
 
 \item {\em Pandas and the data frame} (1 lecture)
 
@@ -120,22 +108,15 @@ We will (try to) discuss the following topics in the course:
 
 \item {\em Introduction to SymPy} (1 lecture)
 
-\item {\em GUIs} (1 lecture)
-
-\item {\em f2py and C extensions} (1.5 lectures)
-
 \item {\em Building applications / packaging} (1 lecture)
 \end{itemsquish}
 
 \noindent Time-permitting, we will also discuss:
 \begin{itemsquish}
-\item {\em MayaVi for 3-d visualization}
-
 \item {\em NetworkX}
 
-\item {\em Interacting with forms on a webpage}
+\item {\em Cython / Numba / extensions}
 
-\item {\em Julia}
 \end{itemsquish}
 
 \noindent The actual course topics and time spent on each topic will depend on the
@@ -150,18 +131,15 @@ class.  Information on how to install python on Windows, Mac OSX, and
 Linux will be posted on the class webpage.
 
 \noindent
-If you don't have access to a computer that can run python, see me,
-and I can try to arrange something for the semester.
+If you don't have access to a computer that can run python, then you will be
+able to follow along for most of the course content using a cloud platform.
 
 
 \subsection*{Slack:}
 %
 We will use the slack team communication tool for all discussion.  You
 will be added to the slack team at the start of the semester and then
-can join in on the conversation at:
-\url{https://python-sbu.slack.com}
-
-Slack is organized into different channels, one for each major topic in class.
+can join in on the conversation at: {\sf phy546-S22}
 
 
 \subsection*{Evaluation:}
@@ -198,22 +176,27 @@ material.
 
 
 
-\subsection*{Americans with Disabilities Act: }
+\subsection*{Student Accessibility Support Center Statement}
 
-\noindent If you have a physical, psychological, medical or learning
-disability that may impact your course work, please contact Disability
-Support Services, ECC (Educational Communications Center) Building,
-Room 128, (631) 632-6748. They will determine with you what
-accommodations, if any, are necessary and appropriate. All information
-and documentation is confidential.
+If you have a physical, psychological, medical, or learning disability
+that may impact your course work, please contact the Student
+Accessibility Support Center, Stony Brook Union Suite 107, (631)
+632-6748, or at sasc@stonybrook.edu. They will determine with you what
+accommodations are necessary and appropriate. All information and
+documentation is confidential.
 
+Students who require assistance during emergency evacuation are
+encouraged to discuss their needs with their professors and the
+Student Accessibility Support Center. For procedures and information
+go to the following website:
+{\small \url{https://ehs.stonybrook.edu//programs/fire-safety/emergency-evacuation/evacuation-guide-disabilities}}
+and search Fire Safety and Evacuation and Disabilities.
 
+\subsection*{Academic Integrity}
 
-\subsection*{Academic Integrity: }
-
-\noindent Each student must pursue his or her academic goals honestly
-and be personally accountable for all submitted work.  Representing
-another person's work as your own is always wrong.  Faculty are
+Each student must pursue his or her academic goals honestly
+and be personally accountable for all submitted work. Representing
+another person's work as your own is always wrong. Faculty are
 required to report any suspected instances of academic dishonesty to
 the Academic Judiciary. Faculty in the Health Sciences Center (School
 of Health Technology \& Management, Nursing, Social Welfare, Dental
@@ -221,53 +204,49 @@ Medicine) and School of Medicine are required to follow their
 school-specific procedures. For more comprehensive information on
 academic integrity, including categories of academic dishonesty,
 please refer to the academic judiciary website at
-\url{http://www.stonybrook.edu/commcms/academic_integrity/}
+\url{http://www.stonybrook.edu/commcms/academic\_integrity/}
+
+\subsection*{Critical Incident Management}
+
+Stony Brook University expects students to respect the rights,
+privileges, and property of other people. Faculty are required to
+report to the Office of Student Conduct and Community Standards any
+disruptive behavior that interrupts their ability to teach,
+compromises the safety of the learning environment, or inhibits
+students' ability to learn. Faculty in the HSC Schools and the School
+of Medicine are required to follow their school-specific
+procedures. Further information about most academic matters can be
+found in the Undergraduate Bulletin, the Undergraduate Class Schedule,
+and the Faculty-Employee Handbook.
+
+Until/unless the latest COVID guidance is explicitly amended by SBU,
+during Spring 2022 ``disruptive behavior'' will include refusal to wear
+a mask during classes.  For the latest COVID guidance, please refer to:
+\url{https://www.stonybrook.edu/commcms/strongertogether/latest.php}.
 
 
+\subsection*{Electronic Communication}
 
-\subsection*{Critical Incident Management: }
-
-\noindent Stony Brook University expects students to respect the
-rights, privileges, and property of other people. Faculty are required
-to report to the Office of Judicial Affairs any disruptive behavior
-that interrupts their ability to teach, compromises the safety of the
-learning environment, or inhibits students' ability to learn.  Faculty
-in the HSC Schools and the School of Medicine are required to follow
-their school-specific procedures.
-
-
-
-\subsection*{Electronic Communication: }
-
-\noindent Email to your University email account is an important way
+Email to your University email account is an important way
 of communicating with you for this course.  For most students the
 email address is `{\tt firstname.lastname@stonybrook.edu}'.
 %, and the account can be accessed here.
 {\em It is your responsibility to read your email received at this
   account.}  For instructions about how to verify your University
-email address see this: \\[0.25em]
-\url{http://it.stonybrook.edu/help/kb/checking-or-changing-your-mail-forwarding-address-in-the-epo}
-\\[0.25em]
-%
-You can set up email forwarding using instructions here: \\[0.25em]
-\url{http://it.stonybrook.edu/help/kb/setting-up-mail-forwarding-in-google-mail}
-\\[0.25em]
-%
+email address see this: \\
+{\footnotesize \url{http://it.stonybrook.edu/help/kb/checking-or-changing-your-mail-forwarding-address-in-the-epo}}\\
 If you choose to forward your University email to another account, we
-are not responsible for any undeliverable messages.
+are not responsible for undeliverable messages.
 
-\subsection*{Religious Observances: }
+\subsection*{Religious Observances}
 
-\noindent See the policy statement regarding religious holidays at
-\\[0.25em] {
-  \url{http://www.stonybrook.edu/registrar/forms/RelHolPol\%20081612\%20cr.pdf}}
-\\[0.25em]
+See the policy statement regarding religious holidays at\hfill\\
+{\footnotesize \url{http://www.stonybrook.edu/commcms/provost/faculty/handbook/employment/religious_holidays_policy.php}} \\
 %
 Students are expected to notify the course professors by email of
 their intention to take time out for religious observance.  This
 should be done as soon as possible but definitely before the end of
 the `add/drop' period.  At that time they can discuss with the
 instructor(s) how they will be able to make up the work covered.
-
 
 \end{document}
