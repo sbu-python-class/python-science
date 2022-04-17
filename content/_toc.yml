@@ -49,3 +49,10 @@ parts:
       sections:
       - file: 06-sympy/sympy-examples.ipynb
       - file: 06-sympy/sympy-exercises.ipynb
+
+  - caption: Machine Learning
+    chapters:
+    - file: 11-machine-learning/machine-learning
+      sections:
+      - file: 11-machine-learning/machine-learning-basics.ipynb
+      - file: 11-machine-learning/keras-mnist.ipynb
