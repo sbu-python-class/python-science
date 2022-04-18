@@ -6,3 +6,4 @@ scipy
 keras
 tensorflow
 pydot
+graphviz
