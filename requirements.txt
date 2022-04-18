@@ -5,3 +5,4 @@ sympy
 scipy
 keras
 tensorflow
+pydot
