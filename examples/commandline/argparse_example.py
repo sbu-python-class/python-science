@@ -3,10 +3,7 @@
 # to get usage: use -h
 import argparse
 
-
 # simple example of argparse
-#
-# ./argparse_example.py -a -b # -c string --darg --earg string extras
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-a", help="the -a option", action="store_true")
@@ -24,19 +21,14 @@ args = parser.parse_args()
 
 if args.a:
     print("-a set")
-print("-b = {}".format(args.b))
-print("-c = {}".format(args.c))
+print(f"-b = {args.b}")
+print(f"-c = {args.c}")
 if args.darg:
     print("--dargs set")
-print("--earg value = {}".format(args.earg))
+print(f"--earg value = {args.earg}")
 
 print(" ")
 print("extra positional arguments: ")
 if len(args.extras) > 0:
     for e in args.extras:
         print(e)
-
-
-# want a dictionary view?
-dargs = vars(args)
-print(dargs)
