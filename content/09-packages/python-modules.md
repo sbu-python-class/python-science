@@ -64,6 +64,22 @@ allowing us to execute it simply as:
 
 ```
 ./hello.py
+
+```
+
+Here we see how the `__name__` variable is treated by python:
+
+* If we import our module into python, then `__name__` is set to the module name
+
+* If we run the module from the command line, then `__name__` is set to `__main__`
+
+## Changing module contents
+
+If we make changes to our module file, then we need to re-import it.  This can be done as:
+
+```python
+import importlib
+example = importlib.reload(example)
 ```
 
 ## Command line arguments

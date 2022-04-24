@@ -60,3 +60,6 @@ parts:
   - caption: Python packaging and applications
     chapters:
     - file: 09-packages/python-modules
+    - file: 09-packages/python-more-modules
+    - file: 09-packages/python-packages
+
