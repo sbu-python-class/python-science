@@ -61,6 +61,19 @@ from mymodule.mandel import mandelbrot
 
 ## setuptools
 
+The current python package recommendation are:
+
+* Installation:
+
+  * `pip` to install packages from PyPI
+  * `conda` for disctribution cross-platform software stacks
+
+* Packaging tools:
+
+  * `setuptools` to create source distributions
+  * `build` for binary distributions
+  * `twine` to upload to PyPI
+
 We'll look at how to use `setuptools` to package our library.  See the
 packaging guidelines here:
 https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
@@ -83,5 +96,31 @@ setup(name='mymodule',
       install_requires=['numpy', 'matplotlib'])
 ```
 
+We can setup in a variety of ways.  Two useful ways are:
 
+* Install:
 
+  `python setup.py install --user`
+
+  This will copy the source files into your install location (likely
+  `~/.local/...`) putting them into your python search path.  Then you
+  can use this package from anywhere.
+
+* Development mode (https://setuptools.pypa.io/en/latest/userguide/development_mode.html):
+
+  `python setup.py develop --user`
+
+  This doesn't actually install anything in your user- or site-wide
+  install location, but instead it creates a special link in that
+  install directory back to your actual project code.
+
+  This allows you to continue to develop the package without needed to
+  re-install each time you change the source.
+
+  You can uninstall via:
+
+  `python setup.py develop --uninstall`
+
+The above put the package in the user-specific install location
+(because of the `--user` flag).  If you leave this off, it will try to
+install in the system-wide path, which might require admin privileges.
