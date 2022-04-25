@@ -61,6 +61,7 @@ class TestClassExample(object):
 
     def test_flat(self):
         assert_array_equal(self.a.flat, np.arange(24))
+```
 
 Put this into a file called `test_class.py` and then we can run as:
 
