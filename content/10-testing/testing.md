@@ -34,8 +34,8 @@ how to run your tests and then any time there is a change, the tests are run.
   * Some people advocate writing a unit test for a specification
     before you write the functions they will test
 
-  * This is called Test-driven development (TDD):
-    https://en.wikipedia.org/wiki/Test-driven_development
+    * This is called Test-driven development (TDD):
+      https://en.wikipedia.org/wiki/Test-driven_development
 
   * This helps you understand the interface, return values,
     side-effects, etc. of what you intend to write

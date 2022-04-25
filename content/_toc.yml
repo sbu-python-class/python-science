@@ -67,4 +67,5 @@ parts:
     chapters:
     - file: 10-testing/testing
     - file: 10-testing/pytest
+    - file: 10-testing/more-pytest
 
