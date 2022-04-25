@@ -63,3 +63,8 @@ parts:
     - file: 09-packages/python-more-modules
     - file: 09-packages/python-packages
 
+  - caption: Unit tests
+    chapters:
+    - file: 10-testing/testing
+    - file: 10-testing/pytest
+
