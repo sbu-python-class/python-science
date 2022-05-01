@@ -69,3 +69,6 @@ parts:
     - file: 10-testing/pytest
     - file: 10-testing/more-pytest
 
+  - caption: Extensions
+    chapters:
+    - file: 12-extensions/extensions-overview
