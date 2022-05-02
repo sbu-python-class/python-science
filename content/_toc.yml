@@ -72,3 +72,4 @@ parts:
   - caption: Extensions
     chapters:
     - file: 12-extensions/extensions-overview
+    - file: 12-extensions/extensions-example

@@ -1,4 +1,4 @@
-from numba import njit, int32
+from numba import njit
 import numpy as np
 
 @njit()
@@ -19,7 +19,7 @@ def mandelbrot(N,
     z = np.zeros((N, N), dtype=np.complex128)
 
     # note: we need to use a numba type here
-    m = np.zeros((N, N), dtype=int32)
+    m = np.zeros((N, N), dtype=np.int32)
 
     for n in range(max_iter):
 
@@ -28,7 +28,7 @@ def mandelbrot(N,
                 if m[i, j] == 0:
                     z[i, j] = z[i, j] * z[i, j] + c[i, j]
 
-                    if np.abs(z[i,j]) > 2:
+                    if np.abs(z[i, j]) > 2:
                         m[i, j] = n
 
     return m
