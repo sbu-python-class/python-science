@@ -26,7 +26,7 @@ def mandelbrot(N,
         for i in range(N):
             for j in range(N):
                 if m[i, j] == 0:
-                    z[i, j] = z[i, j]* z[i, j] + c[i, j]
+                    z[i, j] = z[i, j] * z[i, j] + c[i, j]
 
                     if np.abs(z[i,j]) > 2:
                         m[i, j] = n
