@@ -56,7 +56,7 @@ and weaknesses.
     compiled C code.
 
     The advantage here is that the code looks like python, with some
-    declarations of the variable types wit `cdef`.  Performance can be
+    declarations of the variable types with `cdef`.  Performance can be
     really great when you need to explicitly write out loops over
     NumPy array indices.
 
