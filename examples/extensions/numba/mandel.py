@@ -1,7 +1,7 @@
-from numba import njit, int8
+from numba import njit, int32
 import numpy as np
 
-@njit
+@njit()
 def mandelbrot(N,
                xmin=-2.0, xmax=2.0,
                ymin=-2.0, ymax=2.0,
@@ -19,7 +19,7 @@ def mandelbrot(N,
     z = np.zeros((N, N), dtype=np.complex128)
 
     # note: we need to use a numba type here
-    m = np.zeros((N, N), dtype=int8)
+    m = np.zeros((N, N), dtype=int32)
 
     for n in range(max_iter):
 
