@@ -19,6 +19,7 @@ jobs:
       run: |
         sudo apt-get install python3-pip
         pip install -r requirements.txt
+        pip install sphinx-book-theme==1.0.0 --upgrade
         pip install ghp-import
         PATH="${PATH}:${HOME}/.local/bin"
 
