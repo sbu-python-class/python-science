@@ -1,5 +1,6 @@
 jupyter-book
 matplotlib
+basemap
 numpy
 sympy
 scipy
