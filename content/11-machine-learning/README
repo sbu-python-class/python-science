@@ -7,3 +7,9 @@ https://github.com/tensorflow/tensorflow/issues/17411
 
 On my system, I need to make sure I got numpy from pip (instead of the
 Fedora package manager).
+
+
+
+clustering examples:
+
+https://laxmikants.github.io/blog/neural-network-using-make-moons-dataset/
