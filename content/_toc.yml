@@ -56,6 +56,7 @@ parts:
       sections:
       - file: 11-machine-learning/machine-learning-basics.ipynb
       - file: 11-machine-learning/keras-mnist.ipynb
+      - file: 11-machine-learning/keras-clustering.ipynb
 
   - caption: Python packaging and applications
     chapters:
