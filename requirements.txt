@@ -8,3 +8,4 @@ keras
 tensorflow
 pydot
 graphviz
+scikit-learn
