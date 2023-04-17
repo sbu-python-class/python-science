@@ -1,5 +1,23 @@
 # Tools to Make Your Life Easier
 
+## Version control
+
+Generally, you should put your project into version control.  The most widely used
+package today is [git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
+git will track the changes you make to your code, allow you to revert changes, collaboratively
+develop with others, work on several different features independently from one another while
+keeping the main codebase clean and more.  
+
+git is often used together with [github](https://github.com), which provides a web-based view
+of your source code and provides additional mechanisms for collaboration.
+
+A nice introduction to git/github is provided by the [Software
+Carpentry _Version Control with Git_
+lesson](https://swcarpentry.github.io/git-novice/).
+
+
+## Code checkers
+
 There are a number of tools that help check code for formatting and
 syntax errors that are quite useful for developers.  Many projects
 automatically enforce these tools on changes submitted to github.
