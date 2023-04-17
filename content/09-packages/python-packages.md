@@ -37,9 +37,12 @@ This is a rather common way of structuring a project:
   and also hosts setup files that are used for installation
 
 * `mymodule/mymodule` is the actual python module that we will load.
-   To make python recognize this as a module, we need an `__init__.py`
-   file there -- it can be completely empty.
 
+   ```{important}
+   To make python recognize this as a module, we need an `__init__.py`
+   file there&mdash;it can be completely empty.
+   ```
+   
 * The actual `*.py` files that make up our module are in `mymodule/mymodule`
 
 Right now, this package does not appear in our python search path, so
@@ -48,8 +51,6 @@ directory, and then we can do:
 
 ```python
 import mymodule.mandel
-fig = mymodule.mandel.mandelbrot(256)
-fig.savefig("test.png")
 ```
 
 we could also do:
@@ -74,7 +75,7 @@ The current python package recommendation are:
   * `build` for binary distributions
   * `twine` to upload to PyPI
 
-We'll look at how to use `setuptools` to package our library.  See the
+We'll look at how to use [`setuptools`](https://setuptools.pypa.io/en/latest/index.html) to package our library.  See the
 packaging guidelines here:
 https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
 
@@ -94,6 +95,16 @@ setup(name='mymodule',
       license='BSD',
       packages=find_packages(),
       install_requires=['numpy', 'matplotlib'])
+```
+
+```{note}
+The packaging ecosystem is always evolving.  There are 2 special config files that can
+help customize the package and contain the defaults for other tools: `setup.cfg` and
+`pyproject.toml`.  See:
+
+* [Configuring setuptools using `setup.cfg` files](https://setuptools.pypa.io/en/latest/userguide/declarative_config.html)
+
+* [Configuring setuptools using `pyproject.toml` files](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html)
 ```
 
 ## Installing
