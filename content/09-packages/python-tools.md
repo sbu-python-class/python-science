@@ -4,6 +4,11 @@ There are a number of tools that help check code for formatting and
 syntax errors that are quite useful for developers.  Many projects
 automatically enforce these tools on changes submitted to github.
 
+```{tip}
+Many editors have plugins that can automatically run these tools
+as your write your code.
+```
+
 * [flake8](https://flake8.pycqa.org/en/latest/)
 
   `flake8` is a checker for [PEP 8](https://peps.python.org/pep-0008/)
