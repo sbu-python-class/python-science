@@ -29,5 +29,17 @@ as your write your code.
 
 * [pyupgrade](https://github.com/asottile/pyupgrade)
 
+  `pyupgrade` will upgrade source to a later python standard, making
+  use of new features where available.  For instance, you can run as:
+
+  ```
+  pyupgrade --py39-plus file.py
+  ```
+
+  to update to python 3.9 support.
+
 * [isort](https://pycqa.github.io/isort/)
 
+  `isort` simply sorts the module imports at the top of your modules,
+  grouping the standard python ones together followed by
+  package-specific ones.
