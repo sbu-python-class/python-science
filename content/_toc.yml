@@ -64,6 +64,7 @@ parts:
     - file: 09-packages/python-arguments
     - file: 09-packages/python-more-modules
     - file: 09-packages/python-packages
+    - file: 09-packages/python-tools
 
   - caption: Unit tests
     chapters:
