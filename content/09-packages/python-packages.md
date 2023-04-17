@@ -132,7 +132,7 @@ We can use setup in a variety of ways.  Two useful ways are:
 
   You can uninstall via:
 
-  `python setup.py develop --uninstall`
+  `pip uninstall mymodule`
 
 The above put the package in the user-specific install location
 (because of the `--user` flag).  If you leave this off, it will try to
