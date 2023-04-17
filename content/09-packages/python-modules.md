@@ -63,15 +63,14 @@ Additionally, on a Unix system, we can add:
 
 to the top and then mark the file as executable, via:
 
-```
+```bash
 chmod a+x hello.py
 ```
 
 allowing us to execute it simply as:
 
-```
+```bash
 ./hello.py
-
 ```
 
 ```{hint}
