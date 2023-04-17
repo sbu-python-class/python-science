@@ -9,3 +9,5 @@ tensorflow
 pydot
 graphviz
 scikit-learn
+sphinx-copybutton
+sphinx-prompt

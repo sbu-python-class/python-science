@@ -8,6 +8,13 @@ Then we can load it on in python (or Jupyter) and use the capabilities
 it provides or make it a standalone program that can be run from the
 command line.
 
+```{tip}
+Jupyter is great for interactive explorations and sharing your workflow with others
+in a self-contained way.  But if there is an operation that you do over and over,
+you should put it into a separate module that you import.  That way you only need to
+maintain and debug a single instance of the function, and all your workflows can reuse it.
+```
+
 
 ## Editors
 
@@ -37,16 +44,16 @@ There are two ways we can use this.
 
 * Inside of python (or IPython), we can do:
 
-  ```
+  ```python
   import hello
   hello.hello()
   ```
 
 * From the command line, we can do:
 
-  ```
+  ```python
   python hello.py
-  ```
+  ``` 
 
 Additionally, on a Unix system, we can add:
 
