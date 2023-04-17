@@ -96,7 +96,9 @@ setup(name='mymodule',
       install_requires=['numpy', 'matplotlib'])
 ```
 
-We can setup in a variety of ways.  Two useful ways are:
+## Installing
+
+We can use setup in a variety of ways.  Two useful ways are:
 
 * Install:
 
@@ -124,3 +126,31 @@ We can setup in a variety of ways.  Two useful ways are:
 The above put the package in the user-specific install location
 (because of the `--user` flag).  If you leave this off, it will try to
 install in the system-wide path, which might require admin privileges.
+
+
+## Using our module
+
+Once the module is installed, we can use it from any directory.  For example, if we do:
+
+```python
+import mymodule
+print(mymodule.__file__)
+```
+
+it shows us where the module is installed on our system.  In my case, it is:
+
+```
+/home/zingale/.local/lib/python3.11/site-packages/mymodule-0.0.0-py3.11.egg/mymodule/__init__.py
+```
+
+Let's generate a plot:
+
+```
+from mymodule.mandel import mandelbrot
+fig = mandelbrot(128)
+fig.savefig("test.png")
+```
+
+This produces the plot shown below:
+
+![sample Mandelbrot set image using 128x128 points](test.png)
