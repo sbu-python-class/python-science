@@ -36,7 +36,7 @@ Here's an example:
 import numpy as np
 from numpy.testing import assert_array_equal
 
-class TestClassExample(object):
+class TestClassExample:
 
     @classmethod
     def setup_class(cls):
@@ -66,6 +66,6 @@ class TestClassExample(object):
 Put this into a file called `test_class.py` and then we can run as:
 
 ```
-pytest
+pytest -v
 ```
 

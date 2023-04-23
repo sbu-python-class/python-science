@@ -15,7 +15,7 @@ Basic elements:
 You can install `pytest` for a single user as:
 
 ```
-pip3 install pytest --user
+pip install pytest
 ```
 
 This should put `pytest` in your search path, likely in `~/.local/bin`.
@@ -23,7 +23,7 @@ This should put `pytest` in your search path, likely in `~/.local/bin`.
 If you want to generate coverage reports, you should also install `pytest-cov`:
 
 ```
-pip3 install pytest-cov --user
+pip install pytest-cov
 ```
 
 ## Test discovery
@@ -77,3 +77,31 @@ then we can run the tests as:
 pytest -v
 ```
 
+and we get the output:
+
+```
+============================= test session starts ==============================
+platform linux -- Python 3.11.3, pytest-7.2.2, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/zingale/temp/pytest
+plugins: anyio-3.6.2
+collected 2 items                                                              
+
+test_simple.py::test_multiply PASSED                                     [ 50%]
+test_simple.py::test_multiply2 FAILED                                    [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_multiply2 ________________________________
+
+    def test_multiply2():
+>       assert multiply(5, 6) == 2
+E       assert 30 == 2
+E        +  where 30 = multiply(5, 6)
+
+test_simple.py:8: AssertionError
+=========================== short test summary info ============================
+FAILED test_simple.py::test_multiply2 - assert 30 == 2
+========================= 1 failed, 1 passed in 0.04s ==========================
+```
+
+this is telling us that one of our tests has failed.
