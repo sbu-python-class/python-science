@@ -55,10 +55,10 @@ Here's a version where the loops are explicitly written out:
 ```python
 import numpy as np
 
-def mandelbrot(N,
-               xmin=-2.0, xmax=2.0,
-               ymin=-2.0, ymax=2.0,
-               max_iter=10):
+def mandelbrot2(N,
+                xmin=-2.0, xmax=2.0,
+                ymin=-2.0, ymax=2.0,
+                max_iter=10):
 
     x = np.linspace(xmin, xmax, N)
     y = np.linspace(ymin, ymax, N)
