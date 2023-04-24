@@ -21,12 +21,42 @@ pip install .
 
 ## Running the tests
 
+We can run the tests via:
 
+```bash
+cd pyro
+pytest -v
+```
 
 ## Using notebooks as tests
 
+Sometimes we want to use Jupyter notebooks as tests themselves&mdash;this
+is enabled via the [nbval plugin](https://nbval.readthedocs.io/en/latest/).  In
+this way, pytest will execute the cells in the notebook and compare
+the result to the result stored in the notebook.  If they agree, then
+the test passes.
 
+Sometimes there's a particular cell that we don't want to be part of the
+testing&mdash;we can disable these on a cell-by-cell basis by [adding
+tags to a cell](https://nbval.readthedocs.io/en/latest/#Using-tags-instead-of-comments).
 
+We can test notebooks as:
+
+```bash
+cd pyro
+pytest -v --nbval
+```
+
+## Coverage report
+
+The [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/) plugin enables the generation
+of a coverage report.  This will tell you what fraction of each python file was tested.
+We run this as:
+
+```bash
+cd pyro
+pytest -v --cov=. --nbval
+```
 
 ## Other types of tests
 
