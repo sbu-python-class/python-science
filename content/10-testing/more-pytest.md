@@ -63,6 +63,12 @@ class TestClassExample:
         assert_array_equal(self.a.flat, np.arange(24))
 ```
 
+```{note}
+Here we see the [`@classmethod` decorator](https://docs.python.org/3/library/functions.html#classmethod).
+This means that the function receives the class itself as the first argument rather then an instance,
+e.g., `self`.
+```
+
 Put this into a file called `test_class.py` and then we can run as:
 
 ```
