@@ -4,12 +4,13 @@ Rashid.
 
 """
 
-# Note: this uses progressbar2 to show status durning training.  Do
+# Note: this uses progressbar2 to show status during training.  Do
 # pip3 install progressbar2 --user
 
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 import progressbar
+
 
 class TrainingDigit(object):
     """a handwritten digit from the MNIST training set"""
