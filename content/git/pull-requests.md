@@ -7,9 +7,9 @@ around pulls.
 
 How do we contribute to a project that we don't own?
 
-Here's a github *organization* for our class: https://github.com/ast390-sbu
+Here's a github *organization* for our class: https://github.com/sbu-python-class
 
-and here's a simple repo in this organization: https://github.com/ast390-sbu/test-repo
+and here's a simple repo in this organization: https://github.com/sbu-python-class/test_repo
 
 ```{note}
 An organization is meant to be used by a collection of developers who
@@ -20,8 +20,8 @@ managing who can do different things to the repos under its control.
 Let's clone this repo:
 
 ```bash
-git clone git@github.com:phy504-sbu/test-repo.git
-cd test-repo
+git clone git@github.com:sbu-python-class/test_repo.git
+cd test_repo
 ```
 
 Now, let's each try to add a file of the form *username.txt* containing
@@ -69,7 +69,7 @@ Now click on the *code* button and copy the SSH location.
 We want to add this fork as a new remote:
 
 ```bash
-git remote add myfork git@github.com:zingale/test-repo.git
+git remote add myfork git@github.com:zingale/test_repo.git
 ```
 
 (again, make sure you replace that with the link to your repo).
