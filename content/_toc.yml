@@ -78,3 +78,10 @@ parts:
     chapters:
     - file: 12-extensions/extensions-overview
     - file: 12-extensions/extensions-example
+
+  - caption: Git and Github
+    chapters:
+    - file: git/version-control
+    - file: git/git
+    - file: git/github
+    - file: git/pull-requests
