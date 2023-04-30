@@ -118,12 +118,13 @@ The overall workflow that we did: fork, push to our fork, issue a PR, looks like
 
 ## Our class notes github
 
-Let's take a tour of our class notes on github: https://github.com/zingale/phy504
+Let's take a tour of our class notes on github: https://github.com/sbu-python-class/python-science
 
-There are a lot of other features that github provides that we will explore later in the semester, including:
+There are a lot of other features that github provides that we can use to make our life easier, including:
 
 * github actions : automating some workflows (like testing) on our code
 
 * github pages : building and hosting web pages for our project
+
 
 
