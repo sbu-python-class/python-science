@@ -22,7 +22,7 @@
   enough to offset the overhead of the timer class method
   calls.
 
-  Multiple timers can be instanciated and nested.  The stackCount
+  Multiple timers can be instantiated and nested.  The stackCount
   global parameter keeps count of the level of nesting, and the
   timerNesting data structure stores the nesting level for each
   defined timer.

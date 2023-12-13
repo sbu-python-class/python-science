@@ -4,7 +4,7 @@ How does python find modules?  It has a [search order](https://docs.python.org/3
 
 * current directory
 
-* `PYTHONPATH` environment vairable (this follows the same format as
+* `PYTHONPATH` environment variable (this follows the same format as
   the shell `PATH` environment variable)
 
 * System-wide python installation default path (usually has a
@@ -33,7 +33,7 @@ We can look at the path via ``sys.path``.  On my machine I get:
  '/home/zingale/.ipython']
 ```
 
-Some of these are things that I explicited added to my `PYTHONPATH` shell variable.
+Some of these are things that I explicitly added to my `PYTHONPATH` shell variable.
 
 
 Notice that the general places that it looks are in `~/.local` and in

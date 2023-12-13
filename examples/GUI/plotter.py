@@ -3,21 +3,22 @@
 # based on http://matplotlib.org/1.4.2/examples/user_interfaces/embedding_in_tk.html
 
 import matplotlib
+
 matplotlib.use('TkAgg')
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
-from matplotlib.figure import Figure
+import sys
+
 import matplotlib.pyplot as plt
-
 import numpy as np
-
 import sympy
+from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg,
+                                               NavigationToolbar2Tk)
+from matplotlib.figure import Figure
 from sympy.abc import x
 from sympy.parsing.sympy_parser import parse_expr
 
-import sys
 if sys.version_info[0] < 3:
-    import Tkinter as Tk
     import tkFont
+    import Tkinter as Tk
 else:
     import tkinter as Tk
     import tkinter.font as tkFont
@@ -73,7 +74,7 @@ class PlotterGUI:
         self.f = Figure(figsize=(6,5), dpi=100)
         self.a = self.f.add_subplot(111)
         self.canvas = FigureCanvasTkAgg(self.f, master=self.parent)
-        self.canvas.show()
+        self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
 
         #toolbar = NavigationToolbar2TkAgg( canvas, root )
@@ -119,7 +120,7 @@ class PlotterGUI:
 
         self.a.plot(xv, fv)
         self.a.set_xlim([xm, xM])
-        self.canvas.show()
+        self.canvas.draw()
 
 
     def _clear(self):

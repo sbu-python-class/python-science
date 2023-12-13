@@ -1,6 +1,6 @@
 # More pytest
 
-Unit tests sometiems require some setup to be done before the test is run.  Fixtures
+Unit tests sometimes require some setup to be done before the test is run.  Fixtures
 provide this capability.
 
 pytest provides `setup` and `teardown` functions/methods for tests --

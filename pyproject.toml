@@ -1,0 +1,4 @@
+[tool.codespell]
+skip = "*.fodp,*.pdf,*.sty,.git,*/_build,*.c,*.f90,other"
+#ignore-words-list = "pres"
+
