@@ -44,3 +44,14 @@ you to see the rendered notebooks as well as launch the notebooks in
 the cloud:
 
 http://sbu-python-class.github.io/python-science/Introduction.html
+
+````{note}
+Some notebooks use [MyST Markdown](https://jupyterbook.org/en/stable/content/myst.html) to 
+allow for more styling.  To see these styles, you need to install `jupyterlab-myst`, which
+can be done via:
+```
+pip install jupyterlab_myst
+```
+
+````
+

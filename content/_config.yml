@@ -29,7 +29,7 @@ html:
   use_repository_button: true
   extra_footer: |
     <p>
-    &copy; 2023; CC-BY-NC-SA 4.0
+    &copy; 2023-2024; CC-BY-NC-SA 4.0
     <p>
 
 sphinx:
