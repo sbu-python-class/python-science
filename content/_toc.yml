@@ -52,17 +52,17 @@ parts:
 
   - caption: Machine Learning
     chapters:
-    - file: machine-learning/neural-net-basics
+    - file: 11-machine-learning/neural-net-basics
       sections:
-      - file: machine-learning/gradient-descent
-      - file: machine-learning/neural-net-derivation
-    - file: machine-learning/neural-net-hidden
+      - file: 11-machine-learning/gradient-descent
+      - file: 11-machine-learning/neural-net-derivation
+    - file: 11-machine-learning/neural-net-hidden
       sections:
-      - file: machine-learning/neural-net-improvements
-    - file: machine-learning/machine-learning-libraries
+      - file: 11-machine-learning/neural-net-improvements
+    - file: 11-machine-learning/machine-learning-libraries
       sections:
-      - file: machine-learning/keras-mnist
-      - file: machine-learning/keras-clustering
+      - file: 11-machine-learning/keras-mnist
+      - file: 11-machine-learning/keras-clustering
 
   - caption: Python packaging and applications
     chapters:
