@@ -3,6 +3,11 @@
 This class will introduce the basics of the python programming
 language and the libraries used for scientific computing.
 
+```{tip}
+To get th most from this class, you should work on your own laptop.  That
+way you practice using python and the scientific libraries on the in the
+environment you are most comfortable with.
+```
 
 ## Getting python
 
@@ -31,27 +36,4 @@ come up, and you can try out your first program:
 print("hello, world")
 ```
 
-
-## Following along in class
-
-All of the class notes are hosted as Jupyter notebooks on github:
-
-https://github.com/sbu-python-class/python-science
-
-these are rendered by [Jupyter
-book](https://jupyterbook.org/intro.html) into a webpage that allows
-you to see the rendered notebooks as well as launch the notebooks in
-the cloud:
-
-http://sbu-python-class.github.io/python-science/Introduction.html
-
-````{note}
-Some notebooks use [MyST Markdown](https://jupyterbook.org/en/stable/content/myst.html) to 
-allow for more styling.  To see these styles, you need to install `jupyterlab-myst`, which
-can be done via:
-```
-pip install jupyterlab_myst
-```
-
-````
 

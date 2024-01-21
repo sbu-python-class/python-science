@@ -4,6 +4,7 @@ parts:
   - caption: Getting Started
     chapters:
     - file: 01-python/installing
+    - file: 01-python/using
     - file: 01-python/w1-jupyter.ipynb
 
   - caption: Python Basics
