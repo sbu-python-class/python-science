@@ -4,7 +4,7 @@ This class will introduce the basics of the python programming
 language and the libraries used for scientific computing.
 
 ```{tip}
-To get th most from this class, you should work on your own laptop.  That
+To get the most from this class, you should work on your own laptop.  That
 way you practice using python and the scientific libraries on the in the
 environment you are most comfortable with.
 ```
