@@ -11,3 +11,5 @@ graphviz
 scikit-learn
 sphinx-copybutton
 sphinx-prompt
+jupyterlab_myst
+
