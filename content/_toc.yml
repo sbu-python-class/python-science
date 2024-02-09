@@ -33,6 +33,7 @@ parts:
     - file: 02-numpy/numpy
       sections:
       - file: 02-numpy/numpy-basics.ipynb
+      - file: 02-numpy/numpy-advanced.ipynb
       - file: 02-numpy/numpy-exercises.ipynb
 
   - caption: Scientific Python
