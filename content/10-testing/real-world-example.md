@@ -55,6 +55,12 @@ We run this as:
 pytest -v --cov=pyro --nbval pyro
 ```
 
+We can also generate a more detailed interactive report with
+
+```bash
+coverage html
+```
+
 ## Other types of tests
 
 Unit tests are only one form of testing&mdash;they test a function in

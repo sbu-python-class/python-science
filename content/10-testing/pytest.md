@@ -56,9 +56,7 @@ Tests use assertions (via python’s `assert` statement) to check behavior at ru
 
   * e.g., `assert 1 == 0` will fail with an exception
 
-* We can add a message for more context: `assert x >= 0, f"expected positive number, but got {x}"`
-
-* pytest also does some magic under the hood to add more details about what
+* pytest does some magic under the hood to add more details about what
   exactly went wrong, which we will see below
 
 ## Simple pytest example

@@ -5,27 +5,85 @@ Fixtures provide this capability, allowing tests to run with a consistent
 environment and data.
 
 Standard pytest fixtures are written as functions with the `@pytest.fixture`
-decorator. Test functions can use them by adding a parameter with the same name
-as the fixture, and will be called with whatever object the fixture returns.
-
-An alternate method for initializing test state is with explicit setup/teardown
-functions, which we'll look at shortly
-(see https://docs.pytest.org/en/stable/how-to-xunit_setup.html for more details).
-
-## Fixtures example
-
-Here are some tests for the `Item` class using fixtures, adapted from the
-[shopping cart exercise](w4-exercise-1):
-
-```{include} ../../examples/testing/pytest/fixtures/test_item.py
-:code: python
+decorator:
+```python
+@pytest.fixture
+def message():
+    return "Hello world!"
 ```
 
-By default, all the fixtures that a test depends on will be run separately for
-each test, to make sure one test doesn't unexpectedly modify the data for
-another test. This can be overridden with the `scope` parameter to
-`@pytest.fixture`, which will store the result of running the fixture and re-use
-it for all the tests.
+A fixture may return an object, which will be passed to any function
+that requests it, or it may just do some setup tasks (like creating a file or
+connecting to a database).
+
+Test functions can request a fixture by specifying a parameter with the same
+name as the fixture:
+```python
+def test_split(message):
+    assert len(message.split()) == 2
+```
+
+An alternate method for initializing test state is with explicit setup/teardown
+functions, which we'll look at a bit later. This is a style that's available in
+many other languages as well: see https://en.wikipedia.org/wiki/XUnit.
+
+## Fixtures examples
+
+Fixtures are reusable across different tests. This lets us avoid repeating the
+same setup code in multiple places, especially as we add more tests or need
+more complicated inputs.
+
+Here are some tests for the `Item` class that use fixtures, adapted from the
+[shopping cart exercise](w4-exercise-1). The full code is available
+[here](https://github.com/sbu-python-class/python-science/blob/main/examples/testing/pytest/fixtures/test_item.py)
+on the github repository for this site. You can download this file and run
+the tests with `pytest -v test_item.py`.
+
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_item.py
+:lines: 58-68
+```
+
+All the fixtures that a test depends on will run once for each test.
+This gives each test a fresh copy of the data, so any changes made to the
+fixture results inside a test won't impact other tests.
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_item.py
+:lines: 70-83
+```
+
+We can also test that a function raises specific exceptions with `pytest.raises`:
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_item.py
+:lines: 85-91
+```
+
+### Fixtures can request other fixtures
+
+This is useful to split up complex initialization into smaller parts.
+A fixture can also modify the results of the fixtures it requests, which *will*
+be visible to anything that includes the fixture.
+
+Here is a set of tests that show how this can be used ([test_list.py](https://github.com/sbu-python-class/python-science/blob/main/examples/testing/pytest/fixtures/test_list.py)):
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_list.py
+:lines: 1-13
+```
+
+Note that `append_1()` and `append_2()` only modify `numbers`, and don't return
+anything. `append_2()` requires `append_1`, to make sure they are run in the
+right order.
+
+This test only requires `numbers`, so it will receive an empty list:
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_list.py
+:lines: 15-16
+```
+
+This test requires `append_1`, but not `append_2`:
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_list.py
+:lines: 18-19
+```
+
+This test requires `append_2`, which itself pulls in `append_1`:
+```{literalinclude} ../../examples/testing/pytest/fixtures/test_list.py
+:lines: 21-22
+```
 
 
 ## Example class
@@ -36,10 +94,10 @@ there is no constructor, `__init__()`.  See https://stackoverflow.com/questions/
 
 We'll look at an example with a NumPy array
 
-* We always want the array to exist for our tests, so we'll use
-  `setup_method()` to create the array
+* We'll use xunit-style setup/teardown methods to store the array as a class
+  member
 
-* Using a class means that we can access the array created in setup from our class.
+  * This way we don't have to ask for it in each of the tests
 
 * We'll use NumPy's own assertion functions: https://numpy.org/doc/stable/reference/routines.testing.html
 
@@ -58,38 +116,15 @@ e.g., `self`.
 
 Put this into a file called `test_class.py` and then we can run as:
 
+```bash
+pytest -v
 ```
-pytest -v -s
+
+```{admonition} Quick Exercise
+Try adding a new test that modifies `self.a`, above `test_max()`.
+Does this behave as you expect? What happens if you move the array creation
+into `setup_class()` instead?
 ```
 
-By default, pytest will capture stdout and only show it on failures. To make it
-always show stdout, we add the `-s` flag.
-
-```
-============================= test session starts ==============================
-platform linux -- Python 3.11.8, pytest-8.1.1, pluggy-1.4.0 -- /home/eric/mambaforge/envs/python-science/bin/python3.11
-cachedir: .pytest_cache
-rootdir: /home/eric/dev/python-science
-configfile: pyproject.toml
-plugins: nbval-0.10.0, cov-5.0.0, anyio-4.3.0
-collected 2 items
-
-test_class.py::TestClassExample::test_max
-running setup_class()
-
-running setup_method()
-inside test_max()
-PASSED
-running teardown_method()
-
-test_class.py::TestClassExample::test_flat
-running setup_method()
-inside test_flat()
-PASSED
-running teardown_method()
-
-running teardown_class()
-
-
-============================== 2 passed in 0.11s ===============================
-```
+% By default, pytest will capture stdout and only show it on failures. To make it
+% always show stdout, we add the `-s` flag.
