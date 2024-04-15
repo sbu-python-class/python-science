@@ -24,8 +24,7 @@ pip install .
 We can run the tests via:
 
 ```bash
-cd pyro
-pytest -v
+pytest -v pyro
 ```
 
 ## Using notebooks as tests
@@ -43,8 +42,7 @@ tags to a cell](https://nbval.readthedocs.io/en/latest/#Using-tags-instead-of-co
 We can test notebooks as:
 
 ```bash
-cd pyro
-pytest -v --nbval
+pytest -v --nbval pyro
 ```
 
 ## Coverage report
@@ -54,8 +52,7 @@ of a coverage report.  This will tell you what fraction of each python file was 
 We run this as:
 
 ```bash
-cd pyro
-pytest -v --cov=. --nbval
+pytest -v --cov=pyro --nbval pyro
 ```
 
 ## Other types of tests
