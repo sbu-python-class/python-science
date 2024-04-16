@@ -30,7 +30,7 @@ pip install pytest-cov
 
 Adhering to these naming conventions will ensure that your tests are automatically found:
 
-* File names should start or end with “test”:
+* File names should start or end with "test":
 
   * `test_example.py`
   * `example_test.py`
@@ -55,6 +55,9 @@ Tests use assertions (via python’s `assert` statement) to check behavior at ru
   * Raises `AssertionError` if expression is not true
 
   * e.g., `assert 1 == 0` will fail with an exception
+
+* pytest does some magic under the hood to add more details about what
+  exactly went wrong, which we will see below
 
 ## Simple pytest example
 

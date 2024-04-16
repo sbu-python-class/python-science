@@ -1,11 +1,10 @@
-# a test class is useful to hold data that we might want setup
+# a test class is useful to hold data that we might want set up
 # for every test.
 
 import numpy as np
 from numpy.testing import assert_array_equal
 
-class TestClassExample(object):
-
+class TestClassExample:
     @classmethod
     def setup_class(cls):
         """ this is run once for each class, before any tests """

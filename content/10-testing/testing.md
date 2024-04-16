@@ -1,7 +1,7 @@
 # Testing
 
 Testing is an integral part of the software development process.  We want to catch
-mistakes early, before the go on to affect our results.
+mistakes early, before they go on to affect our results.
 
 ## Types of testing
 
@@ -13,7 +13,7 @@ Most commonly, for scientific codes, we hear about:
 * Integration testing : Tests whether the individual pieces work together as intended.
   Sometimes done one piece at a time (iteratively)
 
-* Regression testing : Checks whether changes have changed answers
+* Regression testing : Checks whether code changes have changed answers
 
 * Verification & Validation (from the science perspective)
 
@@ -46,9 +46,10 @@ how to run your tests and then any time there is a change, the tests are run.
   * Add new tests when you encounter a bug, precisely to ensure that
     this bug doesn’t arise again
 
-* Tests should be short
+* Tests should be short and simple
 
   * You want to be able to run them frequently
 
+  * The more granular your tests are, the easier it will be to track down bugs
 
 
