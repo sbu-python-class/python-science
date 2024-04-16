@@ -14,7 +14,7 @@ def mandelbrot(N,
 
     z = np.zeros((N, N), dtype=np.complex128)
 
-    m = np.zeros((N, N), dtype=np.int)
+    m = np.zeros((N, N), dtype=np.int32)
 
     for i in range(max_iter):
         z = z**2 + c
