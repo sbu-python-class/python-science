@@ -13,6 +13,12 @@ and weaknesses.
 
 ## Methods
 
+* C++
+
+  * [pybind11](https://github.com/pybind/pybind11) : this is a
+    header-only library that allows you to call C++ functions directly
+    from python.
+
 * C
 
   * [C-API](https://docs.python.org/3/c-api/index.html) : the
