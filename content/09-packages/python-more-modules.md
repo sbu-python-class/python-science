@@ -14,26 +14,23 @@ We can look at the path via ``sys.path``.  On my machine I get:
 
 ```
 ['/home/zingale/.local/bin',
- '/home/zingale/development/Microphysics/python_library',
- '/home/zingale/development/AmrPostprocessing/python',
- '/home/zingale/classes/python-science/examples/packaging/single_file',
+ '/home/zingale/classes/python-science/content/09-packages',
  '/home/zingale/classes/numerical_exercises',
- '/home/zingale/development/pyro2',
  '/home/zingale/classes/astro_animations',
- '/home/zingale/development/pynucastro',
- '/usr/lib64/python311.zip',
- '/usr/lib64/python3.11',
- '/usr/lib64/python3.11/lib-dynload',
+ '/usr/lib64/python312.zip',
+ '/usr/lib64/python3.12',
+ '/usr/lib64/python3.12/lib-dynload',
  '',
- '/home/zingale/.local/lib/python3.11/site-packages',
- '/home/zingale/development/pyjournal2',
- '/usr/lib/python3.11/site-packages',
- '/usr/lib64/python3.11/site-packages',
- '/usr/lib/python3.11/site-packages/IPython/extensions',
- '/home/zingale/.ipython']
+ '/home/zingale/.local/lib/python3.12/site-packages',
+ '/usr/lib64/python3.12/site-packages',
+ '/usr/lib/python3.12/site-packages']
+
 ```
 
-Some of these are things that I explicitly added to my `PYTHONPATH` shell variable.
+```{note}
+You can explicitly add paths to the ``sys.path`` by setting the `PYTHONPATH`
+environment variable.
+```
 
 
 Notice that the general places that it looks are in `~/.local` and in
