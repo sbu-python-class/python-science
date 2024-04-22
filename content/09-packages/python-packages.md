@@ -44,7 +44,7 @@ This is a rather common way of structuring a project:
    To make python recognize this as a module, we need an `__init__.py`
    file there&mdash;it can be completely empty.
    ```
-   
+
 * The actual `*.py` files that make up our module are in `mymodule/mymodule`
 
 Right now, this package does not appear in our python search path, so
@@ -114,11 +114,34 @@ dependencies = [
 
 ```
 
-```{note}
-Some projects also contain a `setup.cfg` 
-file when using `setuptools`.  This is
-usually not needed.
+Some notes:
+
+* We have a `[build-system]` table that specifies the build tool.
+  Here we choose `setuptools`.
+
+* We have a lot of metadata for our project defined in the `[project]`
+  table.
+
+* We also list the dependencies of our project in the `[project]` table.
+  This will allow the installer to install any missing packages that are
+  required.
+
+There are many additional options to specify how to find files that
+are part of the project as well as data files, etc.
+
+
+```{tip}
+`pyproject.toml` also allows you to specify defaults for tools, like
+`pylint`, `flake8`, and others with a `[tool.X]` subtable.
 ```
+
+```{note}
+Some projects also contain a `setup.cfg`
+file when using `setuptools`.  This is
+usually not needed, since we can put everything
+in the `[project]` table.
+```
+
 
 ## Installing
 
@@ -136,13 +159,13 @@ see the module there.
 If instead, we want to install in a way that still allows us to edit the source,
 we can install as "editable" via:
 
-```{bash}
+```bash
 pip install -e .
 ```
 
 To uninstall, we can do:
 
-```{bash}
+```bash
 pip uninstall mymodule
 ```
 
@@ -160,12 +183,12 @@ print(mymodule.__file__)
 it shows us where the module is installed on our system.  In my case, it is:
 
 ```
-/home/zingale/.local/lib/python3.11/site-packages/mymodule-0.0.0-py3.11.egg/mymodule/__init__.py
+/home/zingale/.local/lib/python3.12/site-packages/mymodule-0.1.0-py3.12.egg/mymodule/__init__.py
 ```
 
 Let's generate a plot:
 
-```
+```python
 from mymodule.mandel import mandelbrot
 fig = mandelbrot(128)
 fig.savefig("test.png")
