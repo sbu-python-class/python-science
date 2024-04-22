@@ -84,66 +84,69 @@ A lot of setuptools documentation is out-of-date and
 inconsistent with the packaging guidelines.
 
 Packages used to create a `setup.py` file that had all of the project information,
-but this is deprecated.  Instead we should create a `pyproject.toml` file---this
+but this is deprecated.  Instead we should create a
+[pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/) file---this
 is consistent with [PEP 517](https://peps.python.org/pep-0517/).
 ```
 
-Here's a first `setup.py`:
+Here's a first `pyproject.toml`:
 
-```python
-from setuptools import setup, find_packages
+```toml
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
-setup(name='mymodule',
-      description='test module for PHY 546',
-      url='https://github.com/sbu-python-class/mymodule',
-      author='Michael Zingale',
-      author_email='michael.zingale@stonybrook.edu',
-      license='BSD',
-      packages=find_packages(),
-      install_requires=['numpy', 'matplotlib'])
+[project]
+name = "mymodule"
+description = "test module for PHY 546"
+readme = "README.md"
+license.text = "BSD"
+version="0.1.0"
+authors = [
+  {name="Michael Zingale"},
+  {email="michael.zingale@stonybrook.edu"},
+]
+
+dependencies = [
+  "numpy",
+  "matplotlib",
+]
+
 ```
 
 ```{note}
-The packaging ecosystem is always evolving.  There are 2 special config files that can
-help customize the package and contain the defaults for other tools: `setup.cfg` and
-`pyproject.toml`.  See:
-
-* [Configuring setuptools using `setup.cfg` files](https://setuptools.pypa.io/en/latest/userguide/declarative_config.html)
-
-* [Configuring setuptools using `pyproject.toml` files](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html)
+Some projects also contain a `setup.cfg` 
+file when using `setuptools`.  This is
+usually not needed.
 ```
 
 ## Installing
 
-We can use setup in a variety of ways.  Two useful ways are:
+We can now install simply as:
 
-* Install:
+```bash
+pip install .
+```
 
-  `python setup.py install --user`
+```{tip}
+Look in your `.local/lib/python3.12/site-packages` directory, and you'll
+see the module there.
+```
 
-  This will copy the source files into your install location (likely
-  `~/.local/...`) putting them into your python search path.  Then you
-  can use this package from anywhere.
+If instead, we want to install in a way that still allows us to edit the source,
+we can install as "editable" via:
 
-* Development mode (https://setuptools.pypa.io/en/latest/userguide/development_mode.html):
+```{bash}
+pip install -e .
+```
 
-  `python setup.py develop --user`
+To uninstall, we can do:
 
-  This doesn't actually install anything in your user- or site-wide
-  install location, but instead it creates a special link in that
-  install directory back to your actual project code.
+```{bash}
+pip uninstall mymodule
+```
 
-  This allows you to continue to develop the package without needed to
-  re-install each time you change the source.
-
-  You can uninstall via:
-
-  `pip uninstall mymodule`
-
-The above put the package in the user-specific install location
-(because of the `--user` flag).  If you leave this off, it will try to
-install in the system-wide path, which might require admin privileges.
-
+in a directory outside of our project (otherwise, `pip` may get confused).
 
 ## Using our module
 
