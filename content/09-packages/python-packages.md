@@ -3,9 +3,11 @@
 
 
 Let's look at the structure of creating an installable python package.
+
+```{note}
 The python packaging system is constantly evolving, and the current recommendations
 of tools is list here: https://packaging.python.org/en/latest/guides/tool-recommendations/
-
+```
 
 ## Our example
 
@@ -62,7 +64,7 @@ from mymodule.mandel import mandelbrot
 
 ## setuptools
 
-The current python package recommendation are:
+A popular set of packages are:
 
 * Installation:
 
@@ -75,12 +77,16 @@ The current python package recommendation are:
   * `build` for binary distributions
   * `twine` to upload to PyPI
 
-We'll look at how to use [`setuptools`](https://setuptools.pypa.io/en/latest/index.html) to package our library.  See the
-packaging guidelines here:
-https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/
+We'll look at how to use [`setuptools`](https://setuptools.pypa.io/en/latest/build_meta.html) to package our library.
 
-The main thing we need to do is create a `setup.py` that describes our
-package and its requirements:
+```{note}
+A lot of setuptools documentation is out-of-date and
+inconsistent with the packaging guidelines.
+
+Packages used to create a `setup.py` file that had all of the project information,
+but this is deprecated.  Instead we should create a `pyproject.toml` file---this
+is consistent with [PEP 517](https://peps.python.org/pep-0517/).
+```
 
 Here's a first `setup.py`:
 
