@@ -67,15 +67,45 @@ was to use `distutils`, but this is removed in python 3.12.
 Instead, we will use the [meson build system](https://mesonbuild.com/).  This requires
 use to install `meson` and `ninja`:
 
-.. prompt:: bash
+```bash
+pip install meson ninja
+```
 
-   pip install meson ninja
-   
 Here's our Fortran implementation for the Mandelbrot generator:
 
 ```{literalinclude} ../../examples/extensions/f2py/mandel.f90
 :language: fortran
 ```
 
+To build the extension, we can do:
+
+```bash
+f2py -c mandel.f90 -m mandel_f2py
+```
+
+This will create a library (on my machine, it is called `mandel_f2py.cpython-312-x86_64-linux-gnu.so`)
+which we can import as `import mandel_f2py`.
+
+Here's a driver:
+
+```{literalinclude} ../../examples/extensions/f2py/test_mandel.py
+:language: python
+```
+
+```{note}
+   Even though our Fortran subroutine takes the array `m` as an
+   argument, since it is marked as `intent(out)`, the python module
+   will use this as the return value.
+```
+
+## Timings
+
+On my machine, here are some timings:
 
 
+|   technique                |   timings (s)  |
+| -------------------------- | -------------- |
+| python w/ explicit loops   |     72.4
+| python / numpy             |      0.268
+| numba                      |      0.941
+| Fortran + f2py             |      0.0878
