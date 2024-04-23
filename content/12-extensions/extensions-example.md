@@ -116,6 +116,24 @@ Here's a driver:
    will use this as the return value.
 ```
 
+## C++ / pybind11 implementation
+
+pybind11 allows you to construct a numpy-compatible array in C++
+and return it.  There are different constructors for this---here
+we use on that allows us to specify the shape and stride.
+
+```{literalinclude} ../../examples/extensions/pybind11/mandel.cpp
+:language: c++
+```
+
+Our driver is essentially the same as the Fortran one.
+
+
+```{literalinclude} ../../examples/extensions/pybind11/test_mandel.py
+:language: python
+```
+
+
 ## Timings
 
 On my machine, here are some timings:
@@ -126,6 +144,7 @@ On my machine, here are some timings:
 | python w/ explicit loops   |     72.4
 | python / numpy             |      0.268
 | Numba(*)                   |      0.0943
+| C++ + pybind11             |      0.112
 | Fortran + f2py             |      0.0878
 
 
