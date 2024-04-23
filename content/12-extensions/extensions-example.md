@@ -56,6 +56,16 @@ We didn't need to do anything special to *compile* the numba code.
 This is done for us when we first encounter it.
 ```
 
+```{tip}
+We run it twice in our driver, since the first call will have the overhead
+of the jit compilation.  
+```
+
+```{literalinclude} ../../examples/extensions/numba/test_mandel.py
+:language: python
+```
+
+
 ## Fortran implementation
 
 If we want to write the code in Fortran, we need to [compile it into a shared
@@ -107,5 +117,8 @@ On my machine, here are some timings:
 | -------------------------- | -------------- |
 | python w/ explicit loops   |     72.4
 | python / numpy             |      0.268
-| numba                      |      0.941
+| numba(*)                   |      0.0943
 | Fortran + f2py             |      0.0878
+
+
+(*) timing for the second invocation, which excludes JIT overhead.
