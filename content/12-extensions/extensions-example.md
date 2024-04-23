@@ -122,8 +122,23 @@ pybind11 allows you to construct a numpy-compatible array in C++
 and return it.  There are different constructors for this---here
 we use on that allows us to specify the shape and stride.
 
+We can install pybind11 via pip:
+
+```bash
+pip install pybind11
+```
+
+Here's the implementation of our Mandelbrot generator:
+
+
 ```{literalinclude} ../../examples/extensions/pybind11/mandel.cpp
 :language: c++
+```
+
+We build the shared library as:
+
+```bash
+g++ -O3  -Wall -Wextra -shared -std=c++17 -fPIC $(python3 -m pybind11 --includes) mandel.cpp -o mandel$(python3-config --extension-suffix)
 ```
 
 Our driver is essentially the same as the Fortran one.
@@ -144,7 +159,7 @@ On my machine, here are some timings:
 | python w/ explicit loops   |     72.4
 | python / numpy             |      0.268
 | Numba(*)                   |      0.0943
-| C++ + pybind11             |      0.112
+| C++ + pybind11             |      0.105
 | Fortran + f2py             |      0.0878
 
 
