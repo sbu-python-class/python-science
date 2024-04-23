@@ -24,8 +24,8 @@ subroutine mandelbrot(N, xmin, xmax, ymin, ymax, max_iter, m)
   dy = (ymax - ymin) / (N - 1)
 
   do i = 1, N
-     x(i) = xmin + i * dx
-     y(i) = ymin + i * dy
+     x(i) = xmin + (i-1) * dx
+     y(i) = ymin + (i-1) * dy
   enddo
 
   allocate(c(N, N))
