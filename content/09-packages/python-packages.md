@@ -9,6 +9,11 @@ The python packaging system is constantly evolving, and the current recommendati
 of tools is list here: https://packaging.python.org/en/latest/guides/tool-recommendations/
 ```
 
+![xkcd](python_environment.png)
+
+(from https://xkcd.com)
+
+
 ## Our example
 
 We'll work on an example that builds on the Mandelbrot set exercise
