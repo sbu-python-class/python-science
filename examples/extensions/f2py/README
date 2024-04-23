@@ -1,0 +1,7 @@
+Note: python >= 3.12 needs ninja and meson to build.
+
+Build this as:
+
+f2py -c mandel.f90 -m mandel_f2py
+
+then you can `import mandel_f2py` in python.
