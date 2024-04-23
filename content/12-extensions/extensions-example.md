@@ -30,6 +30,12 @@ This can be run in the same way.
 
 ## Numba version
 
+We can install Numba simply by doing:
+
+```bash
+pip install numba
+```
+
 To get a Numba optimized version of the python with explicit loops we just add:
 
 ```python
@@ -70,6 +76,8 @@ of the jit compilation.
 
 If we want to write the code in Fortran, we need to [compile it into a shared
 object library](https://numpy.org/doc/stable/f2py/usage.html) that python can import.  
+This is where `f2py` comes in---it is part of the numpy project, so you probably
+already have it installed.
 
 Support for this is in transition at the moment.  The old official way to do this
 was to use `distutils`, but this is removed in python 3.12.  
@@ -117,7 +125,7 @@ On my machine, here are some timings:
 | -------------------------- | -------------- |
 | python w/ explicit loops   |     72.4
 | python / numpy             |      0.268
-| numba(*)                   |      0.0943
+| Numba(*)                   |      0.0943
 | Fortran + f2py             |      0.0878
 
 
