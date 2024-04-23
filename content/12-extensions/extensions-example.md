@@ -7,45 +7,14 @@ Let's rewrite our Mandelbrot generator using Numba to see how it differs.
 Here's an example of a python implementation using NumPy array operations:
 
 
-```python
-import numpy as np
-
-def mandelbrot(N,
-               xmin=-2.0, xmax=2.0,
-               ymin=-2.0, ymax=2.0,
-               max_iter=10):
-
-    x = np.linspace(xmin, xmax, N)
-    y = np.linspace(ymin, ymax, N)
-
-    xv, yv = np.meshgrid(x, y, indexing="ij")
-
-    c = xv + 1j*y
-
-    z = np.zeros((N, N), dtype=np.complex128)
-
-    m = np.zeros((N, N), dtype=np.int)
-
-    for i in range(max_iter):
-        z = z**2 + c
-
-        m[np.logical_and(np.abs(z) > 2, m == 0)] = i
-
-    return m
+```{literalinclude} ../../examples/extensions/python/mandel.py
+:language: python
 ```
 
 We can test this as:
 
-```python
-import mandel
-
-import time
-
-start = time.time()
-
-m = mandel.mandelbrot(1024, max_iter=50)
-
-print(f"execution time = {time.time() - start}\n")
+```{literalinclude} ../../examples/extensions/python/test_mandel.py
+:language: python
 ```
 
 ## Python with explicit loops
