@@ -19,42 +19,13 @@ We can test this as:
 
 ## Python with explicit loops
 
-Here's a version where the loops are explicitly written out:
+Here's a version where the loops are explicitly written out in python:
 
-```python
-import numpy as np
-
-def mandelbrot2(N,
-                xmin=-2.0, xmax=2.0,
-                ymin=-2.0, ymax=2.0,
-                max_iter=10):
-
-    x = np.linspace(xmin, xmax, N)
-    y = np.linspace(ymin, ymax, N)
-
-    c = np.zeros((N, N), dtype=np.complex128)
-
-    for i in range(N):
-        for j in range(N):
-            c[i, j] = x[i] + 1j * y[j]
-
-    z = np.zeros((N, N), dtype=np.complex128)
-
-    # note: we need to use a numba type here
-    m = np.zeros((N, N), dtype=np.int32)
-
-    for n in range(max_iter):
-
-        for i in range(N):
-            for j in range(N):
-                if m[i, j] == 0:
-                    z[i, j] = z[i, j] * z[i, j] + c[i, j]
-
-                    if np.abs(z[i, j]) > 2:
-                        m[i, j] = n
-
-    return m
+```{literalinclude} ../../examples/extensions/python-slow/mandel.py
+:language: python
 ```
+
+This can be run in the same way.
 
 
 ## Numba version
@@ -70,4 +41,41 @@ and then right before the function definition:
 ```python
 @njit()
 ```
+
+Here's the full code:
+
+```{literalinclude} ../../examples/extensions/numba/mandel.py
+:language: python
+```
+
+Again, this uses the same driver.
+
+
+```{note}
+We didn't need to do anything special to *compile* the numba code.
+This is done for us when we first encounter it.
+```
+
+## Fortran implementation
+
+If we want to write the code in Fortran, we need to [compile it into a shared
+object library](https://numpy.org/doc/stable/f2py/usage.html) that python can import.  
+
+Support for this is in transition at the moment.  The old official way to do this
+was to use `distutils`, but this is removed in python 3.12.  
+
+Instead, we will use the [meson build system](https://mesonbuild.com/).  This requires
+use to install `meson` and `ninja`:
+
+.. prompt:: bash
+
+   pip install meson ninja
+   
+Here's our Fortran implementation for the Mandelbrot generator:
+
+```{literalinclude} ../../examples/extensions/f2py/mandel.f90
+:language: fortran
+```
+
+
 
