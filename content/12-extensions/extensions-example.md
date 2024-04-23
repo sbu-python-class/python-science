@@ -1,6 +1,7 @@
 # Example Extension
 
-Let's rewrite our Mandelbrot generator using Numba to see how it differs.
+Let's rewrite our Mandelbrot generator using different languages
+to see how the performance differs.
 
 ## NumPy array syntax
 
