@@ -80,11 +80,14 @@ object library](https://numpy.org/doc/stable/f2py/usage.html) that python can im
 This is where `f2py` comes in---it is part of the numpy project, so you probably
 already have it installed.
 
+```{note}
 Support for this is in transition at the moment.  The old official way to do this
 was to use `distutils`, but this is removed in python 3.12.  
 
-Instead, we will use the [meson build system](https://mesonbuild.com/).  This requires
-use to install `meson` and `ninja`:
+Instead, we will use the [meson build system](https://mesonbuild.com/).
+```
+
+We need to install `meson` and `ninja`:
 
 ```bash
 pip install meson ninja
