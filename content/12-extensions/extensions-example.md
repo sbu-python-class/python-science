@@ -117,6 +117,11 @@ Here's a driver:
    will use this as the return value.
 ```
 
+```{note}
+The numpy array returned to python will have Fortran ordering (column-major) instead
+of the usual row-major ordering (take a look at the ``.flags`` attributes).
+```
+
 ## C++ / pybind11 implementation
 
 pybind11 allows you to construct a numpy-compatible array in C++
@@ -152,16 +157,16 @@ Our driver is essentially the same as the Fortran one.
 
 ## Timings
 
-On my machine, here are some timings:
+On my machine, here are some timings (average of 3 runs):
 
 
 |   technique                |   timings (s)  |
 | -------------------------- | -------------- |
-| python w/ explicit loops   |     72.4
-| python / numpy             |      0.268
-| Numba(*)                   |      0.0943
-| C++ + pybind11             |      0.105
-| Fortran + f2py             |      0.0878
+| python w/ explicit loops   |     62.3
+| python / numpy             |      0.240
+| Numba(*)                   |      0.0873
+| C++ + pybind11             |      0.0970
+| Fortran + f2py             |      0.0931
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
