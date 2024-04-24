@@ -5,7 +5,7 @@ to see how the performance differs.
 
 Recall the Mandelbrot set is defined as the set such that $z_{k+1} = z_k^2 + c$
 remains bounded, defined as $|z_{k+1}| \le 2$, where $c$ is a complex number,
-$c = x + iy$ in the complex plane, and $z_0 = 0$ is the starting condition.
+$c = x + iy$, in the complex plane, and $z_0 = 0$ is the starting condition.
 
 We'll do a fixed number of iterations, and store the iteration for which $|z_{k+1}|$
 first becomes larger than 2.
