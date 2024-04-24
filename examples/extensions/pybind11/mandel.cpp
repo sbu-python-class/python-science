@@ -83,5 +83,5 @@ py::array_t<int> mandelbrot(int N,
 
 PYBIND11_MODULE(mandel, m) {
     m.doc() = "C++ Mandelbrot example";
-    m.def("mandelbrot", &mandelbrot);
+    m.def("mandelbrot", &mandelbrot, "generate the Mandelbrot set of size N");
 }
