@@ -18,7 +18,6 @@ m = mandel_f2py.mandelbrot(1024, xmin, xmax, ymin, ymax, max_iter)
 
 print(f"execution time = {time.time() - start}\n")
 
-
 fig, ax = plt.subplots()
 ax.imshow(np.transpose(m), origin="lower",
           extent=[xmin, xmax, ymin, ymax])

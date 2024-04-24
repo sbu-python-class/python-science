@@ -3,6 +3,7 @@
 Let's rewrite our Mandelbrot generator using different languages
 to see how the performance differs.
 
+
 ## NumPy array syntax
 
 Here's an example of a python implementation using NumPy array operations:
@@ -16,6 +17,12 @@ We can test this as:
 
 ```{literalinclude} ../../examples/extensions/python/test_mandel.py
 :language: python
+```
+
+Here's the resulting image
+
+```{image} test.png
+:align: center
 ```
 
 ## Python with explicit loops
