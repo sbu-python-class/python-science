@@ -102,6 +102,11 @@ To build the extension, we can do:
 f2py -c mandel.f90 -m mandel_f2py
 ```
 
+```{note}
+I am relying on the default optimization that meson/ninja use, which seems to be
+`-O3`.
+```
+
 This will create a library (on my machine, it is called `mandel_f2py.cpython-312-x86_64-linux-gnu.so`)
 which we can import as `import mandel_f2py`.
 
@@ -170,3 +175,8 @@ On my machine, here are some timings (average of 3 runs):
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
+
+We see that Numba, C++, and Fortran are all quite close in performance
+and much faster than the other implementations.  It may be possible to
+further optimize the numpy version, but it is so much easier to just
+use Numba in this situation.
