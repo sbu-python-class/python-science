@@ -116,13 +116,13 @@ and make the extension as:
 python setup.py build_ext --inplace
 ```
 
-```note
+```{note}
 This build process will likely change in the near future, as
 the community is transitioning away from `setup.py`, but the 
 docs don't seem to be fully up to date on the new way to build.
 ```
 
-````tip
+````{tip}
 To help understand where the slow parts of your Cython code are, you
 can do
 ```
