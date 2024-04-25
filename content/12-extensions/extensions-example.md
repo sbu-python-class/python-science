@@ -276,7 +276,7 @@ are some timings (average of 3 runs):
 | Numba(*)                                     |      0.0972    |
 | Cython                                       |      0.272     |
 | Fortran + f2py                               |      0.0914    |
-| C++ + pybind11 (vector or vector)            |      0.166     |
+| C++ + pybind11 (vector of vector)            |      0.166     |
 | C++ + pybind11 (contiguous `Array`)          |      0.105     |
 
 
