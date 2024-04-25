@@ -216,6 +216,12 @@ We can install pybind11 via pip:
 pip install pybind11
 ```
 
+Inside of the `mandelbrot()` function, we need temporary
+two-dimensional arrays to store $z$ and $c$.  With C++23
+we could use `std::mdspan` to give us nice multidimensional
+indexing.  For now, we need to do something different.
+Our first attempt will use `std::vector<std::vector<std::complex<double>>>`.
+
 Here's the implementation of our Mandelbrot generator:
 
 
@@ -236,6 +242,15 @@ Our driver is essentially the same as the Fortran one.
 :language: python
 ```
 
+A slightly more complicated version that creates a contiguous `Array` class
+that can be indexed with `()` runs faster.  That code is here:
+
+```{literalinclude} ../../examples/extensions/pybind11/contiguous/mandel.cpp
+:language: C++
+```
+
+It uses the same driver.
+
 
 ## Timings
 
@@ -243,14 +258,15 @@ On my machine, (python 3.12, Cython 3.0.10, GCC 14, numba 0.59.1) here
 are some timings (average of 3 runs):
 
 
-|   technique                |   timings (s)  |
-| -------------------------- | -------------- |
-| python w/ explicit loops   |     71.8       |
-| python / numpy             |      0.254     |
-| Cython                     |      0.272     |
-| Numba(*)                   |      0.0972    |
-| C++ + pybind11             |      0.166     |
-| Fortran + f2py             |      0.0914    |
+|   technique                                  |   timings (s)  |
+| -------------------------------------------- | -------------- |
+| python w/ explicit loops                     |     71.8       |
+| python / numpy                               |      0.254     |
+| Cython                                       |      0.272     |
+| Numba(*)                                     |      0.0972    |
+| C++ + pybind11 (vector or vector)            |      0.166     |
+| C++ + pybind11 (contiguous `Array`)          |      0.105     |
+| Fortran + f2py                               |      0.0914    |
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
