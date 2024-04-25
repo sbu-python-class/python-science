@@ -25,7 +25,7 @@ def mandelbrot(int N,
     cdef np.ndarray[np.int32_t, ndim=2] m = np.zeros((N, N), dtype=np.int32)
 
     cdef unsigned int n
-    for n in range(max_iter):
+    for n in range(1, max_iter+1):
 
         for i in range(N):
             for j in range(N):

@@ -23,7 +23,7 @@ def mandelbrot(N,
     # note: we need to use a numba type here
     m = np.zeros((N, N), dtype=np.int32)
 
-    for n in range(max_iter):
+    for n in range(1, max_iter+1):
 
         for i in range(N):
             for j in range(N):
