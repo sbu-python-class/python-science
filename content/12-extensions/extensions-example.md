@@ -239,7 +239,7 @@ Our driver is essentially the same as the Fortran one.
 
 ## Timings
 
-On my machine, (python 3.12, Cython 3.0.9, GCC 14, numba 0.59.0) here
+On my machine, (python 3.12, Cython 3.0.10, GCC 14, numba 0.59.1) here
 are some timings (average of 3 runs):
 
 
@@ -248,7 +248,7 @@ are some timings (average of 3 runs):
 | python w/ explicit loops   |     71.8       |
 | python / numpy             |      0.254     |
 | Cython                     |      0.272     |
-| Numba(*)                   |      0.0982    |
+| Numba(*)                   |      0.0972    |
 | C++ + pybind11             |      0.166     |
 | Fortran + f2py             |      0.0914    |
 
