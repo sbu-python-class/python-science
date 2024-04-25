@@ -96,13 +96,56 @@ pip install Cython
 ```
 
 For Cython, we mainly need to specify the datatypes of the different
-variables.
+variables.  We use the extension `.pyx` for a cython file.
 
 Here's the full code:
 
 ```{literalinclude} ../../examples/extensions/cython/mandel.pyx
 :language: python
 ```
+
+To build it, we can use a `setup.py` file:
+
+```{literalinclude} ../../examples/extensions/cython/setup.py
+:language: python
+```
+
+and make the extension as:
+
+```bash
+python setup.py build_ext --inplace
+```
+
+```note
+This build process will likely change in the near future, as
+the community is transitioning away from `setup.py`, but the 
+docs don't seem to be fully up to date on the new way to build.
+```
+
+````tip
+To help understand where the slow parts of your Cython code are, you
+can do
+```
+cythonize -a mandel.pyx
+```
+This will produce an HTML file with the parts of the code that interact
+with python highlighted.  These are places you should try to optimize.
+
+
+For our example, if we do
+```
+np.abs(z[i,j])
+```
+instead of
+```
+abs(z[i,j])
+```
+we get a dramatic slowdown!
+
+Thanks to Eric Johnson for pointing this out.
+
+````
+
 
 ## Fortran implementation
 
