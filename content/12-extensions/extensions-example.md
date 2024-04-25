@@ -179,7 +179,7 @@ To build the extension, we can do:
 f2py -c mandel.f90 -m mandel_f2py
 ```
 
-````{note}
+````{tip}
 The build doesn't show you the compilation commands used to make the library.  But if you look
 at the output, it will say something like:
 ```
