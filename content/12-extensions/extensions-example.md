@@ -129,8 +129,8 @@ can do
 cythonize -a mandel.pyx
 ```
 This will produce an HTML file with the parts of the code that interact
-with python highlighted.  These are places you should try to optimize.
-
+with python highlighted.  (Make sure there are no `.c` files hanging around).
+These highlighted lines are places you should try to optimize.
 
 For our example, if we do
 ```
