@@ -80,13 +80,29 @@ This is done for us when we first encounter it.
 
 ```{tip}
 We run it twice in our driver, since the first call will have the overhead
-of the jit compilation.  
+of the JIT compilation.  
 ```
 
 ```{literalinclude} ../../examples/extensions/numba/test_mandel.py
 :language: python
 ```
 
+## Cython version
+
+We can install Cython by doing
+
+```bash
+pip install Cython
+```
+
+For Cython, we mainly need to specify the datatypes of the different
+variables.
+
+Here's the full code:
+
+```{literalinclude} ../../examples/extensions/cython/mandel.py
+:language: python
+```
 
 ## Fortran implementation
 
@@ -180,19 +196,26 @@ Our driver is essentially the same as the Fortran one.
 
 ## Timings
 
-On my machine, here are some timings (average of 3 runs):
+On my machine, (python 3.12, Cython 3.0.9, GCC 14, numba 0.59.0) here
+are some timings (average of 3 runs):
 
 
 |   technique                |   timings (s)  |
 | -------------------------- | -------------- |
-| python w/ explicit loops   |     62.3
-| python / numpy             |      0.240
-| Numba(*)                   |      0.0873
-| C++ + pybind11             |      0.0970
-| Fortran + f2py             |      0.0931
+| python w/ explicit loops   |     71.8       |
+| python / numpy             |      0.254     |
+| Cython                     |      0.272     |
+| Numba(*)                   |      0.0982    |
+| C++ + pybind11             |      0.166     |
+| Fortran + f2py             |      0.0914    |
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
+
+```{note}
+The timings seem very sensitive to the versions of the library used,
+it seems like I got better performance with GCC 13 and Cython < 3
+```
 
 We see that Numba, C++, and Fortran are all quite close in performance
 and much faster than the other implementations.  It may be possible to
