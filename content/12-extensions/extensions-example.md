@@ -179,10 +179,21 @@ To build the extension, we can do:
 f2py -c mandel.f90 -m mandel_f2py
 ```
 
-```{note}
-I am relying on the default optimization that meson/ninja use, which seems to be
-`-O3`.
+````{note}
+The build doesn't show you the compilation commands used to make the library.  But if you look
+at the output, it will say something like:
 ```
+The Meson build system
+Version: 1.4.0
+Source dir: /tmp/tmp0sbl86zt
+Build dir: /tmp/tmp0sbl86zt/bbdir
+Build type: native build
+Project name: mandel_f2py
+```
+If you then look in the build directory, there will be a file `compile_commands.json` that
+lists the commands that meson + f2py use to compile the extension.  In our case,
+it is using the optimization flag `-O3`.
+````
 
 This will create a library (on my machine, it is called `mandel_f2py.cpython-312-x86_64-linux-gnu.so`)
 which we can import as `import mandel_f2py`.
