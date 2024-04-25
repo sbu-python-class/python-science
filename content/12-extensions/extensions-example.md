@@ -100,7 +100,7 @@ variables.
 
 Here's the full code:
 
-```{literalinclude} ../../examples/extensions/cython/mandel.py
+```{literalinclude} ../../examples/extensions/cython/mandel.pyx
 :language: python
 ```
 
