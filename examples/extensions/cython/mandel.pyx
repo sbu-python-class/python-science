@@ -32,7 +32,7 @@ def mandelbrot(int N,
                 if m[i, j] == 0:
                     z[i, j] = z[i, j] * z[i, j] + c[i, j]
 
-                    if np.abs(z[i,j]) > 2:
+                    if abs(z[i,j]) > 2:
                         m[i, j] = n
 
     return m
