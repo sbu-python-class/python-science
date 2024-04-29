@@ -46,7 +46,7 @@ python3 -m site --user-site
 on my machine, this gives:
 
 ```
-/home/zingale/.local/lib/python3.11/site-packages
+/home/zingale/.local/lib/python3.12/site-packages
 ```
 
 ```{tip}
