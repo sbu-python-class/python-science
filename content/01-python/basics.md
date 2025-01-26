@@ -21,9 +21,9 @@ Some resources for practicing on your own:
 
 ## Online books:
 
-* [Think python](http://www.greenteapress.com/thinkpython/)
+* [Think python](https://greenteapress.com/wp/think-python-3rd-edition/)
 
-* [Dive into Python](http://www.diveintopython.net/)
+* [Dive into Python](https://diveintopython3.net/)
 
 * [SciPy Lecture Notes](http://scipy-lectures.github.io/)
 
@@ -36,7 +36,7 @@ Some resources for practicing on your own:
 
 * Astronomy: [AstroPy](http://astropy.org)
 
-* Atmospheric sciences: [PyAOS](http://pyaos.johnny-lin.com/)
+* Atmospheric sciences: [PyAOS](https://pyaos.github.io/)
 
 * Biology: [Biopython](http://biopython.org/)
 

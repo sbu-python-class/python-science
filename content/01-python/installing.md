@@ -23,10 +23,12 @@ https://www.anaconda.com/products/individual
 
 This will install everything that you need.
 
+```{tip}
 If you have trouble getting a local install working, most of the class
 material will work automatically in the cloud, either on
 [binder](https://mybinder.org/) or [google
 colab](https://research.google.com/colaboratory/).
+```
 
 If you have python successfully installed, you should be able to start
 the python interpreter at the command line as: `python`.  A shell will
