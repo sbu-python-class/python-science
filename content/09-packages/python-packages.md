@@ -30,10 +30,11 @@ git clone https://github.com/sbu-python-class/mymodule.git
 The directory structure appears as:
 
 ```
-mymodule
+mymodule/
 ├── mymodule
 │   ├── __init__.py
 │   └── mandel.py
+├── pyproject.toml
 └── README.md
 ```
 
