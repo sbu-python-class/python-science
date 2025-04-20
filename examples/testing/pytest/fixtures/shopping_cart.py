@@ -50,5 +50,4 @@ class Item:
         """add two items together if they are the same type"""
         if self.name == other.name:
             return Item(self.name, self.quantity + other.quantity)
-        else:
-            raise ValueError("names don't match")
+        raise ValueError("names don't match")
