@@ -75,6 +75,13 @@ parts:
     - file: 09-packages/python-packages
     - file: 09-packages/python-tools
 
+  - caption: Git and Github
+    chapters:
+    - file: git/version-control
+    - file: git/git
+    - file: git/github
+    - file: git/pull-requests
+
   - caption: Unit tests
     chapters:
     - file: 10-testing/testing
@@ -88,9 +95,3 @@ parts:
     - file: 12-extensions/extensions-overview
     - file: 12-extensions/extensions-example
 
-  - caption: Git and Github
-    chapters:
-    - file: git/version-control
-    - file: git/git
-    - file: git/github
-    - file: git/pull-requests

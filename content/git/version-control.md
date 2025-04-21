@@ -1,5 +1,23 @@
 # Version Control
 
+````{note}
+To follow along, you will need to install `git` on your computer.
+You can follow the instructions from the [Software Carpentry lessons](https://carpentries.github.io/workshop-template/install_instructions/#git).  In particular, for:
+
+* Windows: use [git for Windows](https://gitforwindows.org/)
+
+* Mac: in a teminal, do:
+
+  ```
+  git --version
+  ```
+  
+  If it is not already installed, it will prompt you for installation.
+
+* Linux: it is probably already installed, but otherwise, use your
+  package manager.
+````
+
 ## Why use version control?
 
 When we develop code, we are going to be making lots of changes over
@@ -13,7 +31,7 @@ time.  And you will find yourself in the following situations:
 * *Your research group is all working on the same code* and you need to sync up with
   everyone's changes and make sure that no one breaks the code.
 
-This is what version control does for us.
+This is what [version control](https://en.wikipedia.org/wiki/Version_control) does for us.
 
 
 ```{note}
