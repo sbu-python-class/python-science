@@ -40,11 +40,28 @@ Some additional comparisons are provided here: https://ritza.co/articles/scikit-
   for CPUs, GPUs, and [TPUs](https://en.wikipedia.org/wiki/Tensor_Processing_Unit),
   and provides all the features you need to build deep learning workflows:
   [TensorFlow feactures](https://en.wikipedia.org/wiki/TensorFlow#Features).
+
+  You can install tensorflow via:
+
+  ```
+  pip install tensorflow
+  ```
+  
+  ```{note}
+  At the moment, tensorflow only supports python <= 3.12.  So I'll be using
+  pytorch instead (since I am running python 3.13).
+  ```
   
 * [PyTorch](https://pytorch.org/)
 
   This is a machine learning library build off of the Torch library, originally
   developed by Facebook.
+
+  You can install pytorch via:
+
+  ```
+  pip install torch
+  ```
   
 * [scikit-learn](https://scikit-learn.org/stable/)
 
@@ -55,6 +72,12 @@ Some additional comparisons are provided here: https://ritza.co/articles/scikit-
   General recommendations on the web seem to be to use Scikit-learn to get
   started with machine learning and to explore ideas, but to switch to
   one of the other packages for computationally-intensive work.
+
+  You can install scikit-learn via:
+
+  ```
+  pip install scikit-learn
+  ```
   
   Scikit-learn provides some nice sample datasets: 
 
@@ -69,15 +92,15 @@ There are also tools that provide higher-level interfaces to these
 
 * [Keras](https://keras.io/)
 
-  Keras is built on top of TensorFlow and provides a nice python interface that
-  hides a lot of the implementation details in TensorFlow.
+  Keras provides a common python interface to several different machine learning
+  libraries, including tensorflow and torch.  This hides a lot of the implementation
+  details and makes it easy to get started using these libraries.
 
-## Keras / TensorFlow
+## Keras 
 
-We'll focus on Keras and TensorFlow.
+We'll focus on Keras.
 
 There are a large number of examples provided by Keras:
 
 https://keras.io/examples/
 
-You should be able to install keras via pip or conda.
