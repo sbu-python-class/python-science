@@ -58,7 +58,7 @@ It may ask you where you want the fork to live&mdash;you want it to live
 under your profile / username.
 
 This will bring you to a new github page, displaying the fork, with a
-URL that should look something like: ``https://github.com/zingale/test-repo``
+URL that should look something like: ``https://github.com/zingale/test_repo``
 
 Now click on the *code* button and copy the SSH location.
 
@@ -95,7 +95,7 @@ Then click on the "New pull request" button, and you'll see something like:
 ```
 
 This is showing that you are asking to merge the changes in your fork into the
-class ``test-repo`` repository.
+class ``test_repo`` repository.
 
 Click on *create pull request*, type in a comment about what this does, and then click
 on the *create pull request* button again.
