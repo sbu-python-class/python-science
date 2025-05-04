@@ -250,7 +250,7 @@ Here's the implementation of our Mandelbrot generator:
 We build the shared library as:
 
 ```bash
-g++ -O3  -Wall -Wextra -shared -std=c++17 -fPIC $(python3 -m pybind11 --includes) mandel.cpp -o mandel$(python3-config --extension-suffix)
+g++ -DNDEBUG -O3  -Wall -Wextra -shared -std=c++17 -fPIC $(python3 -m pybind11 --includes) mandel.cpp -o mandel$(python3-config --extension-suffix)
 ```
 
 Our driver is essentially the same as the Fortran one.

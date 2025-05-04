@@ -1,7 +1,6 @@
-#include <iostream>
+#include <cstddef>
 #include <cmath>
 #include <complex>
-#include <vector>
 
 #include <pybind11/pybind11.h>
 #include <pybind11/numpy.h>
@@ -33,9 +32,9 @@ py::array_t<int> mandelbrot(int N,
     // construct the numpy array we will return
     // we need to specify the strides manually
 
-    constexpr size_t elsize = sizeof(int);
-    size_t shape[2]{N, N};
-    size_t strides[2]{N * elsize, elsize};
+    constexpr std::size_t elsize = sizeof(int);
+    std::size_t shape[2]{N, N};
+    std::size_t strides[2]{N * elsize, elsize};
     auto m = py::array_t<int>(shape, strides);
     auto m_view = m.mutable_unchecked<2>();
 
