@@ -3,7 +3,7 @@ import numpy as np
 from numba import njit
 
 
-@njit()
+@njit(nopython=True)
 def mandelbrot(N,
                xmin=-2.0, xmax=2.0,
                ymin=-2.0, ymax=2.0,

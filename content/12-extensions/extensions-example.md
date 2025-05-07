@@ -87,6 +87,14 @@ of the JIT compilation.
 :language: python
 ```
 
+````{tip}
+We can get even better performance if we let numba do things in parallel, with
+
+```
+@njit(parallel=True)
+```
+````
+
 ## Cython version
 
 We can install Cython by doing
