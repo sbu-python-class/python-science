@@ -38,11 +38,11 @@ and weaknesses.
 
     This underlies many of the techniques that we'll see here.
 
-    .. note::
-
-       These days, there are better methods for most applications,
-       and you should probably not use the C-API directly.
-
+    ```{note}
+    These days, there are better methods for most applications,
+    and you should probably not use the C-API directly.
+    ```
+    
   * [ctypes](https://docs.python.org/3/library/ctypes.html) : this
     is a module that allows you to call functions in shared libraries.
     This is part of standard python.
