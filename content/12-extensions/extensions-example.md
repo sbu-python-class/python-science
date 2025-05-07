@@ -272,29 +272,26 @@ It uses the same driver.
 
 ## Timings
 
-On my machine, (python 3.12, Cython 3.0.10, GCC 14, numba 0.59.1) here
-are some timings (average of 3 runs):
+On my machine, (python 3.13, numpy 2.2.5, Cython 3.0.12, GCC 15, numba
+0.61.2, pybin11 2.13.6) here are some timings (average of 3 runs):
 
 
 |   technique                                  |   timings (s)  |
 | -------------------------------------------- | -------------- |
-| python / numpy                               |      0.254     |
-| python w/ explicit loops                     |     71.8       |
-| Numba(*)                                     |      0.0972    |
-| Cython                                       |      0.272     |
-| Fortran + f2py                               |      0.0914    |
-| C++ + pybind11 (vector of vector)            |      0.166     |
-| C++ + pybind11 (contiguous `Array`)          |      0.105     |
+| python / numpy                               |      0.216     |
+| python w/ explicit loops                     |     17.7       |
+| Numba(*)                                     |      0.0902    |
+| Cython                                       |      0.0879    |
+| Fortran + f2py                               |      0.0888    |
+| C++ + pybind11 (vector of vector)            |      0.144     |
+| C++ + pybind11 (contiguous `Array`)          |      0.109     |
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
 
-```{note}
-The timings seem very sensitive to the versions of the library used,
-it seems like I got better performance with GCC 13 and Cython < 3
-```
 
-We see that Numba, C++, and Fortran are all quite close in performance
-and much faster than the other implementations.  It may be possible to
-further optimize the numpy version, but it is so much easier to just
-use Numba in this situation.
+We see that Numba, Cython, and Fortran are all quite close in
+performance, with C++ contiguous only slightly slower, and all of
+these much faster than the other implementations.  It may be possible
+to further optimize the numpy version, but it is so much easier to
+just use Numba in this situation.
