@@ -19,6 +19,9 @@ and weaknesses.
     header-only library that allows you to call C++ functions directly
     from python.
 
+    A related library is [nanobind](https://github.com/wjakob/nanobind),
+    which has similar syntax but may be more efficient.
+
 * C
 
   * [C-API](https://docs.python.org/3/c-api/index.html) : the
@@ -33,9 +36,12 @@ and weaknesses.
     represent the arrays we use.  This means writing a lot of
     boilerplate code just to deal with some simple operations.
 
-    This underlies most of the techniques that we'll see here.
+    This underlies many of the techniques that we'll see here.
 
-    These days, there are better methods for most applications.
+    .. note::
+
+       These days, there are better methods for most applications,
+       and you should probably not use the C-API directly.
 
   * [ctypes](https://docs.python.org/3/library/ctypes.html) : this
     is a module that allows you to call functions in shared libraries.
