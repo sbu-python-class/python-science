@@ -12,12 +12,12 @@ Right now, we did our training as:
 * Loop over the $T$ pairs $({\bf x}^k, {\bf y}^k)$ for $k = 1, \ldots, T$
 
   * Propagate $({\bf x}^k, {\bf y}^k)$ through the network
-  * Compute the corrections $\partial f/\partial {\bf A}$, $\partial f/\partial {\bf B}$
+  * Compute the corrections $\partial \mathcal{L}/\partial {\bf A}$, $\partial \mathcal{L}/\partial {\bf B}$
   * Update the matrices:
   
-    $${\bf A} \leftarrow {\bf A} + \eta \frac{\partial f}{\partial {\bf A}}$$
+    $${\bf A} \leftarrow {\bf A} - \eta \frac{\partial \mathcal{L}}{\partial {\bf A}}$$
 
-    $${\bf B} \leftarrow {\bf B} + \eta \frac{\partial f}{\partial {\bf B}}$$
+    $${\bf B} \leftarrow {\bf B} - \eta \frac{\partial \mathcal{L}}{\partial {\bf B}}$$
 
 In this manner, each training pair sees slightly different
 matrices ${\bf A}$ and ${\bf B}$, as each previous pair
@@ -31,19 +31,24 @@ each with $\tau = T/N$ training pairs and do our update as:
   * Loop over the $\tau$ pairs $({\bf x}^k, {\bf y}^k)$ for $k = 1, \ldots, \tau$ in the current batch 
 
     * Propagate $({\bf x}^k, {\bf y}^k)$ through the network
-    * Compute the corrections $\partial f/\partial {\bf A}^k$, $\partial f/\partial {\bf B}^k$ from the current pair
+    * Compute the gradients $\partial \mathcal{L}/\partial {\bf A}^k$, $\partial \mathcal{L}/\partial {\bf B}^k$ from the current pair
     
-    * Accumulate the corrections:
+    * Accumulate the gradients:
   
-      $$\frac{\partial f}{\partial {\bf A}} = \frac{\partial f}{\partial {\bf A}} + \frac{\partial f}{\partial {\bf A}^k}$$
+      $$\frac{\partial \mathcal{L}}{\partial {\bf A}} = \frac{\partial \mathcal{L}}{\partial {\bf A}} + \frac{\partial \mathcal{L}}{\partial {\bf A}^k}$$
       
-      $$\frac{\partial f}{\partial {\bf B}} = \frac{\partial f}{\partial {\bf B}} + \frac{\partial f}{\partial {\bf B}^k}$$
+      $$\frac{\partial \mathcal{L}}{\partial {\bf B}} = \frac{\partial \mathcal{L}}{\partial {\bf B}} + \frac{\partial \mathcal{L}}{\partial {\bf B}^k}$$
       
   * Apply a single update to the matrices for this batch:
 
-    $${\bf A} \leftarrow {\bf A} + \eta \frac{\partial f}{\partial {\bf A}}$$
+    $${\bf A} \leftarrow {\bf A} - \frac{\eta}{\tau} \frac{\partial \mathcal{L}}{\partial {\bf A}}$$
 
-    $${\bf B} \leftarrow {\bf B} + \eta \frac{\partial f}{\partial {\bf B}}$$
+    $${\bf B} \leftarrow {\bf B} - \frac{\eta}{\tau} \frac{\partial \mathcal{L}}{\partial {\bf B}}$$
+
+```{note}
+We normalize the accumulated gradients by the batch size, $\tau$, which means that
+we are applying the average gradient over the batch.
+```
 
 The advantage of this is that the $\tau$ trainings in a batch
 can all be done in parallel now, spread across many CPU cores

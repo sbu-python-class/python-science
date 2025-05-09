@@ -2,12 +2,17 @@
 
 ## Neural networks
 
-When we talk about machine learning, we often mean an [_artifical
+An [_artifical
 neural
-network_](https://en.wikipedia.org/wiki/Artificial_neural_network).  A
-neural network mimics the action of neurons in your brain.  We'll
+network_](https://en.wikipedia.org/wiki/Artificial_neural_network)
+mimics the action of neurons in your brain to form connections
+between nodes (neurons) that link the input to the output.
+
+```{note}
+We'll loosely 
 follow the notation from _Computational Methods for Physics_ by
 Franklin.
+```
 
 Basic idea:
 
@@ -106,7 +111,9 @@ performance of the network.
 
 ## Basic algorithm
 
-
+We'll consider the case where we have training data---a set of inputs, ${\bf x}^k$,
+together with the expected output (answer), ${\bf y}^k$.  These training pairs
+allow us to constrain the output of the network and train the weights.
 
 * Training
 
@@ -121,14 +128,14 @@ performance of the network.
       This is a minimization problem, where we are minimizing:
 
       \begin{align*}
-      f(A_{ij}) &= \| g({\bf A x}^k) - {\bf y}^k \|^2 \\
+      \mathcal{L}(A_{ij}) &= \| g({\bf A x}^k) - {\bf y}^k \|^2 \\
                 &= \sum_{i=1}^{N_\mathrm{out}} \left [ g\left (\sum_{j=1}^{N_\mathrm{in}} A_{ij} x^k_j \right ) - y^k_i \right ]^2
       \end{align*}
 
-      We call this function the _cost function_ or _loss function_.
+      We call this function, $\mathcal{L}$, the _cost function_ or [loss function](https://en.wikipedia.org/wiki/Loss_function).
 
       ```{note}
-      This is one possible choice for the cost function, $f(A_{ij})$, but [many others exist](https://en.wikipedia.org/wiki/Loss_function).
+      This is called the _mean square error_ loss function, and is one possible choice for $\mathcal{L}(A_{ij})$, but [many others exist](https://en.wikipedia.org/wiki/Loss_function).
       ```
 
     * Update the matrix ${\bf A}$ based on the training pair $({\bf x}^k, {\bf y^{k}})$.

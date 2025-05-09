@@ -29,7 +29,7 @@ do here generalizes to multiple hidden layers.
 ```
 
 \begin{equation}
-f(A_{lm}, B_{ij}) = \sum_{l=1}^{N_\mathrm{out}} (z_l - y^k_l)^2
+\mathcal{L}(A_{lm}, B_{ij}) = \sum_{l=1}^{N_\mathrm{out}} (z_l - y^k_l)^2
 \end{equation}                  
 
 $$\tilde{z}_i = g \biggl ( \underbrace{\sum_{j=1}^{N_\mathrm{in}} B_{ij} x^k_j}_{\equiv \beta_i} \biggr )$$
@@ -46,7 +46,7 @@ directly, ${\bf e}^k = {\bf z} - {\bf y}^k$.  As a result, we can just use
 the result that we got for a single layer, but now the input is $\tilde{\bf z}$
 instead of ${\bf x}$:
 
-$$\frac{\partial f}{\partial {\bf A}} = 2 {\bf e}^k \circ {\bf z} \circ (1 - {\bf z}) \cdot \tilde{\bf z}^\intercal$$
+$$\frac{\partial \mathcal{L}}{\partial {\bf A}} = 2 {\bf e}^k \circ {\bf z} \circ (1 - {\bf z}) \cdot \tilde{\bf z}^\intercal$$
 
 ## Updates to ${\bf B}$
 
@@ -59,7 +59,7 @@ hidden layer&mdash;a process called _backpropagation_.
 Let's start with our cost function:
 
 \begin{align*}
-f(A_{lm}, B_{ij}) &= \sum_{l=1}^{N_\mathrm{out}} (z_l - y^k_l)^2 \\
+\mathcal{L}(A_{lm}, B_{ij}) &= \sum_{l=1}^{N_\mathrm{out}} (z_l - y^k_l)^2 \\
                   &= \sum_{l=1}^{N_\mathrm{out}} \Biggl [ g \biggl ( \sum_{m=1}^{N_\mathrm{hidden}} A_{lm} \tilde{z}_m \biggr ) - y_l^k \Biggr ]^2 \\
                   &= \sum_{l=1}^{N_\mathrm{out}} \Biggl [ g \biggl ( \sum_{m=1}^{N_\mathrm{hidden}} A_{lm} \,g \biggl ( \sum_{j=1}^{N_\mathrm{in}} B_{mj} x_j^k \biggr ) \biggr ) - y_l^k \Biggr ]^2
 \end{align*}                  
@@ -67,7 +67,7 @@ f(A_{lm}, B_{ij}) &= \sum_{l=1}^{N_\mathrm{out}} (z_l - y^k_l)^2 \\
 Differentiating with respect to an element in matrix ${\bf B}$, we apply the chain rule over and over,
 giving:
 
-$$\frac{\partial f}{\partial B_{pq}} = 2 \sum_{l=1}^{N_\mathrm{out}} (z_l - y_l^k)
+$$\frac{\partial \mathcal{L}}{\partial B_{pq}} = 2 \sum_{l=1}^{N_\mathrm{out}} (z_l - y_l^k)
     \left .\frac{\partial g}{\partial \xi} \right |_{\xi = \alpha_l}
     \sum_{m=1}^{N_\mathrm{hidden}} A_{lm}\, \left . \frac{\partial g}{\partial \xi} \right |_{\xi = \beta_m}
     \sum_{j=1}^{N_\mathrm{in}} \frac{\partial B_{mj}}{\partial B_{pq}} x_j^k $$
@@ -85,7 +85,7 @@ $$\frac{\partial B_{mj}}{\partial B_{pq}} = \delta_{mp} \delta_{jq}$$
 
 Inserting these dervatives and using the $\delta$'s, we are left with:
 
-$$\frac{\partial f}{\partial B_{pq}} = 2 \sum_{l=1}^{N_\mathrm{out}}
+$$\frac{\partial \mathcal{L}}{\partial B_{pq}} = 2 \sum_{l=1}^{N_\mathrm{out}}
    \underbrace{(z_l - y_l^k)}_{ = e_l^k} z_l (1 - z_l) A_{lp} \tilde{z}_p (1 - \tilde{z}_p) x^k_q$$
    
 Now, that remaining sum is contracting on the first of the indices of
@@ -97,14 +97,14 @@ $$\tilde{e}_p^k = \sum_{l=1}^{N_\mathrm{out}} e_l^k z_l (1 - z_l) A_{lp}
 
 and we can write
 
-$$\frac{\partial f}{\partial {\bf B}} = 2 \tilde{\bf e}^k \circ \tilde{\bf z} \circ (1 - \tilde{\bf z}) \cdot ({\bf x}^k)^\intercal$$
+$$\frac{\partial \mathcal{L}}{\partial {\bf B}} = 2 \tilde{\bf e}^k \circ \tilde{\bf z} \circ (1 - \tilde{\bf z}) \cdot ({\bf x}^k)^\intercal$$
 
 
 Notice the symmetry in the update of each matrix:
 
 \begin{align*}
-\frac{\partial f}{\partial {\bf A}} &= 2 {\bf e}^k \circ {\bf z} \circ (1 - {\bf z}) \cdot \tilde{\bf z}^\intercal \\
-\frac{\partial f}{\partial {\bf B}} &= 2 \tilde{\bf e}^k \circ \tilde{\bf z} \circ (1 - \tilde{\bf z}) \cdot ({\bf x}^k)^\intercal
+\frac{\partial \mathcal{L}}{\partial {\bf A}} &= 2 {\bf e}^k \circ {\bf z} \circ (1 - {\bf z}) \cdot \tilde{\bf z}^\intercal \\
+\frac{\partial \mathcal{L}}{\partial {\bf B}} &= 2 \tilde{\bf e}^k \circ \tilde{\bf z} \circ (1 - \tilde{\bf z}) \cdot ({\bf x}^k)^\intercal
 \end{align*}
 
 Adding additional hidden layers would continue the trend, with each hidden layer's matrix update depending
