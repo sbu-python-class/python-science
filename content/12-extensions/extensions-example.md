@@ -281,7 +281,7 @@ It uses the same driver.
 ## Timings
 
 On my machine, (python 3.13, numpy 2.2.5, Cython 3.0.12, GCC 15, numba
-0.61.2, pybin11 2.13.6) here are some timings (average of 3 runs):
+0.61.2, pybind11 2.13.6) here are some timings (average of 3 runs):
 
 
 |   technique                                  |   timings (s)  |
