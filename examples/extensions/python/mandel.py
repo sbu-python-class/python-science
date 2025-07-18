@@ -10,7 +10,7 @@ def mandelbrot(N,
 
     xv, yv = np.meshgrid(x, y, indexing="ij")
 
-    c = xv + 1j*y
+    c = xv + 1j * yv
 
     z = np.zeros((N, N), dtype=np.complex128)
 

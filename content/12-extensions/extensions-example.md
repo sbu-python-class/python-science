@@ -286,13 +286,13 @@ On my machine, (python 3.13, numpy 2.2.5, Cython 3.0.12, GCC 15, numba
 
 |   technique                                  |   timings (s)  |
 | -------------------------------------------- | -------------- |
-| python / numpy                               |      0.216     |
-| python w/ explicit loops                     |     17.7       |
-| Numba(*)                                     |      0.0902    |
-| Cython                                       |      0.0879    |
-| Fortran + f2py                               |      0.0888    |
-| C++ + pybind11 (vector of vector)            |      0.144     |
-| C++ + pybind11 (contiguous `Array`)          |      0.109     |
+| python / numpy                               |      0.218     |
+| python w/ explicit loops                     |     17.4       |
+| Numba(*)                                     |      0.0922    |
+| Cython                                       |      0.0866    |
+| Fortran + f2py                               |      0.0860    |
+| C++ + pybind11 (vector of vector)            |      0.120     |
+| C++ + pybind11 (contiguous `Array`)          |      0.108     |
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
