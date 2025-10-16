@@ -1,8 +1,8 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "PHY 546: Python for Scientific Computing"
-author: <a href="https://zingale.github.io">Michael Zingale</a>
+title: "Introducción a Python. Asignatura Técnicas Informáticas en Física"
+author: <a href="https://merismeris.github.io">María Navarro y Álvaro Lozano</a>
 #logo: logo.png
 copyright: "2022"
 
@@ -19,7 +19,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/sbu-python-class/python-science
+  url: https://github.com/merismeris/python-TIF
   path_to_book: content  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 

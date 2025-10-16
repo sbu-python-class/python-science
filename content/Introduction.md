@@ -1,8 +1,15 @@
-# PHY 546: Python for Scientific Computing
+# Programación en Python
 
 ![xkcd](01-python/python.png)
 
 (from https://xkcd.com)
+
+# ¿Qué es Python?
+
+* Python es un lenguaje de alto nivel
+* Software libre y multiplataforma.
+* Creado a finales de los 80
+* Lenguaje muy usado
 
 ## Why python?
 
@@ -15,8 +22,6 @@
 * Many powerful libraries to perform complex tasks
 
   * Parse structured inputs files
-
-  * send e-mail
 
   * interact with the operating system
 

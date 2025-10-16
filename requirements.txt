@@ -1,11 +1,8 @@
 jupyter-book
 matplotlib
-basemap
 numpy
 sympy
 scipy
-keras
-tensorflow
 pydot
 graphviz
 scikit-learn
