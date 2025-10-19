@@ -1,60 +1,32 @@
-# Programación en Python
+# ¿Qué es Pytnon?
 
 ![xkcd](01-python/python.png)
 
 (from https://xkcd.com)
-
-# ¿Qué es Python?
 
 * Python es un lenguaje de alto nivel
 * Software libre y multiplataforma.
 * Creado a finales de los 80
 * Lenguaje muy usado
 
-## Why python?
+## Algunas características
 
-* Python is a very high-level language
+* Multiparadigma (objetos, estructurado) 
+* Lenguaje interpretado
+* Extensible (fácilmente integrable con otros lenguajes como Fortran, C/C++, ...)
+* Sensible a mayúsculas y minúsculas
+* Fácil de leer (por las sangrías y los espacios)
 
-  * it provides many complex data-structures (lists, dictionaries, ...)
+## ¿Por qué python en general?
 
-  * your code is shorter than a comparable algorithm in a compiled language
+* Python es un lenguaje de alto nivel 
+* Es sencillo y limpio
+* Tiene una gran cantidad de módulos
+* Es gratuito 
+* Tiene una gran comunidad de soporte
 
-* Many powerful libraries to perform complex tasks
+### Y ¿por qué nosotros enseñamos aquí Python?
 
-  * Parse structured inputs files
+Básicamente, porque Python se está utilizando ampliamente en la comunidad científica, casi en cualquier ámbito. 
 
-  * interact with the operating system
-
-  * make plots
-
-  * make GUIs
-
-  * do scientific computations
-
-  * ...
-
-* Python makes it easy to prototype new tools
-
-* Python is cross-platform and Free
-
-## Language Features
-
-Some of the language features are:
-
-* Dynamical typing
-
-* Object-oriented foundation
-
-* Extensible (easy to call Fortran, C/C++, ...)
-
-* Automatic memory management (garbage collection)
-
-* Ease of readability (whitespace matters)
-
-
-## Scientific python
-
-Perhaps most importantly, and why we are here:
-
-> Python has been widely adopted in the scientific community.
 

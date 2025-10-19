@@ -1,45 +1,43 @@
-# Using These Notes
 
-These notes are built via [Jupyter book](https://jupyterbook.org/), as
-a collection of [Jupyter](https://jupyter.org/) notebooks and markdown
-pages.
 
-The course is on Github at:
-https://github.com/sbu-python-class/python-science, and the course
-website is built automatically via a Github action each time a change
-is pushed.
+# Primeros pasos con VS Code
 
-If you find any problems or have suggestions for improving the notes,
-feel free to create an issue or pull request at the Github repo.
+Una vez que hemos instalado Python y sus componentes, ya podemos empezar a programar. Comenzaremos con un ejercicio muy sencillo, el famoso `Hola Mundo`.Para ello, creamos un nuevo fichero en nuestro workspace y escribimos `print("Hola mundo")`. 
 
-## Interactive Usage
+ ![imagen](../images/vscode/slide7_img9.png)
 
-For the Jupyter notebooks in this collection, there are a few ways to
-access them to run them on your own.
+Al ejecutar, podemos ver la salida en la terminal del VSCode. Es ahí donde también introduciremos la entrada de los datos en caso necesario.
 
-* clicking on the {octicon}`download` icon in the upper right let's
-  you download the raw notebook so you can run it on your local
-  computer.
+Dejamos aquí un ejemplo lo que podemos ver al ejecutar un fichero fuente.
 
-* clicking on the {octicon}`rocket` icon in the upper right will allow
-  you to run the notebook directly in the cloud.  There are 2 different
-  compute clouds:
+ ![imagen](../images/vscode/slide6_img8.png)
 
-  * [mybinder](https://mybinder.org/) : this is an open project with
-    ties to the Jupyter project.  It can take a few minutes for the
-    page to appear if it hasn't been accessed recently, but then it
-    will give you the standard Jupyter experience.
+* En "Problems" (normalmente en la parte inferior) podemos encontrar varias notificaciones: 
+    *  Amarillo: warnings, avisos que alertan sobre posibles errores de ejecución  o aspectos del código fuente
+    *  Rojo: errores. Suelen ser errores de sintaxis o de enlazado de módulos. 
+* En Terminal podemos ver la ejecución del programa y la salida del mismo, si la hay. 
 
-  * [Google colab](https://colab.research.google.com/) : this is
-    Google's version of an online notebook, which runs directly in
-    Google's cloud.  This starts up almost instantly.
+## Breve introducción al debugger de VS Code
 
-````{note}
-Some notebooks use [MyST Markdown](https://jupyterbook.org/en/stable/content/myst.html) to 
-allow for more styling.  To see these styles, you need to install `jupyterlab-myst`, which
-can be done via:
-```
-pip install jupyterlab_myst
-```
+Un depurador es una herramienta que nos permite un poco más de control en la ejecución de un programa. Entre otras cosas, podemos parar la ejecución, analizar los valores de las variables en determinado momento, las llamadas a funciones, etc. 
 
-````
+Nosotros vamos a utilizar el depurador que viene instalado en el VS Code. Para ejecutarlo, podemos utilizar la barra lateral izquierda y dejar la configuración por defecto. 
+
+Si queremos parar la ejecución en un determinado momento, podemos utilizar los **breakpoints** o puntos de interrupción. Para colocarlos, basta con hacer click (o F9) a la izquierda de la línea en el fichero fuente
+
+![imagen](../images/vscode/slide8_img10.png)
+
+Una vez comenzamos a depurar (o *debuguear*), nos aparecen varias opciones cuando la ejecución llega al punto de interrupción: 
+
+![imagen](../images/vscode/slide8_img11.png)
+
+* Menú debugging: Nos permite continuar con la ejecución hasta el siguiente breakpoint (si lo hay), ejecutar solo la siguiente instrucción, entrar dentro de la función en su caso, etc.
+* Variables definidas: Podemos ver las variables definidas y qué valor contienen en ese momento.
+* Variables y expresiones a “vigilar": Podemos añadir aquí las variables o expresiones que deseamos evaluar o realizar un seguimiento. Esto es útil cuando existen muchas variables definidas en un programa.
+* Pila de llamadas del programa: Aquí se muestran los scripts que están involucrados en la ejecución y sus dependencias.
+* Breakpoints establecidos: Se mostrarán los puntos de interrupción definidos para la ejecución del programa.
+
+## Conclusiones
+
+Hemos aprendido cómo funciona Python, cómo instalarlo y a ejecutar y depurar un primer programa. Ahora podemos comenzar con unas nociones básicas de programación en este lenguaje. 
+

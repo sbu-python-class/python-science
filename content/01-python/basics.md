@@ -1,15 +1,15 @@
 # Python Basics
 
-The following references give helpful introductions to python:
+Las siguientes referencias son útiles para introducirse en python:
 
 * The [official python tutorial](http://docs.python.org/3/tutorial/)
 
 * The [software carpentry python lessons](https://swcarpentry.github.io/python-novice-inflammation/)
 
 
-## Practicing
+## Prácticas
 
-Some resources for practicing on your own:
+Algunos recursos para practicar programación en python:
 
 * [Code Academy python rack](http://www.codecademy.com/tracks/python): 
   step-by-step tutorial through the basics of the language
@@ -19,7 +19,7 @@ Some resources for practicing on your own:
   python
 
 
-## Online books:
+## Libros online:
 
 * [Think python](https://greenteapress.com/wp/think-python-3rd-edition/)
 
@@ -32,7 +32,7 @@ Some resources for practicing on your own:
 * more resources can be found at: http://pythonbooks.revolunet.com/
 
 
-## Domain-specific libraries
+## Librerías interesantes para Ciencias:
 
 * Astronomy: [AstroPy](http://astropy.org)
 
