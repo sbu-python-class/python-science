@@ -1,0 +1,115 @@
+version: 1
+project:
+  title: 'PHY 546: Python for Scientific Computing'
+  authors:
+    - name: Michael Zingale
+      url: https://zingale.github.io
+      github: zingale
+      bluesky: michaelzingale.bsky.social
+
+  copyright: '2025'
+  github: sbu-python-class/python-science
+  thebe:
+    binder:
+      repo: sbu-python-class/python-science
+      provider: github
+      url: https://mybinder.org
+      ref: main
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: Introduction.md
+    - title: Getting Started
+      children:
+        - file: 01-python/installing.md
+        - file: 01-python/using.md
+        - file: 01-python/w1-jupyter.ipynb
+    - title: Python Basics
+      children:
+        - file: 01-python/basics.md
+          children:
+            - file: 01-python/w1-python-datatypes.ipynb
+            - file: 01-python/w2-python-advanced-datatypes.ipynb
+            - file: 01-python/w2-python-control-flow.ipynb
+            - file: 01-python/w2-python-exercises.ipynb
+        - file: 01-python/functions-classes.md
+          children:
+            - file: 01-python/w3-python-functions.ipynb
+            - file: 01-python/w3-python-exercises.ipynb
+            - file: 01-python/w4-python-classes.ipynb
+            - file: 01-python/w4-python-modules.ipynb
+            - file: 01-python/w4-python-exercises.ipynb
+        - file: 01-python/misc.md
+          children:
+            - file: 01-python/w3-python-exceptions.ipynb
+            - file: 01-python/python-io.ipynb
+            - file: 01-python/w5-python-more-examples.ipynb
+    - title: Arrays
+      children:
+        - file: 02-numpy/numpy.md
+          children:
+            - file: 02-numpy/numpy-basics.ipynb
+            - file: 02-numpy/numpy-advanced.ipynb
+            - file: 02-numpy/numpy-exercises.ipynb
+    - title: Scientific Python
+      children:
+        - file: 04-matplotlib/matplotlib.md
+          children:
+            - file: 04-matplotlib/matplotlib-basics.ipynb
+            - file: 04-matplotlib/matplotlib-exercises.ipynb
+        - file: 05-scipy/scipy.md
+          children:
+            - file: 05-scipy/scipy-basics.ipynb
+            - file: 05-scipy/scipy-exercises.ipynb
+            - file: 05-scipy/scipy-basics-2.ipynb
+            - file: 05-scipy/scipy-exercises-2.ipynb
+        - file: 06-sympy/sympy.md
+          children:
+            - file: 06-sympy/sympy-examples.ipynb
+            - file: 06-sympy/sympy-exercises.ipynb
+    - title: Machine Learning
+      children:
+        - file: 11-machine-learning/neural-net-basics.md
+          children:
+            - file: 11-machine-learning/gradient-descent.ipynb
+            - file: 11-machine-learning/neural-net-derivation.md
+        - file: 11-machine-learning/neural-net-hidden.md
+          children:
+            - file: 11-machine-learning/neural-net-improvements.md
+        - file: 11-machine-learning/machine-learning-libraries.md
+          children:
+            - file: 11-machine-learning/keras-mnist.ipynb
+            - file: 11-machine-learning/keras-clustering.ipynb
+    - title: Python packaging and applications
+      children:
+        - file: 09-packages/python-modules.md
+        - file: 09-packages/python-arguments.md
+        - file: 09-packages/python-more-modules.md
+        - file: 09-packages/python-packages.md
+        - file: 09-packages/python-tools.md
+    - title: Git and Github
+      children:
+        - file: git/version-control.md
+        - file: git/git.md
+        - file: git/github.md
+        - file: git/pull-requests.md
+    - title: Unit tests
+      children:
+        - file: 10-testing/testing.md
+        - file: 10-testing/pytest.md
+          children:
+            - file: 10-testing/more-pytest.md
+        - file: 10-testing/real-world-example.md
+    - title: Extensions
+      children:
+        - file: 12-extensions/extensions-overview.md
+        - file: 12-extensions/extensions-example.md
+site:
+  options:
+    folders: true
+  template: book-theme
+
+html:
+  announcement: ""
