@@ -109,7 +109,8 @@ project:
 site:
   options:
     folders: true
+    #logo: farnsworth.png   # use this to change the logo at the top
+    hide_myst_branding: true
   template: book-theme
 
-html:
-  announcement: ""
+
