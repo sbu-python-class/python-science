@@ -5,7 +5,8 @@ numpy
 sympy
 scipy
 keras
-tensorflow
+#tensorflow
+torch
 pydot
 graphviz
 scikit-learn

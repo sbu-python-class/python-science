@@ -25,7 +25,7 @@ jobs:
 
     - name: Build book HTML
       run: |
-        jupyter-book build ./content
+        KERAS_BACKEND="torch" jupyter-book build ./content
 
     - name: Push _build/html to gh-pages
       run: |
