@@ -13,8 +13,8 @@ Let's start with our cost function:
 $$\mathcal{L}(A_{ij}) = \sum_{i=1}^{N_\mathrm{out}} (z_i - y_i^k)^2 = \sum_{i=1}^{N_\mathrm{out}}
   \Biggl [ g\biggl (\underbrace{\sum_{j=1}^{N_\mathrm{in}} A_{ij} x^k_j}_{\equiv \alpha_i} \biggr ) - y^k_i \Biggr ]^2$$
 
-where we'll refer to the product ${\boldsymbol \alpha} \equiv {\bf
-Ax}$ to help simplify notation.  This means that ${\bf z} = g({\boldsymbol \alpha})$.
+where we'll refer to the product $\boldsymbol{\alpha} \equiv {\bf
+Ax}$ to help simplify notation.  This means that ${\bf z} = g(\boldsymbol{\alpha})$.
 
 We can compute the derivative with respect to a single matrix
 element, $A_{pq}$ by applying the chain rule:
