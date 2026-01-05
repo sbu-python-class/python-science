@@ -38,6 +38,8 @@ sphinx:
     html_show_copyright: false
     nbsphinx_timeout: 300
     nb_execution_timeout: 300
+  extra_extensions:
+    - jupyterbook_patches
 
 launch_buttons:
    binderhub_url: "https://mybinder.org"

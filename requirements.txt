@@ -13,4 +13,4 @@ scikit-learn
 sphinx-copybutton
 sphinx-prompt
 jupyterlab_myst
-
+jupyterbook_patches
