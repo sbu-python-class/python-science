@@ -1,0 +1,1506 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Exercises &#8212; PHY 546: Python for Scientific Computing</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_admonition_style.css?v=8627ce31" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_dropdown_style.css?v=f3461767" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_code_header_style.css?v=7d542921" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_sidebar_scroll.css?v=b9929681" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_margin.css?v=4a1e31aa" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_align_text_captions.css?v=29546296" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_align_code.css?v=719ffd7f" />
+    <link rel="stylesheet" type="text/css" href="../_static/margin_patch.css?v=1aa379b9" />
+    <link rel="stylesheet" type="text/css" href="../_static/mathjax_patch.css?v=b2e2e4cc" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/myfile.css?v=359afcf4" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+    <script src="../_static/download_patch.js?v=75631000"></script>
+    <script src="../_static/fix_hash_jump.js?v=2aad3019"></script>
+    <script src="../_static/mathjax_patch.js?v=c73a562d"></script>
+    <script src="../_static/preserve_dropdown_state.js?v=d724701d"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"loader": {"load": ["ui/lazy"]}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="../_static/mathjax_patch.js?v=c73a562d"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01-python/w2-python-exercises';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Functions and Classes" href="functions-classes.html" />
+    <link rel="prev" title="Control Flow" href="w2-python-control-flow.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../Introduction.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">PHY 546: Python for Scientific Computing</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../Introduction.html">
+                    PHY 546: Python for Scientific Computing
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="installing.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using.html">Using These Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="w1-jupyter.html">Jupyter</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Python Basics</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="basics.html">Python Basics</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="w1-python-datatypes.html">Basic Python Datatypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="w2-python-advanced-datatypes.html">Advanced Datatypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="w2-python-control-flow.html">Control Flow</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Exercises</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="functions-classes.html">Functions and Classes</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="w3-python-functions.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="w3-python-exercises.html">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="w4-python-classes.html">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="w4-python-modules.html">Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="w4-python-exercises.html">Practicing Classes</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="misc.html">Miscellaneous</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="w3-python-exceptions.html">Exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="python-io.html">Print</a></li>
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="w5-python-more-examples.html">Exercises</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Arrays</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../02-numpy/numpy.html">NumPy</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02-numpy/numpy-basics.html">NumPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-numpy/numpy-advanced.html">NumPy Advanced Operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-numpy/numpy-exercises.html">NumPy exercises</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Scientific Python</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../04-matplotlib/matplotlib.html">matplotlib</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04-matplotlib/matplotlib-basics.html">matplotlib</a></li>
+
+
+
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../04-matplotlib/matplotlib-exercises.html">matplotlib exercises</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../05-scipy/scipy.html">SciPy</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../05-scipy/scipy-basics.html">SciPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-scipy/scipy-exercises.html">SciPy exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-scipy/scipy-basics-2.html">More SciPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-scipy/scipy-exercises-2.html">More SciPy Exercises</a></li>
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../06-sympy/sympy.html">SymPy</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../06-sympy/sympy-examples.html">SymPy examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-sympy/sympy-exercises.html">SymPy Exercises</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Machine Learning</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../11-machine-learning/neural-net-basics.html">Artificial Neural Network Basics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/gradient-descent.html">Gradient Descent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/neural-net-derivation.html">Deriving the Learning Correction</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../11-machine-learning/neural-net-hidden.html">Hidden Layers</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/neural-net-improvements.html">Improvements</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../11-machine-learning/machine-learning-libraries.html">Diving Deeper into Machine Learning</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/keras-mnist.html">KERAS and MNIST</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/keras-clustering.html">Clustering</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Python packaging and applications</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-modules.html">Python Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-arguments.html">Command line arguments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-more-modules.html">Module Paths</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-packages.html">Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-tools.html">Tools to Make Your Life Easier</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Git and Github</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../git/version-control.html">Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git.html">A Git Walkthrough</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../git/github.html">github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/pull-requests.html">Pull requests</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Unit tests</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../10-testing/testing.html">Testing</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../10-testing/pytest.html">pytest</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../10-testing/more-pytest.html">More pytest</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../10-testing/real-world-example.html">Real World Example</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Extensions</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../12-extensions/extensions-overview.html">Extensions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../12-extensions/extensions-example.html">Example Extension</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/sbu-python-class/python-science/main?urlpath=tree/content/01-python/w2-python-exercises.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/sbu-python-class/python-science/blob/main/content/01-python/w2-python-exercises.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/sbu-python-class/python-science" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/sbu-python-class/python-science/issues/new?title=Issue%20on%20page%20%2F01-python/w2-python-exercises.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/01-python/w2-python-exercises.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Exercises</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-1">Q 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-2">Q 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-3">Q 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-4">Q 4</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-5">Q 5</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-6">Q 6</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-7"><span class="fa fa-star"></span> Q 7</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-task">your task</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#more-compact-way">More compact way</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="exercises">
+<h1>Exercises<a class="headerlink" href="#exercises" title="Link to this heading">#</a></h1>
+<section id="q-1">
+<h2>Q 1<a class="headerlink" href="#q-1" title="Link to this heading">#</a></h2>
+<p>When talking about floating point, we discussed <em>machine epsilon</em>, <span class="math notranslate nohighlight">\(\epsilon\)</span>—this is the smallest number that when added to 1 is still different from 1.</p>
+<p>We’ll compute <span class="math notranslate nohighlight">\(\epsilon\)</span> here:</p>
+<ul class="simple">
+<li><p>Pick an initial guess for <span class="math notranslate nohighlight">\(\epsilon\)</span> of <code class="docutils literal notranslate"><span class="pre">eps</span> <span class="pre">=</span> <span class="pre">1</span></code>.</p></li>
+<li><p>Create a loop that checks whether <code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">+</span> <span class="pre">eps</span></code> is different from <code class="docutils literal notranslate"><span class="pre">1</span></code></p></li>
+<li><p>Each loop iteration, cut the value of <code class="docutils literal notranslate"><span class="pre">eps</span></code> in half</p></li>
+</ul>
+<p>What value of <span class="math notranslate nohighlight">\(\epsilon\)</span> do you find?</p>
+</section>
+<section id="q-2">
+<h2>Q 2<a class="headerlink" href="#q-2" title="Link to this heading">#</a></h2>
+<p>To iterate over the tuples, where the <em>i</em>-th tuple contains the <em>i</em>-th elements of certain sequences, we can use <code class="docutils literal notranslate"><span class="pre">zip(*sequences)</span></code> function.</p>
+<p>We will iterate over two lists, <code class="docutils literal notranslate"><span class="pre">names</span></code> and <code class="docutils literal notranslate"><span class="pre">age</span></code>, and print out the resulting tuples.</p>
+<ul class="simple">
+<li><p>Start by initializing lists <code class="docutils literal notranslate"><span class="pre">names</span> <span class="pre">=</span> <span class="pre">[&quot;Mary&quot;,</span> <span class="pre">&quot;John&quot;,</span> <span class="pre">&quot;Sarah&quot;]</span></code> and <code class="docutils literal notranslate"><span class="pre">age</span> <span class="pre">=</span> <span class="pre">[21,</span> <span class="pre">56,</span> <span class="pre">98]</span></code>.</p></li>
+<li><p>Iterate over the tuples containing a name and an age, the <code class="docutils literal notranslate"><span class="pre">zip(list1,</span> <span class="pre">list2)</span></code> function might be useful here.</p></li>
+<li><p>Print out formatted strings of the type “<em>NAME is AGE years old</em>”.</p></li>
+</ul>
+</section>
+<section id="q-3">
+<h2>Q 3<a class="headerlink" href="#q-3" title="Link to this heading">#</a></h2>
+<p>The function <code class="docutils literal notranslate"><span class="pre">enumerate(sequence)</span></code> returns tuples containing indices of objects in the sequence, and the objects.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">random</span></code> module provides tools for working with the random numbers. In particular, <code class="docutils literal notranslate"><span class="pre">random.randint(start,</span> <span class="pre">end)</span></code> generates a random number not smaller than <code class="docutils literal notranslate"><span class="pre">start</span></code>, and not bigger than <code class="docutils literal notranslate"><span class="pre">end</span></code>.</p>
+<ul class="simple">
+<li><p>Generate a list of 10 random numbers from 0 to 9.</p></li>
+<li><p>Using the <code class="docutils literal notranslate"><span class="pre">enumerate(random_list)</span></code> function, iterate over the tuples of random numbers and their indices, and print out <em>“Match: NUMBER and INDEX”</em> if the random number and its index in the list match.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
+
+<span class="n">random_number</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">9</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">random_number</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>7
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="q-4">
+<h2>Q 4<a class="headerlink" href="#q-4" title="Link to this heading">#</a></h2>
+<p>The Fibbonacci sequence is a numerical sequence where each number is the sum of the 2 preceding numbers, e.g., 1, 1, 2, 3, 5, 8, 13, …</p>
+<p>Create a list where the elements are the terms in the Fibbonacci sequence:</p>
+<ul class="simple">
+<li><p>Start with the list <code class="docutils literal notranslate"><span class="pre">fib</span> <span class="pre">=</span> <span class="pre">[1,</span> <span class="pre">1]</span></code></p></li>
+<li><p>Loop 25 times, compute the next term as the sum of the previous 2 terms and append to the list</p></li>
+<li><p>After the loop is complete, print out the terms</p></li>
+</ul>
+<p>You may find it useful to use <code class="docutils literal notranslate"><span class="pre">fib[-1]</span></code> and <code class="docutils literal notranslate"><span class="pre">fib[-2]</span></code> to access the last to items in the list</p>
+</section>
+<section id="q-5">
+<h2>Q 5<a class="headerlink" href="#q-5" title="Link to this heading">#</a></h2>
+<p>We can use the <code class="docutils literal notranslate"><span class="pre">input()</span></code> function to ask for input from the prompt (note: in python 2 the function was called <code class="docutils literal notranslate"><span class="pre">raw_input()</span></code>).</p>
+<p>Create an empty list and use a while loop to ask the user for input and append their input to the list.  Keep looping until 10 items are added to the list</p>
+</section>
+<section id="q-6">
+<h2>Q 6<a class="headerlink" href="#q-6" title="Link to this heading">#</a></h2>
+<p>Here is a list of book titles (from <a class="reference external" href="http://thegreatestbooks.org">http://thegreatestbooks.org</a>).  Loop through the list and capitalize each word in each title.  You might find the <code class="docutils literal notranslate"><span class="pre">.capitalize()</span></code> method that works on strings useful.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">titles</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;don quixote&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;in search of lost time&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;ulysses&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;the odyssey&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;war and piece&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;moby dick&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;the divine comedy&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;hamlet&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;the adventures of huckleberry finn&quot;</span><span class="p">,</span> 
+          <span class="s2">&quot;the great gatsby&quot;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="q-7">
+<h2><span class="fa fa-star"></span> Q 7<a class="headerlink" href="#q-7" title="Link to this heading">#</a></h2>
+<p>Here’s some text (the Gettysburg Address).  Our goal is to count how many times each word repeats.  We’ll do a brute force method first, and then we’ll look a ways to do it more efficiently (and compactly).</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">gettysburg_address</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">Four score and seven years ago our fathers brought forth on this continent, </span>
+<span class="s2">a new nation, conceived in Liberty, and dedicated to the proposition that </span>
+<span class="s2">all men are created equal.</span>
+
+<span class="s2">Now we are engaged in a great civil war, testing whether that nation, or </span>
+<span class="s2">any nation so conceived and so dedicated, can long endure. We are met on</span>
+<span class="s2">a great battle-field of that war. We have come to dedicate a portion of</span>
+<span class="s2">that field, as a final resting place for those who here gave their lives</span>
+<span class="s2">that that nation might live. It is altogether fitting and proper that we</span>
+<span class="s2">should do this.</span>
+
+<span class="s2">But, in a larger sense, we can not dedicate -- we can not consecrate -- we</span>
+<span class="s2">can not hallow -- this ground. The brave men, living and dead, who struggled</span>
+<span class="s2">here, have consecrated it, far above our poor power to add or detract.  The</span>
+<span class="s2">world will little note, nor long remember what we say here, but it can never</span>
+<span class="s2">forget what they did here. It is for us the living, rather, to be dedicated</span>
+<span class="s2">here to the unfinished work which they who fought here have thus far so nobly</span>
+<span class="s2">advanced. It is rather for us to be here dedicated to the great task remaining</span>
+<span class="s2">before us -- that from these honored dead we take increased devotion to that</span>
+<span class="s2">cause for which they gave the last full measure of devotion -- that we here</span>
+<span class="s2">highly resolve that these dead shall not have died in vain -- that this</span>
+<span class="s2">nation, under God, shall have a new birth of freedom -- and that government</span>
+<span class="s2">of the people, by the people, for the people, shall not perish from the earth.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We’ve already seen the <code class="docutils literal notranslate"><span class="pre">.split()</span></code> method will, by default, split by spaces, so it will split this into words, producing a list:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ga</span> <span class="o">=</span> <span class="n">gettysburg_address</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ga</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;Four&#39;,
+ &#39;score&#39;,
+ &#39;and&#39;,
+ &#39;seven&#39;,
+ &#39;years&#39;,
+ &#39;ago&#39;,
+ &#39;our&#39;,
+ &#39;fathers&#39;,
+ &#39;brought&#39;,
+ &#39;forth&#39;,
+ &#39;on&#39;,
+ &#39;this&#39;,
+ &#39;continent,&#39;,
+ &#39;a&#39;,
+ &#39;new&#39;,
+ &#39;nation,&#39;,
+ &#39;conceived&#39;,
+ &#39;in&#39;,
+ &#39;Liberty,&#39;,
+ &#39;and&#39;,
+ &#39;dedicated&#39;,
+ &#39;to&#39;,
+ &#39;the&#39;,
+ &#39;proposition&#39;,
+ &#39;that&#39;,
+ &#39;all&#39;,
+ &#39;men&#39;,
+ &#39;are&#39;,
+ &#39;created&#39;,
+ &#39;equal.&#39;,
+ &#39;Now&#39;,
+ &#39;we&#39;,
+ &#39;are&#39;,
+ &#39;engaged&#39;,
+ &#39;in&#39;,
+ &#39;a&#39;,
+ &#39;great&#39;,
+ &#39;civil&#39;,
+ &#39;war,&#39;,
+ &#39;testing&#39;,
+ &#39;whether&#39;,
+ &#39;that&#39;,
+ &#39;nation,&#39;,
+ &#39;or&#39;,
+ &#39;any&#39;,
+ &#39;nation&#39;,
+ &#39;so&#39;,
+ &#39;conceived&#39;,
+ &#39;and&#39;,
+ &#39;so&#39;,
+ &#39;dedicated,&#39;,
+ &#39;can&#39;,
+ &#39;long&#39;,
+ &#39;endure.&#39;,
+ &#39;We&#39;,
+ &#39;are&#39;,
+ &#39;met&#39;,
+ &#39;on&#39;,
+ &#39;a&#39;,
+ &#39;great&#39;,
+ &#39;battle-field&#39;,
+ &#39;of&#39;,
+ &#39;that&#39;,
+ &#39;war.&#39;,
+ &#39;We&#39;,
+ &#39;have&#39;,
+ &#39;come&#39;,
+ &#39;to&#39;,
+ &#39;dedicate&#39;,
+ &#39;a&#39;,
+ &#39;portion&#39;,
+ &#39;of&#39;,
+ &#39;that&#39;,
+ &#39;field,&#39;,
+ &#39;as&#39;,
+ &#39;a&#39;,
+ &#39;final&#39;,
+ &#39;resting&#39;,
+ &#39;place&#39;,
+ &#39;for&#39;,
+ &#39;those&#39;,
+ &#39;who&#39;,
+ &#39;here&#39;,
+ &#39;gave&#39;,
+ &#39;their&#39;,
+ &#39;lives&#39;,
+ &#39;that&#39;,
+ &#39;that&#39;,
+ &#39;nation&#39;,
+ &#39;might&#39;,
+ &#39;live.&#39;,
+ &#39;It&#39;,
+ &#39;is&#39;,
+ &#39;altogether&#39;,
+ &#39;fitting&#39;,
+ &#39;and&#39;,
+ &#39;proper&#39;,
+ &#39;that&#39;,
+ &#39;we&#39;,
+ &#39;should&#39;,
+ &#39;do&#39;,
+ &#39;this.&#39;,
+ &#39;But,&#39;,
+ &#39;in&#39;,
+ &#39;a&#39;,
+ &#39;larger&#39;,
+ &#39;sense,&#39;,
+ &#39;we&#39;,
+ &#39;can&#39;,
+ &#39;not&#39;,
+ &#39;dedicate&#39;,
+ &#39;--&#39;,
+ &#39;we&#39;,
+ &#39;can&#39;,
+ &#39;not&#39;,
+ &#39;consecrate&#39;,
+ &#39;--&#39;,
+ &#39;we&#39;,
+ &#39;can&#39;,
+ &#39;not&#39;,
+ &#39;hallow&#39;,
+ &#39;--&#39;,
+ &#39;this&#39;,
+ &#39;ground.&#39;,
+ &#39;The&#39;,
+ &#39;brave&#39;,
+ &#39;men,&#39;,
+ &#39;living&#39;,
+ &#39;and&#39;,
+ &#39;dead,&#39;,
+ &#39;who&#39;,
+ &#39;struggled&#39;,
+ &#39;here,&#39;,
+ &#39;have&#39;,
+ &#39;consecrated&#39;,
+ &#39;it,&#39;,
+ &#39;far&#39;,
+ &#39;above&#39;,
+ &#39;our&#39;,
+ &#39;poor&#39;,
+ &#39;power&#39;,
+ &#39;to&#39;,
+ &#39;add&#39;,
+ &#39;or&#39;,
+ &#39;detract.&#39;,
+ &#39;The&#39;,
+ &#39;world&#39;,
+ &#39;will&#39;,
+ &#39;little&#39;,
+ &#39;note,&#39;,
+ &#39;nor&#39;,
+ &#39;long&#39;,
+ &#39;remember&#39;,
+ &#39;what&#39;,
+ &#39;we&#39;,
+ &#39;say&#39;,
+ &#39;here,&#39;,
+ &#39;but&#39;,
+ &#39;it&#39;,
+ &#39;can&#39;,
+ &#39;never&#39;,
+ &#39;forget&#39;,
+ &#39;what&#39;,
+ &#39;they&#39;,
+ &#39;did&#39;,
+ &#39;here.&#39;,
+ &#39;It&#39;,
+ &#39;is&#39;,
+ &#39;for&#39;,
+ &#39;us&#39;,
+ &#39;the&#39;,
+ &#39;living,&#39;,
+ &#39;rather,&#39;,
+ &#39;to&#39;,
+ &#39;be&#39;,
+ &#39;dedicated&#39;,
+ &#39;here&#39;,
+ &#39;to&#39;,
+ &#39;the&#39;,
+ &#39;unfinished&#39;,
+ &#39;work&#39;,
+ &#39;which&#39;,
+ &#39;they&#39;,
+ &#39;who&#39;,
+ &#39;fought&#39;,
+ &#39;here&#39;,
+ &#39;have&#39;,
+ &#39;thus&#39;,
+ &#39;far&#39;,
+ &#39;so&#39;,
+ &#39;nobly&#39;,
+ &#39;advanced.&#39;,
+ &#39;It&#39;,
+ &#39;is&#39;,
+ &#39;rather&#39;,
+ &#39;for&#39;,
+ &#39;us&#39;,
+ &#39;to&#39;,
+ &#39;be&#39;,
+ &#39;here&#39;,
+ &#39;dedicated&#39;,
+ &#39;to&#39;,
+ &#39;the&#39;,
+ &#39;great&#39;,
+ &#39;task&#39;,
+ &#39;remaining&#39;,
+ &#39;before&#39;,
+ &#39;us&#39;,
+ &#39;--&#39;,
+ &#39;that&#39;,
+ &#39;from&#39;,
+ &#39;these&#39;,
+ &#39;honored&#39;,
+ &#39;dead&#39;,
+ &#39;we&#39;,
+ &#39;take&#39;,
+ &#39;increased&#39;,
+ &#39;devotion&#39;,
+ &#39;to&#39;,
+ &#39;that&#39;,
+ &#39;cause&#39;,
+ &#39;for&#39;,
+ &#39;which&#39;,
+ &#39;they&#39;,
+ &#39;gave&#39;,
+ &#39;the&#39;,
+ &#39;last&#39;,
+ &#39;full&#39;,
+ &#39;measure&#39;,
+ &#39;of&#39;,
+ &#39;devotion&#39;,
+ &#39;--&#39;,
+ &#39;that&#39;,
+ &#39;we&#39;,
+ &#39;here&#39;,
+ &#39;highly&#39;,
+ &#39;resolve&#39;,
+ &#39;that&#39;,
+ &#39;these&#39;,
+ &#39;dead&#39;,
+ &#39;shall&#39;,
+ &#39;not&#39;,
+ &#39;have&#39;,
+ &#39;died&#39;,
+ &#39;in&#39;,
+ &#39;vain&#39;,
+ &#39;--&#39;,
+ &#39;that&#39;,
+ &#39;this&#39;,
+ &#39;nation,&#39;,
+ &#39;under&#39;,
+ &#39;God,&#39;,
+ &#39;shall&#39;,
+ &#39;have&#39;,
+ &#39;a&#39;,
+ &#39;new&#39;,
+ &#39;birth&#39;,
+ &#39;of&#39;,
+ &#39;freedom&#39;,
+ &#39;--&#39;,
+ &#39;and&#39;,
+ &#39;that&#39;,
+ &#39;government&#39;,
+ &#39;of&#39;,
+ &#39;the&#39;,
+ &#39;people,&#39;,
+ &#39;by&#39;,
+ &#39;the&#39;,
+ &#39;people,&#39;,
+ &#39;for&#39;,
+ &#39;the&#39;,
+ &#39;people,&#39;,
+ &#39;shall&#39;,
+ &#39;not&#39;,
+ &#39;perish&#39;,
+ &#39;from&#39;,
+ &#39;the&#39;,
+ &#39;earth.&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now, the next problem is that some of these still have punctuation.  In particular, we see “<code class="docutils literal notranslate"><span class="pre">.</span></code>”, “<code class="docutils literal notranslate"><span class="pre">,</span></code>”, and “<code class="docutils literal notranslate"><span class="pre">--</span></code>“.</p>
+<p>When considering a word, we can get rid of these by using the <code class="docutils literal notranslate"><span class="pre">replace()</span></code> method:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="s2">&quot;end.,&quot;</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+<span class="n">b</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;end&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>Another problem is case—we want to count “but” and “But” as the same.  Strings have a <code class="docutils literal notranslate"><span class="pre">lower()</span></code> method that can be used to convert a string:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="s2">&quot;But&quot;</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">&quot;but&quot;</span>
+<span class="n">a</span> <span class="o">==</span> <span class="n">b</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>False
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="n">b</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+</div>
+</div>
+<p>Recall that strings are immutable, so <code class="docutils literal notranslate"><span class="pre">replace()</span></code> produces a new string on output.</p>
+</section>
+<section id="your-task">
+<h2>your task<a class="headerlink" href="#your-task" title="Link to this heading">#</a></h2>
+<p>Create a dictionary that uses the unique words as keys and has as a value the number of times that word appears.</p>
+<p>Write a loop over the words in the string (using our split version) and do the following:</p>
+<ul class="simple">
+<li><p>remove any punctuation</p></li>
+<li><p>convert to lowercase</p></li>
+<li><p>test if the word is already a key in the dictionary (using the <code class="docutils literal notranslate"><span class="pre">in</span></code> operator)</p>
+<ul>
+<li><p>if the key exists, increment the word count for that key</p></li>
+<li><p>otherwise, add it to the dictionary with the appropriate count of <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p></li>
+</ul>
+</li>
+</ul>
+<p>At the end, print out the words and a count of how many times they appear</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># your code here</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="more-compact-way">
+<h2>More compact way<a class="headerlink" href="#more-compact-way" title="Link to this heading">#</a></h2>
+<p>We can actually do this a lot more compactly by using another list comprehensions and another python datatype called a set.  A set is a group of items, where each item is unique (e.g., no repetitions).</p>
+<p>Here’s a list comprehension that removes all the punctuation and converts to lower case:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">words</span> <span class="o">=</span> <span class="p">[</span><span class="n">q</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">ga</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>and by using the <code class="docutils literal notranslate"><span class="pre">set()</span></code> function, we turn the list into a set, removing any duplicates:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">unique_words</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>now we can loop over the unique words and use the <code class="docutils literal notranslate"><span class="pre">count</span></code> method of a list to find how many there are</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">count</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">uw</span> <span class="ow">in</span> <span class="n">unique_words</span><span class="p">:</span>
+    <span class="n">count</span><span class="p">[</span><span class="n">uw</span><span class="p">]</span> <span class="o">=</span> <span class="n">words</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">uw</span><span class="p">)</span>
+    
+<span class="n">count</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;but&#39;: 2,
+ &#39;can&#39;: 5,
+ &#39;forth&#39;: 1,
+ &#39;world&#39;: 1,
+ &#39;before&#39;: 1,
+ &#39;increased&#39;: 1,
+ &#39;as&#39;: 1,
+ &#39;advanced&#39;: 1,
+ &#39;created&#39;: 1,
+ &#39;final&#39;: 1,
+ &#39;now&#39;: 1,
+ &#39;did&#39;: 1,
+ &#39;will&#39;: 1,
+ &#39;a&#39;: 7,
+ &#39;proposition&#39;: 1,
+ &#39;on&#39;: 2,
+ &#39;do&#39;: 1,
+ &#39;fathers&#39;: 1,
+ &#39;thus&#39;: 1,
+ &#39;consecrated&#39;: 1,
+ &#39;come&#39;: 1,
+ &#39;new&#39;: 2,
+ &#39;place&#39;: 1,
+ &#39;nobly&#39;: 1,
+ &#39;last&#39;: 1,
+ &#39;our&#39;: 2,
+ &#39;freedom&#39;: 1,
+ &#39;portion&#39;: 1,
+ &#39;--&#39;: 7,
+ &#39;nation&#39;: 5,
+ &#39;men&#39;: 2,
+ &#39;testing&#39;: 1,
+ &#39;lives&#39;: 1,
+ &#39;liberty&#39;: 1,
+ &#39;measure&#39;: 1,
+ &#39;proper&#39;: 1,
+ &#39;what&#39;: 2,
+ &#39;these&#39;: 2,
+ &#39;task&#39;: 1,
+ &#39;brought&#39;: 1,
+ &#39;should&#39;: 1,
+ &#39;dedicated&#39;: 4,
+ &#39;add&#39;: 1,
+ &#39;in&#39;: 4,
+ &#39;say&#39;: 1,
+ &#39;died&#39;: 1,
+ &#39;remaining&#39;: 1,
+ &#39;birth&#39;: 1,
+ &#39;which&#39;: 2,
+ &#39;brave&#39;: 1,
+ &#39;vain&#39;: 1,
+ &#39;equal&#39;: 1,
+ &#39;us&#39;: 3,
+ &#39;ground&#39;: 1,
+ &#39;power&#39;: 1,
+ &#39;earth&#39;: 1,
+ &#39;for&#39;: 5,
+ &#39;government&#39;: 1,
+ &#39;altogether&#39;: 1,
+ &#39;long&#39;: 2,
+ &#39;whether&#39;: 1,
+ &#39;conceived&#39;: 2,
+ &#39;nor&#39;: 1,
+ &#39;score&#39;: 1,
+ &#39;sense&#39;: 1,
+ &#39;that&#39;: 13,
+ &#39;larger&#39;: 1,
+ &#39;engaged&#39;: 1,
+ &#39;all&#39;: 1,
+ &#39;is&#39;: 3,
+ &#39;god&#39;: 1,
+ &#39;might&#39;: 1,
+ &#39;of&#39;: 5,
+ &#39;have&#39;: 5,
+ &#39;who&#39;: 3,
+ &#39;their&#39;: 1,
+ &#39;great&#39;: 3,
+ &#39;unfinished&#39;: 1,
+ &#39;shall&#39;: 3,
+ &#39;are&#39;: 3,
+ &#39;war&#39;: 2,
+ &#39;gave&#39;: 2,
+ &#39;detract&#39;: 1,
+ &#39;remember&#39;: 1,
+ &#39;perish&#39;: 1,
+ &#39;devotion&#39;: 2,
+ &#39;consecrate&#39;: 1,
+ &#39;dedicate&#39;: 2,
+ &#39;and&#39;: 6,
+ &#39;never&#39;: 1,
+ &#39;four&#39;: 1,
+ &#39;any&#39;: 1,
+ &#39;fought&#39;: 1,
+ &#39;by&#39;: 1,
+ &#39;cause&#39;: 1,
+ &#39;field&#39;: 1,
+ &#39;forget&#39;: 1,
+ &#39;living&#39;: 2,
+ &#39;they&#39;: 3,
+ &#39;dead&#39;: 3,
+ &#39;from&#39;: 2,
+ &#39;above&#39;: 1,
+ &#39;here&#39;: 8,
+ &#39;it&#39;: 5,
+ &#39;struggled&#39;: 1,
+ &#39;met&#39;: 1,
+ &#39;this&#39;: 4,
+ &#39;to&#39;: 8,
+ &#39;honored&#39;: 1,
+ &#39;hallow&#39;: 1,
+ &#39;seven&#39;: 1,
+ &#39;under&#39;: 1,
+ &#39;the&#39;: 11,
+ &#39;take&#39;: 1,
+ &#39;those&#39;: 1,
+ &#39;years&#39;: 1,
+ &#39;ago&#39;: 1,
+ &#39;civil&#39;: 1,
+ &#39;resolve&#39;: 1,
+ &#39;note&#39;: 1,
+ &#39;highly&#39;: 1,
+ &#39;far&#39;: 2,
+ &#39;continent&#39;: 1,
+ &#39;battle-field&#39;: 1,
+ &#39;people&#39;: 3,
+ &#39;or&#39;: 2,
+ &#39;so&#39;: 3,
+ &#39;full&#39;: 1,
+ &#39;we&#39;: 10,
+ &#39;endure&#39;: 1,
+ &#39;not&#39;: 5,
+ &#39;little&#39;: 1,
+ &#39;be&#39;: 2,
+ &#39;work&#39;: 1,
+ &#39;resting&#39;: 1,
+ &#39;rather&#39;: 2,
+ &#39;fitting&#39;: 1,
+ &#39;poor&#39;: 1,
+ &#39;live&#39;: 1}
+</pre></div>
+</div>
+</div>
+</div>
+<p>Even shorter – we can use a dictionary comprehension, like a list comprehension</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c</span> <span class="o">=</span> <span class="p">{</span><span class="n">uw</span><span class="p">:</span> <span class="n">count</span><span class="p">[</span><span class="n">uw</span><span class="p">]</span> <span class="k">for</span> <span class="n">uw</span> <span class="ow">in</span> <span class="n">unique_words</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">c</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;but&#39;: 2,
+ &#39;can&#39;: 5,
+ &#39;forth&#39;: 1,
+ &#39;world&#39;: 1,
+ &#39;before&#39;: 1,
+ &#39;increased&#39;: 1,
+ &#39;as&#39;: 1,
+ &#39;advanced&#39;: 1,
+ &#39;created&#39;: 1,
+ &#39;final&#39;: 1,
+ &#39;now&#39;: 1,
+ &#39;did&#39;: 1,
+ &#39;will&#39;: 1,
+ &#39;a&#39;: 7,
+ &#39;proposition&#39;: 1,
+ &#39;on&#39;: 2,
+ &#39;do&#39;: 1,
+ &#39;fathers&#39;: 1,
+ &#39;thus&#39;: 1,
+ &#39;consecrated&#39;: 1,
+ &#39;come&#39;: 1,
+ &#39;new&#39;: 2,
+ &#39;place&#39;: 1,
+ &#39;nobly&#39;: 1,
+ &#39;last&#39;: 1,
+ &#39;our&#39;: 2,
+ &#39;freedom&#39;: 1,
+ &#39;portion&#39;: 1,
+ &#39;--&#39;: 7,
+ &#39;nation&#39;: 5,
+ &#39;men&#39;: 2,
+ &#39;testing&#39;: 1,
+ &#39;lives&#39;: 1,
+ &#39;liberty&#39;: 1,
+ &#39;measure&#39;: 1,
+ &#39;proper&#39;: 1,
+ &#39;what&#39;: 2,
+ &#39;these&#39;: 2,
+ &#39;task&#39;: 1,
+ &#39;brought&#39;: 1,
+ &#39;should&#39;: 1,
+ &#39;dedicated&#39;: 4,
+ &#39;add&#39;: 1,
+ &#39;in&#39;: 4,
+ &#39;say&#39;: 1,
+ &#39;died&#39;: 1,
+ &#39;remaining&#39;: 1,
+ &#39;birth&#39;: 1,
+ &#39;which&#39;: 2,
+ &#39;brave&#39;: 1,
+ &#39;vain&#39;: 1,
+ &#39;equal&#39;: 1,
+ &#39;us&#39;: 3,
+ &#39;ground&#39;: 1,
+ &#39;power&#39;: 1,
+ &#39;earth&#39;: 1,
+ &#39;for&#39;: 5,
+ &#39;government&#39;: 1,
+ &#39;altogether&#39;: 1,
+ &#39;long&#39;: 2,
+ &#39;whether&#39;: 1,
+ &#39;conceived&#39;: 2,
+ &#39;nor&#39;: 1,
+ &#39;score&#39;: 1,
+ &#39;sense&#39;: 1,
+ &#39;that&#39;: 13,
+ &#39;larger&#39;: 1,
+ &#39;engaged&#39;: 1,
+ &#39;all&#39;: 1,
+ &#39;is&#39;: 3,
+ &#39;god&#39;: 1,
+ &#39;might&#39;: 1,
+ &#39;of&#39;: 5,
+ &#39;have&#39;: 5,
+ &#39;who&#39;: 3,
+ &#39;their&#39;: 1,
+ &#39;great&#39;: 3,
+ &#39;unfinished&#39;: 1,
+ &#39;shall&#39;: 3,
+ &#39;are&#39;: 3,
+ &#39;war&#39;: 2,
+ &#39;gave&#39;: 2,
+ &#39;detract&#39;: 1,
+ &#39;remember&#39;: 1,
+ &#39;perish&#39;: 1,
+ &#39;devotion&#39;: 2,
+ &#39;consecrate&#39;: 1,
+ &#39;dedicate&#39;: 2,
+ &#39;and&#39;: 6,
+ &#39;never&#39;: 1,
+ &#39;four&#39;: 1,
+ &#39;any&#39;: 1,
+ &#39;fought&#39;: 1,
+ &#39;by&#39;: 1,
+ &#39;cause&#39;: 1,
+ &#39;field&#39;: 1,
+ &#39;forget&#39;: 1,
+ &#39;living&#39;: 2,
+ &#39;they&#39;: 3,
+ &#39;dead&#39;: 3,
+ &#39;from&#39;: 2,
+ &#39;above&#39;: 1,
+ &#39;here&#39;: 8,
+ &#39;it&#39;: 5,
+ &#39;struggled&#39;: 1,
+ &#39;met&#39;: 1,
+ &#39;this&#39;: 4,
+ &#39;to&#39;: 8,
+ &#39;honored&#39;: 1,
+ &#39;hallow&#39;: 1,
+ &#39;seven&#39;: 1,
+ &#39;under&#39;: 1,
+ &#39;the&#39;: 11,
+ &#39;take&#39;: 1,
+ &#39;those&#39;: 1,
+ &#39;years&#39;: 1,
+ &#39;ago&#39;: 1,
+ &#39;civil&#39;: 1,
+ &#39;resolve&#39;: 1,
+ &#39;note&#39;: 1,
+ &#39;highly&#39;: 1,
+ &#39;far&#39;: 2,
+ &#39;continent&#39;: 1,
+ &#39;battle-field&#39;: 1,
+ &#39;people&#39;: 3,
+ &#39;or&#39;: 2,
+ &#39;so&#39;: 3,
+ &#39;full&#39;: 1,
+ &#39;we&#39;: 10,
+ &#39;endure&#39;: 1,
+ &#39;not&#39;: 5,
+ &#39;little&#39;: 1,
+ &#39;be&#39;: 2,
+ &#39;work&#39;: 1,
+ &#39;resting&#39;: 1,
+ &#39;rather&#39;: 2,
+ &#39;fitting&#39;: 1,
+ &#39;poor&#39;: 1,
+ &#39;live&#39;: 1}
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./01-python"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="w2-python-control-flow.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Control Flow</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="functions-classes.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Functions and Classes</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-1">Q 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-2">Q 2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-3">Q 3</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-4">Q 4</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-5">Q 5</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-6">Q 6</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#q-7"><span class="fa fa-star"></span> Q 7</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-task">your task</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#more-compact-way">More compact way</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <a href="https://zingale.github.io">Michael Zingale</a>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+&copy; 2022-2026; CC-BY-NC-SA 4.0
+<p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

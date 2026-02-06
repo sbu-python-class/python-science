@@ -1,0 +1,1510 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>More SciPy &#8212; PHY 546: Python for Scientific Computing</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_admonition_style.css?v=8627ce31" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_dropdown_style.css?v=f3461767" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_code_header_style.css?v=7d542921" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_sidebar_scroll.css?v=b9929681" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_margin.css?v=4a1e31aa" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_align_text_captions.css?v=29546296" />
+    <link rel="stylesheet" type="text/css" href="../_static/fix_align_code.css?v=719ffd7f" />
+    <link rel="stylesheet" type="text/css" href="../_static/margin_patch.css?v=1aa379b9" />
+    <link rel="stylesheet" type="text/css" href="../_static/mathjax_patch.css?v=b2e2e4cc" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/myfile.css?v=359afcf4" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=1ae7504c"></script>
+    <script src="../_static/download_patch.js?v=75631000"></script>
+    <script src="../_static/fix_hash_jump.js?v=2aad3019"></script>
+    <script src="../_static/mathjax_patch.js?v=c73a562d"></script>
+    <script src="../_static/preserve_dropdown_state.js?v=d724701d"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"loader": {"load": ["ui/lazy"]}, "options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="../_static/mathjax_patch.js?v=c73a562d"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '05-scipy/scipy-basics-2';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="More SciPy Exercises" href="scipy-exercises-2.html" />
+    <link rel="prev" title="SciPy exercises" href="scipy-exercises.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../Introduction.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">PHY 546: Python for Scientific Computing</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../Introduction.html">
+                    PHY 546: Python for Scientific Computing
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../01-python/installing.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01-python/using.html">Using These Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01-python/w1-jupyter.html">Jupyter</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Python Basics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../01-python/basics.html">Python Basics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w1-python-datatypes.html">Basic Python Datatypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w2-python-advanced-datatypes.html">Advanced Datatypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w2-python-control-flow.html">Control Flow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w2-python-exercises.html">Exercises</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../01-python/functions-classes.html">Functions and Classes</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w3-python-functions.html">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w3-python-exercises.html">Exercises</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w4-python-classes.html">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w4-python-modules.html">Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w4-python-exercises.html">Practicing Classes</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../01-python/misc.html">Miscellaneous</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w3-python-exceptions.html">Exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-python/python-io.html">Print</a></li>
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../01-python/w5-python-more-examples.html">Exercises</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Arrays</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../02-numpy/numpy.html">NumPy</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02-numpy/numpy-basics.html">NumPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-numpy/numpy-advanced.html">NumPy Advanced Operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-numpy/numpy-exercises.html">NumPy exercises</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Scientific Python</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../04-matplotlib/matplotlib.html">matplotlib</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04-matplotlib/matplotlib-basics.html">matplotlib</a></li>
+
+
+
+
+
+
+
+
+<li class="toctree-l2"><a class="reference internal" href="../04-matplotlib/matplotlib-exercises.html">matplotlib exercises</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="scipy.html">SciPy</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="scipy-basics.html">SciPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scipy-exercises.html">SciPy exercises</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">More SciPy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scipy-exercises-2.html">More SciPy Exercises</a></li>
+
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../06-sympy/sympy.html">SymPy</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../06-sympy/sympy-examples.html">SymPy examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-sympy/sympy-exercises.html">SymPy Exercises</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Machine Learning</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../11-machine-learning/neural-net-basics.html">Artificial Neural Network Basics</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/gradient-descent.html">Gradient Descent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/neural-net-derivation.html">Deriving the Learning Correction</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../11-machine-learning/neural-net-hidden.html">Hidden Layers</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/neural-net-improvements.html">Improvements</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../11-machine-learning/machine-learning-libraries.html">Diving Deeper into Machine Learning</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/keras-mnist.html">KERAS and MNIST</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../11-machine-learning/keras-clustering.html">Clustering</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Python packaging and applications</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-modules.html">Python Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-arguments.html">Command line arguments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-more-modules.html">Module Paths</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-packages.html">Packaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-packages/python-tools.html">Tools to Make Your Life Easier</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Git and Github</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../git/version-control.html">Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/git.html">A Git Walkthrough</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../git/github.html">github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../git/pull-requests.html">Pull requests</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Unit tests</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../10-testing/testing.html">Testing</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../10-testing/pytest.html">pytest</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../10-testing/more-pytest.html">More pytest</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../10-testing/real-world-example.html">Real World Example</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Extensions</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../12-extensions/extensions-overview.html">Extensions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../12-extensions/extensions-example.html">Example Extension</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/sbu-python-class/python-science/main?urlpath=tree/content/05-scipy/scipy-basics-2.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/sbu-python-class/python-science/blob/main/content/05-scipy/scipy-basics-2.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/sbu-python-class/python-science" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/sbu-python-class/python-science/issues/new?title=Issue%20on%20page%20%2F05-scipy/scipy-basics-2.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/05-scipy/scipy-basics-2.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>More SciPy</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fitting">Fitting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-linear-least-squares">general linear least squares</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-nonlinear-example">a nonlinear example</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ffts">FFTs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-frequency-filter">A frequency filter</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-algebra">Linear Algebra</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-manipulations-of-matrices">general manipulations of matrices</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-systems">Linear systems</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tridiagonal-matrix-solve">tridiagonal matrix solve</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="more-scipy">
+<h1>More SciPy<a class="headerlink" href="#more-scipy" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="fitting">
+<h2>Fitting<a class="headerlink" href="#fitting" title="Link to this heading">#</a></h2>
+<p>Fitting is used to match a model to experimental data.  E.g. we have N points of <span class="math notranslate nohighlight">\((x_i, y_i)\)</span> with associated errors, <span class="math notranslate nohighlight">\(\sigma_i\)</span>, and we want to find a simply function that best represents the data.</p>
+<p>Usually this means that we will need to define a metric, often called the residual, for how well our function matches the data, and then minimize this residual.  <a class="reference external" href="https://en.wikipedia.org/wiki/Least_squares">Least-squares fitting</a> is a popular formulation.</p>
+<p>We want to fit our data to a function <span class="math notranslate nohighlight">\(Y(x, \{a_j\})\)</span>, where <span class="math notranslate nohighlight">\(a_j\)</span> are model parameters we can adjust.  We want to find the optimal <span class="math notranslate nohighlight">\(a_j\)</span> to minimize the distance of <span class="math notranslate nohighlight">\(Y\)</span> from our data, <em>measured parallel to the <span class="math notranslate nohighlight">\(y\)</span>-axis</em>:</p>
+<div class="math notranslate nohighlight">
+\[\Delta_i = Y(x_i, \{a_j\}) - y_i\]</div>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Ordinary_least_squares">Least-squares</a> minimizes the distance between the
+data points and the model line parallel to the <span class="math notranslate nohighlight">\(y\)</span>-axis.  We write this as <span class="math notranslate nohighlight">\(\chi^2\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\chi^2(\{a_j\}) = \sum_{i=1}^N \left ( \frac{\Delta_i}{\sigma_i} \right )^2\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">scipy</span><span class="w"> </span><span class="kn">import</span> <span class="n">optimize</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="general-linear-least-squares">
+<h3>general linear least squares<a class="headerlink" href="#general-linear-least-squares" title="Link to this heading">#</a></h3>
+<p>First we’ll make some experimental data (a quadratic with random fashion).  We use the <a class="reference external" href="https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.standard_normal.html">standard_normal</a> function to provide Gaussian normalized errors.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">y_experiment2</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">a2</span><span class="p">,</span> <span class="n">a3</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; return the experimental data in a quadratic + random fashion,                              </span>
+<span class="sd">        with a1, a2, a3 the coefficients of the quadratic and sigma is                             </span>
+<span class="sd">        the error.  This will be poorly matched to a linear fit for                                </span>
+<span class="sd">        a3 != 0 &quot;&quot;&quot;</span>
+
+    <span class="n">N</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+    <span class="c1"># standard_normal gives samples from the &quot;standard normal&quot; distribution</span>
+    <span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">default_rng</span><span class="p">()</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">rng</span><span class="o">.</span><span class="n">standard_normal</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+
+    <span class="n">y</span> <span class="o">=</span> <span class="n">a1</span> <span class="o">+</span> <span class="n">a2</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">a3</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">sigma</span><span class="o">*</span><span class="n">r</span>
+
+    <span class="k">return</span> <span class="n">y</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">N</span> <span class="o">=</span> <span class="mi">40</span>
+<span class="n">sigma</span> <span class="o">=</span> <span class="mf">5.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">N</span><span class="p">)</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">100.0</span><span class="p">,</span> <span class="n">N</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">y_experiment2</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">1.50</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.02</span><span class="p">,</span> <span class="n">sigma</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">errorbar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">yerr</span><span class="o">=</span><span class="n">sigma</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;o&quot;</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot showing data points with vertical error bars</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;ErrorbarContainer object of 3 artists&gt;
+</pre></div>
+</div>
+<img alt="../_images/11016c16f45521660eb1e01120065bd0fb9699ab7ca267352cbac0697a543f4a.png" src="../_images/11016c16f45521660eb1e01120065bd0fb9699ab7ca267352cbac0697a543f4a.png" />
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>“linear” in general linear least squares means that the fit parameters enter into the fitting function linearly,
+the function itself can be nonlinear in <span class="math notranslate nohighlight">\(x\)</span>.</p>
+</div>
+<p>We’ll use the <a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.leastsq.html">leastsq()</a> function to minimize the square of the residual.</p>
+<p>First our function to compute the residual.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">resid</span><span class="p">(</span><span class="n">avec</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">sigma</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; the residual function -- this is what will be minimized by the</span>
+<span class="sd">        scipy.optimize.leastsq() routine.  avec is the parameters we</span>
+<span class="sd">        are optimizing -- they are packed in here, so we unpack to</span>
+<span class="sd">        begin.  (x, y) are the data points </span>
+
+<span class="sd">        scipy.optimize.leastsq() minimizes:</span>
+
+<span class="sd">           x = arg min(sum(func(y)**2,axis=0))</span>
+<span class="sd">                    y</span>
+
+<span class="sd">        so this should just be the distance from a point to the curve,</span>
+<span class="sd">        and it will square it and sum over the points</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="n">a0</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">a2</span> <span class="o">=</span> <span class="n">avec</span>
+    
+    <span class="k">return</span> <span class="p">(</span><span class="n">y</span> <span class="o">-</span> <span class="p">(</span><span class="n">a0</span> <span class="o">+</span> <span class="n">a1</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">a2</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span><span class="o">/</span><span class="n">sigma</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># initial guesses</span>
+<span class="n">a0</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">a2</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span>
+
+<span class="n">afit</span><span class="p">,</span> <span class="n">flag</span> <span class="o">=</span> <span class="n">optimize</span><span class="o">.</span><span class="n">leastsq</span><span class="p">(</span><span class="n">resid</span><span class="p">,</span> <span class="p">[</span><span class="n">a0</span><span class="p">,</span> <span class="n">a1</span><span class="p">,</span> <span class="n">a2</span><span class="p">],</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">sigma</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">afit</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 0.39061911  1.63062154 -0.02137541]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">afit</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">afit</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="n">afit</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">*</span><span class="n">x</span><span class="o">*</span><span class="n">x</span> <span class="p">)</span>
+<span class="n">fig</span>
+<span class="c1"># alt-text: a plot showing data points with error bars and a quadratic fit to them</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/d930b0e1d27d04f87c21e8b82135fbc08a71e90b678689c5a40ec85de117aa11.png" src="../_images/d930b0e1d27d04f87c21e8b82135fbc08a71e90b678689c5a40ec85de117aa11.png" />
+</div>
+</div>
+<p>We see that we represent the data quite well.</p>
+<p>We can compute the <a class="reference external" href="https://en.wikipedia.org/wiki/Ordinary_least_squares#Reduced_chi-squared">reduced <span class="math notranslate nohighlight">\(\chi^2\)</span></a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">chisq</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">resid</span><span class="p">(</span><span class="n">afit</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">sigma</span><span class="p">),</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">normalization</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">afit</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">chisq</span><span class="o">/</span><span class="n">normalization</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.7002365172772717
+</pre></div>
+</div>
+</div>
+</div>
+<p>In general a (reduced) <span class="math notranslate nohighlight">\(\chi^2 &lt; 1\)</span> indicates a good fit.</p>
+</section>
+<section id="a-nonlinear-example">
+<h3>a nonlinear example<a class="headerlink" href="#a-nonlinear-example" title="Link to this heading">#</a></h3>
+<p>The same interface works with nonlinear data.</p>
+<p>We’ll create a new set of experimental data—an exponential</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a0</span> <span class="o">=</span> <span class="mf">2.5</span>
+<span class="n">a1</span> <span class="o">=</span> <span class="mf">2.</span><span class="o">/</span><span class="mf">3.</span>
+<span class="n">sigma</span> <span class="o">=</span> <span class="mf">5.0</span>
+
+<span class="n">a0_orig</span><span class="p">,</span> <span class="n">a1_orig</span> <span class="o">=</span> <span class="n">a0</span><span class="p">,</span> <span class="n">a1</span>
+
+<span class="n">rng</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">default_rng</span><span class="p">()</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">a0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">a1</span><span class="o">*</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">sigma</span> <span class="o">*</span> <span class="n">rng</span><span class="o">.</span><span class="n">standard_normal</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">errorbar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">yerr</span><span class="o">=</span><span class="n">sigma</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;o&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;_nolegend_&quot;</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot showing a noisy exponential dataset with error bars</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;ErrorbarContainer object of 3 artists&gt;
+</pre></div>
+</div>
+<img alt="../_images/d46311e290bcbc740718cd7a8a3644c812f441dc4c05dae04433d3eae5e2a527.png" src="../_images/d46311e290bcbc740718cd7a8a3644c812f441dc4c05dae04433d3eae5e2a527.png" />
+</div>
+</div>
+<p>our function to minimize</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">resid</span><span class="p">(</span><span class="n">avec</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot; the residual function -- this is what will be minimized by the                             </span>
+<span class="sd">        scipy.optimize.leastsq() routine.  avec is the parameters we                               </span>
+<span class="sd">        are optimizing -- they are packed in here, so we unpack to                                 </span>
+<span class="sd">        begin.  (x, y) are the data points                                                         </span>
+<span class="sd">                                                                                                   </span>
+<span class="sd">        scipy.optimize.leastsq() minimizes:                                                        </span>
+<span class="sd">                                                                                                   </span>
+<span class="sd">           x = arg min(sum(func(y)**2,axis=0))                                                     </span>
+<span class="sd">                    y                                                                              </span>
+<span class="sd">                                                                                                   </span>
+<span class="sd">        so this should just be the distance from a point to the curve,                             </span>
+<span class="sd">        and it will square it and sum over the points                                              </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+    <span class="n">a0</span><span class="p">,</span> <span class="n">a1</span> <span class="o">=</span> <span class="n">avec</span>
+
+    <span class="c1"># note: if we wanted to deal with error bars, we would weight each                             </span>
+    <span class="c1"># residual accordingly                                                                         </span>
+    <span class="k">return</span> <span class="n">y</span> <span class="o">-</span> <span class="n">a0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">a1</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a0</span><span class="p">,</span> <span class="n">a1</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span>
+<span class="n">afit</span><span class="p">,</span> <span class="n">flag</span> <span class="o">=</span> <span class="n">optimize</span><span class="o">.</span><span class="n">leastsq</span><span class="p">(</span><span class="n">resid</span><span class="p">,</span> <span class="p">[</span><span class="n">a0</span><span class="p">,</span> <span class="n">a1</span><span class="p">],</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">))</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">flag</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">afit</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1
+[2.41559714 0.66304256]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">afit</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">afit</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span><span class="n">x</span><span class="p">),</span>
+           <span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;$a_0 = $ </span><span class="si">%f</span><span class="s2">; $a_1 = $ </span><span class="si">%f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">afit</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">afit</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a0_orig</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">a1_orig</span><span class="o">*</span><span class="n">x</span><span class="p">),</span> <span class="s2">&quot;:&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;original function&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">numpoints</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">fig</span>
+<span class="c1"># alt-text: a plot showing noisy exponential data points, a fit, and the original function</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/ad3d8681946846a22b1cd2829a743f67777d433937b0b82223751307e0cab798.png" src="../_images/ad3d8681946846a22b1cd2829a743f67777d433937b0b82223751307e0cab798.png" />
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>What about uncertainties in both <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span>?  SciPy has an
+<a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/odr.html">orthogonal distance regression</a> implementation based on ODRPACK for this.</p>
+</div>
+</section>
+</section>
+<section id="ffts">
+<h2>FFTs<a class="headerlink" href="#ffts" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Fourier_transform">Fourier transforms</a> convert a physical-space (or time series) representation of a function into frequency space.  This provides an equivalent representation of the data with a new view.</p>
+<p>The FFT and its inverse in NumPy use:</p>
+<div class="math notranslate nohighlight">
+\[F_k = \sum_{n=0}^{N-1} f_n e^{-2\pi i nk/N}\]</div>
+<div class="math notranslate nohighlight">
+\[f_n = \frac{1}{N} \sum_{k=0}^{N-1} F_k 
+   e^{2\pi i n k/N}\]</div>
+<p>Both NumPy and SciPy have FFT routines that are similar.  However, the NumPy version returns the data in a more convenient form.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It’s always best to start with something you understand—let’s do a simple sine wave.  Since our function is real, we can use the rfft routines in NumPy—the understand that we are working with real data and they don’t return the negative frequency components.</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>FFTs assume that you are periodic.  If you include both endpoints of the domain in the points that comprise your sample then you will not match this assumption.  Here we use <code class="docutils literal notranslate"><span class="pre">endpoint=False</span></code> with <code class="docutils literal notranslate"><span class="pre">linspace()</span></code></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For real-valued data, we’ll use <code class="docutils literal notranslate"><span class="pre">np.fft.rfft()</span></code>, which will return N/2 complex values given N real samples.</p>
+<p>To get the frequencies, we can use <code class="docutils literal notranslate"><span class="pre">np.fft.rfftfreq()</span></code>, which will return dimensionless frequencies of the form
+<span class="math notranslate nohighlight">\(0, 1/N, 2/N, 3/N, ...\)</span>.  We know that the shortest lowest frequency corresponds to a single wavelength in the domain, so physically, <span class="math notranslate nohighlight">\(1/N\)</span> corresponds to a frequency <span class="math notranslate nohighlight">\(1/L\)</span>, where <span class="math notranslate nohighlight">\(L\)</span> is the domain size.  This means that
+we can convert the frequencies by dividing by <span class="math notranslate nohighlight">\(\Delta x =  L/N\)</span>.</p>
+</div>
+<p>To make our life easier, we’ll define a function that plots all the stages of the FFT process</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">plot_FFT</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span><span class="p">):</span>
+
+    <span class="n">npts</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">xx</span><span class="p">)</span>
+    <span class="n">dx</span> <span class="o">=</span> <span class="n">xx</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">xx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+    <span class="c1"># Forward transform: f(x) -&gt; F(k)</span>
+    <span class="n">fk</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">rfft</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
+    <span class="c1"># Normalization -- the &#39;2&#39; here comes from the fact that we are</span>
+    <span class="c1"># neglecting the negative portion of the frequency space, since</span>
+    <span class="c1"># the FFT of a real function contains redundant information, so</span>
+    <span class="c1"># we are only dealing with 1/2 of the frequency space.</span>
+    <span class="c1">#</span>
+    <span class="c1"># technically, we should only scale the 0 bin by N, since k=0 is</span>
+    <span class="c1"># not duplicated -- we won&#39;t worry about that for these plots</span>
+    <span class="n">norm</span> <span class="o">=</span> <span class="mf">2.0</span> <span class="o">/</span> <span class="n">npts</span>
+
+    <span class="n">fk</span> <span class="o">=</span> <span class="n">fk</span> <span class="o">*</span> <span class="n">norm</span>
+
+    <span class="n">fk_r</span> <span class="o">=</span> <span class="n">fk</span><span class="o">.</span><span class="n">real</span>
+    <span class="n">fk_i</span> <span class="o">=</span> <span class="n">fk</span><span class="o">.</span><span class="n">imag</span>
+
+    <span class="c1"># rfftfreq returns the frequencies as 0, 1/N, 2/N, 3/N, ...</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">rfftfreq</span><span class="p">(</span><span class="n">npts</span><span class="p">)</span>
+
+    <span class="c1"># to make these dimensional, we need to divide by dx.</span>
+    <span class="n">kfreq</span> <span class="o">=</span> <span class="n">k</span> <span class="o">/</span> <span class="n">dx</span>
+
+    <span class="c1"># Inverse transform: F(k) -&gt; f(x) -- without the normalization</span>
+    <span class="n">fkinv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">irfft</span><span class="p">(</span><span class="n">fk</span><span class="o">/</span><span class="n">norm</span><span class="p">)</span>
+
+    <span class="c1"># plots</span>
+    <span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">nrows</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">ncols</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    
+    <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;x&quot;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;f(x)&quot;</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kfreq</span><span class="p">,</span> <span class="n">fk_r</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;Re($\mathcal</span><span class="si">{F}</span><span class="s2">$)&quot;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kfreq</span><span class="p">,</span> <span class="n">fk_i</span><span class="p">,</span> <span class="n">ls</span><span class="o">=</span><span class="s2">&quot;:&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s2">&quot;Im($\mathcal</span><span class="si">{F}</span><span class="s2">$)&quot;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$\nu_k$&quot;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;F(k)&quot;</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="s2">&quot;small&quot;</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kfreq</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">fk</span><span class="p">))</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$\nu_k$&quot;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;|F(k)|&quot;</span><span class="p">)</span>
+
+    <span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">fkinv</span><span class="o">.</span><span class="n">real</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$\nu_k$&quot;</span><span class="p">)</span>
+    <span class="n">ax</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;inverse F(k)&quot;</span><span class="p">)</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">gcf</span><span class="p">()</span>
+    
+    <span class="n">f</span><span class="o">.</span><span class="n">set_size_inches</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">8</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Now we’ll test it on <span class="math notranslate nohighlight">\(f(x) = \sin(2\pi \nu_0 x)\)</span>, where <span class="math notranslate nohighlight">\(\nu_0\)</span> is a frequency we set.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">single_freq_sine</span><span class="p">(</span><span class="n">npts</span><span class="p">):</span>
+
+    <span class="c1"># a pure sine with no phase shift will result in pure imaginary</span>
+    <span class="c1"># signal</span>
+    <span class="n">f_0</span> <span class="o">=</span> <span class="mf">0.2</span>
+
+    <span class="n">xmax</span> <span class="o">=</span> <span class="mf">10.0</span><span class="o">/</span><span class="n">f_0</span>
+    
+    <span class="n">xx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">npts</span><span class="p">,</span> <span class="n">endpoint</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mf">2.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">f_0</span><span class="o">*</span><span class="n">xx</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">xx</span><span class="p">,</span> <span class="n">f</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">npts</span> <span class="o">=</span> <span class="mi">128</span>
+<span class="n">xx</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">single_freq_sine</span><span class="p">(</span><span class="n">npts</span><span class="p">)</span>
+<span class="n">plot_FFT</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot with 4 vertical panels showing (1) a sine (2) the Fourier transform of the sine (3) the power in Fourier space (4) the data transformed back to real space</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/8f22444e032fd5b8480eb4e0752cbffe2ed935ab38ea9d30bcfe690d80c847f3.png" src="../_images/8f22444e032fd5b8480eb4e0752cbffe2ed935ab38ea9d30bcfe690d80c847f3.png" />
+</div>
+</div>
+<p>Notice that all of the power is at our single frequency, <em>and</em> it is all in the imaginary components, which is expected since <span class="math notranslate nohighlight">\(e^{ix} = \cos(x) + i\sin(x)\)</span></p>
+<p>Next, we can try <span class="math notranslate nohighlight">\(f(x) = \cos(2\pi\nu_0 x)\)</span>, and we know that a cosine is just a sine shifted in phase by <span class="math notranslate nohighlight">\(\pi/2\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">single_freq_cosine</span><span class="p">(</span><span class="n">npts</span><span class="p">):</span>
+
+    <span class="c1"># a pure cosine with no phase shift will result in pure real</span>
+    <span class="c1"># signal</span>
+    <span class="n">f_0</span> <span class="o">=</span> <span class="mf">0.2</span>
+
+    <span class="n">xmax</span> <span class="o">=</span> <span class="mf">10.0</span><span class="o">/</span><span class="n">f_0</span>
+
+    <span class="n">xx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">npts</span><span class="p">,</span> <span class="n">endpoint</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="mf">2.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">f_0</span><span class="o">*</span><span class="n">xx</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">xx</span><span class="p">,</span> <span class="n">f</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">single_freq_cosine</span><span class="p">(</span><span class="n">npts</span><span class="p">)</span>
+<span class="n">plot_FFT</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot with 4 vertical panes showing a single-mode cosine transformed to Fourier space and back</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/5707a02e8cca32ab41ddc3e507473f33e404efe75b61045d1b311ea520450202.png" src="../_images/5707a02e8cca32ab41ddc3e507473f33e404efe75b61045d1b311ea520450202.png" />
+</div>
+</div>
+<p>Now, as expected, all of the power is in the real component.</p>
+<p>Now let’s look at a sine with a <span class="math notranslate nohighlight">\(\pi/4\)</span> phase shift</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">single_freq_sine_plus_shift</span><span class="p">(</span><span class="n">npts</span><span class="p">):</span>
+
+    <span class="c1"># a pure sine with no phase shift will result in pure imaginary</span>
+    <span class="c1"># signal</span>
+    <span class="n">f_0</span> <span class="o">=</span> <span class="mf">0.2</span>
+
+    <span class="n">xmax</span> <span class="o">=</span> <span class="mf">10.0</span><span class="o">/</span><span class="n">f_0</span>
+
+    <span class="n">xx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">npts</span><span class="p">,</span> <span class="n">endpoint</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mf">2.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">f_0</span><span class="o">*</span><span class="n">xx</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">4</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">xx</span><span class="p">,</span> <span class="n">f</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">single_freq_sine_plus_shift</span><span class="p">(</span><span class="n">npts</span><span class="p">)</span>
+<span class="n">plot_FFT</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot with 4 vertical panes showing a single-mode sine with a phase shift transformed to Fourier space and back</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/c62cb3987d333d4e135d6e54b6380771dd67af5d0377162c755c8a723636c989.png" src="../_images/c62cb3987d333d4e135d6e54b6380771dd67af5d0377162c755c8a723636c989.png" />
+</div>
+</div>
+<p>No surprise—the power is now equally in the real and imaginary parts.</p>
+<section id="a-frequency-filter">
+<h3>A frequency filter<a class="headerlink" href="#a-frequency-filter" title="Link to this heading">#</a></h3>
+<p>we’ll setup a simple two-frequency sine wave and filter a component</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">two_freq_sine</span><span class="p">(</span><span class="n">npts</span><span class="p">):</span>
+
+    <span class="c1"># a pure sine with no phase shift will result in pure imaginary             </span>
+    <span class="c1"># signal                                                                    </span>
+    <span class="n">f_0</span> <span class="o">=</span> <span class="mf">0.2</span>
+    <span class="n">f_1</span> <span class="o">=</span> <span class="mf">0.5</span>
+
+    <span class="n">xmax</span> <span class="o">=</span> <span class="mf">10.0</span><span class="o">/</span><span class="n">f_0</span>
+
+    <span class="c1"># we call with endpoint=False -- if we include the endpoint, then for       </span>
+    <span class="c1"># a periodic function, the first and last point are identical -- this       </span>
+    <span class="c1"># shows up as a signal in the FFT.                                          </span>
+    <span class="n">xx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">xmax</span><span class="p">,</span> <span class="n">npts</span><span class="p">,</span> <span class="n">endpoint</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="n">f</span> <span class="o">=</span> <span class="mf">0.5</span><span class="o">*</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mf">2.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">f_0</span><span class="o">*</span><span class="n">xx</span><span class="p">)</span> <span class="o">+</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mf">2.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">f_1</span><span class="o">*</span><span class="n">xx</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">xx</span><span class="p">,</span> <span class="n">f</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">npts</span> <span class="o">=</span> <span class="mi">256</span>
+
+<span class="n">xx</span><span class="p">,</span> <span class="n">f</span> <span class="o">=</span> <span class="n">two_freq_sine</span><span class="p">(</span><span class="n">npts</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot showing a two-mode sine wave</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb403b61160&gt;]
+</pre></div>
+</div>
+<img alt="../_images/29b1ce756a8461259f118d9cc3963ee84959a0af7c2bf3aed56d12b9d0dc4fa4.png" src="../_images/29b1ce756a8461259f118d9cc3963ee84959a0af7c2bf3aed56d12b9d0dc4fa4.png" />
+</div>
+</div>
+<p>we’ll take the transform: <span class="math notranslate nohighlight">\(f(x) \rightarrow F(k)\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># normalization factor: the 2 here comes from the fact that we neglect          </span>
+<span class="c1"># the negative portion of frequency space because our input function            </span>
+<span class="c1"># is real                                                                       </span>
+<span class="n">norm</span> <span class="o">=</span> <span class="mf">2.0</span><span class="o">/</span><span class="n">npts</span>
+<span class="n">fk</span> <span class="o">=</span> <span class="n">norm</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">rfft</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
+<span class="n">ofk_r</span> <span class="o">=</span> <span class="n">fk</span><span class="o">.</span><span class="n">real</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">ofk_i</span> <span class="o">=</span> <span class="n">fk</span><span class="o">.</span><span class="n">imag</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="c1"># get the frequencies</span>
+<span class="n">k</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">rfftfreq</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">xx</span><span class="p">))</span>
+
+<span class="c1"># since we don&#39;t include the endpoint in xx, to normalize things, we need       </span>
+<span class="c1"># max(xx) + dx to get the true length of the domain</span>
+<span class="c1">#</span>
+<span class="c1"># This makes the frequencies essentially multiples of 1/dx</span>
+<span class="n">kfreq</span> <span class="o">=</span> <span class="n">k</span><span class="o">*</span><span class="n">npts</span><span class="o">/</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">xx</span><span class="p">)</span> <span class="o">+</span> <span class="n">xx</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kfreq</span><span class="p">,</span> <span class="n">fk</span><span class="o">.</span><span class="n">real</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;real&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kfreq</span><span class="p">,</span> <span class="n">fk</span><span class="o">.</span><span class="n">imag</span><span class="p">,</span> <span class="s2">&quot;:&quot;</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;imaginary&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">frameon</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="c1"># alt-text: the FFT of our two-mode sine-wave showing two spikes</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;matplotlib.legend.Legend at 0x7fb403bbe3c0&gt;
+</pre></div>
+</div>
+<img alt="../_images/ac8d3ce8eecdd5cb24b438db7ea2a2d517d57d84887392d87efab1d8f9d5fd94.png" src="../_images/ac8d3ce8eecdd5cb24b438db7ea2a2d517d57d84887392d87efab1d8f9d5fd94.png" />
+</div>
+</div>
+<p>Now we can filter out the higher frequencies—this is done in Fourier space.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fk</span><span class="p">[</span><span class="n">kfreq</span> <span class="o">&gt;</span> <span class="mf">0.4</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.0</span>
+
+<span class="c1"># element 0 of fk is the DC component                                           </span>
+<span class="n">fk_r</span> <span class="o">=</span> <span class="n">fk</span><span class="o">.</span><span class="n">real</span>
+<span class="n">fk_i</span> <span class="o">=</span> <span class="n">fk</span><span class="o">.</span><span class="n">imag</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Finally, transform back.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Inverse transform: F(k) -&gt; f(x)                                               </span>
+<span class="n">fkinv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">fft</span><span class="o">.</span><span class="n">irfft</span><span class="p">(</span><span class="n">fk</span><span class="o">/</span><span class="n">norm</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xx</span><span class="p">,</span> <span class="n">fkinv</span><span class="o">.</span><span class="n">real</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot of a single-mode sine wave</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb403a3b4d0&gt;]
+</pre></div>
+</div>
+<img alt="../_images/12158ea15c928d43a30e2afd5fbc1c6444e47d37058e3182be60f71a63af8fa5.png" src="../_images/12158ea15c928d43a30e2afd5fbc1c6444e47d37058e3182be60f71a63af8fa5.png" />
+</div>
+</div>
+</section>
+</section>
+<section id="linear-algebra">
+<h2>Linear Algebra<a class="headerlink" href="#linear-algebra" title="Link to this heading">#</a></h2>
+<section id="general-manipulations-of-matrices">
+<h3>general manipulations of matrices<a class="headerlink" href="#general-manipulations-of-matrices" title="Link to this heading">#</a></h3>
+<p>You can use regular NumPy arrays or you can use a special matrix class that offers some short cuts.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Since the introduction of the matrix multiplication operator, <code class="docutils literal notranslate"><span class="pre">&#64;</span></code>, using the numpy matrix class is no longer recommended.</p>
+</div>
+<p>Let’s create a simply 2x2 matrix, <span class="math notranslate nohighlight">\({\bf A}\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">],</span>
+              <span class="p">[</span><span class="mf">3.0</span><span class="p">,</span> <span class="mf">4.0</span><span class="p">]])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">transpose</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[1. 2.]
+ [3. 4.]]
+[[1. 3.]
+ [2. 4.]]
+[[1. 3.]
+ [2. 4.]]
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can solve for the inverse</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ainv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">inv</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ainv</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[-2.   1. ]
+ [ 1.5 -0.5]]
+</pre></div>
+</div>
+</div>
+</div>
+<p>And multiply <span class="math notranslate nohighlight">\({\bf A}\)</span> by its inverse, <span class="math notranslate nohighlight">\({\bf A}^{-1}\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">@</span> <span class="n">ainv</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[1.0000000e+00, 0.0000000e+00],
+       [8.8817842e-16, 1.0000000e+00]])
+</pre></div>
+</div>
+</div>
+</div>
+<p>the eye() function will generate an identity matrix (as will the identity())</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">identity</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[1. 0.]
+ [0. 1.]]
+[[1. 0.]
+ [0. 1.]]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="linear-systems">
+<h3>Linear systems<a class="headerlink" href="#linear-systems" title="Link to this heading">#</a></h3>
+<p>we can solve <span class="math notranslate nohighlight">\({\bf A}{\bf x} = {\bf b}\)</span> easily.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Linear system solvers don’t usually compute the inverse first and then multiply
+by it.  It is much cheaper to solve the system directly (e.g., via Gaussian elimination)
+than to first compute the inverse.</p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">])</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[-3.  4.]
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="tridiagonal-matrix-solve">
+<h3>tridiagonal matrix solve<a class="headerlink" href="#tridiagonal-matrix-solve" title="Link to this heading">#</a></h3>
+<p>Here we’ll solve the Poisson problem:</p>
+<div class="math notranslate nohighlight">
+\[f^{\prime\prime} = g(x)\]</div>
+<p>with <span class="math notranslate nohighlight">\(g(x) = \sin(x)\)</span>, and the domain <span class="math notranslate nohighlight">\(x \in [0, 2\pi]\)</span>, with boundary conditions <span class="math notranslate nohighlight">\(f(0) = f(2\pi) = 0\)</span>.</p>
+<p>The solution is simply <span class="math notranslate nohighlight">\(f(x) = -\sin(x)\)</span>.</p>
+<p>We’ll use a grid of <span class="math notranslate nohighlight">\(N\)</span> points with <span class="math notranslate nohighlight">\(x_0\)</span> on the left boundary and <span class="math notranslate nohighlight">\(x_{N-1}\)</span> on the right boundary.</p>
+<p>We difference our equation as:</p>
+<div class="math notranslate nohighlight">
+\[f_{i+1} - 2 f_i + f_{i-1} = \Delta x^2 g_i\]</div>
+<p>We keep the boundary points fixed, so we only need to solve for the <span class="math notranslate nohighlight">\(N-2\)</span> interior points.  Near the boundaries, our difference is:</p>
+<div class="math notranslate nohighlight">
+\[f_2 - 2 f_1 = \Delta x^2 g_1\]</div>
+<p>and</p>
+<div class="math notranslate nohighlight">
+\[-2f_{N-1} + f_{N-2} = \Delta x^2 g_{N-1}\]</div>
+<p>We can write the system of equations for solving for the <span class="math notranslate nohighlight">\(N-2\)</span> interior points as:</p>
+<div class="math notranslate nohighlight">
+\[{\bf A} = \left (
+\begin{array}{ccccccc}
+-2 &amp;  1 &amp;    &amp;        &amp;         &amp;           &amp;          \newline
+1  &amp; -2 &amp;  1 &amp;        &amp;         &amp;           &amp;          \newline
+   &amp;  1 &amp; -2 &amp; 1      &amp;         &amp;           &amp;          \newline
+   &amp;         &amp; \ddots &amp; \ddots &amp; \ddots  &amp;           &amp;          \newline
+   &amp;         &amp;        &amp; \ddots &amp; \ddots  &amp; \ddots  &amp;          \newline
+   &amp;         &amp;        &amp;        &amp; 1       &amp; -2 &amp; 1  \newline
+   &amp;         &amp;        &amp;        &amp;         &amp; 1  &amp; -2 \newline
+\end{array}
+\right )
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+{\bf x} = \left (
+\begin{array}{c}
+f_\mathrm{1} \\\
+f_\mathrm{2} \\\
+f_\mathrm{3} \\\
+\vdots \\\
+\vdots \\\
+f_\mathrm{N-2} \\\
+f_\mathrm{N-1} \\\
+\end{array}
+\right )
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+{\bf b} = \Delta x^2 \left (
+\begin{array}{c}
+g_\mathrm{1} \\\
+g_\mathrm{2} \\\
+g_\mathrm{3} \\\
+\vdots \\\
+\vdots \\\
+g_\mathrm{N-2} \\\
+g_\mathrm{N-1}\\\
+\end{array}
+\right )
+\end{split}\]</div>
+<p>Then we just solve <span class="math notranslate nohighlight">\({\bf A}{\bf x} = {\bf b}\)</span></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>SciPy has banded solvers that work with banded matrices like we have above.  They
+will be much more efficient than using a solver based on a dense matrix</p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">scipy.linalg</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">linalg</span>
+
+<span class="c1"># our grid -- including endpoints</span>
+<span class="n">N</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">,</span> <span class="n">N</span><span class="p">,</span> <span class="n">endpoint</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">dx</span> <span class="o">=</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="c1"># our source</span>
+<span class="n">g</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+
+<span class="c1"># our matrix will be tridiagonal, with [1, -2, 1] on the diagonals</span>
+<span class="c1"># we only solve for the N-2 interior points</span>
+
+<span class="c1"># diagonal</span>
+<span class="n">d</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">N</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># upper -- note that the upper diagonal has 1 less element than the</span>
+<span class="c1"># main diagonal.  The SciPy banded solver wants the matrix in the </span>
+<span class="c1"># form:</span>
+<span class="c1">#</span>
+<span class="c1"># *    a01  a12  a23  a34  a45    &lt;- upper diagonal</span>
+<span class="c1"># a00  a11  a22  a33  a44  a55    &lt;- diagonal</span>
+<span class="c1"># a10  a21  a32  a43  a54   *     &lt;- lower diagonal</span>
+<span class="c1">#</span>
+
+<span class="n">u</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">N</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">u</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.0</span>
+
+<span class="c1"># lower</span>
+<span class="n">l</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">N</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">l</span><span class="p">[</span><span class="n">N</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.0</span>
+
+<span class="c1"># put the upper, diagonal, and lower parts together as a banded matrix</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([</span><span class="n">u</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">l</span><span class="p">])</span>
+
+<span class="c1"># solve A sol = dx**2 g for the inner N-2 points</span>
+<span class="n">sol</span> <span class="o">=</span> <span class="n">linalg</span><span class="o">.</span><span class="n">solve_banded</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="n">A</span><span class="p">,</span> <span class="n">dx</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">g</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="n">N</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Let’s plot the solution</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="n">N</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">sol</span><span class="p">)</span>
+<span class="c1"># alt-text: a plot showing a function that looks approximately like -sin(x)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7fb403aafa10&gt;]
+</pre></div>
+</div>
+<img alt="../_images/9464b0c0bcee714b070f959c01ff09c68008dbf76d6bcb101f395150b9d6b153.png" src="../_images/9464b0c0bcee714b070f959c01ff09c68008dbf76d6bcb101f395150b9d6b153.png" />
+</div>
+</div>
+<p>This looks like <span class="math notranslate nohighlight">\(-\sin(x)\)</span>, as expected.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./05-scipy"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="scipy-exercises.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">SciPy exercises</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="scipy-exercises-2.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">More SciPy Exercises</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#fitting">Fitting</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-linear-least-squares">general linear least squares</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-nonlinear-example">a nonlinear example</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ffts">FFTs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a-frequency-filter">A frequency filter</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-algebra">Linear Algebra</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#general-manipulations-of-matrices">general manipulations of matrices</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#linear-systems">Linear systems</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tridiagonal-matrix-solve">tridiagonal matrix solve</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <a href="https://zingale.github.io">Michael Zingale</a>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+&copy; 2022-2026; CC-BY-NC-SA 4.0
+<p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
