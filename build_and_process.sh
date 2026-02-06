@@ -1,6 +1,6 @@
 #!/bin/sh
 
-jupyter-book build content
+KERAS_BACKEND="torch" jupyter-book build content
 
 cd content/_build/html
 for i in $(grep -lR "# alt-text" | grep html)
