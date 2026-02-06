@@ -25,7 +25,7 @@ jobs:
         run: pip install -r ./requirements.txt
 
       - name: Install codespell
-        run: pip install codespell
+        run: pip install codespell jupyterlab nbconvert
 
       - name: Preprocess notebooks
         run: for i in $(find . -name "*.ipynb"); do jupyter nbconvert --clear-output --inplace $i; done
