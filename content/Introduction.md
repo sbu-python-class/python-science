@@ -1,6 +1,6 @@
 # PHY 546: Python for Scientific Computing
 
-![xkcd](01-python/python.png)
+![xkcd python cartoon](01-python/python.png)
 
 (from https://xkcd.com)
 

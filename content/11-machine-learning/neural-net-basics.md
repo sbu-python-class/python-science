@@ -43,7 +43,7 @@ Our goal is to determine the matrix elements of ${\bf A}$.
 
 We can visualize a neural network as:
 
-![NN diagram](nn_fig.png)
+![neural network diagram showing nodes in layers linked](nn_fig.png)
 
 * Neural networks are divided into _layers_
 

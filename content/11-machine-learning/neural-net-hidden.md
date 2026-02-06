@@ -3,7 +3,7 @@
 
  We can get better performance from a neural network by adding a hidden layer:
 
-![hidden layers](nn_fig_hidden.png)
+![neutron network diagram showing a single hidden layer](nn_fig_hidden.png)
 
 The size of the hidden layer is independent of the size of the input and output
 layers.  In this case, we have a hidden layer that is larger

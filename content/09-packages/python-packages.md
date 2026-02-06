@@ -9,7 +9,7 @@ The python packaging system is constantly evolving, and the current recommendati
 of tools is list here: https://packaging.python.org/en/latest/guides/tool-recommendations/
 ```
 
-![xkcd](python_environment.png)
+![xkcd comic on python packaging chaos](python_environment.png)
 
 (from https://xkcd.com)
 

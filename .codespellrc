@@ -1,5 +1,5 @@
 [codespell]
-skip = .git,*.bib,*.ps,*.js,*.pdf,_build,*.fodp,*.fods
+skip = .git,*.bib,*.ps,*.js,*.pdf,_build,*.fodp,*.fods,other,*.sty
 ignore-words = .codespell-ignore-words
 
 

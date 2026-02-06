@@ -1,16 +1,21 @@
+# docs
 jupyter-book<2
-matplotlib
-#basemap
-numpy
-sympy
-scipy
-keras
-#tensorflow
-torch
-pydot
-graphviz
-scikit-learn
+git+https://github.com/executablebooks/sphinx-book-theme.git
 sphinx-copybutton
 sphinx-prompt
 jupyterlab_myst
 jupyterbook_patches
+
+# core python
+matplotlib
+numpy
+sympy
+scipy
+
+# ML
+keras
+torch
+pydot
+graphviz
+scikit-learn
+
