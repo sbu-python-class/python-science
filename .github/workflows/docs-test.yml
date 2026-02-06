@@ -1,0 +1,33 @@
+name: Doc test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  doc-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.14"
+        cache: "pip"
+
+    - name: Install Python dependencies
+      run: |
+        sudo apt-get install python3-pip graphviz
+        pip install -r requirements.txt
+        pip install ghp-import
+        PATH="${PATH}:${HOME}/.local/bin"
+
+    - name: Build book HTML
+      run: |
+        ./build_and_process.sh
