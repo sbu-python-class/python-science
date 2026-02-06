@@ -6,7 +6,7 @@ You can follow the instructions from the [Software Carpentry lessons](https://ca
 
 * Windows: use [git for Windows](https://gitforwindows.org/)
 
-* Mac: in a teminal, do:
+* Mac: in a terminal, do:
 
   ```
   git --version
