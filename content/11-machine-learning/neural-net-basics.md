@@ -97,9 +97,9 @@ We want to choose a function $g(\xi)$ that is differentiable.  A common choice i
 $$g(\xi) = \frac{1}{1 + e^{-\xi}}$$
 
 ```{figure} sigmoid.png
----
-align: center
----
+:align: center
+:alt: a plot of the sigmoid function
+
 The sigmoid function
 ```
 
