@@ -1,12 +1,15 @@
-name: Publish JupyterBook to GitHub Pages
+name: Doc test
 
 on:
-  push: # trigger build only when push to main
+  push:
+    branches:
+      - main
+  pull_request:
     branches:
       - main
 
 jobs:
-  build:
+  doc-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,12 +31,3 @@ jobs:
     - name: Build book HTML
       run: |
         ./build_and_process.sh
-
-    - name: Push _build/html to gh-pages
-      run: |
-        sudo chown -R $(whoami):$(whoami) .
-        git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
-        git config --global user.name "$GITHUB_ACTOR"
-        git remote set-url origin "https://$GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY"
-
-        ghp-import ./content/_build/html -f -p -n
