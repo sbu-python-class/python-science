@@ -13,6 +13,7 @@ on your github home page and click on the "+" icon and select "New repository":
 
 ```{image} github-new.png
 :align: center
+:alt: an image of a github profile homepage
 ```
 
 Now we give the repository a name.  Let's use our initials, followed
@@ -26,6 +27,7 @@ not be empty initially.
 
 ```{image} github-create.png
 :align: center
+:alt: The github webpage for "create a new repository"
 ```
 
 Our project is now found at: ``https://github.com/ [username]/ [reponame]``,
@@ -112,6 +114,7 @@ Now we can git clone this repo.  From the github project page, click on the
 
 ```{image} github-clone.png
 :align: center
+:alt: A github webpage for our class test repo, showing the "code" button selected
 ```
 
 Copy the string in the text box there and then on your command line clone

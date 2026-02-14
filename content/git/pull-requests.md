@@ -52,6 +52,7 @@ control that we can do with as we please.  Click on the "fork" button.
 
 ```{image} github-fork.png
 :align: center
+:alt: The github webpage for our test repo with the "fork" button circled
 ```
 
 It may ask you where you want the fork to live&mdash;you want it to live
@@ -64,6 +65,7 @@ Now click on the *code* button and copy the SSH location.
 
 ```{image} github-copy-ssh.png
 :align: center
+:alt: our fork of the class test repo github web page with the code button pressed
 ```
 
 We want to add this fork as a new remote:
@@ -86,12 +88,14 @@ Now we can do all *pull-request*.  Select "pull requests"
 
 ```{image} github-pr.png
 :align: center
+:alt: The github webpage of our fork of the class test repo
 ```
 
 Then click on the "New pull request" button, and you'll see something like:
 
 ```{image} github-pr2.png
 :align: center
+:alt: The github weboge showing a pull request, highlighting the difference between the fork and the upstream repo.
 ```
 
 This is showing that you are asking to merge the changes in your fork into the
@@ -112,6 +116,7 @@ The overall workflow that we did: fork, push to our fork, issue a PR, looks like
 ```{image} github-workflow.png
 :align: center
 :width: 80%
+:alt: a diagram showing our workflow between the github class repo, our local macine, and our fork.
 ```
 
 

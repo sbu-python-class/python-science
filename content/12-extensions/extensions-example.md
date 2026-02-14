@@ -31,6 +31,7 @@ Here's the resulting image
 
 ```{image} test.png
 :align: center
+:alt: An image of the Mandelbrot set
 ```
 
 ## Python with explicit loops

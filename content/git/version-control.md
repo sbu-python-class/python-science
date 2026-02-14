@@ -123,6 +123,7 @@ Consider the figure below:
 
 ```{image} distributed_version_control.png
 :align: center
+:alt: A diagram showing a central server and 3 machines interacting with their local rrepos and the center server
 ```
 
 We see:
