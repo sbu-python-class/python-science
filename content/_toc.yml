@@ -51,6 +51,7 @@ parts:
     - file: 06-sympy/sympy
       sections:
       - file: 06-sympy/sympy-examples.ipynb
+      - file: 06-sympy/integration-simpsons.ipynb
       - file: 06-sympy/sympy-exercises.ipynb
 
   - caption: Machine Learning
