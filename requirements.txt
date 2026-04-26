@@ -1,5 +1,5 @@
 # docs
-jupyter-book<2
+jupyter-book<3
 git+https://github.com/executablebooks/sphinx-book-theme.git
 sphinx-copybutton
 sphinx-prompt
