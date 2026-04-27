@@ -189,7 +189,7 @@ print(mymodule.__file__)
 it shows us where the module is installed on our system.  In my case, it is:
 
 ```
-/home/zingale/.local/lib/python3.12/site-packages/mymodule-0.1.0-py3.12.egg/mymodule/__init__.py
+/home/zingale/.local/lib/python3.14/site-packages/mymodule/__init__.py
 ```
 
 Let's generate a plot:

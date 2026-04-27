@@ -14,17 +14,13 @@ We can look at the path via ``sys.path``.  On my machine I get:
 
 ```
 ['/home/zingale/.local/bin',
- '/home/zingale/classes/python-science/content/09-packages',
- '/home/zingale/classes/numerical_exercises',
- '/home/zingale/classes/astro_animations',
- '/usr/lib64/python312.zip',
- '/usr/lib64/python3.12',
- '/usr/lib64/python3.12/lib-dynload',
+ '/usr/lib64/python314.zip',
+ '/usr/lib64/python3.14',
+ '/usr/lib64/python3.14/lib-dynload',
  '',
- '/home/zingale/.local/lib/python3.12/site-packages',
- '/usr/lib64/python3.12/site-packages',
- '/usr/lib/python3.12/site-packages']
-
+ '/home/zingale/.local/lib/python3.14/site-packages',
+ '/usr/lib64/python3.14/site-packages',
+ '/usr/lib/python3.14/site-packages']
 ```
 
 ```{note}
@@ -46,7 +42,7 @@ python3 -m site --user-site
 on my machine, this gives:
 
 ```
-/home/zingale/.local/lib/python3.12/site-packages
+/home/zingale/.local/lib/python3.14/site-packages
 ```
 
 ```{tip}

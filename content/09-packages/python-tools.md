@@ -51,10 +51,10 @@ as your write your code.
   use of new features where available.  For instance, you can run as:
 
   ```
-  pyupgrade --py39-plus file.py
+  pyupgrade --py313-plus file.py
   ```
 
-  to update to python 3.9 support.
+  to update to python 3.13 support.
 
 * [isort](https://pycqa.github.io/isort/)
 
