@@ -281,19 +281,19 @@ It uses the same driver.
 
 ## Timings
 
-On my machine, (python 3.13, numpy 2.2.5, Cython 3.0.12, GCC 15, numba
-0.61.2, pybind11 2.13.6) here are some timings (average of 3 runs):
+On my machine, (python 3.14, numpy 2.4.4, Cython 3.2.4, GCC 16, numba
+0.65.0, pybind11 3.0.4) here are some timings (average of 3 runs):
 
 
 |   technique                                  |   timings (s)  |
 | -------------------------------------------- | -------------- |
-| python / numpy                               |      0.218     |
-| python w/ explicit loops                     |     17.4       |
-| Numba(*)                                     |      0.0922    |
-| Cython                                       |      0.0866    |
-| Fortran + f2py                               |      0.0860    |
-| C++ + pybind11 (vector of vector)            |      0.120     |
-| C++ + pybind11 (contiguous `Array`)          |      0.108     |
+| python / numpy                               |      0.242     |
+| python w/ explicit loops                     |     17.5       |
+| Numba(*)                                     |      0.0921    |
+| Cython                                       |      0.100     |
+| Fortran + f2py                               |      0.0933    |
+| C++ + pybind11 (vector of vector)            |      0.105     |
+| C++ + pybind11 (contiguous `Array`)          |      0.0981    |
 
 
 (*) timing for the second invocation, which excludes JIT overhead.
