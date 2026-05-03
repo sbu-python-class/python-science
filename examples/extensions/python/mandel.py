@@ -17,8 +17,8 @@ def mandelbrot(N,
     m = np.zeros((N, N), dtype=np.int32)
 
     for i in range(1, max_iter+1):
-        z[m == 0] = z[m == 0]**2 + c[m == 0]
-
-        m[np.logical_and(np.abs(z) > 2, m == 0)] = i
+        idx = m == 0
+        z[idx] = z[idx]**2 + c[idx]
+        m[np.logical_and(np.abs(z) > 2, idx)] = i
 
     return m
