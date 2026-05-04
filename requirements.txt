@@ -1,6 +1,6 @@
 # docs
 jupyter-book<2
-git+https://github.com/executablebooks/sphinx-book-theme.git
+sphinx-book-theme
 sphinx-copybutton
 sphinx-prompt
 jupyterlab_myst
