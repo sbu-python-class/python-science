@@ -1,0 +1,6 @@
+/* this to enforce left alignment for docutils content (i.e. code cells) */
+/* assumption is that all code is left aligned, so we enforce that */
+/* if not desired, raise an issue with a use case */
+div.cell.docutils.container {
+    text-align: left !important;
+}

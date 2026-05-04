@@ -1,0 +1,3 @@
+figure figcaption p {
+    text-align: center !important; /* Always enforce center alignment */
+}

@@ -1,0 +1,3 @@
+.bd-sidebar-primary {
+    display: block !important; /* Always enforce block display */
+}
