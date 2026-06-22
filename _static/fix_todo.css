@@ -1,0 +1,14 @@
+/* Admonition-todo */
+div.admonition-todo {
+    border-color: hotpink !important;
+    background-color: #fce4ec !important;
+    background: linear-gradient(0deg, #ffebee, #fff3e0, #fffde7, #e8f5e9, #e0f2f1, #e0f7fa, #e3f2fd, #f3e5f5, #fce4ec, #fce4ec) !important;
+}
+div.admonition-todo > .admonition-title {
+    background-color: #f48fb1 !important;
+    background: linear-gradient(90deg, #ffebee, #fff3e0, #fffde7, #e8f5e9, #e0f2f1, #e0f7fa, #e3f2fd, #f3e5f5, #fce4ec, #fce4ec) !important;
+}
+div.admonition-todo > .admonition-title::after {
+    color: hotpink !important;
+    content: "\f7d9" !important;
+}

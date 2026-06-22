@@ -1,0 +1,17 @@
+div.admonition:has(.margin.docutils.container),
+div.admonition:has(aside.margin),
+div.admonition:has(div.margin),
+div.admonition:has(figure.margin),
+div.admonition:has(figure.margin-caption) {
+  overflow: visible; /* allow margin elements to render outside the box */
+}
+
+@media (min-width: 992px), print {
+  div.admonition:has(.margin.docutils.container) .margin.docutils.container,
+  div.admonition:has(aside.margin) aside.margin,
+  div.admonition:has(div.margin) div.margin,
+  div.admonition:has(figure.margin) figure.margin,
+  div.admonition:has(figure.margin-caption) figure.margin-caption figcaption{
+    margin-right: calc(-36% - 1em - 1.4rem) !important;
+  }
+}
